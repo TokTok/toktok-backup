@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -eu
+
+docker build -t toxchat/github-backup .
+docker run -v "$PWD:/backup" --user "$(id -u):$(id -g)" --rm toxchat/github-backup:latest \
+  TokTok \
+  --as-app \
+  --starred \
+  --watched \
+  --followers \
+  --following \
+  --issues \
+  --issue-comments \
+  --issue-events \
+  --pulls \
+  --pull-comments \
+  --pull-commits \
+  --pull-details \
+  --labels \
+  --milestones \
+  --releases \
+  --fork \
+  --incremental \
+  --output-directory /backup \
+  --token "$GITHUB_TOKEN" \
+  --organization \
+  "$@"
