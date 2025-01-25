@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2841"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/fdc8c1682b080edca2f34172b5c192c546863dfb"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/d4164edb548b95f23afc4f095651bab71a456f06"
         }
     },
     "active_lock_reason": null,
-    "additions": 11,
+    "additions": 13,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -95,8 +95,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,7 +120,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-25T22:01:41Z",
+            "pushed_at": "2025-01-25T22:19:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
             "size": 25246,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
@@ -172,11 +172,117 @@
         }
     },
     "body": "This header was a nice idea but causes a *lot* of pain with C++ modules.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2841)\n<!-- Reviewable:end -->\n",
-    "changed_files": 10,
+    "changed_files": 11,
     "closed_at": null,
     "comment_data": [],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2841?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAll modified and coverable lines are covered by tests :white_check_mark:\n> Project coverage is 72.19%. Comparing base [(`f276b39`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/f276b397226074b89a6bedb14a87c3a87487e8ed?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`d4164ed`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/d4164edb548b95f23afc4f095651bab71a456f06?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n> Report is 4 commits behind head on master.\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #2841      +/-   ##\n==========================================\n+ Coverage   72.16%   72.19%   +0.02%     \n==========================================\n  Files         151      152       +1     \n  Lines       31136    31182      +46     \n==========================================\n+ Hits        22469    22511      +42     \n- Misses       8667     8671       +4     \n```\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2841?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
+            "created_at": "2025-01-25T22:21:53Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2841#issuecomment-2614118188",
+            "id": 2614118188,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2841",
+            "node_id": "IC_kwDOA7zIGs6b0Ecs",
+            "performed_via_github_app": {
+                "client_id": "Iv1.9d88ef6ecc903626",
+                "created_at": "2016-09-25T14:18:27Z",
+                "description": "Codecov provides highly integrated tools to group, merge, archive and compare coverage reports. Whether your team is comparing changes in a pull request or reviewing a single commit, Codecov will improve the code review workflow and quality.\r\n\r\n## Code coverage done right.®\r\n\r\n1. Upload coverage reports from your CI builds.\r\n2. Codecov merges all builds and languages into one beautiful coherent report.\r\n3. Get commit statuses, pull request comments and coverage overlay via our browser extension.\r\n\r\nWhen Codecov merges your uploads it keeps track of the CI provider (inc. build details) and user specified context, e.g. `#unittest` ~ `#smoketest` or `#oldcode` ~ `#newcode`. You can track the `#unittest` coverage independently of other groups. [Learn more here](\r\nhttp://docs.codecov.io/docs/flags)\r\n\r\nThrough **Codecov's Browser Extension** reports overlay directly in GitHub UI to assist in code review in [Chrome](https://chrome.google.com/webstore/detail/codecov/gedikamndpbemklijjkncpnolildpbgo) or Firefox (https://addons.mozilla.org/en-US/firefox/addon/codecov/)\r\n\r\n*Highly detailed* **pull request comments** and *customizable* **commit statuses** will improve your team's workflow and code coverage incrementally.\r\n\r\n**File backed configuration** all through the `codecov.yml`. \r\n\r\n## FAQ\r\n- Do you **merge multiple uploads** to the same commit? **Yes**\r\n- Do you **support multiple languages** in the same project? **Yes**\r\n- Can you **group coverage reports** by project and/or test type? **Yes**\r\n- How does **pricing** work? Only paid users can view reports and post statuses/comments. ",
+                "events": [
+                    "check_run",
+                    "check_suite",
+                    "create",
+                    "delete",
+                    "fork",
+                    "member",
+                    "membership",
+                    "organization",
+                    "public",
+                    "pull_request",
+                    "push",
+                    "release",
+                    "repository",
+                    "status",
+                    "team_add"
+                ],
+                "external_url": "https://codecov.io",
+                "html_url": "https://github.com/apps/codecov",
+                "id": 254,
+                "name": "Codecov",
+                "node_id": "MDM6QXBwMjU0",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8226205?v=4",
+                    "events_url": "https://api.github.com/users/codecov/events{/privacy}",
+                    "followers_url": "https://api.github.com/users/codecov/followers",
+                    "following_url": "https://api.github.com/users/codecov/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codecov/gists{/gist_id}",
+                    "gravatar_id": "",
+                    "html_url": "https://github.com/codecov",
+                    "id": 8226205,
+                    "login": "codecov",
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjgyMjYyMDU=",
+                    "organizations_url": "https://api.github.com/users/codecov/orgs",
+                    "received_events_url": "https://api.github.com/users/codecov/received_events",
+                    "repos_url": "https://api.github.com/users/codecov/repos",
+                    "site_admin": false,
+                    "starred_url": "https://api.github.com/users/codecov/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codecov/subscriptions",
+                    "type": "Organization",
+                    "url": "https://api.github.com/users/codecov",
+                    "user_view_type": "public"
+                },
+                "permissions": {
+                    "administration": "read",
+                    "checks": "write",
+                    "contents": "read",
+                    "emails": "read",
+                    "issues": "read",
+                    "members": "read",
+                    "metadata": "read",
+                    "pull_requests": "write",
+                    "statuses": "write"
+                },
+                "slug": "codecov",
+                "updated_at": "2023-09-08T15:29:16Z"
+            },
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2614118188/reactions"
+            },
+            "updated_at": "2025-01-25T22:21:53Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2614118188",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+                "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/codecov",
+                "id": 22429695,
+                "login": "codecov[bot]",
+                "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+                "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/codecov%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2841/comments",
     "commit_data": [
         {
@@ -201,7 +307,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fdc8c1682b080edca2f34172b5c192c546863dfb/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d4164edb548b95f23afc4f095651bab71a456f06/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-25T21:57:03Z",
@@ -210,22 +316,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-25T21:57:03Z",
+                    "date": "2025-01-25T22:14:25Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Remove tox_types.h; use `struct` tags instead.\n\nThis header was a nice idea but causes a *lot* of pain with C++ modules.",
                 "tree": {
-                    "sha": "20d5a716dbfe3a0c939597683fa72ac79191ebe4",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/20d5a716dbfe3a0c939597683fa72ac79191ebe4"
+                    "sha": "66f6c8eb8b7ad9203f9ff88932f567991ee7302e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/66f6c8eb8b7ad9203f9ff88932f567991ee7302e"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/fdc8c1682b080edca2f34172b5c192c546863dfb",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/d4164edb548b95f23afc4f095651bab71a456f06",
                 "verification": {
-                    "payload": "tree 20d5a716dbfe3a0c939597683fa72ac79191ebe4\nparent d408c98209095f790334c3e3cb2d5c30f578c848\nauthor iphydf <iphydf@users.noreply.github.com> 1737842223 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737842223 +0000\n\nrefactor: Remove tox_types.h; use `struct` tags instead.\n\nThis header was a nice idea but causes a *lot* of pain with C++ modules.\n",
+                    "payload": "tree 66f6c8eb8b7ad9203f9ff88932f567991ee7302e\nparent d408c98209095f790334c3e3cb2d5c30f578c848\nauthor iphydf <iphydf@users.noreply.github.com> 1737842223 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737843265 +0000\n\nrefactor: Remove tox_types.h; use `struct` tags instead.\n\nThis header was a nice idea but causes a *lot* of pain with C++ modules.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeVXk4ACgkQOFXbotdE\nA8lzCQgAgCx1sEjMCck4RZSBUs5AvgM3fm6hdjsmYG0l/8TY4b6oDbis3wud62DJ\nCT2iTXlMgJ4AkMZ5ubsMbJk4PFa8wqa9osTaChYrF4PHAwwZxOYcc5bBDYez/Wr/\n7GOeLTKxoy0ydyNpfWrs+DxXAS7bmSxcn2r1FYRgOdWJ5g3krLn2Jv2WZAVQ9j9T\n8PiP2roAbeEFNWpJ0WKZR1Y+uuKx6juYEq0ltEv0AIOpX09jWrPeJ+guTyLb9eYj\nMdjfATZAdggMeh9xMqAHZrR//6wyTyyU4CpU8710o5xgUwR5q4dhuMjOc9DXWHds\n2bKUxXOAsG8+BxXIALAqzHg52ysdkg==\n=d5Lw\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeVYkEACgkQOFXbotdE\nA8labgf/dHUyimS7Epcnrku7RVuiVPvwB4gIHxUZRQAALgEl0U0S+TdniDxB9NDv\nr5ja92rvMB40sWa9FCo2Z40zhAOTJb+g8V61k6CHrC3I9/UglLXhXWOMxmDoQPZV\ny01gbo1V7nnaU4h1baSlG3/YmpAdcH9P851Wl/bMIgGAj9WVsoMRQZ3ynts99P6J\ndnfN8Gex/dBc+NQ4bdZAe6N1jPxlE7bd+pkfhGh36eY7A35lbb47W5B5P25PqXPd\n1Ej4MKaDjY82RjzItktin4uOCVg9t7ZY7iNV2WKaB5bMWoc6Bi3LhutkOBZRVmkC\n9XKAUTmGFKbn5pY3alz0eZtWrgDfWg==\n=CIYl\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-25T21:57:43Z"
+                    "verified_at": "2025-01-25T22:14:28Z"
                 }
             },
             "committer": {
@@ -249,8 +355,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/fdc8c1682b080edca2f34172b5c192c546863dfb",
-            "node_id": "C_kwDOA7z7wtoAKGZkYzhjMTY4MmIwODBlZGNhMmYzNDE3MmI1YzE5MmM1NDY4NjNkZmI",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/d4164edb548b95f23afc4f095651bab71a456f06",
+            "node_id": "C_kwDOA7z7wtoAKGQ0MTY0ZWRiNTQ4Yjk1ZjIzYWZjNGYwOTU2NTFiYWI3MWE0NTZmMDY",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/c-toxcore/commit/d408c98209095f790334c3e3cb2d5c30f578c848",
@@ -258,14 +364,14 @@
                     "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d408c98209095f790334c3e3cb2d5c30f578c848"
                 }
             ],
-            "sha": "fdc8c1682b080edca2f34172b5c192c546863dfb",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fdc8c1682b080edca2f34172b5c192c546863dfb"
+            "sha": "d4164edb548b95f23afc4f095651bab71a456f06",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d4164edb548b95f23afc4f095651bab71a456f06"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2841/commits",
     "created_at": "2025-01-25T21:57:42Z",
-    "deletions": 80,
+    "deletions": 82,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2841.diff",
     "draft": true,
     "head": {
@@ -357,7 +463,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-25T22:01:34Z",
+            "pushed_at": "2025-01-25T22:19:44Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
             "size": 19528,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
@@ -385,7 +491,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "fdc8c1682b080edca2f34172b5c192c546863dfb",
+        "sha": "d4164edb548b95f23afc4f095651bab71a456f06",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -424,7 +530,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "71f397437212a1235b2fb821885ad7886f340c52",
+    "merge_commit_sha": "45b54a62898176c0947698d70e68ee8998cb3e9f",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -462,10 +568,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50/labels",
         "node_id": "MI_kwDOA7zIGs4Ao_zV",
         "number": 50,
-        "open_issues": 8,
+        "open_issues": 10,
         "state": "open",
         "title": "v0.2.21",
-        "updated_at": "2025-01-25T21:57:42Z",
+        "updated_at": "2025-01-25T22:19:51Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
     "node_id": "PR_kwDOA7zIGs6I_YZH",
@@ -478,9 +584,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2841/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/fdc8c1682b080edca2f34172b5c192c546863dfb",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/d4164edb548b95f23afc4f095651bab71a456f06",
     "title": "refactor: Remove tox_types.h; use `struct` tags instead.",
-    "updated_at": "2025-01-25T21:57:53Z",
+    "updated_at": "2025-01-25T22:21:54Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2841",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

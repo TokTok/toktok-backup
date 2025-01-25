@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2397/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2842/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2397/commits"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2842/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/c-toxcore/pull/2397"
+            "href": "https://github.com/TokTok/c-toxcore/pull/2842"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2397"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2842"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2397/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2842/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2397"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2842"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/15f6cc386e587f009ad7d25fb45a9a1639374649"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519"
         }
     },
     "active_lock_reason": null,
-    "additions": 3417,
+    "additions": 5,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -171,59 +171,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2397)\n<!-- Reviewable:end -->\n",
-    "changed_files": 149,
+    "body": "We're already installing these, but they have been experimental all this time. We should not install them until we're really done with them.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2842)\n<!-- Reviewable:end -->\n",
+    "changed_files": 2,
     "closed_at": null,
     "comment_data": [],
-    "comment_regular_data": [
-        {
-            "author_association": "NONE",
-            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAttention: Patch coverage is `77.31844%` with `203 lines` in your changes are missing coverage. Please review.\n> Project coverage is 72.44%. Comparing base [(`102a1fa`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/102a1fa9b82a32274ab86583f3716139ba92295c?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`a3fc637`)](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?dropdown=coverage&src=pr&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n\n> :exclamation: Current head a3fc637 differs from pull request most recent head 09f77d8. Consider uploading reports for the commit 09f77d8 to get more accurate results\n\n| [Files](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?dropdown=coverage&src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) | Patch % | Lines |\n|---|---|---|\n| [toxcore/group\\_chats.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Fgroup_chats.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9ncm91cF9jaGF0cy5j) | 74.24% | [34 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/network\\_test\\_util.cc](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Fnetwork_test_util.cc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXR3b3JrX3Rlc3RfdXRpbC5jYw==) | 0.00% | [18 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/tox\\_system.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Ftox_system.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfc3lzdGVtLmM=) | 0.00% | [17 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [testing/fuzzing/fuzz\\_support.cc](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=testing%2Ffuzzing%2Ffuzz_support.cc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dGVzdGluZy9mdXp6aW5nL2Z1enpfc3VwcG9ydC5jYw==) | 40.00% | [12 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/os\\_network.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Fos_network.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9vc19uZXR3b3JrLmM=) | 79.31% | [12 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/tox\\_network.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Ftox_network.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfbmV0d29yay5j) | 52.00% | [12 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/tox\\_log.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Ftox_log.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfbG9nLmM=) | 0.00% | [11 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/group\\_connection.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Fgroup_connection.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9ncm91cF9jb25uZWN0aW9uLmM=) | 83.33% | [10 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/os\\_time.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Fos_time.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9vc190aW1lLmM=) | 9.09% | [10 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/tox.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&filepath=toxcore%2Ftox.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3guYw==) | 47.36% | [10 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| ... and [17 more](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?src=pr&el=tree-more&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) | |\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #2397      +/-   ##\n==========================================\n- Coverage   73.08%   72.44%   -0.64%     \n==========================================\n  Files         149      162      +13     \n  Lines       30531    30712     +181     \n==========================================\n- Hits        22313    22250      -63     \n- Misses       8218     8462     +244     \n```\n\n\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2397?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
-            "created_at": "2023-08-31T12:00:11Z",
-            "html_url": "https://github.com/TokTok/c-toxcore/pull/2397#issuecomment-1700904509",
-            "id": 1700904509,
-            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2397",
-            "node_id": "IC_kwDOA7zIGs5lYb49",
-            "performed_via_github_app": null,
-            "reactions": {
-                "+1": 0,
-                "-1": 0,
-                "confused": 0,
-                "eyes": 0,
-                "heart": 0,
-                "hooray": 0,
-                "laugh": 0,
-                "rocket": 0,
-                "total_count": 0,
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/1700904509/reactions"
-            },
-            "updated_at": "2024-05-01T13:32:11Z",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/1700904509",
-            "user": {
-                "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
-                "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
-                "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
-                "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
-                "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/apps/codecov",
-                "id": 22429695,
-                "login": "codecov[bot]",
-                "node_id": "MDM6Qm90MjI0Mjk2OTU=",
-                "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs",
-                "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
-                "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
-                "type": "Bot",
-                "url": "https://api.github.com/users/codecov%5Bbot%5D",
-                "user_view_type": "public"
-            }
-        }
-    ],
-    "comments": 1,
-    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2397/comments",
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2842/comments",
     "commit_data": [
         {
             "author": {
@@ -247,31 +201,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/15f6cc386e587f009ad7d25fb45a9a1639374649/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519/comments",
             "commit": {
                 "author": {
-                    "date": "2024-03-25T18:46:58Z",
+                    "date": "2025-01-25T22:18:57Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-25T21:43:04Z",
+                    "date": "2025-01-25T22:18:57Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "refactor: Move some OS-specifics into tox_system.",
+                "message": "cleanup: Mark events/dispatch headers as experimental.\n\nWe're already installing these, but they have been experimental all this\ntime. We should not install them until we're really done with them.",
                 "tree": {
-                    "sha": "267bd57f8622014799aff06646a7bc612d83dd2e",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/267bd57f8622014799aff06646a7bc612d83dd2e"
+                    "sha": "2388e7eb34376a75f989bdcb66af580c7c423053",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/2388e7eb34376a75f989bdcb66af580c7c423053"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/15f6cc386e587f009ad7d25fb45a9a1639374649",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519",
                 "verification": {
-                    "payload": "tree 267bd57f8622014799aff06646a7bc612d83dd2e\nparent d408c98209095f790334c3e3cb2d5c30f578c848\nauthor iphydf <iphydf@users.noreply.github.com> 1711392418 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737841384 +0000\n\nrefactor: Move some OS-specifics into tox_system.\n",
+                    "payload": "tree 2388e7eb34376a75f989bdcb66af580c7c423053\nparent d408c98209095f790334c3e3cb2d5c30f578c848\nauthor iphydf <iphydf@users.noreply.github.com> 1737843537 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737843537 +0000\n\ncleanup: Mark events/dispatch headers as experimental.\n\nWe're already installing these, but they have been experimental all this\ntime. We should not install them until we're really done with them.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeVWugACgkQOFXbotdE\nA8nJqAf9FRP6gDbb7MVZUEUq73koMekL4OhSyVOARl4Z6hxbO+htb3OxVBAcvLHE\nK8b4o2kK6JzR8JFQm0kVja8+qJH27RMBXt15dIYUeNhEm1VNSso0MDOMu8yB4vVz\nR84BR0DBdjWVdnpnN8tosHV4QTYSUcRagWQtbIgu7D4R2hHyTwQ0MrhJCkV62wpY\nwq/UXFQfFIfy8csqKCA6dlPvUL8LhfUHJrmsJxkXutd4NggV6ME5NuGa8BeUWMzH\nphd0tl0q0atX3TcbBDoDFKClxDdxFmFwHSBIkp74R9wSniNlVpUYkkbOauIwQGyx\nhGAsVlgLJKlZ0D8MDn2OMevxGJjOEA==\n=lSPR\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeVY34ACgkQOFXbotdE\nA8kF7gf+Iqqpz92/mkrsjhVTvSBsyvtc6fXS23ORllQa0ZRDUI4CAMLGRY07YCyU\nxdwQtwA84I+3pjqD6aJ+VWprocwhpI4Hzufg6sj6O097mL7bCY70p6lOdX33p+BY\ntwoX1Dr/RonlLALPDL8jFj8E68xAwM6Qspp7Q3DQfJnJoNnkEP/Rz+g/CvS//+7l\nhVNtw259oWoEFUQq3qGUYKymjwJ9Ibj4TyZXXMKxOBKTOue4gtAHPzpXCkk2M5yx\nEUUVBeNvLGSGP0DNgvJJFlxc4NQKHOFwx6NgjzbQhdxyffRUoNxejobmCZdVySt5\n7zAKLQoLCYuzWp9hX9vbty2vowJzlQ==\n=pRsl\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-25T21:43:10Z"
+                    "verified_at": "2025-01-25T22:19:47Z"
                 }
             },
             "committer": {
@@ -295,8 +249,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/15f6cc386e587f009ad7d25fb45a9a1639374649",
-            "node_id": "C_kwDOA7z7wtoAKDE1ZjZjYzM4NmU1ODdmMDA5YWQ3ZDI1ZmI0NWE5YTE2MzkzNzQ2NDk",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519",
+            "node_id": "C_kwDOA7z7wtoAKDdjOWZhMzcyMWU3ZDA0NzNiOGI5YzVjODI0ZjZiNjBiZjM4MDg1MTk",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/c-toxcore/commit/d408c98209095f790334c3e3cb2d5c30f578c848",
@@ -304,19 +258,19 @@
                     "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d408c98209095f790334c3e3cb2d5c30f578c848"
                 }
             ],
-            "sha": "15f6cc386e587f009ad7d25fb45a9a1639374649",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/15f6cc386e587f009ad7d25fb45a9a1639374649"
+            "sha": "7c9fa3721e7d0473b8b9c5c824f6b60bf3808519",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2397/commits",
-    "created_at": "2023-08-29T21:27:37Z",
-    "deletions": 1516,
-    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2397.diff",
-    "draft": true,
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2842/commits",
+    "created_at": "2025-01-25T22:19:50Z",
+    "deletions": 5,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2842.diff",
+    "draft": false,
     "head": {
-        "label": "iphydf:system",
-        "ref": "system",
+        "label": "iphydf:experimental-events",
+        "ref": "experimental-events",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/c-toxcore/{archive_format}{/ref}",
@@ -431,7 +385,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "15f6cc386e587f009ad7d25fb45a9a1639374649",
+        "sha": "7c9fa3721e7d0473b8b9c5c824f6b60bf3808519",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -454,23 +408,23 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/c-toxcore/pull/2397",
-    "id": 1494485281,
-    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2397",
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/2842",
+    "id": 2298322015,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2842",
     "labels": [
         {
             "color": "fef2c0",
             "default": false,
-            "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
-            "id": 2034508700,
-            "name": "refactor",
-            "node_id": "MDU6TGFiZWwyMDM0NTA4NzAw",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/refactor"
+            "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+            "id": 2036528013,
+            "name": "cleanup",
+            "node_id": "MDU6TGFiZWwyMDM2NTI4MDEz",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/cleanup"
         }
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "36ea0708cb34b27c2f60e518d1b2b361c4f0110d",
+    "merge_commit_sha": "bc7c032beb1a3e08a52fce11c0ea6d6fd77a764a",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -478,8 +432,8 @@
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
-        "created_at": "2025-01-14T11:12:45Z",
+        "closed_issues": 65,
+        "created_at": "2024-03-28T15:24:05Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -501,33 +455,33 @@
             "url": "https://api.github.com/users/iphydf",
             "user_view_type": "public"
         },
-        "description": null,
+        "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/c-toxcore/milestone/51",
-        "id": 12162427,
-        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/51/labels",
-        "node_id": "MI_kwDOA7zIGs4AuZV7",
-        "number": 51,
-        "open_issues": 11,
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/50",
+        "id": 10747093,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50/labels",
+        "node_id": "MI_kwDOA7zIGs4Ao_zV",
+        "number": 50,
+        "open_issues": 10,
         "state": "open",
-        "title": "v0.2.22",
-        "updated_at": "2025-01-25T21:23:15Z",
-        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/51"
+        "title": "v0.2.21",
+        "updated_at": "2025-01-25T22:19:51Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
-    "node_id": "PR_kwDOA7zIGs5ZFAkh",
-    "number": 2397,
-    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2397.patch",
+    "node_id": "PR_kwDOA7zIGs6I_Zxf",
+    "number": 2842,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2842.patch",
     "rebaseable": true,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2397/comments",
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2842/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/15f6cc386e587f009ad7d25fb45a9a1639374649",
-    "title": "refactor: Move some OS-specifics into tox_system.",
-    "updated_at": "2025-01-25T21:50:09Z",
-    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2397",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519",
+    "title": "cleanup: Mark events/dispatch headers as experimental.",
+    "updated_at": "2025-01-25T22:23:21Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2842",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
