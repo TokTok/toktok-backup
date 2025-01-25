@@ -1,0 +1,2619 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/qTox/issues/30/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/qTox/pulls/30/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/qTox/pull/30"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/qTox/issues/30"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/qTox/pulls/30/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/qTox/pulls/30"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/984f691d446abf180f0cc1611a4aa60fe7b3de08"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 1682,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/qTox/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/qTox/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/qTox/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/qTox/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/qTox.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/qTox/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/qTox/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/qTox/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/qTox/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/qTox/contributors",
+            "created_at": "2016-07-29T17:57:25Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/qTox/deployments",
+            "description": "Powerful Tox chat client that follows the Tox design guidelines.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/qTox/events",
+            "fork": true,
+            "forks": 12,
+            "forks_count": 12,
+            "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
+            "full_name": "TokTok/qTox",
+            "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/qTox/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/qTox/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/qTox.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": true,
+            "has_projects": false,
+            "has_wiki": true,
+            "homepage": "https://qtox.github.io/",
+            "hooks_url": "https://api.github.com/repos/TokTok/qTox/hooks",
+            "html_url": "https://github.com/TokTok/qTox",
+            "id": 64500340,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/qTox/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/qTox/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/qTox/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/qTox/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/qTox/labels{/name}",
+            "language": "C++",
+            "languages_url": "https://api.github.com/repos/TokTok/qTox/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/qTox/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/qTox/milestones{/number}",
+            "mirror_url": null,
+            "name": "qTox",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
+            "open_issues": 39,
+            "open_issues_count": 39,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
+            "pushed_at": "2025-01-24T23:11:11Z",
+            "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
+            "size": 60945,
+            "ssh_url": "git@github.com:TokTok/qTox.git",
+            "stargazers_count": 56,
+            "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/qTox/subscription",
+            "svn_url": "https://github.com/TokTok/qTox",
+            "tags_url": "https://api.github.com/repos/TokTok/qTox/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/qTox/teams",
+            "topics": [
+                "chat",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
+            "updated_at": "2025-01-24T22:53:49Z",
+            "url": "https://api.github.com/repos/TokTok/qTox",
+            "visibility": "public",
+            "watchers": 56,
+            "watchers_count": 56,
+            "web_commit_signoff_required": true
+        },
+        "sha": "a1495c161f94c9699908b1d34598ec4e74d385a5",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "- [ ] Commits follow our [git commit guidelines](https://github.com/qTox/qTox/blob/master/CONTRIBUTING.md#git-commit-guidelines)\n\n<!-- Reviewable:start -->\n---\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/qtox/30)\n<!-- Reviewable:end -->\n",
+    "changed_files": 255,
+    "closed_at": "2022-02-03T20:27:19Z",
+    "comment_data": [],
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/qTox?pullRequest=30) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/qTox?pullRequest=30) before we can accept your contribution.<br/>**1** out of **5** committers have signed the CLA.<br/><br/>:white_check_mark: iphydf<br/>:x: Talkless<br/>:x: sphaerophoria<br/>:x: anthonybilinski<br/>:x: sudden6<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/qTox?pullRequest=30) it.</sub>",
+            "created_at": "2020-05-11T22:53:16Z",
+            "html_url": "https://github.com/TokTok/qTox/pull/30#issuecomment-627007839",
+            "id": 627007839,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/30",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDYyNzAwNzgzOQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/627007839/reactions"
+            },
+            "updated_at": "2020-05-20T10:29:30Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/627007839",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
+                "events_url": "https://api.github.com/users/CLAassistant/events{/privacy}",
+                "followers_url": "https://api.github.com/users/CLAassistant/followers",
+                "following_url": "https://api.github.com/users/CLAassistant/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CLAassistant/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/CLAassistant",
+                "id": 11571300,
+                "login": "CLAassistant",
+                "node_id": "MDQ6VXNlcjExNTcxMzAw",
+                "organizations_url": "https://api.github.com/users/CLAassistant/orgs",
+                "received_events_url": "https://api.github.com/users/CLAassistant/received_events",
+                "repos_url": "https://api.github.com/users/CLAassistant/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/CLAassistant/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CLAassistant/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/CLAassistant",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/30/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/8c8534f4851451b780e81e22550ba97827d774c3/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-23T18:50:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-23T18:50:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "chore(interface): avoid gnu extensions in macros\n\nIn Standard C++, the `__VA_ARGS__` (`...`) part of variadic macros must\nhave at least one argument. `(void)` is a valid way to declare\nparameterless functions, so we're using that here, even though it's not\nidiomatic (but then again, nor is the whole macro).",
+                "tree": {
+                    "sha": "cb9ecf9835ee5f6367e5495d47a1a84d6ae71391",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/cb9ecf9835ee5f6367e5495d47a1a84d6ae71391"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/8c8534f4851451b780e81e22550ba97827d774c3",
+                "verification": {
+                    "payload": "tree cb9ecf9835ee5f6367e5495d47a1a84d6ae71391\nparent fd8edb80d5cfce9f90f0bb9bd49227f76d473bef\nauthor iphydf <iphydf@users.noreply.github.com> 1587667848 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587667848 +0000\n\nchore(interface): avoid gnu extensions in macros\n\nIn Standard C++, the `__VA_ARGS__` (`...`) part of variadic macros must\nhave at least one argument. `(void)` is a valid way to declare\nparameterless functions, so we're using that here, even though it's not\nidiomatic (but then again, nor is the whole macro).\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6h47YACgkQOFXbotdE\nA8lG0Af/WMCCp8kWLeDQ3RJlfDRKcInKnexsqgWn5u2Poz5jmBQW5L2Oi3B3pRgZ\nTHQSgDFn6RPPagMiESkgYHbdxdkfff/jq+YPckY9k0LxBrPII/gGDBOWrjJ9ddcf\nN4tT1/w5UejyFknv2z8Jt+0c7MS9bdoLcnMboFDCjBTFwMpdRsQAlTZp9ecDMKX8\nHfzSQuqv8T5O8F5XLb/f4aR38wQvv4TTmLHDZyK8owD7qi5PG7x1Rr+vMqeSeIe5\n2cXn0xGid+iIvRMF50fVawxZDOXfjWkAfnDZM+jPiYVDcB92/6ymSG7/HoK/ENCh\nEFDAwuZEnMkC8FFvP82mVoJGJ/TwlA==\n=eQmV\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/8c8534f4851451b780e81e22550ba97827d774c3",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6OGM4NTM0ZjQ4NTE0NTFiNzgwZTgxZTIyNTUwYmE5NzgyN2Q3NzRjMw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/fd8edb80d5cfce9f90f0bb9bd49227f76d473bef",
+                    "sha": "fd8edb80d5cfce9f90f0bb9bd49227f76d473bef",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/fd8edb80d5cfce9f90f0bb9bd49227f76d473bef"
+                }
+            ],
+            "sha": "8c8534f4851451b780e81e22550ba97827d774c3",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/8c8534f4851451b780e81e22550ba97827d774c3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/6105af8279b609107f5116b0ac5039b8dbcd17b8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-01T01:37:30Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-01T02:26:18Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "fix(ipc): allow IPC under windows by not using std::random_device with mingw\n\nhttps://en.cppreference.com/w/cpp/numeric/random/random_device\n\"A notable implementation where std::random_device is deterministic is old\nversions of MinGW (bug 338, fixed since GCC 9.2).\"\n\nAlthough time is less random off Windows, we don't need a strongly random\nnumber for this, and using time avoids having to use platform specific code.\n\nFix #2917",
+                "tree": {
+                    "sha": "e1a178984ff7c886a6d36b2fa08940bff53812f5",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/e1a178984ff7c886a6d36b2fa08940bff53812f5"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/6105af8279b609107f5116b0ac5039b8dbcd17b8",
+                "verification": {
+                    "payload": "tree e1a178984ff7c886a6d36b2fa08940bff53812f5\nparent 82547263f815c2acd1ad5ad4e31019be196d1f2c\nauthor Anthony Bilinski <me@abilinski.com> 1588297050 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1588299978 -0700\n\nfix(ipc): allow IPC under windows by not using std::random_device with mingw\n\nhttps://en.cppreference.com/w/cpp/numeric/random/random_device\n\"A notable implementation where std::random_device is deterministic is old\nversions of MinGW (bug 338, fixed since GCC 9.2).\"\n\nAlthough time is less random off Windows, we don't need a strongly random\nnumber for this, and using time avoids having to use platform specific code.\n\nFix #2917\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl6riOkACgkQKqjg2hsx\n+zyeug//XYyFIkaOcUvC50ZUYWgVcthWWUZZ0gh1SNA5oLeerK5HtFqr2GPQzl23\n2i5VWHWVu85Keu8WkjCHcRn+JhwPBwL+wODX9JFuSadrlYpODeg8TjZIeu+0ipaR\nE5SKVGAeBS9/WsmG2KGvzwlWR+Hj0e6OlUa2H2rvP7VfkZLtmnlFh1Z9nKA2XWdO\nkn5x6euczVb2+TSt16rUOVfAtHmy6JqHCrLxLUwgE/9TqesFO1HGT64I6lDZD6So\neECzjntK2KJ1HCQZRVgtrbxSTCA5gF3wGMM6n0/1dOWACIDO2WGG9diLs1rBS3g+\nM9pKUrlTHW6z+CBu1kYrn0Igz5YH6n/nv6o9KKoYk/nkKoc5yEY5AvZ9LJhOc7Gt\nq0XI70EwIzmoBG+DnFHF0G6Ro49fzrJU5Kme5lTzNkCruIfQgr68CGvLcXZ1pr11\ncTUZrJJqiV1kTL+YBiHzUiaYevSQtcBmF8x7FY6b6rcq6jyHWxCa2IwN16Ha0l4G\nM2tigAw2KYImt/1dnQfBwcB+aQbpCa6+ON96M6nILJhdr/J64DTQOibvTvEyP5h6\nZyFqGG84BusWsJHxeoISac7Z6vPhlFVzm0HoOAEeBtQ86MUP8pQeRJ4IoVeHmkf7\nPonrAZvDPwPCseo8j+dtAVAM4fB/vLW6U8RbpUVdN+9CzMWiexQ=\n=PqfC\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/6105af8279b609107f5116b0ac5039b8dbcd17b8",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6NjEwNWFmODI3OWI2MDkxMDdmNTExNmIwYWM1MDM5YjhkYmNkMTdiOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/82547263f815c2acd1ad5ad4e31019be196d1f2c",
+                    "sha": "82547263f815c2acd1ad5ad4e31019be196d1f2c",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/82547263f815c2acd1ad5ad4e31019be196d1f2c"
+                }
+            ],
+            "sha": "6105af8279b609107f5116b0ac5039b8dbcd17b8",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/6105af8279b609107f5116b0ac5039b8dbcd17b8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/728621f62722534019b6816ee217af361c549cb7/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-01T22:37:47Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-01T22:37:47Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "chore(deps): update c-toxcore to v0.2.12",
+                "tree": {
+                    "sha": "1ea2081fc71b67da475abb4ff9d3ca90cc22d451",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/1ea2081fc71b67da475abb4ff9d3ca90cc22d451"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/728621f62722534019b6816ee217af361c549cb7",
+                "verification": {
+                    "payload": "tree 1ea2081fc71b67da475abb4ff9d3ca90cc22d451\nparent 6105af8279b609107f5116b0ac5039b8dbcd17b8\nauthor Anthony Bilinski <me@abilinski.com> 1588372667 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1588372667 -0700\n\nchore(deps): update c-toxcore to v0.2.12\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl6spLsACgkQKqjg2hsx\n+zxPEw/9FLaV9x4488L1oNFO9QL8EnSemmhfAkS6OaSQPZI72EIEt78ETTsBM/1q\nJLaw5BKmcf68FeiDnIPoeia8xB6R81yvYOUUNwP9fNYwgbN7QmqOeCjEcaoBJyJP\nwhq1liN1K+BdFddxtLYL2tn3rLZcEvyKG5E3AoC1up92Egj1xcbOnZuoeUclJBP+\nAwREvPRW4BeUxrCDXUfsIvFBAyY78cuGL77PegCv+lZ5XVLYJKFFQygMyLx/pDqg\nyEjbxJ+3e3EWatjDvG1o1pwFBjqy0cpblr/Rbm44QngT1nDyYXtOBFzqqM2Q7ke+\n082SlBPYBbrISQl2VBn9xgIMXk14dSysdRMKFqFjY5WgW7eP185axp078O0+2i78\nRb3evdVHdEkVesELvYxRKdVvLPtLHlYmXaIAILhIkAElFALT40kniXJXj/gVDPit\nQmqvGE/gsK8zaTRfGfp7REJy27kY40tyAUVI8qMuwSl+D+Mmc9E+19YtRBxeP2OQ\nFUTY85BacBVlz0TW9e7x0yiyQkaqBbJtvHTsWD04yjNVlJtTueAgWbfDAETpdbQD\nvdMQmOLpMP2f6FEowYJYYVZ6UDS5lsSevNPn4OWGC3sbAz1rvBCmrIL8FAjL8tQe\n/KVxl+9skpxiMKFeBviq+PAaOdtvzn612DQSbU8Y1bUe0XSjhv4=\n=24s1\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/728621f62722534019b6816ee217af361c549cb7",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6NzI4NjIxZjYyNzIyNTM0MDE5YjY4MTZlZTIxN2FmMzYxYzU0OWNiNw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/6105af8279b609107f5116b0ac5039b8dbcd17b8",
+                    "sha": "6105af8279b609107f5116b0ac5039b8dbcd17b8",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/6105af8279b609107f5116b0ac5039b8dbcd17b8"
+                }
+            ],
+            "sha": "728621f62722534019b6816ee217af361c549cb7",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/728621f62722534019b6816ee217af361c549cb7"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/c1ec6bc64931874b483b2f20c3d25dc6c93af0e1/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-01T12:55:41Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-02T18:08:06Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor(widget): remove usage of Core::getInstance",
+                "tree": {
+                    "sha": "28fb4867934222ed2873dbfd571054423be95216",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/28fb4867934222ed2873dbfd571054423be95216"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/c1ec6bc64931874b483b2f20c3d25dc6c93af0e1",
+                "verification": {
+                    "payload": "tree 28fb4867934222ed2873dbfd571054423be95216\nparent 728621f62722534019b6816ee217af361c549cb7\nauthor sudden6 <sudden6@gmx.at> 1588337741 +0200\ncommitter sudden6 <sudden6@gmx.at> 1588442886 +0200\n\nrefactor(widget): remove usage of Core::getInstance\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl6ttwYPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5wGkP/RiDXjySBQSZcElYnKRGji0vPXD6AlvvkQcy\nPm6hz+0NQEeol1kYgs4O46TMfcm93DaI1fdhThpydcQhb359Lf0w8QHvAyyfRowT\naE9Hjj8eZJvpAvpBcZFwK24xmL7S8U3+sjiMshkh1jUlf/Tldgh29lYQrXSTrUeF\ny23rK0OA95hq6J39huc7HdvtgbKsq4EyEDzfT5H/hkBS30u5h5uouns3zuUvKL2R\nQaGe61RgCieOpaqbCtHuMYngU7qScinDg486P6bbmhjudlmazQbxixkj81b2YbI0\nSgTHLa7aTFXdPP4+V4xhlskQx7r/+jIo/uSliXtZGj+h7FcbIqrQRM/anNKO096/\nLmBAHfPEFOsyiR4sRPH0AeYT5itVZRz32PTYOHoQXLsLBi8D0DAddZhFdLLkmHoc\nVNe58kkPIqCqDRE+re2vgvzxSGFv+CoYPEvaZfXzDzV9OeOEkqf+kmna4BXy9JWp\noIXclRV2Hgb+GK1nKHueyX2fBfbdOdKzjG/mNkN80LKnBD6PYXwDx6x52BVHWGq3\nDaVPIioWw61Q/wH/298NZhOc4ftuX7YSxqUWb++FVpyPq1BGPFJKoXMJ5N2nmAVY\nBhL+M2fFN2zcgeDOh1hfi225mO98xuk/p6c7eWfLaIKMExRUGnYsMisXg3mbBfE1\nVzp5UBrz\n=l5yX\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/c1ec6bc64931874b483b2f20c3d25dc6c93af0e1",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6YzFlYzZiYzY0OTMxODc0YjQ4M2IyZjIwYzNkMjVkYzZjOTNhZjBlMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/728621f62722534019b6816ee217af361c549cb7",
+                    "sha": "728621f62722534019b6816ee217af361c549cb7",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/728621f62722534019b6816ee217af361c549cb7"
+                }
+            ],
+            "sha": "c1ec6bc64931874b483b2f20c3d25dc6c93af0e1",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/c1ec6bc64931874b483b2f20c3d25dc6c93af0e1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/2809cd91f52fd827d218bf45335973d7d0509e9b/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-01T12:59:25Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-02T18:08:11Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor: remove Core::getInstance from SettingsWidget",
+                "tree": {
+                    "sha": "c571c84b39de7167fe32bdcf03a068ef92cfbdde",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/c571c84b39de7167fe32bdcf03a068ef92cfbdde"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/2809cd91f52fd827d218bf45335973d7d0509e9b",
+                "verification": {
+                    "payload": "tree c571c84b39de7167fe32bdcf03a068ef92cfbdde\nparent c1ec6bc64931874b483b2f20c3d25dc6c93af0e1\nauthor sudden6 <sudden6@gmx.at> 1588337965 +0200\ncommitter sudden6 <sudden6@gmx.at> 1588442891 +0200\n\nrefactor: remove Core::getInstance from SettingsWidget\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl6ttwsPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5vtkQAJlwgztMu6tNma61yl5T3hARW2d133jB73Z9\ny6PrYhnsie6vJcS+7gcyipJ25vC082185l4hZj2DgAl832XMp6wVMlbE/2MPlz/n\nb/Cx5hwVqz7UiU+p0kpTZR1Kk5BuCsJAJJhQPwalhuqcdfmrp2+qC2qlVxytrv1m\nYwsYVuvmyb76f9L3KnfQ4UYTSdUHzgBIhDNPI+OkEiuyLD0Yi40gVdFWS0IjVyBz\n086MxVhU8uXfver2v6eKDljJVRtRAU9pCEWY3dgSG9mhgmMkPHF9tPPUXLWJTCus\nIQkzraaSJf3i9R0g3Y58GPnuoD+3YwwRrUEecEmUezSJz1nTcQf3kVz4bYVw+u5q\nhp/Xk49z3nMBhChPz6xmdEOCAbzQnEWRz+tL60xoqS0roaYTgAYGNHkfmh8fbLFl\nhBawnjRVaLPgCWWReozhBEH4aALRsi7SSsFF5DCZqyQjnJPMR/UkUN0Dz05SwQv6\nUx9R3/MecdB3nMOHcYt/osfFf4DtL7c8SirLifSGeh8e9O5jkGmGTQX8MKI6bMgh\n/mGdLBvdLU3t+N/7yU6E9gsje/hhptqMR3Dc+BHe1VxaUhBax7Ly5NTL6cSXr6DZ\nfO5JChfhHNIuhog6yS6XS9PnTfhVqANmwYNPAMqXPilJQcGry0+P5LiIexLjnXqQ\nzV4bw7MQ\n=eZRC\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/2809cd91f52fd827d218bf45335973d7d0509e9b",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6MjgwOWNkOTFmNTJmZDgyN2QyMThiZjQ1MzM1OTczZDdkMDUwOWU5Yg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/c1ec6bc64931874b483b2f20c3d25dc6c93af0e1",
+                    "sha": "c1ec6bc64931874b483b2f20c3d25dc6c93af0e1",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/c1ec6bc64931874b483b2f20c3d25dc6c93af0e1"
+                }
+            ],
+            "sha": "2809cd91f52fd827d218bf45335973d7d0509e9b",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/2809cd91f52fd827d218bf45335973d7d0509e9b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-01T13:02:55Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-02T18:08:11Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor: remove Core::getInstance from PrivacyForm",
+                "tree": {
+                    "sha": "d1ae4b077abb138e88fd296514d97bf62f3c6882",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/d1ae4b077abb138e88fd296514d97bf62f3c6882"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4",
+                "verification": {
+                    "payload": "tree d1ae4b077abb138e88fd296514d97bf62f3c6882\nparent 2809cd91f52fd827d218bf45335973d7d0509e9b\nauthor sudden6 <sudden6@gmx.at> 1588338175 +0200\ncommitter sudden6 <sudden6@gmx.at> 1588442891 +0200\n\nrefactor: remove Core::getInstance from PrivacyForm\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl6ttwsPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5rF8P/i7tOrG4aHBa5ENCpybQ0JcLqDLrbtaB46FP\n6G1fTy5QnjubesbqEdCtyd029wa8/SJvlzqGlDGv1WhmUG+QWpvPmH7WLGhC4wqi\n0JgLE7KKTzHZEzfBv7tmBDl9r0UffXZdeYqdW0EyK7Tsa1OpbOvYO9EEIAjdhv6o\ni+g3YaEgnRa1MlN1KWG9ekHFyKuZPAaCl2TEj5V6vArG4JXa3hViW3KzJsb6mkDW\n46hOGGFXYTro5RhnLpRIiQzP+NAcTg5UP7JzAbLXbCdJcBNLvPG9SGFOosCGhstl\nsl/Y9k3EhRe5mMoBkM7rTHYxELSNNxWxMnQryfzkuxf9mf8rsPVaDtCDqHdt40MG\n0pV3JFNtmRWkTNMEBnT1234Gin3piz1hIF/KohVvEzV9SRTl+2a2NZswO1F3rxeX\nbjVSSiXQ/G9W3KNmgn3PfCqManKXfXRxFzxZN02P8g83ItRFKVvY8G4f5BKb8zta\nNioS7bBoSLY2i5O7HVjxyPU5AZdO0fumN06EUTFeY31AZchaz0ugXJxM12D0qPfx\nV8NBIuMuUbG3TCU4u9i1yxbLVZYOqoYfXHXftIbx92kCn92tzosxr6XIYUTObRTW\nBg9qE9otHsHc2+CgOtRViUv1V201BoKvGJRoamyk6ECwlT/dcdmcq3CRtWkptoEn\n2FfdAjZM\n=IeOb\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZWYxOGFmY2JmMTZhODk3YWJmOGQ5YTFkNmNmZDllMDJmNTNmM2FmNA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/2809cd91f52fd827d218bf45335973d7d0509e9b",
+                    "sha": "2809cd91f52fd827d218bf45335973d7d0509e9b",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/2809cd91f52fd827d218bf45335973d7d0509e9b"
+                }
+            ],
+            "sha": "ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/ea46c0caf22def27b99903f8d8a8b8c26d95ffd8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-01T13:06:38Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-02T18:08:11Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor: remove Core::getInstance from AvForm",
+                "tree": {
+                    "sha": "6062fac764a69a0eb9f4d7cfc1cf4bbdb94fcee4",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/6062fac764a69a0eb9f4d7cfc1cf4bbdb94fcee4"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/ea46c0caf22def27b99903f8d8a8b8c26d95ffd8",
+                "verification": {
+                    "payload": "tree 6062fac764a69a0eb9f4d7cfc1cf4bbdb94fcee4\nparent ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4\nauthor sudden6 <sudden6@gmx.at> 1588338398 +0200\ncommitter sudden6 <sudden6@gmx.at> 1588442891 +0200\n\nrefactor: remove Core::getInstance from AvForm\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl6ttwsPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5VBIP/jVdhzDdXgo2KqFByHcDasb9Re/S8BN5IL7G\n2763kjQrPfgdyhfWQvxF/JCljhbn2xocev1tW+kxHmgdgcgZsofvAbxzfa8xoHBs\nAvq7YmKXethlDAEjdXkyCWtpac+wEP9Pao5B2417H9S8QRS1n3ZA3aQnRV5VGsnq\n187AlvgRELwUKpq9SAODn+AlnCkXT/sBzZxxAh4CShFNF7u8viCEHLKOJRxVH13a\nuVLuZ5snlsyagrh9QmMCpHAEgtE9b7u7BtmKOV73GP1rfBHbkndfDx1xK2+weBLf\nNlD2PdJ0MQAomcYrBTUoNQruolje6SGuz1xLDpxEB9c0vwTOCkdgVErcojJYys/w\nCKJwuapILsGl+YQ2Y0RCXk6RjS7IPeMS9cXlCja52ykVxZn2hC4Urq4DSwpcjTzX\nQBRF05hqilDE1Ot3DeiofNokxNHsi0GKKIklA/+nAEO1MvUgkU1Net8ByLCp8+SR\nyfmgloBdISJnSQCN+Foa1P5ihPe95MAOiFsAxPiS1g73rX4Znp2kAqv4Z9mzjZSN\n6igQJzJp8EWGMv6rPTncxUz1ZX3N4ppXCqglsEun5UoScTnZJXWnq2S+yPU0Brd1\nS4IpAMJQHpD9ryYsejkw5RjpYBQcp8iSHi5ZQ9MS7ymAVtduRduDeItbK4crSdkk\nmRcc/pw2\n=kO+l\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/ea46c0caf22def27b99903f8d8a8b8c26d95ffd8",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZWE0NmMwY2FmMjJkZWYyN2I5OTkwM2Y4ZDhhOGI4YzI2ZDk1ZmZkOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4",
+                    "sha": "ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/ef18afcbf16a897abf8d9a1d6cfd9e02f53f3af4"
+                }
+            ],
+            "sha": "ea46c0caf22def27b99903f8d8a8b8c26d95ffd8",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/ea46c0caf22def27b99903f8d8a8b8c26d95ffd8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/9306e946f82352a1912556eaf83f753218566d82/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T20:55:49Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-02T21:36:38Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor: remove Core::getInstance() from ChatForm classes",
+                "tree": {
+                    "sha": "e10a647f500372df1696ce8a093e718f8a0d3b5b",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/e10a647f500372df1696ce8a093e718f8a0d3b5b"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/9306e946f82352a1912556eaf83f753218566d82",
+                "verification": {
+                    "payload": "tree e10a647f500372df1696ce8a093e718f8a0d3b5b\nparent ea46c0caf22def27b99903f8d8a8b8c26d95ffd8\nauthor sudden6 <sudden6@gmx.at> 1588452949 +0200\ncommitter sudden6 <sudden6@gmx.at> 1588455398 +0200\n\nrefactor: remove Core::getInstance() from ChatForm classes\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl6t6AAPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK53JEP+wQ6GVGKq0jr8k+wfekoxccv0rzLWUQKr1n5\nq2xp1ap7lmUHZH0qzHm3kcdxBC1Q5jWJfP5ec9Bc1wXwcQ8HxEkeGJb9/o2dEMR3\nvO6JqNvSPI0StQ4H4tk00Ebta3LVQTk5E/x48vX4Iw+I1i9FZ2bKxf1ZS1RWWKnY\nbDj3DSevau7lnl5HJz8XDQ5lkLdYCKoLH+oGzQbxYGsNj3/jZ0XDas7dXBKCBpeV\nWNE+GeS65UKPhMynxvsuSJ4Cqc9TZhOjaxNIWfE5j3YPcaPcEVfWb+CnstcEduiO\n20jMZJRF69CgWWeVkjtL239kdLyEdvGXsacy/vvTZVV2pul3k2xdkAjMOVocC1Cn\ngUr15tXHJXEUO4Rb3x9WXddW5uOw75YVmS629GXiiXWMYGHDzSbO9aHNAzKdB6L2\nD48IbokC25rC1AXNRcXexrZsGWHWHF29oVPMRstzDkR49IDjTj5WWw5+CYQiNus7\nUhe/G5WFNgDzYN3jShMWNopee7e2Big+eVyqj2TOVDpyTGpMG7L/cm/YCOnOrO5b\n4cX0pmibJYQfl95UC1EhYO2eLIaPdP80xgql2lKhgYIaa/jEBWedqOC/RGdcvM0r\niBh1muh8+E7mgnpAh3mYc3EL3ir4kL8pJUmLTXyu1FEc14c3jOdKJ+dA9xzcQE8k\nutocqUkk\n=yJXC\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/9306e946f82352a1912556eaf83f753218566d82",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6OTMwNmU5NDZmODIzNTJhMTkxMjU1NmVhZjgzZjc1MzIxODU2NmQ4Mg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/ea46c0caf22def27b99903f8d8a8b8c26d95ffd8",
+                    "sha": "ea46c0caf22def27b99903f8d8a8b8c26d95ffd8",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/ea46c0caf22def27b99903f8d8a8b8c26d95ffd8"
+                }
+            ],
+            "sha": "9306e946f82352a1912556eaf83f753218566d82",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/9306e946f82352a1912556eaf83f753218566d82"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/8abd4e47e999371526f90c2836b340e88436df61/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-03T12:44:08Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-03T22:51:52Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "refactor(style): use #pragma once rather than include guards",
+                "tree": {
+                    "sha": "999ee80d5fe17e5ba1feead2c8a5f9a85acaf35a",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/999ee80d5fe17e5ba1feead2c8a5f9a85acaf35a"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/8abd4e47e999371526f90c2836b340e88436df61",
+                "verification": {
+                    "payload": "tree 999ee80d5fe17e5ba1feead2c8a5f9a85acaf35a\nparent 9306e946f82352a1912556eaf83f753218566d82\nauthor Anthony Bilinski <me@abilinski.com> 1588509848 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1588546312 -0700\n\nrefactor(style): use #pragma once rather than include guards\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl6vSwgACgkQKqjg2hsx\n+zx/zA//Tau6ROuhBGpSG2/db+rztp1mi402kOtNyfdM7MrAXxWKSGCmg2Qdq+LA\niVhAc8F9O5ewHnPCr3fnihaQffFeNGRSf4Pbb1T8+E/f31ZDnRaJtkoY7Aq1kt/Y\ni689T83zR+Nlm871DfVILErkHj8yMc6dToLyGa19fzLgxg6oO/BZFaotl0ND4bvN\n0ctPERpH6gUduuHlmS+zq330XEGzIWNmpwrCbMf6I6iXx7f2oPb2mLae0bzpUl/K\ng2z+icEHYjMJOscCsufBrJ5lo3g8yusCxm6lIKYq1daNUDB/Iz7HBQATckuqLOCi\nHp3IJOjcXyilM46cIeZQPXTL3iy+mNMUvyqNTHW5JJU/yoV5iNiPpMfKv9CG9TSB\nySXqudI0pNlR7kCerh+U94vtRKTP7395/I1fNpZy36xjzkI3PAN8H2yr+WoQGWYs\nqYOKVkCRCcATl6aaU+/nKP1osVOy3bQKTtF5viVR1Q4BYJsbjh9zULfn8dY8gEH6\nyC+1ntxavh4Uyy4drvkMUSLAwrmcjCigR6ZooORGbx/QkvnwQVMUMvcWNDSd0b2Y\nM9imbjVal3lFxzcAMmOzOeDgfMwki04K4A192RjIXt0/6dA0fRCiCkTHlaTwnpH1\naZkzA9WKghPJR1VUlK+ootEeSwRoxTRDggHqwZqjGsjdBTs51mg=\n=Foi2\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/8abd4e47e999371526f90c2836b340e88436df61",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6OGFiZDRlNDdlOTk5MzcxNTI2ZjkwYzI4MzZiMzQwZTg4NDM2ZGY2MQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/9306e946f82352a1912556eaf83f753218566d82",
+                    "sha": "9306e946f82352a1912556eaf83f753218566d82",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/9306e946f82352a1912556eaf83f753218566d82"
+                }
+            ],
+            "sha": "8abd4e47e999371526f90c2836b340e88436df61",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/8abd4e47e999371526f90c2836b340e88436df61"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/f37f9a94925fd5afd2eac40bd436f14225a32f31/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-03T22:58:45Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-03T23:22:12Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "refactor(history): enforce using PK instead of ToxId in history\n\nWe need to be lenient when reading from db because of ToxIds being saved in the\ndb from a bug introduced in e07d8d358f6fc890a77e029aa230b69bdecd325e, which\nused self ID rather than self Pk. Was subsequently fixed in\n033f28e67ecd61cd0fdb6cc0e8de8a2bc920e1d7.",
+                "tree": {
+                    "sha": "fa892c5608631f7911b17ce473809b755ad777a5",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/fa892c5608631f7911b17ce473809b755ad777a5"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/f37f9a94925fd5afd2eac40bd436f14225a32f31",
+                "verification": {
+                    "payload": "tree fa892c5608631f7911b17ce473809b755ad777a5\nparent 8abd4e47e999371526f90c2836b340e88436df61\nauthor Anthony Bilinski <me@abilinski.com> 1588546725 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1588548132 -0700\n\nrefactor(history): enforce using PK instead of ToxId in history\n\nWe need to be lenient when reading from db because of ToxIds being saved in the\ndb from a bug introduced in e07d8d358f6fc890a77e029aa230b69bdecd325e, which\nused self ID rather than self Pk. Was subsequently fixed in\n033f28e67ecd61cd0fdb6cc0e8de8a2bc920e1d7.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl6vUiQACgkQKqjg2hsx\n+zxmfw/+JoUvl6Cc4W9hP/CGCaEB2/GYT6PZAMRuG2bNntnmvLkeTemGUQxRBEdG\nK2yFTDaNCJVMUW29MJMl8j/o479/jxrRasdIqdrfusRycQJG/3b+LC/IxE78ei0a\nycs1xqki5HuDdy6yGD7d/YAsYtoBQWqEXb4F1/Kw4WhBMGYM1wMZCPyQSvfMQRpM\nhPvIQ5ZSdMOY7kZ7PZR+C93PwKJh1+hJ3rLezzghE/d5TZ5OTTRtw0l9nTD0EAWE\nkNXqOAhBzdwqKcXlbNajJaQphTfjCYobffbMXJ28cINC8iEqhyOCi40ttJKR8sJp\n64rMuUzySzN3SMQBpIGteWkhvAO5WWndX0tj7uwhNJhYzBaxWg8s3fUTipuArZiJ\nqjU6vPnHB/I+eORhgZEH0FBHJ5sSF98u+Dj0QyG959SuZOmk7ekjjYwS6TUSYEv/\nFJduqcgq0KtIg1ZsjUVv3jcklZ+JfY56cjIpaxLp8jh/QOIDJ68fTiHYJvI8N40J\nZkdrb5VuyWczRyBS7yU8od8nJphisApHra4a3XBYKZmkiiXidEs2qP8ZmCrpsr7X\njTVvaYbSdzHCxMYBzgmSi05tHgiTxrypZWm4egVVXVXUkkB5qWJlM3g3aF7AKEje\neS569YwT5mzO4TBQgyvzAZySFI98gDPXFUW5j8pRv5tzkVrts/8=\n=23Kt\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/f37f9a94925fd5afd2eac40bd436f14225a32f31",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZjM3ZjlhOTQ5MjVmZDVhZmQyZWFjNDBiZDQzNmYxNDIyNWEzMmYzMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/8abd4e47e999371526f90c2836b340e88436df61",
+                    "sha": "8abd4e47e999371526f90c2836b340e88436df61",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/8abd4e47e999371526f90c2836b340e88436df61"
+                }
+            ],
+            "sha": "f37f9a94925fd5afd2eac40bd436f14225a32f31",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/f37f9a94925fd5afd2eac40bd436f14225a32f31"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/062ba03fb8d18e059107b738f130347708868e6b/comments",
+            "commit": {
+                "author": {
+                    "date": "2019-05-01T14:55:49Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-04T01:06:10Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "refactor(db): map foreign key dependency in db schema\n\nReorder deletion of history to avoid violating constraint.",
+                "tree": {
+                    "sha": "30e06e2e66ceb63a7aa3b85d64d617c56bd71701",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/30e06e2e66ceb63a7aa3b85d64d617c56bd71701"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/062ba03fb8d18e059107b738f130347708868e6b",
+                "verification": {
+                    "payload": "tree 30e06e2e66ceb63a7aa3b85d64d617c56bd71701\nparent f37f9a94925fd5afd2eac40bd436f14225a32f31\nauthor Anthony Bilinski <me@abilinski.com> 1556722549 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1588554370 -0700\n\nrefactor(db): map foreign key dependency in db schema\n\nReorder deletion of history to avoid violating constraint.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl6vaoIACgkQKqjg2hsx\n+zxsIw//Q2O+65LiKSMjYZidVyBG22pVqeWKmU8iN/5PCjGUhskolWULMjfC4IZ2\nJ+xXozACfwszxgfDzYBF4bf+M/Ge9y9OoXMYshpfVfrG/m+eGPgINGE92p2o34la\nJ7SjI3FvFV97mbKSSCP60LS8AyZiU2wWyB6Yt2Zo++jfT0/uC2WTxJcEf4qGz69h\nDpUjqKY6RmYNknK7oZRZ7LRWzO2T8iDhj57ht3uZlhJN+yVxbBJa2bOy8DFteEJn\n/HnxeSq13oWD5IQCqDMh2XNQZhC6ZWXVv7quQrrBs33cBFiHTohO/CqLgdVwCwr4\n87dO4tv9HTovA562Z2ERW/RoPYDHnuo45euyNTeBfwPCU1Y6w4/jr2cmXKn3j4Hc\nF6epPRWayVYsjm7JbryKK5/heHvQbkuVE0WJlPmzUt/CCMqKvITyv+das4Zcn1y3\nFTLwZNFHnL2A1QaA/ouQBf9h9aorB/O/4WO0LgiHhdGLq0yrgKvJCrCLsmTaN4br\nL8iBQxFb3+C25GrahAOpsdkAE5XG3crJ8T+rvdncp7zii7DGmnkvVsdIoEdpjMgU\n2GLEFyAWCPYO/gncwG72NO4YjK5U++18hwxVqWsK9n/Vu4W6xmkJPhdnO3Z1EsUg\nDKsnDlqmGiTJT+Qnzs/qtM4s6Vby0CRYDx2bieMu/AwBYo9qVHI=\n=RjZy\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/062ba03fb8d18e059107b738f130347708868e6b",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6MDYyYmEwM2ZiOGQxOGUwNTkxMDdiNzM4ZjEzMDM0NzcwODg2OGU2Yg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/f37f9a94925fd5afd2eac40bd436f14225a32f31",
+                    "sha": "f37f9a94925fd5afd2eac40bd436f14225a32f31",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/f37f9a94925fd5afd2eac40bd436f14225a32f31"
+                }
+            ],
+            "sha": "062ba03fb8d18e059107b738f130347708868e6b",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/062ba03fb8d18e059107b738f130347708868e6b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/5d56a3c0397ed6decf21b28553c5e45687585791/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T00:32:27Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T01:03:47Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "refactor(paths): move Settings path functions into Paths",
+                "tree": {
+                    "sha": "7f30214c1b154b75fe834b870fe3f4758903c2ad",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/7f30214c1b154b75fe834b870fe3f4758903c2ad"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/5d56a3c0397ed6decf21b28553c5e45687585791",
+                "verification": {
+                    "payload": "tree 7f30214c1b154b75fe834b870fe3f4758903c2ad\nparent 062ba03fb8d18e059107b738f130347708868e6b\nauthor Anthony Bilinski <me@abilinski.com> 1588379547 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1589159027 -0700\n\nrefactor(paths): move Settings path functions into Paths\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl64pHYACgkQKqjg2hsx\n+zx5Ew/+NZD6cM/2QKNrU4jCoPhd4DCMFy0mCs+nfkT9tkN+4pTd5ZH5kRpcqNHc\naDJSSqvBQNPAUloLLfL7aJCOGOyNHzlxCCvouPgrDg5g+NyYi0x6S2F8wYhuZGmU\n+Y770V45zspE8CO+yFTN+Ird1xVCdNU5Ch0r+ZC6E7wHM3kvjTZrlajhb3wT6hbP\n2+JO+5A+0w48reXWMZd0mVvZtBV6267yTsEAkKmSVg0di2nYm/wV6mdKhUAheMAw\nFEay3/MlXbM8dVf46vYXTea1o0Ux7pwqwgz1YwETQMCITHsINaZp6yYVfhjXjss8\n4Ei3E8gS035kmb+RurtO7vHwrZqimqIE2eG9DGynXPLiL4dh2d9w2ao8Bx1AYxKh\nce1vFg9uFYV+jmV8tPd6R2g41Kmb5L0prM5MdaWdRB08ZmoE8wCHR1cUU5PGntdp\nG6c1S+ek93QAM/Akx/fvAOO0cBhUJJCZ85YXC4qQHcGaVpEIy/F6mV0OVKv/UWSH\nhAoAWN9s3Qps0mFVKuEPQNTKVsOyM2FysbY/kSmVXADxvI/Rj8fiSCJstLfrAUs0\n5mGHfErJWLtbPWaBFPpvKyvByDKxFi+QArtf++ipyJTU36pNss2nRdgMz5L/b01q\nIvnmYjijGFAWh0+0XgQiNGb89DbETb9Xtqsvex+pjgezKTclzv4=\n=6gAS\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/5d56a3c0397ed6decf21b28553c5e45687585791",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6NWQ1NmEzYzAzOTdlZDZkZWNmMjFiMjg1NTNjNWU0NTY4NzU4NTc5MQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/062ba03fb8d18e059107b738f130347708868e6b",
+                    "sha": "062ba03fb8d18e059107b738f130347708868e6b",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/062ba03fb8d18e059107b738f130347708868e6b"
+                }
+            ],
+            "sha": "5d56a3c0397ed6decf21b28553c5e45687585791",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/5d56a3c0397ed6decf21b28553c5e45687585791"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/5a877d742b3f84ec702c0447605d3e75ad2cc640/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T05:05:43Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T04:39:58Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "refactor(core): pass bootstrap list interface to Core",
+                "tree": {
+                    "sha": "b8de19e257368336dc8164a80c41b1a6595e9ca7",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/b8de19e257368336dc8164a80c41b1a6595e9ca7"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/5a877d742b3f84ec702c0447605d3e75ad2cc640",
+                "verification": {
+                    "payload": "tree b8de19e257368336dc8164a80c41b1a6595e9ca7\nparent 5d56a3c0397ed6decf21b28553c5e45687585791\nauthor Anthony Bilinski <me@abilinski.com> 1588395943 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1589171998 -0700\n\nrefactor(core): pass bootstrap list interface to Core\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl641x4ACgkQKqjg2hsx\n+zyY2BAAjv2iN7LF1pvGkAuVL+tJGi/Foym7wE/Lz/38q3gjLCjure5/mX8Jl633\naex7UDA4qWxdPJeqZfuRyboR5MOdDgb7VDNA3doFdnotd8idnu3KyTSzo9E4Di0A\nK7hhtjlBFVbV8cNAL5tlqZF55LBXYllaGplgImVxU67IuAwj7ch+j7BeO3Mp0T6c\n+/sQyaDctD0+pYdBthS826rNqotwg4c1f0p0hmr6iVi+jIP0BMNKgYkZ3SOswMtY\nb2MN4wDQKPLy/UIhZ6cCEg245BXWI7pOeqqno6Yn2vAeqGaC82fRIs+3dsOedFp7\nobf7MUUPdSJTvnmMz4LlcwSXOFKiW9vuszjW9LpvBhF6hWqU2Y32fyORN5HwpMu/\nALy4FbBnhIYyM0uBNDocofyMleduVCDjRxsDtJv31iny/7AkVearCJRMXABoy60S\nPh0OClMcvpCMZQXn2ql5EsWtvVKkIHLsoq6qLnm9Z2zsCYUzjPG/1YJx/awAN1PO\n23w0+jjaV6Y11iW+ITTNszsO8h/E83e2lVzqHolErTDlU56yjpWMgIRritfte6iy\n4j3N6+GK2IRRb3i6wskAuRHs+CzDt4+9HoN3yNuVDlc6LmWAMlJ/3UUD4boXIP/2\nNVYuwRii/sWamDL0ef7q6evJ7swxkvy/4wr2WKfxpMMeh9ndc5g=\n=9tN6\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/5a877d742b3f84ec702c0447605d3e75ad2cc640",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6NWE4NzdkNzQyYjNmODRlYzcwMmMwNDQ3NjA1ZDNlNzVhZDJjYzY0MA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/5d56a3c0397ed6decf21b28553c5e45687585791",
+                    "sha": "5d56a3c0397ed6decf21b28553c5e45687585791",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/5d56a3c0397ed6decf21b28553c5e45687585791"
+                }
+            ],
+            "sha": "5a877d742b3f84ec702c0447605d3e75ad2cc640",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/5a877d742b3f84ec702c0447605d3e75ad2cc640"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/e5f33608c41adfa903e9d26f856a43e34dee6d17/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T05:06:03Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T04:40:04Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "refactor(core): pass Paths into BootstrapNodeUpdater\n\nIn preparation of loading local bootstrap list files.",
+                "tree": {
+                    "sha": "1538a2c0f6d052d7747ec752ed08c6f209b515a5",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/1538a2c0f6d052d7747ec752ed08c6f209b515a5"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/e5f33608c41adfa903e9d26f856a43e34dee6d17",
+                "verification": {
+                    "payload": "tree 1538a2c0f6d052d7747ec752ed08c6f209b515a5\nparent 5a877d742b3f84ec702c0447605d3e75ad2cc640\nauthor Anthony Bilinski <me@abilinski.com> 1588395963 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1589172004 -0700\n\nrefactor(core): pass Paths into BootstrapNodeUpdater\n\nIn preparation of loading local bootstrap list files.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl641yQACgkQKqjg2hsx\n+zzWeRAAm8ezVVr8Q7lEYB9h1qDubNQer0H6apDHfMtx47BP/fYZR64UxiRSjMtv\nJcb/r64F2ekH6AuvvLcq6TmnFnzhi/NgnCWLlhr5a7VKxs9FE3IFjOIav0Lr+be7\nHL7yk9ItMfuHFjJeYU061tDCBjxwXeIbBr/5jJMgv2sZeIqby6cfSfSMg9W1/yeB\nWJ3k7Hlw7IsprxSkEOqh8yczA/5R399BUly/mxYUzWY7WoSdQuazdMbN1Z9OhFRc\nhMdjofGydev7xEU11oLM5m6Gaf7FfFNe1xuR0cg32WSBsLaLTQXG8r3QyllbNWU3\nP10kM6Cz9IVUWMnZURPvHgIYuA1QCMMwX5Oq1ZWEbznBv4qmTyUCRQyLg97prHkz\nNC444RtV2gAVI9UD4MwxCR5ooO2yXYklZ+tXVlEBcDZsooV6WdSoU3Q6mNfOCRw+\na1hXiM7rLPFtJk9E8g2Jdf8Qz3Qtr8QGM+7FDNeKEKvF3XQqgTHtrOj0mrYfPAZ0\nGyT6yJJnigDgrRuVKbd7YGtU/epO3RMMQln0+5oehCZM2TmyKWCoUtbC48NrBKsl\nDgB4T1Z6FHpTNKiH9/nim6I05lHmyfBR5ivOtz5jqg8G1yJO3c0m/bxdL4oXFfLE\n6tmj6iwclljpVOAidTsKTRgFZZXJhDJmbUqzLJw8DGB6wQoPQS0=\n=WIa6\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/e5f33608c41adfa903e9d26f856a43e34dee6d17",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZTVmMzM2MDhjNDFhZGZhOTAzZTlkMjZmODU2YTQzZTM0ZGVlNmQxNw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/5a877d742b3f84ec702c0447605d3e75ad2cc640",
+                    "sha": "5a877d742b3f84ec702c0447605d3e75ad2cc640",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/5a877d742b3f84ec702c0447605d3e75ad2cc640"
+                }
+            ],
+            "sha": "e5f33608c41adfa903e9d26f856a43e34dee6d17",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/e5f33608c41adfa903e9d26f856a43e34dee6d17"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/365a452fb8d887b03cf6543f4d2aa80be5faca76/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T06:51:18Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T04:40:04Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "feat(core): use user editable bootstrap node list\n\nFix #5767",
+                "tree": {
+                    "sha": "577149bb4fd6fb29ed11ef32e3a48f6505e3ab8c",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/577149bb4fd6fb29ed11ef32e3a48f6505e3ab8c"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/365a452fb8d887b03cf6543f4d2aa80be5faca76",
+                "verification": {
+                    "payload": "tree 577149bb4fd6fb29ed11ef32e3a48f6505e3ab8c\nparent e5f33608c41adfa903e9d26f856a43e34dee6d17\nauthor Anthony Bilinski <me@abilinski.com> 1588402278 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1589172004 -0700\n\nfeat(core): use user editable bootstrap node list\n\nFix #5767\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl641yQACgkQKqjg2hsx\n+zzSWhAAhd0XElSGUZReyIjtlPBsg9Jg6BiLM4204jBywflCjcZXTgV4gV3PboOo\nU0aGmWl3Hl6IKPk2q+hlQk+5ZTBLVQMqhd/vtzOZIznY5uVwU2y1TShvmwFgYTd/\n2upek0YgWAH+kqO7fy3tVTys4WDYRDAUv+LJWvNR4vM8E0e/ZIDEyUdKjxEaVA2N\nfK4lSsuLgPb9jHQDLMxaJuXOhPeWy8ihMlKhscPNkY2iIWoyORciYR8DOZVBYUSv\nhjlEow9DlMNwN80NRbfWjzfNg44U0ixKS66UFkyDApakQWEr+85XcmKgKuuhAofP\nM8KqLpjbFlA90pnRYNahqXsuF/dVzhyWyvFmQN4DmHQp5+sTOz2P712V/K8VRq1X\nuZh9+5h4UehBgbTvTlrJOm1TMrHjDa4FLIkDDSecGfVgKXWZ1HuW0NSuWdXDWrue\nPjuokxL0dVJZBaJ0eIQ+5afjkxi0Fb9v+wvrfSQabePpYYh6asHWMfWTNyqHY5OE\nLAQV3dfj3iMg1tycxw5d+mpd4HpF/jul0rTUxlUagdwueoWb0l05681+pR7WwmT+\nfve4UEqKE2xT4Y8eadwZR8O0N0We4tC0M7KvGgDvUCtcMntT14DKMz17281q9T/8\n/46r1nrDPqvHsAZE0Deqfa8pPNhvhFnPQCcaeFbkee4yM+NT7os=\n=nSDS\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/365a452fb8d887b03cf6543f4d2aa80be5faca76",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6MzY1YTQ1MmZiOGQ4ODdiMDNjZjY1NDNmNGQyYWE4MGJlNWZhY2E3Ng==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/e5f33608c41adfa903e9d26f856a43e34dee6d17",
+                    "sha": "e5f33608c41adfa903e9d26f856a43e34dee6d17",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/e5f33608c41adfa903e9d26f856a43e34dee6d17"
+                }
+            ],
+            "sha": "365a452fb8d887b03cf6543f4d2aa80be5faca76",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/365a452fb8d887b03cf6543f4d2aa80be5faca76"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/82e0852f3c08287d6c6b941e478e3e28d669564e/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-09T21:33:59Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T08:28:26Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor: remove Core::getInstance from grouplist",
+                "tree": {
+                    "sha": "0010265c1a756d359342e1faa2984ae28ce25f9d",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/0010265c1a756d359342e1faa2984ae28ce25f9d"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/82e0852f3c08287d6c6b941e478e3e28d669564e",
+                "verification": {
+                    "payload": "tree 0010265c1a756d359342e1faa2984ae28ce25f9d\nparent 365a452fb8d887b03cf6543f4d2aa80be5faca76\nauthor sudden6 <sudden6@gmx.at> 1589060039 +0200\ncommitter sudden6 <sudden6@gmx.at> 1589185706 +0200\n\nrefactor: remove Core::getInstance from grouplist\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl65DKoPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5V2UQAIJRJ3RXhwwYrbWhUvEc9WDtuMbnLa3i40oR\npj0nwaRKZzAJ57cwaczbc3kVR3SSBHOYry7CzT+skxtYq4D1s58D6BgQwzna4AVn\np/18mTyk4luWk1aP2ur6Pof6s6TzTharetZnl5EJ5Qzs8X39Dc7j39nShmaYfLx9\nYASIF49xHl6epoFrY4CW/Ujernz6c5iuBctWvFmDgFE8fZO0y4n32GYIA3HL+qA1\nayfndw5zE/X0FKd1ymgoEIcNQ3rXnAHK58XMYscX16qno7fu8M5sXltnFLZQ5R6D\nYKjEM0y46L35PUV3bMVF2AMufvzZSyssALkH7QHj2aq87KmGH3ilvPWqDXosEZOz\netudYbUdf9q0QVJPvcJdKURBJIN6iGlLA/phaHQ/aFPqUO8Jq0x/zGR3OBChCS6V\n7RQ0Ru/J1U6H7mz5USF93O0LLpMNTsS0cLxPvvw3SWb8uBBmAA32xbOq8R4GFjUP\nV/FfyaiGpOl49rrIZftSPgSSsM3PLPEuta5a4DGzp0sy4x5dtSofZ51er0dhMCoF\npjNCVD5ZSHbqcBHNNKXbFlufX6kYuo1LZVogW13CcJtNOLdN9iaXVha8gONGil22\n5cCccolD6TEf3Fg90kA0sp/LYfcjoPJPFp+An5gqU4p6YQzlGXODtKt+C/+oIPFU\ngr3xs/9F\n=XkXe\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/82e0852f3c08287d6c6b941e478e3e28d669564e",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ODJlMDg1MmYzYzA4Mjg3ZDZjNmI5NDFlNDc4ZTNlMjhkNjY5NTY0ZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/365a452fb8d887b03cf6543f4d2aa80be5faca76",
+                    "sha": "365a452fb8d887b03cf6543f4d2aa80be5faca76",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/365a452fb8d887b03cf6543f4d2aa80be5faca76"
+                }
+            ],
+            "sha": "82e0852f3c08287d6c6b941e478e3e28d669564e",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/82e0852f3c08287d6c6b941e478e3e28d669564e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/f3a10815ed1149c3b3351708c74ee66bcc6cb765/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-09T22:26:01Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T08:28:26Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor: remove Core::getInstance from AvatarBroadcaster\n\nDuring this process, make AvatarBroadcaster a non-static class.",
+                "tree": {
+                    "sha": "4b2398acaa1b226a7e2373eb910bcd2bbf3ffc62",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/4b2398acaa1b226a7e2373eb910bcd2bbf3ffc62"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/f3a10815ed1149c3b3351708c74ee66bcc6cb765",
+                "verification": {
+                    "payload": "tree 4b2398acaa1b226a7e2373eb910bcd2bbf3ffc62\nparent 82e0852f3c08287d6c6b941e478e3e28d669564e\nauthor sudden6 <sudden6@gmx.at> 1589063161 +0200\ncommitter sudden6 <sudden6@gmx.at> 1589185706 +0200\n\nrefactor: remove Core::getInstance from AvatarBroadcaster\n\nDuring this process, make AvatarBroadcaster a non-static class.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl65DNcPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5NEEP/0ExhKAOm+EqQvK+kD7+ZspwClQy3W8Myg4p\nLqPmrqK+4hF4m/5d4Q2hfVrV7gFtb2HdXtOb/TrcnYl+aLP5CN3VJDvxw8Qi3kuI\nF7mqarAN7wcPLpg0nu5iuQwneZycPcDuSgUq2SG2n+UQHGZSfilgKlFucJAeTG4z\nkC7qw28EcBmHOnEgbnB8oruLSBYK72neZksuAQ7MR0Sf1kd1HFLrkMQ4bvnn91I9\nx0PNXQYyaNQoJ1wraKiMqg1Pt66sDRlJm/beSAigc4QHni2mXsBh/qAS034Q6OAM\nG5lZju6MkowOvkhAJY9fx4kFSllzm1zcDSrz5dlxuOpMIoQ6nlUxQelhPKhQY75G\nWRIOrmkV2/spfySxSpcNhOe5h7Y7ZcY9jHphb6H/dg+TShScdvDYozYvci8qWKEt\nujwX1C3iUfyhWorOFyaC31ni3u+4evBRkcjlqT0bEFaYrecfX/8toR+ey889L969\ntTT4BoUdfwYR/e/LjWmwzI5+WHsHGF0XQr2l7pXKGCX7qGV7zM3KCrwCD2qjncQ0\nKn1krO8zOkNKkwFlw19zGdesCMYcXSEyFgLuNEssf/svGz9aG15u/bzTwEZaERdA\nAzQ67BDoeT2SFUCgrqS9C3JuA4TZJMEqqhnNpEVIuNagWSUTFev/eBZK36h4m6jq\nXPcJr+UP\n=jHUN\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/f3a10815ed1149c3b3351708c74ee66bcc6cb765",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZjNhMTA4MTVlZDExNDljM2IzMzUxNzA4Yzc0ZWU2NmJjYzZjYjc2NQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/82e0852f3c08287d6c6b941e478e3e28d669564e",
+                    "sha": "82e0852f3c08287d6c6b941e478e3e28d669564e",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/82e0852f3c08287d6c6b941e478e3e28d669564e"
+                }
+            ],
+            "sha": "f3a10815ed1149c3b3351708c74ee66bcc6cb765",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/f3a10815ed1149c3b3351708c74ee66bcc6cb765"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/a90f0762d954fb9800d6cc82770ebf46f5991c5c/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-29T18:06:41Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T14:45:52Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "refactor(cmake): change folder structure\n\nThe new folder structure will be like this:\n\n/<module>/CMakeLists.txt\n/<module>/src/file.cpp\n/<module>/include/<module>/file.h\n/<module>/<subdir>/<...>",
+                "tree": {
+                    "sha": "8371c947f39b8acc9243632dbfe8711a141f13ef",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/8371c947f39b8acc9243632dbfe8711a141f13ef"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+                "verification": {
+                    "payload": "tree 8371c947f39b8acc9243632dbfe8711a141f13ef\nparent f3a10815ed1149c3b3351708c74ee66bcc6cb765\nauthor sudden6 <sudden6@gmx.at> 1588183601 +0200\ncommitter sudden6 <sudden6@gmx.at> 1589208352 +0200\n\nrefactor(cmake): change folder structure\n\nThe new folder structure will be like this:\n\n/<module>/CMakeLists.txt\n/<module>/src/file.cpp\n/<module>/include/<module>/file.h\n/<module>/<subdir>/<...>\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl65ZSAPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5VnUP/1d68q2zuL/nlgeGtm63pqPBityxMdtJ2yvQ\nCwYKHlPvYO71lD11Gq37YoofVkpRRdCA92uEI/ZgN+RYGry4UAvr84WbMeQraBIY\n8RgHN54rbQNQpFn7bp4J7In98r7jfrAFnJiQGuWFxISEB/+TktVRCfonRfYCti8I\n2Rk1eKiciT+jnD0W3m2MjQ4DgYLPONCO9jaVpnMOpGHfib1rH/V2tVWXoSLPICNU\nsLtkeXQhJImyQNH77z4xQIpREXC47NgLwIQqrnaQfHfF4zrvxU/1plZj/L0jCR5p\nNr7QX4mzUi5zmsHli20iiqNkS5nZn03HfLUDMt0L6HSfrQVXrDbUnjUGrfWgEO3k\nF/D14qKPCeg8LninDAc6QSUsSxmJYC7wyQCP3C6/MNR2O6dc/vwXKqnd3GvKIiaT\nLjG2IaXmXSQepY8SLblt8nMF9Pe8mJ5Ga1XH6BqQc53whOv00Y0Qkjm8xrbmR0K+\n1O/PguzlgRAbnhJd3L6DIDd30tZtcvIjsrerJUAwo+R8Kf1aDC77N37iHqYONQvd\njJy/WixT9koEkJ04cg4VDCi3W8hzqh+jEHeHTWROBh85yn5Y6S1SB/owGxhAbXgJ\nVA+YdnXAUIuCew06DKzmPzmf0gfHASdzlkpcaEIPietZsTzl9lw7vP8WVQfgNE+C\nAqAhHfhX\n=IjT1\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6YTkwZjA3NjJkOTU0ZmI5ODAwZDZjYzgyNzcwZWJmNDZmNTk5MWM1Yw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/f3a10815ed1149c3b3351708c74ee66bcc6cb765",
+                    "sha": "f3a10815ed1149c3b3351708c74ee66bcc6cb765",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/f3a10815ed1149c3b3351708c74ee66bcc6cb765"
+                }
+            ],
+            "sha": "a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/a90f0762d954fb9800d6cc82770ebf46f5991c5c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/06428be683f4f1a218fd7c96ee6a113ad97f33be/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-11T22:10:43Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-11T22:10:43Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge remote-tracking branch 'qtox/master'",
+                "tree": {
+                    "sha": "1be46280df3e9e20764ca137bdbc19b8bf11741a",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/1be46280df3e9e20764ca137bdbc19b8bf11741a"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/06428be683f4f1a218fd7c96ee6a113ad97f33be",
+                "verification": {
+                    "payload": "tree 1be46280df3e9e20764ca137bdbc19b8bf11741a\nparent a1495c161f94c9699908b1d34598ec4e74d385a5\nparent a90f0762d954fb9800d6cc82770ebf46f5991c5c\nauthor iphydf <iphydf@users.noreply.github.com> 1589235043 +0100\ncommitter iphydf <iphydf@users.noreply.github.com> 1589235043 +0100\n\nMerge remote-tracking branch 'qtox/master'\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl65zWUACgkQOFXbotdE\nA8lhawf/abg474FLaOEy3NUaayvVvaAmRWIs8rWbMf0uDtaon/g25UKarWbuW+f3\nei54j/whRmuNPnwot+PA0Yx3+lJh6F8G9mmQsVw9f8NNBuxxpkG1gJPEU9MyZyEw\nxl/A8Mf6QNLZkWYbktaW6qnZXALLIaD8mhcZiYi9pDWsGUq9ak9aNaJ6+I6o5tEF\npRDmphocjFBVysVXcB6fHPvgk/9qNbdhQvBypdOfajLOfWOWMpNywQWmsgFWzZrG\nU0EXxc7vcXFjcjW0NlSpGQmPDmLXWoI+Ido+0e/3y210gfwxeYS2OGU6OXki7Ctg\nNQsjn9yEmg0mpWzatii1QKtnYpXfGg==\n=yGGi\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/06428be683f4f1a218fd7c96ee6a113ad97f33be",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6MDY0MjhiZTY4M2Y0ZjFhMjE4ZmQ3Yzk2ZWU2YTExM2FkOTdmMzNiZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/a1495c161f94c9699908b1d34598ec4e74d385a5",
+                    "sha": "a1495c161f94c9699908b1d34598ec4e74d385a5",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/a1495c161f94c9699908b1d34598ec4e74d385a5"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+                    "sha": "a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/a90f0762d954fb9800d6cc82770ebf46f5991c5c"
+                }
+            ],
+            "sha": "06428be683f4f1a218fd7c96ee6a113ad97f33be",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/06428be683f4f1a218fd7c96ee6a113ad97f33be"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/e003edc0fa84bab1c4b28e2d922f6229e7e69dee/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-11T22:51:10Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-12T23:18:24Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "fixes for qtox upstream merge",
+                "tree": {
+                    "sha": "b3b8b0847d63ff4df0200a352033c984e9da6832",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/b3b8b0847d63ff4df0200a352033c984e9da6832"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/e003edc0fa84bab1c4b28e2d922f6229e7e69dee",
+                "verification": {
+                    "payload": "tree b3b8b0847d63ff4df0200a352033c984e9da6832\nparent 06428be683f4f1a218fd7c96ee6a113ad97f33be\nauthor iphydf <iphydf@users.noreply.github.com> 1589237470 +0100\ncommitter iphydf <iphydf@users.noreply.github.com> 1589325504 +0100\n\nfixes for qtox upstream merge\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl67LsEACgkQOFXbotdE\nA8kd2wgAj6grac1X3SJUL/TGjckw347d594VLHJgUvPym3+Ng3y1Nvbrab7fuA3x\nnopCqBCNTfZu+f1ZJkXv+itDhq070iqjB2UDhgoe5yUhwWu3TSh+JrZMO76V6H1Y\n34tsZXik/1J/CZwQumyP4gm/5wBUNBvRlG/c3VXCiNCyhxEDFU7ylDICQdHbU6wW\nfSRmiEPckmFfWOQxUXbC0eF1VrY68N0ordmJyOzhFJzarhbPjEpfhuDJVutQfvCy\n6MPKY1p8FP4gJmoT6rF0rrCgF82ppjwaQqFif5hHqTYxbtpMCorm7CRZ4fF2s57C\nQfBt/sRVs9gPDa0liodecwyayVLeiA==\n=7gHg\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/e003edc0fa84bab1c4b28e2d922f6229e7e69dee",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZTAwM2VkYzBmYTg0YmFiMWM0YjI4ZTJkOTIyZjYyMjllN2U2OWRlZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/06428be683f4f1a218fd7c96ee6a113ad97f33be",
+                    "sha": "06428be683f4f1a218fd7c96ee6a113ad97f33be",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/06428be683f4f1a218fd7c96ee6a113ad97f33be"
+                }
+            ],
+            "sha": "e003edc0fa84bab1c4b28e2d922f6229e7e69dee",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/e003edc0fa84bab1c4b28e2d922f6229e7e69dee"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/8a9c89f23997e05a9674b5e1ac658e463246967e/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-13T07:16:05Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-13T07:16:05Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "Merge pull request #6109\n\niphydf (1):\n      chore(interface): avoid gnu extensions in macros",
+                "tree": {
+                    "sha": "34c81303031634b5a46642000dbaff7454b701e5",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/34c81303031634b5a46642000dbaff7454b701e5"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/8a9c89f23997e05a9674b5e1ac658e463246967e",
+                "verification": {
+                    "payload": "tree 34c81303031634b5a46642000dbaff7454b701e5\nparent a90f0762d954fb9800d6cc82770ebf46f5991c5c\nparent 8c8534f4851451b780e81e22550ba97827d774c3\nauthor Anthony Bilinski <me@abilinski.com> 1589354165 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1589354165 -0700\n\nMerge pull request #6109\n\niphydf (1):\n      chore(interface): avoid gnu extensions in macros\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl67nrUACgkQKqjg2hsx\n+zxHFA/9F4q1jj42315ZzqkL9PzGxt7JzzYxczuNrFRG+PZAsQXVJEyAlVbyCk9r\n2nu+fVU+a3rXBDorCY47rKxRVO5cE2kmJgsS8y6ioPk7bznagcb9VyFBDNMKDswS\nyjcPhfaZ6cymdqX8R95XVl0bpS6SMlTT1j9kgYaWx/PDSrflL4zsJGhK1jYm7HY9\nQN/9r3m16I3HrjqFi4eNp9SSKtpU9/ZB4b1ss+2NcC/v9HH5QQt1Xx8C54EBbZ+R\ndDrdwCx1mCUVSIAljJSjtg0WPBOGkWlzm82Aim3cK4KNuLpJN0oP6rTVizy4ljd8\n3QsmzxfrP+sShOfpIxKHod52VqaAiymjo7cWPeLanExkKE5mZdTLjD2KhPty1SBo\nzgZGRYQSuvWAFOViQEd5L0o8023i1JqUynRhnYIoaKVaILayQcrXcHVSXUGgVJX5\ncnNvs/zmHbjOYVMDo1XXW4u6++32tLkSCBLT3PI57NZyBmsNAbrvlrKdqMjNjDer\nDPIMijTPLtO2D5BQ3AP82QL1ABMC8TnQJPeOUjncUs6VAbVrJrK7COULh2shLDdZ\nhFWWXKZoWaZXZ1L4vh99qjFn5SwV1SBjFePe7AZMlmg5Wm++wgrNDn13NYwlSRMs\nbqN1Eeatc4pzo5FD6gH35yngA3OMeHag/4RYBEY7rJ6rUR11Ot8=\n=46lu\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/8a9c89f23997e05a9674b5e1ac658e463246967e",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6OGE5Yzg5ZjIzOTk3ZTA1YTk2NzRiNWUxYWM2NThlNDYzMjQ2OTY3ZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+                    "sha": "a90f0762d954fb9800d6cc82770ebf46f5991c5c",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/a90f0762d954fb9800d6cc82770ebf46f5991c5c"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/8c8534f4851451b780e81e22550ba97827d774c3",
+                    "sha": "8c8534f4851451b780e81e22550ba97827d774c3",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/8c8534f4851451b780e81e22550ba97827d774c3"
+                }
+            ],
+            "sha": "8a9c89f23997e05a9674b5e1ac658e463246967e",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/8a9c89f23997e05a9674b5e1ac658e463246967e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069811?v=4",
+                "events_url": "https://api.github.com/users/sphaerophoria/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sphaerophoria/followers",
+                "following_url": "https://api.github.com/users/sphaerophoria/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sphaerophoria/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sphaerophoria",
+                "id": 1069811,
+                "login": "sphaerophoria",
+                "node_id": "MDQ6VXNlcjEwNjk4MTE=",
+                "organizations_url": "https://api.github.com/users/sphaerophoria/orgs",
+                "received_events_url": "https://api.github.com/users/sphaerophoria/received_events",
+                "repos_url": "https://api.github.com/users/sphaerophoria/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sphaerophoria/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sphaerophoria/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sphaerophoria",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-16T20:20:02Z",
+                    "email": "mick@sayson.com",
+                    "name": "Mick Sayson"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-16T23:53:14Z",
+                    "email": "mick@sayson.com",
+                    "name": "Mick Sayson"
+                },
+                "message": "fix(preview): Fix exif orientations\n\nPrevious exif transformations were not valid. The exif spec defines the\norientations as where the 0th row and the 0th column should end. The\nprevious mappings used in qTox did not respect these mappings and needed\nto be updated.",
+                "tree": {
+                    "sha": "f7789ab5fa3ed83813ed290d1bea3b5990ef0b62",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/f7789ab5fa3ed83813ed290d1bea3b5990ef0b62"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1069811?v=4",
+                "events_url": "https://api.github.com/users/sphaerophoria/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sphaerophoria/followers",
+                "following_url": "https://api.github.com/users/sphaerophoria/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sphaerophoria/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sphaerophoria",
+                "id": 1069811,
+                "login": "sphaerophoria",
+                "node_id": "MDQ6VXNlcjEwNjk4MTE=",
+                "organizations_url": "https://api.github.com/users/sphaerophoria/orgs",
+                "received_events_url": "https://api.github.com/users/sphaerophoria/received_events",
+                "repos_url": "https://api.github.com/users/sphaerophoria/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sphaerophoria/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sphaerophoria/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sphaerophoria",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6OTljMTc1M2E3NjI2MGFmY2Q4Y2Y0YjVlM2U3NWJhNWIxYjNiMzkwOQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/8a9c89f23997e05a9674b5e1ac658e463246967e",
+                    "sha": "8a9c89f23997e05a9674b5e1ac658e463246967e",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/8a9c89f23997e05a9674b5e1ac658e463246967e"
+                }
+            ],
+            "sha": "99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/14571abaa30c80f8ebaae33c22c9f500cad7242a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-17T00:46:28Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-17T00:46:28Z",
+                    "email": "me@abilinski.com",
+                    "name": "Anthony Bilinski"
+                },
+                "message": "Merge pull request #6143\n\nMick Sayson (1):\n      fix(preview): Fix exif orientations",
+                "tree": {
+                    "sha": "f7789ab5fa3ed83813ed290d1bea3b5990ef0b62",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/f7789ab5fa3ed83813ed290d1bea3b5990ef0b62"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/14571abaa30c80f8ebaae33c22c9f500cad7242a",
+                "verification": {
+                    "payload": "tree f7789ab5fa3ed83813ed290d1bea3b5990ef0b62\nparent 8a9c89f23997e05a9674b5e1ac658e463246967e\nparent 99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909\nauthor Anthony Bilinski <me@abilinski.com> 1589676388 -0700\ncommitter Anthony Bilinski <me@abilinski.com> 1589676388 -0700\n\nMerge pull request #6143\n\nMick Sayson (1):\n      fix(preview): Fix exif orientations\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEdK23p/jswQCZFsTkKqjg2hsx+zwFAl7AiWQACgkQKqjg2hsx\n+zyD+A//YqdUGIOg5/fv6m0QCR9BnOMvpxKzZfl8QNAZefrXQOFW+5Z1wrKA9p+e\nu+ogwMCjk5ffaCbFjnKsUTH8nW+QvdtOeQJSNxqpUax+VWhD4Pra5WxE752HRhTR\nCx4PhbkOfpZa8gaBq4BOp4+/KfPBAdliDkGg+PCp5AoYrGEygZkgMzpZkjAH3JpL\nQoVBlc9hWPYLfFjL0IrzTMs3O4LkdOkACqvhSWEX0YiRTCW5Kbbhd/DiJu48u0a/\nxAzJvLNOa8xgPkqcprZJ3307LaLJz/oImkLPswLi3tAoqQlWapZLFDSRMhce5G+l\n2yu8wxVnWtTsAAMkbfQA8WFzXVmNjql3ElsYRgI0Na+xZuqEd7Ms3sciNR2Yy0eC\n4DyD1zbTR8lcMb026hL1/RJDWLKdXryoDdDHL5yx6m3sgw/TF2gomrvyRACn1h98\nFVvkE75HeiCb5J3DCKTznuGI8H4r0z6WibaqrkbnV779/NOgDVItthQuYJikewU9\n/Zegx2f6EohaTgNhc80j8hbsrnv17r9FZOQINjgNDNPwJptUOTv5ZcZJya1hjJEF\nR4MIA64qMZRghou2mq9s3CDl/yykxMYYzsjTvrRp/wdFQxNvYl9vYg5uanNoFHyA\n7wl5RzSh9Zjdbq2QtLWtwPOzDxCMTbJaWmLvXZO3Rvwl2mu5BCQ=\n=+dYz\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10469203?v=4",
+                "events_url": "https://api.github.com/users/anthonybilinski/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anthonybilinski/followers",
+                "following_url": "https://api.github.com/users/anthonybilinski/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anthonybilinski/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anthonybilinski",
+                "id": 10469203,
+                "login": "anthonybilinski",
+                "node_id": "MDQ6VXNlcjEwNDY5MjAz",
+                "organizations_url": "https://api.github.com/users/anthonybilinski/orgs",
+                "received_events_url": "https://api.github.com/users/anthonybilinski/received_events",
+                "repos_url": "https://api.github.com/users/anthonybilinski/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anthonybilinski/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anthonybilinski/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anthonybilinski",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/14571abaa30c80f8ebaae33c22c9f500cad7242a",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6MTQ1NzFhYmFhMzBjODBmOGViYWFlMzNjMjJjOWY1MDBjYWQ3MjQyYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/8a9c89f23997e05a9674b5e1ac658e463246967e",
+                    "sha": "8a9c89f23997e05a9674b5e1ac658e463246967e",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/8a9c89f23997e05a9674b5e1ac658e463246967e"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909",
+                    "sha": "99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/99c1753a76260afcd8cf4b5e3e75ba5b1b3b3909"
+                }
+            ],
+            "sha": "14571abaa30c80f8ebaae33c22c9f500cad7242a",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/14571abaa30c80f8ebaae33c22c9f500cad7242a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/292191?v=4",
+                "events_url": "https://api.github.com/users/Talkless/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Talkless/followers",
+                "following_url": "https://api.github.com/users/Talkless/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Talkless/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Talkless",
+                "id": 292191,
+                "login": "Talkless",
+                "node_id": "MDQ6VXNlcjI5MjE5MQ==",
+                "organizations_url": "https://api.github.com/users/Talkless/orgs",
+                "received_events_url": "https://api.github.com/users/Talkless/received_events",
+                "repos_url": "https://api.github.com/users/Talkless/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Talkless/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Talkless/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Talkless",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/2ebf51b5b77184efefe3d02469748d67427c8d63/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-08T13:55:05Z",
+                    "email": "vindrg@gmail.com",
+                    "name": "Vincas Dargis"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-19T06:14:37Z",
+                    "email": "vindrg@gmail.com",
+                    "name": "Vincas Dargis"
+                },
+                "message": "fix(apparmor): Allow spellchecking\n\nqTox 1.17.2 produces these DENIED messages on Debian Sid:\n\n```\ntype=AVC msg=audit(1588944857.534:854): apparmor=\"DENIED\"\noperation=\"open\" profile=\"qtox\"\nname=\"/usr/share/hspell/hebrew.wgz.sizes\" pid=29172 comm=\"qtox\"\nrequested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=0\n```\n\n```\ntype=AVC msg=audit(1588945073.014:885): apparmor=\"DENIED\"\noperation=\"open\" profile=\"qtox\"\nname=\"/usr/share/kf5/sonnet/trigrams.map\" pid=29334 comm=\"qtox\" req\nuested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=0\n```\n\n```\ntype=AVC msg=audit(1588945273.590:905): apparmor=\"DENIED\"\noperation=\"open\" profile=\"qtox\" name=\"/var/lib/aspell/sl.rws\" pid=29391\ncomm=\"qtox\" requested_mask=\n\"r\" denied_mask=\"r\" fsuid=1000 ouid=0\n```\n\nAdd file read rules to allow reading spellcheck-related files.",
+                "tree": {
+                    "sha": "84cc23dcf3efe80ea673f30d57fdba43029040f0",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/84cc23dcf3efe80ea673f30d57fdba43029040f0"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/2ebf51b5b77184efefe3d02469748d67427c8d63",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/292191?v=4",
+                "events_url": "https://api.github.com/users/Talkless/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Talkless/followers",
+                "following_url": "https://api.github.com/users/Talkless/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Talkless/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Talkless",
+                "id": 292191,
+                "login": "Talkless",
+                "node_id": "MDQ6VXNlcjI5MjE5MQ==",
+                "organizations_url": "https://api.github.com/users/Talkless/orgs",
+                "received_events_url": "https://api.github.com/users/Talkless/received_events",
+                "repos_url": "https://api.github.com/users/Talkless/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Talkless/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Talkless/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Talkless",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/2ebf51b5b77184efefe3d02469748d67427c8d63",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6MmViZjUxYjViNzcxODRlZmVmZTNkMDI0Njk3NDhkNjc0MjdjOGQ2Mw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/062ba03fb8d18e059107b738f130347708868e6b",
+                    "sha": "062ba03fb8d18e059107b738f130347708868e6b",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/062ba03fb8d18e059107b738f130347708868e6b"
+                }
+            ],
+            "sha": "2ebf51b5b77184efefe3d02469748d67427c8d63",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/2ebf51b5b77184efefe3d02469748d67427c8d63"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/efaa14d11e7676b52348e33687ed0849eb5a7c3e/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-19T10:35:56Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-19T10:35:56Z",
+                    "email": "sudden6@gmx.at",
+                    "name": "sudden6"
+                },
+                "message": "Merge pull request #6136\n\nVincas Dargis (1):\n      fix(apparmor): Allow spellchecking",
+                "tree": {
+                    "sha": "55209a4822642682469884ca18a6579de4a0487f",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/55209a4822642682469884ca18a6579de4a0487f"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/efaa14d11e7676b52348e33687ed0849eb5a7c3e",
+                "verification": {
+                    "payload": "tree 55209a4822642682469884ca18a6579de4a0487f\nparent 14571abaa30c80f8ebaae33c22c9f500cad7242a\nparent 2ebf51b5b77184efefe3d02469748d67427c8d63\nauthor sudden6 <sudden6@gmx.at> 1589884556 +0200\ncommitter sudden6 <sudden6@gmx.at> 1589884556 +0200\n\nMerge pull request #6136\n\nVincas Dargis (1):\n      fix(apparmor): Allow spellchecking\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJDBAABCAAtFiEEF/zUlJZbckZ38tE+J5UJtJngMrkFAl7DtowPHHN1ZGRlbjZA\nZ214LmF0AAoJECeVCbSZ4DK5bNEP/iSu8Ksnh0XbDdMpb9btrag3YbzvaUGwi7IX\nStoxRdDmBLfah/C4AUGWIR8mr0tZ7DcfuBvzSgUbUHPerbESAZ0loucsbttheAu5\nDbEqydKjpYmVtVIpZ5FTRsi5mDAhv8pf8dGXH3l+GHLggVaXn7Un7Y+PzQW6jUe2\nFsWJnaX/6gAdXxPlMf/7UhFmXkMDHHCbiGkLanVOVsRI5wDmv9EAGx+VjQwVt4Mn\nwh7CkibwyFoQhnbhmNc3H3QmonRrFIuHgYO/hh7acNzEaKABh7pESYcjqdg8GHQ7\nUtj8EibwO6ZCcRKa7roblHbsmHwIBjgEWrjAGwQrCbsnUfS0tdtdPevMOxS5/2Dw\nDHcTT1bG7X+2eucBkPYGpRv5RAEZQfwCfmS1/8j/W9Szq5bTVIKPInIEud0HyPnn\nq3UKQa5RRpSk2ZMsXg+BJEvAh33WatvpYQtDms9TWGhlDWNTlaVb0jjtAUOjJtaI\nL27mN0t2C6kJHuV7E5GCz0pnzY1P5Jd3uCtOfHPf4sbIp2lg++o80USRA11pNltT\nrCdTkiToSiN5j+sIb4ZZrUBkiWvH3CQPLD6UO0FTz6KJ+hnWJGZYSUXQeaQkc45s\n1iGE3OxiiEuXeMb52mUJEyq7LaGf+46i5ZEagnrfrQ6YP+wXcuGSSVHWpg3nubA3\nlPBaFse+\n=8vOV\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",
+                "events_url": "https://api.github.com/users/sudden6/events{/privacy}",
+                "followers_url": "https://api.github.com/users/sudden6/followers",
+                "following_url": "https://api.github.com/users/sudden6/following{/other_user}",
+                "gists_url": "https://api.github.com/users/sudden6/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/sudden6",
+                "id": 5585762,
+                "login": "sudden6",
+                "node_id": "MDQ6VXNlcjU1ODU3NjI=",
+                "organizations_url": "https://api.github.com/users/sudden6/orgs",
+                "received_events_url": "https://api.github.com/users/sudden6/received_events",
+                "repos_url": "https://api.github.com/users/sudden6/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/sudden6/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/sudden6/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/sudden6",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/efaa14d11e7676b52348e33687ed0849eb5a7c3e",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6ZWZhYTE0ZDExZTc2NzZiNTIzNDhlMzM2ODdlZDA4NDllYjVhN2MzZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/14571abaa30c80f8ebaae33c22c9f500cad7242a",
+                    "sha": "14571abaa30c80f8ebaae33c22c9f500cad7242a",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/14571abaa30c80f8ebaae33c22c9f500cad7242a"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/2ebf51b5b77184efefe3d02469748d67427c8d63",
+                    "sha": "2ebf51b5b77184efefe3d02469748d67427c8d63",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/2ebf51b5b77184efefe3d02469748d67427c8d63"
+                }
+            ],
+            "sha": "efaa14d11e7676b52348e33687ed0849eb5a7c3e",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/efaa14d11e7676b52348e33687ed0849eb5a7c3e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/984f691d446abf180f0cc1611a4aa60fe7b3de08/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-20T10:29:13Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-05-20T10:29:13Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge remote-tracking branch 'qtox/master' into qtox-merge",
+                "tree": {
+                    "sha": "591e62fc43986bbac70df35a295d159b42aa8ee5",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/591e62fc43986bbac70df35a295d159b42aa8ee5"
+                },
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/984f691d446abf180f0cc1611a4aa60fe7b3de08",
+                "verification": {
+                    "payload": "tree 591e62fc43986bbac70df35a295d159b42aa8ee5\nparent e003edc0fa84bab1c4b28e2d922f6229e7e69dee\nparent efaa14d11e7676b52348e33687ed0849eb5a7c3e\nauthor iphydf <iphydf@users.noreply.github.com> 1589970553 +0100\ncommitter iphydf <iphydf@users.noreply.github.com> 1589970553 +0100\n\nMerge remote-tracking branch 'qtox/master' into qtox-merge\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl7FBnsACgkQOFXbotdE\nA8lTOwf+LtbCD+VjKlLwN/4TA0t4XL/ryTwpGix6rhsJu+UuM+RvGqA4prpHLpfp\nsAL2NAbdM3lxPzq93VsggoWoIDmYaJ/7N2QPkT5GzZioabPn1GtedUk3i3KNUT/S\n/oxg/J46E6xIupSle1wgoLga6iq6XIa9+elmX9PIaIa93ZIvJRhAOU08GzpesRUo\nB0OIVnZSWyGVO2bs0UTFWg4Y/7AaAcPz0VcnLZgdh2tbgt1qx85DJaBNMMeV0071\nsPehbwzzU2p7BL7UxCRjz15ehcqLZg7yBcbqEKNv14yAH4+q+Q99Um48yffw/rVn\nfCxYPn55lzOQH2oWBm4hOqsROtKB0Q==\n=dBEh\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T20:12:21Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/qTox/commit/984f691d446abf180f0cc1611a4aa60fe7b3de08",
+            "node_id": "MDY6Q29tbWl0NzMzMTkyNzQ6OTg0ZjY5MWQ0NDZhYmYxODBmMGNjMTYxMWE0YWE2MGZlN2IzZGUwOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/e003edc0fa84bab1c4b28e2d922f6229e7e69dee",
+                    "sha": "e003edc0fa84bab1c4b28e2d922f6229e7e69dee",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/e003edc0fa84bab1c4b28e2d922f6229e7e69dee"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/qTox/commit/efaa14d11e7676b52348e33687ed0849eb5a7c3e",
+                    "sha": "efaa14d11e7676b52348e33687ed0849eb5a7c3e",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/efaa14d11e7676b52348e33687ed0849eb5a7c3e"
+                }
+            ],
+            "sha": "984f691d446abf180f0cc1611a4aa60fe7b3de08",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/984f691d446abf180f0cc1611a4aa60fe7b3de08"
+        }
+    ],
+    "commits": 26,
+    "commits_url": "https://api.github.com/repos/TokTok/qTox/pulls/30/commits",
+    "created_at": "2020-05-11T22:53:09Z",
+    "deletions": 1360,
+    "diff_url": "https://github.com/TokTok/qTox/pull/30.diff",
+    "draft": false,
+    "head": {
+        "label": "iphydf:qtox-merge",
+        "ref": "qtox-merge",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/iphydf/qTox/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/iphydf/qTox/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/iphydf/qTox/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/iphydf/qTox/branches{/branch}",
+            "clone_url": "https://github.com/iphydf/qTox.git",
+            "collaborators_url": "https://api.github.com/repos/iphydf/qTox/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/iphydf/qTox/comments{/number}",
+            "commits_url": "https://api.github.com/repos/iphydf/qTox/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/iphydf/qTox/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/iphydf/qTox/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/iphydf/qTox/contributors",
+            "created_at": "2016-11-09T20:35:56Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/iphydf/qTox/deployments",
+            "description": "Powerful Tox chat client that follows the Tox design guidelines.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/iphydf/qTox/downloads",
+            "events_url": "https://api.github.com/repos/iphydf/qTox/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/iphydf/qTox/forks",
+            "full_name": "iphydf/qTox",
+            "git_commits_url": "https://api.github.com/repos/iphydf/qTox/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/iphydf/qTox/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/iphydf/qTox/git/tags{/sha}",
+            "git_url": "git://github.com/iphydf/qTox.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://qtox.github.io/",
+            "hooks_url": "https://api.github.com/repos/iphydf/qTox/hooks",
+            "html_url": "https://github.com/iphydf/qTox",
+            "id": 73319274,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/iphydf/qTox/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/iphydf/qTox/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/iphydf/qTox/issues{/number}",
+            "keys_url": "https://api.github.com/repos/iphydf/qTox/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/iphydf/qTox/labels{/name}",
+            "language": "C++",
+            "languages_url": "https://api.github.com/repos/iphydf/qTox/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/iphydf/qTox/merges",
+            "milestones_url": "https://api.github.com/repos/iphydf/qTox/milestones{/number}",
+            "mirror_url": null,
+            "name": "qTox",
+            "node_id": "MDEwOlJlcG9zaXRvcnk3MzMxOTI3NA==",
+            "notifications_url": "https://api.github.com/repos/iphydf/qTox/notifications{?since,all,participating}",
+            "open_issues": 3,
+            "open_issues_count": 3,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
+            "pushed_at": "2025-01-24T23:11:04Z",
+            "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
+            "size": 55405,
+            "ssh_url": "git@github.com:iphydf/qTox.git",
+            "stargazers_count": 2,
+            "stargazers_url": "https://api.github.com/repos/iphydf/qTox/stargazers",
+            "statuses_url": "https://api.github.com/repos/iphydf/qTox/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/iphydf/qTox/subscribers",
+            "subscription_url": "https://api.github.com/repos/iphydf/qTox/subscription",
+            "svn_url": "https://github.com/iphydf/qTox",
+            "tags_url": "https://api.github.com/repos/iphydf/qTox/tags",
+            "teams_url": "https://api.github.com/repos/iphydf/qTox/teams",
+            "topics": [
+                "chat",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/iphydf/qTox/git/trees{/sha}",
+            "updated_at": "2025-01-24T23:09:22Z",
+            "url": "https://api.github.com/repos/iphydf/qTox",
+            "visibility": "public",
+            "watchers": 2,
+            "watchers_count": 2,
+            "web_commit_signoff_required": false
+        },
+        "sha": "984f691d446abf180f0cc1611a4aa60fe7b3de08",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/qTox/pull/30",
+    "id": 416389797,
+    "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/30",
+    "labels": [
+        {
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Updating grunt tasks etc; no production code change",
+            "id": 2045790076,
+            "name": "chore",
+            "node_id": "MDU6TGFiZWwyMDQ1NzkwMDc2",
+            "url": "https://api.github.com/repos/TokTok/qTox/labels/chore"
+        }
+    ],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "5264c2ea54775f5ccb095d6369ce26c4c55a7911",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": {
+        "closed_at": "2025-01-01T18:54:11Z",
+        "closed_issues": 267,
+        "created_at": "2020-05-04T00:19:45Z",
+        "creator": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        },
+        "description": "",
+        "due_on": null,
+        "html_url": "https://github.com/TokTok/qTox/milestone/1",
+        "id": 5377672,
+        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/1/labels",
+        "node_id": "MDk6TWlsZXN0b25lNTM3NzY3Mg==",
+        "number": 1,
+        "open_issues": 0,
+        "state": "closed",
+        "title": "v1.18.0",
+        "updated_at": "2025-01-16T08:13:58Z",
+        "url": "https://api.github.com/repos/TokTok/qTox/milestones/1"
+    },
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NDE2Mzg5Nzk3",
+    "number": 30,
+    "patch_url": "https://github.com/TokTok/qTox/pull/30.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/30/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/984f691d446abf180f0cc1611a4aa60fe7b3de08",
+    "title": "chore: Merge remote-tracking branch 'qtox/master'",
+    "updated_at": "2022-02-03T20:27:19Z",
+    "url": "https://api.github.com/repos/TokTok/qTox/pulls/30",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    }
+}

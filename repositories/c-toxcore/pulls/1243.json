@@ -1,0 +1,2442 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/c-toxcore/pull/1243"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/20c404bb508447c41e592d2ab78c1fe7e083a828"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 85,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/c-toxcore/contributors",
+            "created_at": "2016-07-06T08:15:22Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
+            "fork": true,
+            "forks": 292,
+            "forks_count": 292,
+            "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
+            "full_name": "TokTok/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://tox.chat",
+            "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
+            "html_url": "https://github.com/TokTok/c-toxcore",
+            "id": 62703642,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
+            "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 210,
+            "open_issues_count": 210,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-24T18:18:40Z",
+            "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
+            "size": 25245,
+            "ssh_url": "git@github.com:TokTok/c-toxcore.git",
+            "stargazers_count": 2329,
+            "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/c-toxcore/subscription",
+            "svn_url": "https://github.com/TokTok/c-toxcore",
+            "tags_url": "https://api.github.com/repos/TokTok/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/c-toxcore/teams",
+            "topics": [
+                "cryptography",
+                "encryption",
+                "network",
+                "p2p",
+                "security",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-24T22:05:30Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore",
+            "visibility": "public",
+            "watchers": 2329,
+            "watchers_count": 2329,
+            "web_commit_signoff_required": false
+        },
+        "sha": "87bcc4322d50d2ae7714e734b6468ef43dd818a7",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "This PR introduces a capabilities packet, which clients can use to determine the feature set of remote hosts.\r\n\r\n(Opened after Zoff99 closed his pull request).\n\n<!-- Reviewable:start -->\n---\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/c-toxcore/1243)\n<!-- Reviewable:end -->\n",
+    "changed_files": 3,
+    "closed_at": null,
+    "comment_data": [],
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "# [Codecov](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=h1) Report\n> Merging [#1243](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=desc) into [master](https://codecov.io/gh/TokTok/c-toxcore/commit/d26b11d0c263bd796762374154edc7386dd601d4?src=pr&el=desc) will **decrease** coverage by `1.6%`.\n> The diff coverage is `80%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/graphs/tree.svg?width=650&token=BRfCKo02De&height=150&src=pr)](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=tree)\n\n```diff\n@@           Coverage Diff            @@\n##           master   #1243     +/-   ##\n========================================\n- Coverage    84.5%   82.8%   -1.7%     \n========================================\n  Files          86      82      -4     \n  Lines       15705   14696   -1009     \n========================================\n- Hits        13273   12179   -1094     \n- Misses       2432    2517     +85\n```\n\n\n| [Impacted Files](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [toxcore/Messenger.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9NZXNzZW5nZXIuYw==) | `86.6% <80%> (-0.5%)` | :arrow_down: |\n| [toxcore/state.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9zdGF0ZS5j) | `56.4% <0%> (-17.6%)` | :arrow_down: |\n| [toxcore/group.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9ncm91cC5j) | `76.2% <0%> (-15.7%)` | :arrow_down: |\n| [toxcore/crypto\\_core\\_test.cc](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9jcnlwdG9fY29yZV90ZXN0LmNj) | `90.3% <0%> (-9.7%)` | :arrow_down: |\n| [toxav/msi.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94YXYvbXNpLmM=) | `63.9% <0%> (-4.5%)` | :arrow_down: |\n| [auto\\_tests/toxav\\_basic\\_test.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-YXV0b190ZXN0cy90b3hhdl9iYXNpY190ZXN0LmM=) | `81.6% <0%> (-3.9%)` | :arrow_down: |\n| [toxcore/ping\\_array.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9waW5nX2FycmF5LmM=) | `91.9% <0%> (-3.3%)` | :arrow_down: |\n| [toxcore/friend\\_connection.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9mcmllbmRfY29ubmVjdGlvbi5j) | `93.4% <0%> (-2.6%)` | :arrow_down: |\n| [toxav/toxav.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94YXYvdG94YXYuYw==) | `67.3% <0%> (-2.6%)` | :arrow_down: |\n| [toxcore/TCP\\_server.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree#diff-dG94Y29yZS9UQ1Bfc2VydmVyLmM=) | `80.3% <0%> (-2.4%)` | :arrow_down: |\n| ... and [58 more](https://codecov.io/gh/TokTok/c-toxcore/pull/1243/diff?src=pr&el=tree-more) | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=footer). Last update [d26b11d...20c404b](https://codecov.io/gh/TokTok/c-toxcore/pull/1243?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n",
+            "created_at": "2018-11-04T17:27:34Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-435688819",
+            "id": 435688819,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTY4ODgxOQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/435688819/reactions"
+            },
+            "updated_at": "2019-05-03T21:20:54Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/435688819",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+                "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/codecov",
+                "id": 22429695,
+                "login": "codecov[bot]",
+                "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+                "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/codecov%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "@zugz wrote:\r\n```\r\nWhat is the purpose of the TOX_CAPABILITY_BASIC flag?\r\nWhat does it mean if it is set to false? I don't think we should\r\nactually reserve flags for anything yet where we can't specify\r\nexactly what it will mean, as is the case at least for the PGC flag.\r\nSeparately: perhaps it would make sense to reserve the first bit for\r\nfuture expansion - if it's set, it means \"ignore this bitmap, and look\r\ninstead at the successor method of specifying capabilities\"\r\n(whatever that turns out to be).\r\n```\r\n\r\n",
+            "created_at": "2019-05-03T21:15:03Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489242154",
+            "id": 489242154,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTI0MjE1NA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489242154/reactions"
+            },
+            "updated_at": "2019-05-03T21:15:03Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489242154",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "@zugz \r\nit's a define, not a flag:\r\n\r\nthis means no special capabilities, in other words clients that are older\r\nand did not implement this feature yet\r\n\r\n#define TOX_CAPABILITY_BASIC 0",
+            "created_at": "2019-05-03T21:16:03Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489242370",
+            "id": 489242370,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTI0MjM3MA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489242370/reactions"
+            },
+            "updated_at": "2019-05-03T21:16:03Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489242370",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "perhaps it would make sense to reserve the first bit for\r\nfuture expansion\r\n-->\r\nthat is: TOX_CAPABILITY_NEXT_IMPLEMENTATION",
+            "created_at": "2019-05-03T21:18:37Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489243003",
+            "id": 489243003,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTI0MzAwMw==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489243003/reactions"
+            },
+            "updated_at": "2019-05-03T21:18:37Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489243003",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "* Friday, 2019-05-03 at 14:16 -0700 - Zoff <notifications@github.com>:\n\n>@zugz\n>it's a define, not a flag:\n\nSorry, it looks like I meant `TOX_CAPABILITY_CAPABILITIES`. What would \nit mean if a client sent us a capabilities packet with this flag unset?\n\nWhat could make sense is to use this bit rather than the highest bit to \ndeal with future expansion. So this lowest bit being set would mean \n\"interpret this uint64_t as describing my capabilities\", while leaving \nit unset would indicate that another (as yet undetermined) system for \ndescribing capabilities is being used instead.\n\nBut generally, I don't think we should add these capabilities packets \nwhile we have no use for them. As it is, it would be complicating the \nprotocol for no benefit. It's good to have a protocal and implementation \nup our sleeve in case we find we want to use it one day, and forks can \nuse it if they want to, but I don't see why we would want to merge it \nnow.\n\n\nAbout the code:\n\n* Need to check length of data when handling PACKET_ID_CAPABILITIES.\n\n* Now we process packets from a non-online peer rather than returning -1 \nas before. Presumably this was an accident?\n\n* Why are we no longer sending an online packet in response to an online \npacket? Are you sure that wasn't there for a reason?\n",
+            "created_at": "2019-05-04T08:01:30Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489305132",
+            "id": 489305132,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTMwNTEzMg==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489305132/reactions"
+            },
+            "updated_at": "2019-05-04T08:01:30Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/489305132",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/590069?v=4",
+                "events_url": "https://api.github.com/users/zugz/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zugz/followers",
+                "following_url": "https://api.github.com/users/zugz/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zugz/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zugz",
+                "id": 590069,
+                "login": "zugz",
+                "node_id": "MDQ6VXNlcjU5MDA2OQ==",
+                "organizations_url": "https://api.github.com/users/zugz/orgs",
+                "received_events_url": "https://api.github.com/users/zugz/received_events",
+                "repos_url": "https://api.github.com/users/zugz/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zugz/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zugz/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zugz",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 5,
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/59d01f7bffbefd7dde1acbe6839055279e03aa91/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-27T12:08:21Z",
+                    "email": "zoff@zoff.cc",
+                    "name": "zoff99"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "add toxcore capabilities",
+                "tree": {
+                    "sha": "f4ce58bec9e769ba9fa5078f221957297a548430",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/f4ce58bec9e769ba9fa5078f221957297a548430"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/59d01f7bffbefd7dde1acbe6839055279e03aa91",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/59d01f7bffbefd7dde1acbe6839055279e03aa91",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjU5ZDAxZjdiZmZiZWZkN2RkZTFhY2JlNjgzOTA1NTI3OWUwM2FhOTE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/9770880e975a09635a461c46c8fcc193bce57004",
+                    "sha": "9770880e975a09635a461c46c8fcc193bce57004",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9770880e975a09635a461c46c8fcc193bce57004"
+                }
+            ],
+            "sha": "59d01f7bffbefd7dde1acbe6839055279e03aa91",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/59d01f7bffbefd7dde1acbe6839055279e03aa91"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c45c0c709e74c674d3bf18f1c38d2b89c8f9e062/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-27T12:22:26Z",
+                    "email": "zoff@zoff.cc",
+                    "name": "zoff99"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "fix pointer",
+                "tree": {
+                    "sha": "b0556a129cc2fe00f3319c4ee504b0e8de488fa0",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/b0556a129cc2fe00f3319c4ee504b0e8de488fa0"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/c45c0c709e74c674d3bf18f1c38d2b89c8f9e062",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/c45c0c709e74c674d3bf18f1c38d2b89c8f9e062",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmM0NWMwYzcwOWU3NGM2NzRkM2JmMThmMWMzOGQyYjg5YzhmOWUwNjI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/59d01f7bffbefd7dde1acbe6839055279e03aa91",
+                    "sha": "59d01f7bffbefd7dde1acbe6839055279e03aa91",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/59d01f7bffbefd7dde1acbe6839055279e03aa91"
+                }
+            ],
+            "sha": "c45c0c709e74c674d3bf18f1c38d2b89c8f9e062",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c45c0c709e74c674d3bf18f1c38d2b89c8f9e062"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-27T12:28:01Z",
+                    "email": "zoff@zoff.cc",
+                    "name": "zoff99"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "appease codacy",
+                "tree": {
+                    "sha": "a5ef79d86311530ba068d6bd8fc1bc074e159802",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/a5ef79d86311530ba068d6bd8fc1bc074e159802"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjJlYzdhYzE4ZjRlMDNiMDQ5ZWEzYzNhMjZlYTEzZDE2ZGRjNjA0OGM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/c45c0c709e74c674d3bf18f1c38d2b89c8f9e062",
+                    "sha": "c45c0c709e74c674d3bf18f1c38d2b89c8f9e062",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c45c0c709e74c674d3bf18f1c38d2b89c8f9e062"
+                }
+            ],
+            "sha": "2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d75dcc01ad64c068ba7682ade81941508d440254/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-28T07:54:49Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "remove empty line",
+                "tree": {
+                    "sha": "77eeda2dbc17935bac270e477fb3fc9c3c2b78b2",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/77eeda2dbc17935bac270e477fb3fc9c3c2b78b2"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/d75dcc01ad64c068ba7682ade81941508d440254",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/d75dcc01ad64c068ba7682ade81941508d440254",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmQ3NWRjYzAxYWQ2NGMwNjhiYTc2ODJhZGU4MTk0MTUwOGQ0NDAyNTQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c",
+                    "sha": "2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2ec7ac18f4e03b049ea3c3a26ea13d16ddc6048c"
+                }
+            ],
+            "sha": "d75dcc01ad64c068ba7682ade81941508d440254",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d75dcc01ad64c068ba7682ade81941508d440254"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f918d1443f1153630d59b1795db64d99b976719d/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-28T07:55:32Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "remove unneded condition",
+                "tree": {
+                    "sha": "94e8ce24bf4df6911eed2a7c5e6fe7c5890eecbe",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/94e8ce24bf4df6911eed2a7c5e6fe7c5890eecbe"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/f918d1443f1153630d59b1795db64d99b976719d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/f918d1443f1153630d59b1795db64d99b976719d",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmY5MThkMTQ0M2YxMTUzNjMwZDU5YjE3OTVkYjY0ZDk5Yjk3NjcxOWQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/d75dcc01ad64c068ba7682ade81941508d440254",
+                    "sha": "d75dcc01ad64c068ba7682ade81941508d440254",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d75dcc01ad64c068ba7682ade81941508d440254"
+                }
+            ],
+            "sha": "f918d1443f1153630d59b1795db64d99b976719d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f918d1443f1153630d59b1795db64d99b976719d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/11eeb24bf2328854e285e62cce4503faf658e48d/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-29T17:28:57Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "removed initialisation",
+                "tree": {
+                    "sha": "5d8df076496b9409438d826bc5fe0807627f9ac8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5d8df076496b9409438d826bc5fe0807627f9ac8"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/11eeb24bf2328854e285e62cce4503faf658e48d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/11eeb24bf2328854e285e62cce4503faf658e48d",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjExZWViMjRiZjIzMjg4NTRlMjg1ZTYyY2NlNDUwM2ZhZjY1OGU0OGQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f918d1443f1153630d59b1795db64d99b976719d",
+                    "sha": "f918d1443f1153630d59b1795db64d99b976719d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f918d1443f1153630d59b1795db64d99b976719d"
+                }
+            ],
+            "sha": "11eeb24bf2328854e285e62cce4503faf658e48d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/11eeb24bf2328854e285e62cce4503faf658e48d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/de0015b97eed3d6c5cd20d60257cfe2438044b1c/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-29T17:36:38Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "return toxcore_capabilities even for offline friends",
+                "tree": {
+                    "sha": "b1d73c0fc8d42b3fb2689c226157f8641f492a05",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/b1d73c0fc8d42b3fb2689c226157f8641f492a05"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/de0015b97eed3d6c5cd20d60257cfe2438044b1c",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/de0015b97eed3d6c5cd20d60257cfe2438044b1c",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmRlMDAxNWI5N2VlZDNkNmM1Y2QyMGQ2MDI1N2NmZTI0MzgwNDRiMWM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/11eeb24bf2328854e285e62cce4503faf658e48d",
+                    "sha": "11eeb24bf2328854e285e62cce4503faf658e48d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/11eeb24bf2328854e285e62cce4503faf658e48d"
+                }
+            ],
+            "sha": "de0015b97eed3d6c5cd20d60257cfe2438044b1c",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/de0015b97eed3d6c5cd20d60257cfe2438044b1c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/31e32a0abf68e6a763c79f83bde50a2917c680e8/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-30T11:28:29Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "fix ToxCapabilitiesFlags definition",
+                "tree": {
+                    "sha": "bb49338b3c3a516d22e147cb400e62af4400e447",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/bb49338b3c3a516d22e147cb400e62af4400e447"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/31e32a0abf68e6a763c79f83bde50a2917c680e8",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/31e32a0abf68e6a763c79f83bde50a2917c680e8",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjMxZTMyYTBhYmY2OGU2YTc2M2M3OWY4M2JkZTUwYTI5MTdjNjgwZTg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/de0015b97eed3d6c5cd20d60257cfe2438044b1c",
+                    "sha": "de0015b97eed3d6c5cd20d60257cfe2438044b1c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/de0015b97eed3d6c5cd20d60257cfe2438044b1c"
+                }
+            ],
+            "sha": "31e32a0abf68e6a763c79f83bde50a2917c680e8",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/31e32a0abf68e6a763c79f83bde50a2917c680e8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c5f1197bfa701cd53f49da9c553d41f0a016c430/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-30T11:28:59Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "typo",
+                "tree": {
+                    "sha": "f65c77eb49f9486fc830161c3e4924052979ea0d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/f65c77eb49f9486fc830161c3e4924052979ea0d"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/c5f1197bfa701cd53f49da9c553d41f0a016c430",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/c5f1197bfa701cd53f49da9c553d41f0a016c430",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmM1ZjExOTdiZmE3MDFjZDUzZjQ5ZGE5YzU1M2Q0MWYwYTAxNmM0MzA=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/31e32a0abf68e6a763c79f83bde50a2917c680e8",
+                    "sha": "31e32a0abf68e6a763c79f83bde50a2917c680e8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/31e32a0abf68e6a763c79f83bde50a2917c680e8"
+                }
+            ],
+            "sha": "c5f1197bfa701cd53f49da9c553d41f0a016c430",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c5f1197bfa701cd53f49da9c553d41f0a016c430"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/647a4eb2198e5068b540885b1de6a5bca2a2664e/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-30T11:36:21Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "handle error in send_online_packet\n\nadd comment of int64_t to int conversion",
+                "tree": {
+                    "sha": "a0f6538123deff5912ba5d62474ae5a854e3de14",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/a0f6538123deff5912ba5d62474ae5a854e3de14"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/647a4eb2198e5068b540885b1de6a5bca2a2664e",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/647a4eb2198e5068b540885b1de6a5bca2a2664e",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjY0N2E0ZWIyMTk4ZTUwNjhiNTQwODg1YjFkZTZhNWJjYTJhMjY2NGU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/c5f1197bfa701cd53f49da9c553d41f0a016c430",
+                    "sha": "c5f1197bfa701cd53f49da9c553d41f0a016c430",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c5f1197bfa701cd53f49da9c553d41f0a016c430"
+                }
+            ],
+            "sha": "647a4eb2198e5068b540885b1de6a5bca2a2664e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/647a4eb2198e5068b540885b1de6a5bca2a2664e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-30T12:39:59Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "update the condition",
+                "tree": {
+                    "sha": "21447ab2830a21b4c157b3d3ae25e1eb8ab23630",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/21447ab2830a21b4c157b3d3ae25e1eb8ab23630"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmZiMDMwZjFjZTVmZjc0OGI2NjIyODg3ZTg4OTZkNmQ3ZmY4YzJmZTI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/647a4eb2198e5068b540885b1de6a5bca2a2664e",
+                    "sha": "647a4eb2198e5068b540885b1de6a5bca2a2664e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/647a4eb2198e5068b540885b1de6a5bca2a2664e"
+                }
+            ],
+            "sha": "fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/26b15ac4ad912f00f12995bfc1391ea0d62d79dd/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-07-30T18:24:06Z",
+                    "email": "zoff@zoff.cc",
+                    "name": "zoff99"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "fix: ISO C restricts enumerator values to range of ‘int’",
+                "tree": {
+                    "sha": "dace9d69920d55731489663e4f11a93d6c330756",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/dace9d69920d55731489663e4f11a93d6c330756"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/26b15ac4ad912f00f12995bfc1391ea0d62d79dd",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/26b15ac4ad912f00f12995bfc1391ea0d62d79dd",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjI2YjE1YWM0YWQ5MTJmMDBmMTI5OTViZmMxMzkxZWEwZDYyZDc5ZGQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2",
+                    "sha": "fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fb030f1ce5ff748b6622887e8896d6d7ff8c2fe2"
+                }
+            ],
+            "sha": "26b15ac4ad912f00f12995bfc1391ea0d62d79dd",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/26b15ac4ad912f00f12995bfc1391ea0d62d79dd"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7fe994985aadb7c3b357b2cdc63050704acfe6e3/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T12:17:16Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "small tweaks as requested",
+                "tree": {
+                    "sha": "493fb6334dd0c4569ea2960de33a978fcfd756bf",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/493fb6334dd0c4569ea2960de33a978fcfd756bf"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/7fe994985aadb7c3b357b2cdc63050704acfe6e3",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/7fe994985aadb7c3b357b2cdc63050704acfe6e3",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjdmZTk5NDk4NWFhZGI3YzNiMzU3YjJjZGM2MzA1MDcwNGFjZmU2ZTM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/26b15ac4ad912f00f12995bfc1391ea0d62d79dd",
+                    "sha": "26b15ac4ad912f00f12995bfc1391ea0d62d79dd",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/26b15ac4ad912f00f12995bfc1391ea0d62d79dd"
+                }
+            ],
+            "sha": "7fe994985aadb7c3b357b2cdc63050704acfe6e3",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7fe994985aadb7c3b357b2cdc63050704acfe6e3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/adc64e7e4223b45e41353801389ec3be17394ba0/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T12:19:20Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "change comment",
+                "tree": {
+                    "sha": "e7225288b812f9b25f1af9d82e46dd0a250a2863",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/e7225288b812f9b25f1af9d82e46dd0a250a2863"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/adc64e7e4223b45e41353801389ec3be17394ba0",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/adc64e7e4223b45e41353801389ec3be17394ba0",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmFkYzY0ZTdlNDIyM2I0NWU0MTM1MzgwMTM4OWVjM2JlMTczOTRiYTA=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/7fe994985aadb7c3b357b2cdc63050704acfe6e3",
+                    "sha": "7fe994985aadb7c3b357b2cdc63050704acfe6e3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7fe994985aadb7c3b357b2cdc63050704acfe6e3"
+                }
+            ],
+            "sha": "adc64e7e4223b45e41353801389ec3be17394ba0",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/adc64e7e4223b45e41353801389ec3be17394ba0"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f0947a24d03ded0e4744f60ad13ecc3e36391c11/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T12:19:57Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "change comment",
+                "tree": {
+                    "sha": "610d26d9be3ea3e853fc69106473307d1357f0ec",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/610d26d9be3ea3e853fc69106473307d1357f0ec"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/f0947a24d03ded0e4744f60ad13ecc3e36391c11",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/f0947a24d03ded0e4744f60ad13ecc3e36391c11",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmYwOTQ3YTI0ZDAzZGVkMGU0NzQ0ZjYwYWQxM2VjYzNlMzYzOTFjMTE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/adc64e7e4223b45e41353801389ec3be17394ba0",
+                    "sha": "adc64e7e4223b45e41353801389ec3be17394ba0",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/adc64e7e4223b45e41353801389ec3be17394ba0"
+                }
+            ],
+            "sha": "f0947a24d03ded0e4744f60ad13ecc3e36391c11",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f0947a24d03ded0e4744f60ad13ecc3e36391c11"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4df9fcfcc939e900935735067fc989ddd833346d/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T12:40:35Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "check for length of packet, ignore if not ok",
+                "tree": {
+                    "sha": "262ef9d1f6766747e017b7aa96bc803ee540e8d3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/262ef9d1f6766747e017b7aa96bc803ee540e8d3"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/4df9fcfcc939e900935735067fc989ddd833346d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/4df9fcfcc939e900935735067fc989ddd833346d",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjRkZjlmY2ZjYzkzOWU5MDA5MzU3MzUwNjdmYzk4OWRkZDgzMzM0NmQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f0947a24d03ded0e4744f60ad13ecc3e36391c11",
+                    "sha": "f0947a24d03ded0e4744f60ad13ecc3e36391c11",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f0947a24d03ded0e4744f60ad13ecc3e36391c11"
+                }
+            ],
+            "sha": "4df9fcfcc939e900935735067fc989ddd833346d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4df9fcfcc939e900935735067fc989ddd833346d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/584f2be77d1c9a9f938b033bbae2debbfc1ca2be/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T12:45:28Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "wrong length of packet fixed",
+                "tree": {
+                    "sha": "69711ce75a9394950aa2d24ddba5befbf3534cff",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/69711ce75a9394950aa2d24ddba5befbf3534cff"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/584f2be77d1c9a9f938b033bbae2debbfc1ca2be",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/584f2be77d1c9a9f938b033bbae2debbfc1ca2be",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjU4NGYyYmU3N2QxYzlhOWY5MzhiMDMzYmJhZTJkZWJiZmMxY2EyYmU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/4df9fcfcc939e900935735067fc989ddd833346d",
+                    "sha": "4df9fcfcc939e900935735067fc989ddd833346d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4df9fcfcc939e900935735067fc989ddd833346d"
+                }
+            ],
+            "sha": "584f2be77d1c9a9f938b033bbae2debbfc1ca2be",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/584f2be77d1c9a9f938b033bbae2debbfc1ca2be"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b462c5834dcf43beb611b4b9e9d7a868eacff444/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T13:19:43Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "change comments\n\nadd TOX_CAPABILITY_CAPABILITIES as new default",
+                "tree": {
+                    "sha": "7d402932b9b0d4e89f0b9c4e76d123f95cca632f",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/7d402932b9b0d4e89f0b9c4e76d123f95cca632f"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/b462c5834dcf43beb611b4b9e9d7a868eacff444",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/b462c5834dcf43beb611b4b9e9d7a868eacff444",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmI0NjJjNTgzNGRjZjQzYmViNjExYjRiOWU5ZDdhODY4ZWFjZmY0NDQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/584f2be77d1c9a9f938b033bbae2debbfc1ca2be",
+                    "sha": "584f2be77d1c9a9f938b033bbae2debbfc1ca2be",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/584f2be77d1c9a9f938b033bbae2debbfc1ca2be"
+                }
+            ],
+            "sha": "b462c5834dcf43beb611b4b9e9d7a868eacff444",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b462c5834dcf43beb611b4b9e9d7a868eacff444"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bf3820f8ad3933304c9b6462b365c8c074a2df6e/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T13:56:46Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "remove unused line\n\n(in case of a future bug *mocking* reserved)",
+                "tree": {
+                    "sha": "df71a2100bb604126e137945ebe1421a5915f55e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/df71a2100bb604126e137945ebe1421a5915f55e"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/bf3820f8ad3933304c9b6462b365c8c074a2df6e",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/bf3820f8ad3933304c9b6462b365c8c074a2df6e",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmJmMzgyMGY4YWQzOTMzMzA0YzliNjQ2MmIzNjVjOGMwNzRhMmRmNmU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/b462c5834dcf43beb611b4b9e9d7a868eacff444",
+                    "sha": "b462c5834dcf43beb611b4b9e9d7a868eacff444",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b462c5834dcf43beb611b4b9e9d7a868eacff444"
+                }
+            ],
+            "sha": "bf3820f8ad3933304c9b6462b365c8c074a2df6e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bf3820f8ad3933304c9b6462b365c8c074a2df6e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/aa949a4b8726b071f476c35440bbc807a81d2a6a/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T14:30:49Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "start with the first bit",
+                "tree": {
+                    "sha": "6fc7fa93082339d35a74b5ea62cd8ce963961caa",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/6fc7fa93082339d35a74b5ea62cd8ce963961caa"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/aa949a4b8726b071f476c35440bbc807a81d2a6a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/aa949a4b8726b071f476c35440bbc807a81d2a6a",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmFhOTQ5YTRiODcyNmIwNzFmNDc2YzM1NDQwYmJjODA3YTgxZDJhNmE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/bf3820f8ad3933304c9b6462b365c8c074a2df6e",
+                    "sha": "bf3820f8ad3933304c9b6462b365c8c074a2df6e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bf3820f8ad3933304c9b6462b365c8c074a2df6e"
+                }
+            ],
+            "sha": "aa949a4b8726b071f476c35440bbc807a81d2a6a",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/aa949a4b8726b071f476c35440bbc807a81d2a6a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-11-04T15:37:08Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-12-12T19:48:11Z",
+                    "email": "hugbubby@protonmail.com",
+                    "name": "hugbubby"
+                },
+                "message": "use data_length",
+                "tree": {
+                    "sha": "f5f1e41cc177d4736f7f040a0a2163f904f249c1",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/f5f1e41cc177d4736f7f040a0a2163f904f249c1"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OmUxYTQyYmQwZmM4MGU3ZWFiMWExYzljNzUzZWIwZDVlMzNlZTc1NDQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/aa949a4b8726b071f476c35440bbc807a81d2a6a",
+                    "sha": "aa949a4b8726b071f476c35440bbc807a81d2a6a",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/aa949a4b8726b071f476c35440bbc807a81d2a6a"
+                }
+            ],
+            "sha": "e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/20c404bb508447c41e592d2ab78c1fe7e083a828/comments",
+            "commit": {
+                "author": {
+                    "date": "2019-05-03T21:20:47Z",
+                    "email": "zoff99@users.noreply.github.com",
+                    "name": "Zoff"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2019-05-03T21:20:47Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Merge branch 'master' into zoff-capabilities-feature",
+                "tree": {
+                    "sha": "c46dd4a449e00ff48354a6bb4c2629368f1cfa4b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c46dd4a449e00ff48354a6bb4c2629368f1cfa4b"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/20c404bb508447c41e592d2ab78c1fe7e083a828",
+                "verification": {
+                    "payload": "tree c46dd4a449e00ff48354a6bb4c2629368f1cfa4b\nparent e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544\nparent d26b11d0c263bd796762374154edc7386dd601d4\nauthor Zoff <zoff99@users.noreply.github.com> 1556918447 +0200\ncommitter GitHub <noreply@github.com> 1556918447 +0200\n\nMerge branch 'master' into zoff-capabilities-feature",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJczLCvCRBK7hj4Ov3rIwAAdHIIAFJWnciWSxMgCEgIjDapyUMk\nOadL5RZRE5ocZec4k7z/Pp+8Ygvp7QDBTYPak9URWgNGcZq5jy1i/RMZDSJxEzSU\n+F/gi0sH+yfNh3TjBHTbKWqoUVLjQg72vrA1DAieYJRYtxal00TShSB3uD2Xbwti\nFaMuNUIVpgKMYrUGGD4GKYuoDn2qH8oGGePr9bOJxtDrKY/f+Wter0xAFKYuDB8o\nhFg0u1XU5UowPGvm/2WE5QmnTi6OzbQigxJOpxQgGW27R+755Yvh/IU+4VtxjuJz\n+F6E5r6RqZVWj7pzurxazPgjseKXo6+qyp/bWBHquKGX2RbBH5Udie/OWdnwdZM=\n=gdxM\n-----END PGP SIGNATURE-----\n",
+                    "verified": true,
+                    "verified_at": "2024-01-16T19:59:59Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/20c404bb508447c41e592d2ab78c1fe7e083a828",
+            "node_id": "MDY6Q29tbWl0MTQxMDA0NzM2OjIwYzQwNGJiNTA4NDQ3YzQxZTU5MmQyYWI3OGMxZmU3ZTA4M2E4Mjg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544",
+                    "sha": "e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e1a42bd0fc80e7eab1a1c9c753eb0d5e33ee7544"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/d26b11d0c263bd796762374154edc7386dd601d4",
+                    "sha": "d26b11d0c263bd796762374154edc7386dd601d4",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d26b11d0c263bd796762374154edc7386dd601d4"
+                }
+            ],
+            "sha": "20c404bb508447c41e592d2ab78c1fe7e083a828",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/20c404bb508447c41e592d2ab78c1fe7e083a828"
+        }
+    ],
+    "commits": 22,
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243/commits",
+    "created_at": "2018-11-04T17:21:59Z",
+    "deletions": 11,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/1243.diff",
+    "draft": true,
+    "head": {
+        "label": "hugbubby:zoff-capabilities-feature",
+        "ref": "zoff-capabilities-feature",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/hugbubby/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/hugbubby/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/hugbubby/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/hugbubby/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/hugbubby/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/hugbubby/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/hugbubby/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/hugbubby/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/hugbubby/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/hugbubby/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/hugbubby/c-toxcore/contributors",
+            "created_at": "2018-07-15T06:42:28Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/hugbubby/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/hugbubby/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/hugbubby/c-toxcore/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/hugbubby/c-toxcore/forks",
+            "full_name": "hugbubby/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/hugbubby/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/hugbubby/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/hugbubby/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/hugbubby/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": false,
+            "homepage": "https://tox.chat/",
+            "hooks_url": "https://api.github.com/repos/hugbubby/c-toxcore/hooks",
+            "html_url": "https://github.com/hugbubby/c-toxcore",
+            "id": 141004736,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/hugbubby/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/hugbubby/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/hugbubby/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/hugbubby/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/hugbubby/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/hugbubby/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/hugbubby/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/hugbubby/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxNDEwMDQ3MzY=",
+            "notifications_url": "https://api.github.com/repos/hugbubby/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+                "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+                "followers_url": "https://api.github.com/users/hugbubby/followers",
+                "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+                "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/hugbubby",
+                "id": 37486450,
+                "login": "hugbubby",
+                "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+                "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+                "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+                "repos_url": "https://api.github.com/users/hugbubby/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/hugbubby",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/hugbubby/c-toxcore/pulls{/number}",
+            "pushed_at": "2019-05-03T21:20:48Z",
+            "releases_url": "https://api.github.com/repos/hugbubby/c-toxcore/releases{/id}",
+            "size": 13652,
+            "ssh_url": "git@github.com:hugbubby/c-toxcore.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/hugbubby/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/hugbubby/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/hugbubby/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/hugbubby/c-toxcore/subscription",
+            "svn_url": "https://github.com/hugbubby/c-toxcore",
+            "tags_url": "https://api.github.com/repos/hugbubby/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/hugbubby/c-toxcore/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/hugbubby/c-toxcore/git/trees{/sha}",
+            "updated_at": "2018-12-12T22:39:05Z",
+            "url": "https://api.github.com/repos/hugbubby/c-toxcore",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "20c404bb508447c41e592d2ab78c1fe7e083a828",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+            "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+            "followers_url": "https://api.github.com/users/hugbubby/followers",
+            "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/hugbubby",
+            "id": 37486450,
+            "login": "hugbubby",
+            "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+            "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+            "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+            "repos_url": "https://api.github.com/users/hugbubby/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/hugbubby",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/1243",
+    "id": 228190208,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1243",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": true,
+    "merge_commit_sha": null,
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": {
+        "closed_at": null,
+        "closed_issues": 0,
+        "created_at": "2018-03-09T13:13:48Z",
+        "creator": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        },
+        "description": "Placeholder for the next 0.2.x version.",
+        "due_on": null,
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/28",
+        "id": 3174131,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28/labels",
+        "node_id": "MDk6TWlsZXN0b25lMzE3NDEzMQ==",
+        "number": 28,
+        "open_issues": 160,
+        "state": "open",
+        "title": "v0.2.x",
+        "updated_at": "2025-01-14T12:48:29Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28"
+    },
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MjI4MTkwMjA4",
+    "number": 1243,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/1243.patch",
+    "rebaseable": false,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243/comments",
+    "state": "open",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/20c404bb508447c41e592d2ab78c1fe7e083a828",
+    "title": "WIP: Capabilities Packet",
+    "updated_at": "2024-01-13T01:18:45Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",
+        "events_url": "https://api.github.com/users/hugbubby/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hugbubby/followers",
+        "following_url": "https://api.github.com/users/hugbubby/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hugbubby/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/hugbubby",
+        "id": 37486450,
+        "login": "hugbubby",
+        "node_id": "MDQ6VXNlcjM3NDg2NDUw",
+        "organizations_url": "https://api.github.com/users/hugbubby/orgs",
+        "received_events_url": "https://api.github.com/users/hugbubby/received_events",
+        "repos_url": "https://api.github.com/users/hugbubby/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hugbubby/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hugbubby/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hugbubby",
+        "user_view_type": "public"
+    }
+}

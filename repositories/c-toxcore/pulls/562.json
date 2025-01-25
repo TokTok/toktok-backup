@@ -1,0 +1,2548 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/562/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/562/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/c-toxcore/pull/562"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/562"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/562/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/562"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/54bbe0333bd89530facfec68b2ec973cc14daa60"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 456,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "NONE",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/c-toxcore/contributors",
+            "created_at": "2016-07-06T08:15:22Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
+            "fork": true,
+            "forks": 292,
+            "forks_count": 292,
+            "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
+            "full_name": "TokTok/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://tox.chat",
+            "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
+            "html_url": "https://github.com/TokTok/c-toxcore",
+            "id": 62703642,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
+            "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 210,
+            "open_issues_count": 210,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-24T18:18:40Z",
+            "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
+            "size": 25245,
+            "ssh_url": "git@github.com:TokTok/c-toxcore.git",
+            "stargazers_count": 2329,
+            "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/c-toxcore/subscription",
+            "svn_url": "https://github.com/TokTok/c-toxcore",
+            "tags_url": "https://api.github.com/repos/TokTok/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/c-toxcore/teams",
+            "topics": [
+                "cryptography",
+                "encryption",
+                "network",
+                "p2p",
+                "security",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-24T22:05:30Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore",
+            "visibility": "public",
+            "watchers": 2329,
+            "watchers_count": 2329,
+            "web_commit_signoff_required": false
+        },
+        "sha": "21675ce0d2581597b0e0a727ab4cf6cfb796a037",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "CMakeLists.txt (cmake) now support release and debug builds.\r\nExtend AddCompilerFlag.cmake about functions that allow easily to add compile flags for different build types. These build types are integrated in the CMakeLists.txt file. This make cmake builds more straight forward.\r\n\r\n`cmake -DCMAKE_BUILD_TYPE=Release` optimized build without any warnings. \r\n\r\n`cmake -DCMAKE_BUILD_TYPE=Debug` not optimized build with debug information. Enable all debug Warnings.\r\n\r\n`cmake` minimal configuration, no optimization, minimal debug information\n\n<!-- Reviewable:start -->\n---\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/c-toxcore/562)\n<!-- Reviewable:end -->\n",
+    "changed_files": 3,
+    "closed_at": "2018-06-03T21:52:11Z",
+    "comment_data": [],
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=562) <br/>All committers have signed the CLA.",
+            "created_at": "2017-06-06T19:59:08Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-306599752",
+            "id": 306599752,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjU5OTc1Mg==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/306599752/reactions"
+            },
+            "updated_at": "2018-04-24T19:33:28Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/306599752",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
+                "events_url": "https://api.github.com/users/CLAassistant/events{/privacy}",
+                "followers_url": "https://api.github.com/users/CLAassistant/followers",
+                "following_url": "https://api.github.com/users/CLAassistant/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CLAassistant/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/CLAassistant",
+                "id": 11571300,
+                "login": "CLAassistant",
+                "node_id": "MDQ6VXNlcjExNTcxMzAw",
+                "organizations_url": "https://api.github.com/users/CLAassistant/orgs",
+                "received_events_url": "https://api.github.com/users/CLAassistant/received_events",
+                "repos_url": "https://api.github.com/users/CLAassistant/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/CLAassistant/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CLAassistant/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/CLAassistant",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "I'm a bit confused by this PR. Is it ready for review?",
+            "created_at": "2017-06-06T20:28:52Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-306607275",
+            "id": 306607275,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjYwNzI3NQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/306607275/reactions"
+            },
+            "updated_at": "2017-06-06T20:28:52Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/306607275",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "NONE",
+            "body": "It is ready for review. ",
+            "created_at": "2017-06-07T20:33:43Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-306916353",
+            "id": 306916353,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjkxNjM1Mw==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/306916353/reactions"
+            },
+            "updated_at": "2017-06-07T20:33:43Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/306916353",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",
+                "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+                "followers_url": "https://api.github.com/users/ghost/followers",
+                "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+                "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/ghost",
+                "id": 10137,
+                "login": "ghost",
+                "node_id": "MDQ6VXNlcjEwMTM3",
+                "organizations_url": "https://api.github.com/users/ghost/orgs",
+                "received_events_url": "https://api.github.com/users/ghost/received_events",
+                "repos_url": "https://api.github.com/users/ghost/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/ghost",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "First of all, thank you for the contribution, but I doubt this will get merged. It adds a lot of complexity for, from what I can tell, no benefit.\r\n\r\nWhat's better about this way of doing it?",
+            "created_at": "2017-07-21T11:14:36Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-316975108",
+            "id": 316975108,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxNjk3NTEwOA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/316975108/reactions"
+            },
+            "updated_at": "2017-07-21T11:14:36Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/316975108",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+                "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+                "followers_url": "https://api.github.com/users/robinlinden/followers",
+                "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+                "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/robinlinden",
+                "id": 8304462,
+                "login": "robinlinden",
+                "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+                "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+                "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+                "repos_url": "https://api.github.com/users/robinlinden/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/robinlinden",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "Here are about 20 commits. We usually have 1 commit per PR. It looks like there are a few separate things here, e.g. documentation. Perhaps it makes sense to split it to make it easier to merge pieces rather than the whole thing.\r\n\r\nSeparately, please ensure that the indentation of cmake files is correct: 2-space indent per level.",
+            "created_at": "2018-01-13T16:09:08Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-357446350",
+            "id": 357446350,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzQ0NjM1MA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/357446350/reactions"
+            },
+            "updated_at": "2018-01-13T16:09:08Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/357446350",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "\n\n\n\nReview status: 0 of 3 files reviewed at latest revision, 2 unresolved discussions, some commit checks failed.\n\n---\n\n*[CMakeLists.txt, line 81 at r3](https://reviewable.io:443/reviews/toktok/c-toxcore/562#-L4RCviwYjzCsAv_93BB:-L4RCviwYjzCsAv_93BC:b-t0v4bh) ([raw file](https://github.com/toktok/c-toxcore/blob/da724c8347718f012597b72dba16fb79bde3e047/CMakeLists.txt#L81)):*\n> ```CMake\n>   elseif(${CMAKE_BUILD_TYPE} STREQUAL \"Debug\")\n>     set(CMAKE_C_FLAGS_DEBUG \"-g3\")\n>     set(CMAKE_CXX_FLAGS_DEBUG \"-g3\")\n> ```\n\nAlso add `-gdwarf-2` for MINGW.\n\n---\n\n*[CMakeLists.txt, line 103 at r3](https://reviewable.io:443/reviews/toktok/c-toxcore/562#-L4RDBVKTTk8FRGdSnTx:-L4RDBVKTTk8FRGdSnTy:b-dp8j65) ([raw file](https://github.com/toktok/c-toxcore/blob/da724c8347718f012597b72dba16fb79bde3e047/CMakeLists.txt#L103)):*\n> ```CMake\n>   \n>   # Disable all warnings for release\n>   add_release_flag(\"-w\")\n> ```\n\nWhy completely remove all warnings in release mode?\n\n---\n\n\n*Comments from [Reviewable](https://reviewable.io:443/reviews/toktok/c-toxcore/562)*\n<!-- Sent from Reviewable.io -->\n",
+            "created_at": "2018-02-03T15:12:05Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-362820134",
+            "id": 362820134,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2MjgyMDEzNA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820134/reactions"
+            },
+            "updated_at": "2018-02-03T15:12:05Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820134",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "@WarningX can you squash all your commits into one?",
+            "created_at": "2018-02-03T15:12:42Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-362820209",
+            "id": 362820209,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2MjgyMDIwOQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820209/reactions"
+            },
+            "updated_at": "2018-02-03T15:12:42Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820209",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "@WarningX also, I think travis builds a minimal build now. Is that intentional?",
+            "created_at": "2018-02-03T15:13:44Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-362820307",
+            "id": 362820307,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2MjgyMDMwNw==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820307/reactions"
+            },
+            "updated_at": "2018-02-03T15:13:44Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820307",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "I think the default should be debug. Why is there a minimal configuration?",
+            "created_at": "2018-02-03T15:14:17Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-362820399",
+            "id": 362820399,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2MjgyMDM5OQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820399/reactions"
+            },
+            "updated_at": "2018-02-03T15:14:17Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362820399",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "@WarningX: Why is cmake 3 required?",
+            "created_at": "2018-02-04T00:54:49Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-362870474",
+            "id": 362870474,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2Mjg3MDQ3NA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362870474/reactions"
+            },
+            "updated_at": "2018-02-04T00:54:49Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/362870474",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "@WarningX I've fixed the things I noted, but this PR is broken. It sometimes completely forgets all flags, maybe it forgets the build type, I don't know. It happens when you run \"make\" after making a change to the CMakeLists.txt file. I'm done with this PR for now. I'll keep merging master into it on a best-effort basis, but if I end up changing the build too much so this PR no longer works, I'll close it. I generally like it, but it doesn't work reliably at the moment. Let me know when you have time to help fix it.",
+            "created_at": "2018-02-11T21:12:07Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-364789181",
+            "id": 364789181,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDc4OTE4MQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/364789181/reactions"
+            },
+            "updated_at": "2018-02-11T21:12:07Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/364789181",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "You can already use `CMAKE_BUILD_TYPE=Release` or `CMAKE_BUILD_TYPE=Debug` though, [it's cmake's built-in](https://cmake.org/cmake/help/v3.10/variable/CMAKE_BUILD_TYPE.html), it will auto-magically add debug or release flags for everything you build when you specify one of those. I'm confused as to what this PR add on top of that?",
+            "created_at": "2018-02-11T23:45:41Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-364801754",
+            "id": 364801754,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDgwMTc1NA==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/364801754/reactions"
+            },
+            "updated_at": "2018-02-11T23:45:41Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/364801754",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "Closing conflicting and unmaintained PR. Please reopen if you'd like to discuss it again.",
+            "created_at": "2018-06-03T21:52:11Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/562#issuecomment-394194382",
+            "id": 394194382,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDE5NDM4Mg==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/394194382/reactions"
+            },
+            "updated_at": "2018-06-03T21:52:11Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/394194382",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 13,
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562/comments",
+    "commit_data": [
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-03-05T20:59:37Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:01Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Create new functions for debug and release flags\n\nThe necessary functions and macros are moved to AddFlags.cmake.\nThe new functions are backward compatible and add some new\nfunctions to decide between debug, release and default compiler flags.\nThis makes building with CMake easier.\n\nUse\n\"cmake -DCMAKE_BUILD_TYPE=Debug ..\" for debug build\nor\n\"cmake -DCMAKE_BUILD_TYPE=Release ..\" for release build\nor\n\"cmake ..\"\tfor default build",
+                "tree": {
+                    "sha": "a56e1c7ce4aa48665b53adde4fd1dd078e53aee3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/a56e1c7ce4aa48665b53adde4fd1dd078e53aee3"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681",
+                "verification": {
+                    "payload": "tree a56e1c7ce4aa48665b53adde4fd1dd078e53aee3\nparent 1b290c0d84d92fd28fc1f64f33bf4455d73e2e2e\nauthor WarningX <warningx@gmx.de> 1488747577 +0100\ncommitter WarningX <warningx@gmx.de> 1497298261 +0200\n\nCreate new functions for debug and release flags\n\nThe necessary functions and macros are moved to AddFlags.cmake.\nThe new functions are backward compatible and add some new\nfunctions to decide between debug, release and default compiler flags.\nThis makes building with CMake easier.\n\nUse\n\"cmake -DCMAKE_BUILD_TYPE=Debug ..\" for debug build\nor\n\"cmake -DCMAKE_BUILD_TYPE=Release ..\" for release build\nor\n\"cmake ..\"\tfor default build\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVVAAoJEHn/XK7iklB2snMQAL2CYYQ1xjRmF5iS5CiN9Hkf\nHA5RbXPJAF3/lRdxTtkjpzRg5/jhCRUdSU5EAsD+Uo+AXke0Y60B/vHofum0rt2c\nO2+JuL/wSZK4anV7mJU2TLPadhXeAaaUvD8P8Y2bYnjPUPtoO+/zIgdv826B/5bO\nEi+usEkTaK08dhcdCSwMWWEyrI0Gel7nJqyG4AUA32/nQOrVarHJuV3tCWZlZeV2\nhaViXihOU/2JYcsX5q+toKMCG1qQN4EieFMY6mqZdU91Y0WTpWVUs9qWWB+dAnaR\n0HkXB03eczGUv+kizks51ToWz006VvyFHdYZomPTQodr6J7I9ODmiaW9aDPSENxd\nGefHpOV5ZXB63gKK1y4YFdqKTJw7Dn08BAGf/MILu+gJtsWTPuPX9uwBlA5Ob5dI\nKGcCkWQAM5BD8K1cfbkKAeA2Of2VSABbkSs8pvoFEygP2oW2BtF5muGau3rdc7iv\nrIpVW26Q7Cm8Zi/7bsvHQXngtTMy4LYcJvN2JnHr9z59lV82UgRc8MqEkh3uPHQs\nsm95RyF0oZB7+DyI+FVjtwWh3ZEg8nl+oF+LIQzb2XXMlKFwOuBFp2tINnoTbTGV\n535sXkBSck4hey0x8WpQvAzYSBvTllOEQ+PqHcfc5bq0QGfknCzQszW1gU5faGG/\nbWgsuRjve9RhmnT8WEi2\n=hE+e\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NWJjMDNmMjhkOWJkNGM5M2MzZDkyZTZjOTY0M2U0ZmQ0ZTIxMDY4MQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/1b290c0d84d92fd28fc1f64f33bf4455d73e2e2e",
+                    "sha": "1b290c0d84d92fd28fc1f64f33bf4455d73e2e2e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/1b290c0d84d92fd28fc1f64f33bf4455d73e2e2e"
+                }
+            ],
+            "sha": "5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7959a601fe1e3b9525f14cf6793cb24b51736181/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-20T21:51:33Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:05Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Add commands to macros",
+                "tree": {
+                    "sha": "62f12848172bb8fda69afa57070b0e8afd11be34",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/62f12848172bb8fda69afa57070b0e8afd11be34"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/7959a601fe1e3b9525f14cf6793cb24b51736181",
+                "verification": {
+                    "payload": "tree 62f12848172bb8fda69afa57070b0e8afd11be34\nparent 5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681\nauthor WarningX <warningx@gmx.de> 1495317093 +0200\ncommitter WarningX <warningx@gmx.de> 1497298265 +0200\n\nAdd commands to macros\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVZAAoJEHn/XK7iklB2fS4QAK50Eoj6TuY0QlZxPG4bc+3J\nbgB4FXICXaExBDR6GYD6x8cHK1NBzOu1u7jk7egSQl9/M81TCqxzA/ffMlYByN+p\nxZJSfMdMkKX5pVQiEY2AODC8qZ0tTCwjdm3ErFuYSVXa74dH55uw3Sme8PBCQtJC\nTqNbxmas4kEW8mry+jdpxxEcwcvfC4Ifm/sBN7v6yOYISc3RR2fxN8So6lOcV3Bz\nVgKN9Adfv8nILAbBmgXkDmu7Wxje1/zyZbnkwVcImUGO93lg2tzfvYccLwBWDEzO\nMmxCRhQ2ArLsN9W0vd9jx84dg9P3ndfCPP32NLzO2vv5Djk36nVEzzX0Hq5N+Vvr\nmv5+jP/VECkyqoqMAbmFVmO8Pv3N3B0GU9esQGWbJXjLniGD9QagftjNab8ZpwPB\nm89m6hOXgTxIKT+m7WJhVWMiGwGERHIbUzPpEkVRACCTdZ0TY0MyY0PTAcezR2mY\nr4zmKTWBurUq/PBFde7EyX78gtYvDE3YGuix50N/4ZqdopqZIQWIfSndBbk/sKIG\n+MZhFvyusv4ydJNgso7qMd7dBonW4xKUau/JzJHF+Ttki4W32Y1abBogY3cFQ5p/\noOQS6FZXT68gXqVswC4m7baQ7DSejCbwXr78fKG0kT9xp/PD+1lS6vNbe1kAPMI3\naTcJgAZZgoladVK/2ZUD\n=w/tw\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/7959a601fe1e3b9525f14cf6793cb24b51736181",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6Nzk1OWE2MDFmZTFlM2I5NTI1ZjE0Y2Y2NzkzY2IyNGI1MTczNjE4MQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681",
+                    "sha": "5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5bc03f28d9bd4c93c3d92e6c9643e4fd4e210681"
+                }
+            ],
+            "sha": "7959a601fe1e3b9525f14cf6793cb24b51736181",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7959a601fe1e3b9525f14cf6793cb24b51736181"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-20T21:54:32Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:06Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Add debug flags for different build options",
+                "tree": {
+                    "sha": "d8e96e06e7a8ccce44b85cc629648c08869bfc59",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/d8e96e06e7a8ccce44b85cc629648c08869bfc59"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7",
+                "verification": {
+                    "payload": "tree d8e96e06e7a8ccce44b85cc629648c08869bfc59\nparent 7959a601fe1e3b9525f14cf6793cb24b51736181\nauthor WarningX <warningx@gmx.de> 1495317272 +0200\ncommitter WarningX <warningx@gmx.de> 1497298266 +0200\n\nAdd debug flags for different build options\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVaAAoJEHn/XK7iklB21FAP/1Jsf2yspRa2+x7nbJNpqsNV\nP8NWVd8UMNDV9dc59s7oTe7fre3ksC0ZpTDx4KiOaVThQOsf3hzTjuc0oB6pJ0j/\nslUp5n1F2BZecgZMIB6IPi3khgzhXIO/zUfmWCDHmIjVr/8TOS2NrQfc9jD9NHR7\n3KMeTk+hX1TPSr8GNGMZnHsWQYPNqYnQUXixiaEAUJR3NbTc6IgIP3KjvfOSkveF\ntm0FuHbvcoshdE8l5BHVVPrnB/UIiiZs9+7ZATOSG4MnmiPTO3rWV1ArI3asjwzH\nbjYzXwhosMQS4mTQjYhgx0vfhX6wG1itFxpqxCGjoD31pTq/WYBg5qU1SeHcFKZN\nQ7F8Wt6Yco8cxshLoULUESgtZ1q30V3scdC76AqYHSg6XvFO0z16f4e/Gx8Sn1e/\np0XC+1uhrAt6Mc7EfQIlOrjhASCEzJXEisdXcc85hhZpHVRb5tlTsShF+IqnOejJ\nL2RhDMPpvhJkMaRiKLHvvGMf4wfArRndBev6x0punKpbFQ4EQKzGINTUNxL0odIX\nPGvxPIIacazum1Celdb68j3MF0t8YSm/ItncPgWzpdS3//g3OBxxNVrSnJCpjXus\nMnPCvDZm3FXYK/3NT21MMDzoj7QHIJ0giTgwFhiyISy4ohdjPWaPMsYq/Jh5QufT\nYbNaUt4Q5DTCZpFpGNBB\n=wSrx\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6M2ExZGFiYTRlMjg5NjA2Y2QyYzlkOGI1ZmQyMDE2Yjg5YTIxYTJhNw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/7959a601fe1e3b9525f14cf6793cb24b51736181",
+                    "sha": "7959a601fe1e3b9525f14cf6793cb24b51736181",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7959a601fe1e3b9525f14cf6793cb24b51736181"
+                }
+            ],
+            "sha": "3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f4de49c6184b11e9c37ae9dd84eacce0dbfea744/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T18:41:29Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:09Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Add an optional return parameter for all functions\n\nThe optional parameter indicates the success/failure of the function.",
+                "tree": {
+                    "sha": "c281e17c36312a64b97e5541d208a4ab402089a6",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c281e17c36312a64b97e5541d208a4ab402089a6"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/f4de49c6184b11e9c37ae9dd84eacce0dbfea744",
+                "verification": {
+                    "payload": "tree c281e17c36312a64b97e5541d208a4ab402089a6\nparent 3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7\nauthor WarningX <warningx@gmx.de> 1495824089 +0200\ncommitter WarningX <warningx@gmx.de> 1497298269 +0200\n\nAdd an optional return parameter for all functions\n\nThe optional parameter indicates the success/failure of the function.\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVdAAoJEHn/XK7iklB2Eg0P/jveJzb/L7ZH3xbxg824WWm6\nFj3aslud7G/kCyTRqqBW5jDCPdFupcbpotOlihJ0eQ2uKDqYkb0A+904SnSVSahJ\nECdtRqjPImeYoZUYOJ7FTmIscnQX5Z4baSnDLGWFYWv0lSSYBfFa35jjYkaXMzRU\nVMZFBVRQ0k7zjMDTYXw+ff965R2s8YmlbCPDRU3VVkwDf533SbOYD/nTX26PnNv6\ntOyBh8nmW15eM5F0hRiuLsfUNd1GeB2yVdF0xKReswJuBeVqNAf3oe3ro+yZG48l\nCHXcMOoMiuKLr7XCsexYK4zZuHC378TI0DXqmyqelGisownVzhYr4gdSFFVxN4NA\nGBaZy0yDuVF2S5laHUAcRjkDnISBZ8XPWq30q6q+GqR9hPvs6WJwFmrcYoRSK2g5\nP40wP9+703j1OxffdzQuYOGgcEHjH40AeWuC6j2nH44815BpD6O8wmiq5QJF8cuu\ni6rPqAuFOhCNi1v9o2xIRG4FLnV0AzKcskEMPPn9rsuZacn4KYUC6ZlRt43k2kKd\nv2Q0ExbRBcDJXpHsp3fqp9z5V3VuCtztedB5xTDyBUIL7uUStUZExz31JmNCPl01\nTrpze4FrPSF0W2EUcQqSu9oXyx0IOV6mghsVnjx6HucvZXAjwVXsha9ApwJMtz/q\n2G6rv9hcjrv07OK9OuXW\n=96xC\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/f4de49c6184b11e9c37ae9dd84eacce0dbfea744",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6ZjRkZTQ5YzYxODRiMTFlOWMzN2FlOWRkODRlYWNjZTBkYmZlYTc0NA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7",
+                    "sha": "3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3a1daba4e289606cd2c9d8b5fd2016b89a21a2a7"
+                }
+            ],
+            "sha": "f4de49c6184b11e9c37ae9dd84eacce0dbfea744",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f4de49c6184b11e9c37ae9dd84eacce0dbfea744"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/103c8f382cddc0330a1963a6f86cd52907febdb8/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T18:57:07Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:11Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Edit initialization of compile flag list",
+                "tree": {
+                    "sha": "b0cc3082afdf49d37c4ee1aa2daca142e80781a8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/b0cc3082afdf49d37c4ee1aa2daca142e80781a8"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/103c8f382cddc0330a1963a6f86cd52907febdb8",
+                "verification": {
+                    "payload": "tree b0cc3082afdf49d37c4ee1aa2daca142e80781a8\nparent f4de49c6184b11e9c37ae9dd84eacce0dbfea744\nauthor WarningX <warningx@gmx.de> 1495825027 +0200\ncommitter WarningX <warningx@gmx.de> 1497298271 +0200\n\nEdit initialization of compile flag list\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVfAAoJEHn/XK7iklB2UPkP/jYSUg3mX16z9KrY3HeRLApU\nB36y0oRZj3etv+svtKWSAlevMv2Uy6/Z2qsXWUOhsbXZE8Z+bcMxMsC2xqVpmDZk\n70DStOsh1LsEqy4FR7Bt9XO8luHOCZtnxcHsGza7LkXR5LKOcKPW9U/4rkKkslIf\n6SJYeB+zgnrKHHYKtzURNXc7I0UHtTDPaXaFKEzvcuRRBNuLbCMpbNtXXPLCPprq\nu7ORcFfFVVkin96+vqgXgpVYmk0GI68WVHc7woey6QYJHbIyCh61QILlcS7z9/0q\nh53i1EfYkq8RgCszeHJtY5JOJW/HUEWJvh3SdugUdFQvWpE0BK6iYE082nmkQRPy\n4N94CUk8QBqpFwv9xa4ymJHl7p1/y2NG4ykvgW10tiGiXojRoDYT/aFLS0/fC0Dp\nk4+/QvOBoMKcYN+myvF6/RVVaUiSen+J3v2RrVqeG3/77snS+O5J3Qhlo615ITIY\nwzPL629duMEmoel6vpTPrYKeCpMrwziK7AgA1Ho4aLVFgLkuGskozYhf2ImLGeBc\ntA++cr4EUzpO1thQ1P0lmsWedto++Qftjo3qA0JwKXAILAIX7RMF8Si/ObTURY8+\nmxRK7XuJBatmeFDK2CfA2a9y+e+LET3OBZ/I3oL83O4ULdo67/KRtOq1cba2s9X3\ndZzbQeh+/45vMm0b0wpQ\n=VsYi\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/103c8f382cddc0330a1963a6f86cd52907febdb8",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6MTAzYzhmMzgyY2RkYzAzMzBhMTk2M2E2Zjg2Y2Q1MjkwN2ZlYmRiOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f4de49c6184b11e9c37ae9dd84eacce0dbfea744",
+                    "sha": "f4de49c6184b11e9c37ae9dd84eacce0dbfea744",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f4de49c6184b11e9c37ae9dd84eacce0dbfea744"
+                }
+            ],
+            "sha": "103c8f382cddc0330a1963a6f86cd52907febdb8",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/103c8f382cddc0330a1963a6f86cd52907febdb8"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/00dbac9c91901eaecbbf5436cbf945dd59de1688/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T19:03:47Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:12Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Exclude all flags from MSCV build",
+                "tree": {
+                    "sha": "84393cd090ba59562e35f9ad8984b10781b22b01",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/84393cd090ba59562e35f9ad8984b10781b22b01"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/00dbac9c91901eaecbbf5436cbf945dd59de1688",
+                "verification": {
+                    "payload": "tree 84393cd090ba59562e35f9ad8984b10781b22b01\nparent 103c8f382cddc0330a1963a6f86cd52907febdb8\nauthor WarningX <warningx@gmx.de> 1495825427 +0200\ncommitter WarningX <warningx@gmx.de> 1497298272 +0200\n\nExclude all flags from MSCV build\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVgAAoJEHn/XK7iklB2dNUQAK4Votuj3fFY+VfafTVUbWy0\nmySKeqBPlSZYFV2rETmiFM28pZG1p8hvnpah3n9/2/tIIr+uVUJhnd0vGuN7RQxC\n4DG3lMNDgS8fdnsuXWOZ0QVdwZXOe2mx5ow7bl/d4Tx3SyNuw/lF8rfVhqHzJnAb\nxltPzMNQhY4CX9VRVhK7XuctCJnDcdgzXYCPOsIY3smcuvHUkxuj0+JDQ7TEqJwF\nH2gBIkcvEcU5/48S88jW08t5guVTVoEp4twdIZwbInf71ARk8IebHvWlixYlih4I\nyN1OMWN6e5lWaWgrvJv9Wp4VsJhToIA+pHGCXSSW94Z1qy5OYhqjXxwLjgegN5tG\ntsUVpHeXPyd4tca4f12OrQ3Zkot/QMWK8Yxf8TXYWIQ9jSTjXAykkIix7oqBJTTx\nEpJmhaoYio1IAkaoPCE8sv8cs8wZchDKZl5uHZG29vKifLuBbMR4zSTKMgaDnog+\nTDoR26Zfod2Yqr5BDOi51bewzr6j9t4t/TaNfSqTIOnsjg+8kMhztxfvOAPie8mz\n6A28bBE4kE94OxTYY6emD2ppt2KisAlgmWrMBakDWII775cMyhvZDhB9+uWluMQI\nwdF+GXla7su6MmFOHE6NEqjsB4NFzAWgT4DzYjVZDPjheJcLVg4qNuwDsyyQNGLZ\n8JbofH+L8nU1BSsjtyEm\n=ee0j\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/00dbac9c91901eaecbbf5436cbf945dd59de1688",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6MDBkYmFjOWM5MTkwMWVhZWNiYmY1NDM2Y2JmOTQ1ZGQ1OWRlMTY4OA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/103c8f382cddc0330a1963a6f86cd52907febdb8",
+                    "sha": "103c8f382cddc0330a1963a6f86cd52907febdb8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/103c8f382cddc0330a1963a6f86cd52907febdb8"
+                }
+            ],
+            "sha": "00dbac9c91901eaecbbf5436cbf945dd59de1688",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/00dbac9c91901eaecbbf5436cbf945dd59de1688"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/777e25650e14ebe3fcba54ac3adaa9639f483cce/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T19:07:18Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:11:13Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Edit optimization choice",
+                "tree": {
+                    "sha": "5a0f3600e3b4875eb6a838ce6598ba25f862a35a",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5a0f3600e3b4875eb6a838ce6598ba25f862a35a"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/777e25650e14ebe3fcba54ac3adaa9639f483cce",
+                "verification": {
+                    "payload": "tree 5a0f3600e3b4875eb6a838ce6598ba25f862a35a\nparent 00dbac9c91901eaecbbf5436cbf945dd59de1688\nauthor WarningX <warningx@gmx.de> 1495825638 +0200\ncommitter WarningX <warningx@gmx.de> 1497298273 +0200\n\nEdit optimization choice\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvVhAAoJEHn/XK7iklB2SjgP/jjadlnyxcxHryu9knkcb26l\nHLcuvv/vw6eDQ4qecz5MPynNdhJ3dRpWcLLwLgWxLCGrorDBzVaTvostjJCJ88x7\ntVR97S76t/7gp5BnNoJwCOPKSv7HhY9/uc2t4JM4avDyncQ6bShM+b/m/5NaVZDa\n021rmRAvQ4UyKL7c/HmqrQ8foYq4WOI1MqC4f7HSvKghCArD05S2G4Wk5tjr6vXR\nmKsiQT+vMUMrIb7gsbT9um024qsR5jAzW2tbOBccplYSTdwVa4rjCkQN56oRbc1B\nAZ1jQx3zXY274mZFzDFWfonLgbBLstU1ag/75AtQVXV70rEwF12T35Zejw5yWF1l\niiBW2qILHsvWXQeLmxkFtmnDlvJ0pChfjJY86/IsThGLMMpm2F5/eJWNQGLPDt7E\nqoM98Pudorz0VZOjbllvLxP01d8Zkq/RFVtySxzPgSwphW+qzpCGiYh2IimHfJZH\nf2vp0MO7uXDM+W1cCUky1Y3DghuVY+UPxYWv9Do4LLtz+aBBezkfTc/+Lt0nqEjz\nVkphyLYwizwjgxGg6uvD3XDgueA/eOpaz4oslbifi/qBnWViM0HEFzzC45CwmLEu\n/VzL2oaD1Ed4zL6kZVm9BkqouxPQCKiQnepAPQg/BSOZA7JecnjrzwSvvL0BU+3l\nw2U7o78qp4W1QLBq22eJ\n=/lSW\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/777e25650e14ebe3fcba54ac3adaa9639f483cce",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6Nzc3ZTI1NjUwZTE0ZWJlM2ZjYmE1NGFjM2FkYWE5NjM5ZjQ4M2NjZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/00dbac9c91901eaecbbf5436cbf945dd59de1688",
+                    "sha": "00dbac9c91901eaecbbf5436cbf945dd59de1688",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/00dbac9c91901eaecbbf5436cbf945dd59de1688"
+                }
+            ],
+            "sha": "777e25650e14ebe3fcba54ac3adaa9639f483cce",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/777e25650e14ebe3fcba54ac3adaa9639f483cce"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/99d21cdf0f973a5e5c49c1816142291fc82f4f5e/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T19:10:05Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:13:03Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Edit choice of the compiler warnings",
+                "tree": {
+                    "sha": "bc9a9c3aa43d1d4f4f317087db4e7089491cd7f5",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/bc9a9c3aa43d1d4f4f317087db4e7089491cd7f5"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/99d21cdf0f973a5e5c49c1816142291fc82f4f5e",
+                "verification": {
+                    "payload": "tree bc9a9c3aa43d1d4f4f317087db4e7089491cd7f5\nparent 777e25650e14ebe3fcba54ac3adaa9639f483cce\nauthor WarningX <warningx@gmx.de> 1495825805 +0200\ncommitter WarningX <warningx@gmx.de> 1497298383 +0200\n\nEdit choice of the compiler warnings\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvXPAAoJEHn/XK7iklB2q1YP/0sRLbo7W4/TQHEY72eOmKtd\nCfxEehclcBD3TT3CPoyfbuZ2MP2iVL4S3uQw2aHsbND5GGYqxVRXtcIriSlGXvzs\n2HW3isn5ko58eJ4L58VBbVg63NX/Ta1kfG6eGz6lR/T1k0+r8boQaiwjrOUq0r/L\nLPMQkAt9XmPJpAhXwZ6VSFrtXk1G/DDYclNjWliVGhu504Y3ABASsDDuPxIlSdC1\nFQziNPTN/OS7ZLqBqh/QNYHptLfoDA7qgeit5L8lDccpvim+MHsK1Wor4d88qJiu\n2tSU6JDWFTVhtxO+aYEUxXNySr8iD3FH3QBsK7qMg+om3NWxV02/r5Nn5QgguL/S\n5ukt8azql6BL/Zk9FE7FcBFt8Y2qfCI7QIOZNx03Zc+j3rkekNRXr3TocmEXjBUc\n0GxDAJ3LbaBlkiyO3kaeMyiGNddySNHuOlPPjkscBrtihQVQx3W6Rn5rmwi//MD0\nEhM69MC0bjRPIO2beGPP+yIqT+A1NVT4lEJe3GUFYzkRQ7o8OKwQM2sDy4bMmD8s\nSm5S/2XKogr5cWUYT/bBmXy8WtsaWjqFL/iDq+1fmb0niFiLDjX9m0AFjx+xgSYJ\nrXWN/Ht0kDwO/mSVz2tTD3HPbXCBTh8BrFcpcBuDmZ6TluSWlZBJhCk9OWyR4ws5\nOR6czbYDAPLp+bh5G6Dz\n=mVGJ\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/99d21cdf0f973a5e5c49c1816142291fc82f4f5e",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6OTlkMjFjZGYwZjk3M2E1ZTVjNDljMTgxNjE0MjI5MWZjODJmNGY1ZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/777e25650e14ebe3fcba54ac3adaa9639f483cce",
+                    "sha": "777e25650e14ebe3fcba54ac3adaa9639f483cce",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/777e25650e14ebe3fcba54ac3adaa9639f483cce"
+                }
+            ],
+            "sha": "99d21cdf0f973a5e5c49c1816142291fc82f4f5e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/99d21cdf0f973a5e5c49c1816142291fc82f4f5e"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7f3574735acee9c4625fdfb8510380eb923c1331/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T19:10:58Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:13:06Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Disable all warnings for Release build\n\nSigned-off-by: WarningX <warningx@gmx.de>",
+                "tree": {
+                    "sha": "c8bdbabe34e3d070937a0694ac1536dcd7194c61",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c8bdbabe34e3d070937a0694ac1536dcd7194c61"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/7f3574735acee9c4625fdfb8510380eb923c1331",
+                "verification": {
+                    "payload": "tree c8bdbabe34e3d070937a0694ac1536dcd7194c61\nparent 99d21cdf0f973a5e5c49c1816142291fc82f4f5e\nauthor WarningX <warningx@gmx.de> 1495825858 +0200\ncommitter WarningX <warningx@gmx.de> 1497298386 +0200\n\nDisable all warnings for Release build\n\nSigned-off-by: WarningX <warningx@gmx.de>\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvXSAAoJEHn/XK7iklB2u7EQAIS3QG8xML0d5caLg246bYVt\nnsyLaqQlp9Do7hvwKkCJ/BLdYlpErdtZ5tVc4vnZZwLT5OQSG2hl4nMSE7NvSJTc\nZ9ZKMXsBGlFYYs010CIYQGOLNldwZl/IOVGS/w0tg4wMJ+CFQ6UgjsxbBMLBc5h7\nQzh/hpVI78Zosb5ouTEza1WourdB25xq129xntjwEn3Ll0GyPXGWSXhzbjL4be6m\nCjo9uPV+fB7Voxr4KUJREUzoQGlimUmAHZf819aFOpHggMNJYDpLzIrWomW2dSpS\nm2J5S5y+G6AMhELKkhfi4cGmVkB/IR4x4IuZN0hWorUCwTe56MejIdSpz5mMpwQ1\nVd7femECTWbKao461Q21QGktLem4H2Wp7OFvY6zsRF5r/6LJIATax0iqQBWOlPND\nTyqyuyC97UpMjJpLjJ3Lat6JvdmL4jw5olc5KBhFyLuPVAy4cdNuOhw9jdllLOik\ng1NYF1cB7oxH7CNFhkjpMLE18VnhFdxGUXjyGaGo7K55mDouhD+DKyLNnOGQG7Uc\nF8j//75TwVYHya5ejL73ImZfMmLUYSnaV6Lmei5V3GmYdCHXVfguROxeK70BMN2Q\nvxp4KsiieBmYQNeyEi3bYhItBo14x+3k/qleQ58v+lrH1kIn5SRtxl5Uc6zSK3ps\nrZ0cyobNinpjBxvo6GcU\n=3987\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/7f3574735acee9c4625fdfb8510380eb923c1331",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6N2YzNTc0NzM1YWNlZTljNDYyNWZkZmI4NTEwMzgwZWI5MjNjMTMzMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/99d21cdf0f973a5e5c49c1816142291fc82f4f5e",
+                    "sha": "99d21cdf0f973a5e5c49c1816142291fc82f4f5e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/99d21cdf0f973a5e5c49c1816142291fc82f4f5e"
+                }
+            ],
+            "sha": "7f3574735acee9c4625fdfb8510380eb923c1331",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7f3574735acee9c4625fdfb8510380eb923c1331"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/71737847df36b2bc9cdd235a5137842915bee6e7/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-05-26T19:43:59Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:13:08Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Add description for new cmake build types",
+                "tree": {
+                    "sha": "52cbdf943e0901c028002a07435c661d5bb47ee7",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/52cbdf943e0901c028002a07435c661d5bb47ee7"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/71737847df36b2bc9cdd235a5137842915bee6e7",
+                "verification": {
+                    "payload": "tree 52cbdf943e0901c028002a07435c661d5bb47ee7\nparent 7f3574735acee9c4625fdfb8510380eb923c1331\nauthor WarningX <warningx@gmx.de> 1495827839 +0200\ncommitter WarningX <warningx@gmx.de> 1497298388 +0200\n\nAdd description for new cmake build types\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvXUAAoJEHn/XK7iklB2CIQP/1nGsfTL6xBAAuLfSOVgeN48\nbc/lfb70mNOmFmPEkfZCKHZVcnG6V+/oZ+EkMaaQdfXociGVZnnBT7ARgstxYCnG\netWmHQmWpIMkNFiOHSZwNFpiUvSaJ7SxqH1y9wcI8Fmmz76xiBofD6/cUlDD9S8M\n3HXBuNZayJhT+KLKPlH6mcDmz4uUWb4hpTwDWwnMMNgV0SaAkNoACeiTPpjjc0Be\n+oz7guS0Z+SRNpfhZtARPfhTpn5kijFDfTMnUKOM5nfHZPNK3RvCqSws+KQCu/aL\nANX0710IVGvdS+HG/wFcofRncYfMsRw950L1G5+f0k9e774RDJBWN8E/AfIev0Rp\nZICNo/q63rjIAe3tWTs91Q77UZjgTIThOjdPnsxN0VynHohUVcrC5YfbcI/cxGR3\notlMUB/4vesFhkkj+tnhWve8BWHdq4r7kY+nco1o4Unr/knzqdsw9IijyQkezNW6\n8jjVY8qOsBNY/05w31tA017GCs2XlNvMVCgFPIP5Kku2yttSMvbzSOHMD91qwxKE\n8A5+/jOQxup3q2PBKylWzIoQNeWYhaA7L2EZxF8+e4wL+Qhv+MAd213xXwZRyrcr\nANuNVNEn6hryuMUB5MKBuczfqTY4me76udqJpfG7uIh68RB+U+kM17cfQ5ZsnpsQ\nnNJBb1iIPfhnpDHjNh5O\n=H7aG\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/71737847df36b2bc9cdd235a5137842915bee6e7",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NzE3Mzc4NDdkZjM2YjJiYzljZGQyMzVhNTEzNzg0MjkxNWJlZTZlNw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/7f3574735acee9c4625fdfb8510380eb923c1331",
+                    "sha": "7f3574735acee9c4625fdfb8510380eb923c1331",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7f3574735acee9c4625fdfb8510380eb923c1331"
+                }
+            ],
+            "sha": "71737847df36b2bc9cdd235a5137842915bee6e7",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/71737847df36b2bc9cdd235a5137842915bee6e7"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9f9755bd2f7fea98a98ab3ed4501873a7af834a9/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-05T16:26:53Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:13:09Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Allows running cmake without arguments",
+                "tree": {
+                    "sha": "4a27e1ca0eec294b253047a43f08e6b98cd8a3a1",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/4a27e1ca0eec294b253047a43f08e6b98cd8a3a1"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/9f9755bd2f7fea98a98ab3ed4501873a7af834a9",
+                "verification": {
+                    "payload": "tree 4a27e1ca0eec294b253047a43f08e6b98cd8a3a1\nparent 71737847df36b2bc9cdd235a5137842915bee6e7\nauthor WarningX <warningx@gmx.de> 1496680013 +0200\ncommitter WarningX <warningx@gmx.de> 1497298389 +0200\n\nAllows running cmake without arguments\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvXVAAoJEHn/XK7iklB2Q6oP/iY91KziM4LWpbENKr45RqaD\nrn630HytiNvLPu2S7Mugwor01zSyZlwTc9q0Uw4sDBA+btMhyJ31c7qkG7/iSROG\nTrPt29dv5hgci1NXHWcsCLjLX3mJCPe6YtnQPZ8DdlYckvxKDNgV9Uw0v+ZMIb+h\nbFe2h7p1SCBwaQl9RsSVCBEFPKaQMPnVURMCkdlQ5vjGiDaP20dgKQY8hjL0Pk/2\nePsdroMwGIoV0UuoHOjQTyKXELXfWU+RsV9yiRMpdvIzfGqWVbcnWKFPLoI/kbrG\n3KzXWzRGAtOz+ZR1UTSwdJ+//IKvAugDIJbUUlYGnvl7SWn3e8ldMPcvkiE7y+4z\nwU6oGM66/2QBj5BHY1uZLMrfPpUMJweSZRHqYslQO9EN0f9weY6EZrxBi8N68Rn8\nBAkDiF/AUS+xlFg6HCfnnSohgewpbsFHq1q7cK3w53DLfRzT/0piGtH38hhzzf5d\nUgS38wGhdFkBS2oJMRlJ/AnBzXCu7lrEhe6BJXKq/vHnKzYPal5XCl2Yjc44QZdl\n3C8j+iAi8VM/R9XWtI68QcxSlkDAWHg0ACWiDCxGs603UaUOk07FS/zDzczhQsLK\nPQxE3/zgACKk1o2C8M/nol9ImI6ZgpSAGvKJygbohAJdQT0m+fZa7uDvKbtdkjfQ\njGWG3GHIpzdAXfst7NTf\n=NsmA\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/9f9755bd2f7fea98a98ab3ed4501873a7af834a9",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6OWY5NzU1YmQyZjdmZWE5OGE5OGFiM2VkNDUwMTg3M2E3YWY4MzRhOQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/71737847df36b2bc9cdd235a5137842915bee6e7",
+                    "sha": "71737847df36b2bc9cdd235a5137842915bee6e7",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/71737847df36b2bc9cdd235a5137842915bee6e7"
+                }
+            ],
+            "sha": "9f9755bd2f7fea98a98ab3ed4501873a7af834a9",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9f9755bd2f7fea98a98ab3ed4501873a7af834a9"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f43978d5a127a5103bd0d41748d2f10344b5bb7b/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-05T16:27:32Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:13:10Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Description for cmake build without arguments",
+                "tree": {
+                    "sha": "df6cf4a918787b33046ed06dddabed3436a0381f",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/df6cf4a918787b33046ed06dddabed3436a0381f"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/f43978d5a127a5103bd0d41748d2f10344b5bb7b",
+                "verification": {
+                    "payload": "tree df6cf4a918787b33046ed06dddabed3436a0381f\nparent 9f9755bd2f7fea98a98ab3ed4501873a7af834a9\nauthor WarningX <warningx@gmx.de> 1496680052 +0200\ncommitter WarningX <warningx@gmx.de> 1497298390 +0200\n\nDescription for cmake build without arguments\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPvXWAAoJEHn/XK7iklB29m0QAIT+bio6gw30HZyN1R3JCbtf\nmsJNkrgdroSNhdqr2HAqmhd3qIIUsxC0oR7QED0ChLrNoWk3s6ARRSsS3wbWPhR/\n3LhTEfupBrHPhW/HuEr3kY7Yg6Jz+O73KFR7VmZb0HhURDvl3G+92Vvu6JKsUG5o\nAkh9X8ZJXpxBwobGLNCqohLMqN2fU6I9rpbs/HSS5rNXxuk6jpi5bzNjgndIiOL6\noWDUxoeTUUL3HcxS0amKeGLI/20+KFz+jl65cFulCXvoeW8WQ0M2RlnPDDMwgwxy\nq3hLFDv8qT/6HddGRxyrF+NWOE0AnZdqK8VxkQsPHapkDmjD1nP3n5qTuUxeL/hF\noGU2tHjRQ4dCb/nrzsqF/pu4C040pfOWBxzT+CDU6DTuyOS1x3oEwut6RmJjcj26\nW8CUepZKGBYkntWl8nvVL+4roMqD/OaxiM7eCQWK1XNAYa5rQU9GglbhLT+OzByt\nHuKKs60j58icWXK3io/Viub1XkHd8cxAte0oLTY6PSMUhiDa+mcYEGyCcMd0CvhK\n/9/4ki8/3oWdqhhTnkRaRRPEbX6UP7Zw0nPrw3ZfMPkUdEDoJE8HwKiqR01S6TfP\nk8E4Jit/IQwhnNxqseQuHAO9kFrhK83WdPBeBkCIEnbeDLgsvovxfVAGUX8LhkC+\nWZTb0FtiEsrAIY4spLIv\n=Stfh\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/f43978d5a127a5103bd0d41748d2f10344b5bb7b",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6ZjQzOTc4ZDVhMTI3YTUxMDNiZDBkNDE3NDhkMmYxMDM0NGI1YmI3Yg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/9f9755bd2f7fea98a98ab3ed4501873a7af834a9",
+                    "sha": "9f9755bd2f7fea98a98ab3ed4501873a7af834a9",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9f9755bd2f7fea98a98ab3ed4501873a7af834a9"
+                }
+            ],
+            "sha": "f43978d5a127a5103bd0d41748d2f10344b5bb7b",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f43978d5a127a5103bd0d41748d2f10344b5bb7b"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b76301cb2ea2913ad39048907211fb78fc16d683/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-12T20:57:57Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:57:57Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Rename moved dependence",
+                "tree": {
+                    "sha": "effbaa15019ae57050506d42346f10f642830c88",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/effbaa15019ae57050506d42346f10f642830c88"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/b76301cb2ea2913ad39048907211fb78fc16d683",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/b76301cb2ea2913ad39048907211fb78fc16d683",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6Yjc2MzAxY2IyZWEyOTEzYWQzOTA0ODkwNzIxMWZiNzhmYzE2ZDY4Mw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f43978d5a127a5103bd0d41748d2f10344b5bb7b",
+                    "sha": "f43978d5a127a5103bd0d41748d2f10344b5bb7b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f43978d5a127a5103bd0d41748d2f10344b5bb7b"
+                }
+            ],
+            "sha": "b76301cb2ea2913ad39048907211fb78fc16d683",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b76301cb2ea2913ad39048907211fb78fc16d683"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4e76b3a7943b42d9603c9d420b0b3a832e9b28a3/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-12T20:58:29Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:58:29Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Set default flags to none",
+                "tree": {
+                    "sha": "da699cd4ecf156737faf60cfe3535b8de4e54fdc",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/da699cd4ecf156737faf60cfe3535b8de4e54fdc"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/4e76b3a7943b42d9603c9d420b0b3a832e9b28a3",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/4e76b3a7943b42d9603c9d420b0b3a832e9b28a3",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NGU3NmIzYTc5NDNiNDJkOTYwM2M5ZDQyMGIwYjNhODMyZTliMjhhMw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/b76301cb2ea2913ad39048907211fb78fc16d683",
+                    "sha": "b76301cb2ea2913ad39048907211fb78fc16d683",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b76301cb2ea2913ad39048907211fb78fc16d683"
+                }
+            ],
+            "sha": "4e76b3a7943b42d9603c9d420b0b3a832e9b28a3",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4e76b3a7943b42d9603c9d420b0b3a832e9b28a3"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4a5434f77927ead1c2312a1b325fac9dbb927010/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-12T20:59:01Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:59:01Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Remove redundant debug flag",
+                "tree": {
+                    "sha": "9a15aac3a579e0f6857a400f5a7d93f961af384c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/9a15aac3a579e0f6857a400f5a7d93f961af384c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/4a5434f77927ead1c2312a1b325fac9dbb927010",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/4a5434f77927ead1c2312a1b325fac9dbb927010",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NGE1NDM0Zjc3OTI3ZWFkMWMyMzEyYTFiMzI1ZmFjOWRiYjkyNzAxMA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/4e76b3a7943b42d9603c9d420b0b3a832e9b28a3",
+                    "sha": "4e76b3a7943b42d9603c9d420b0b3a832e9b28a3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4e76b3a7943b42d9603c9d420b0b3a832e9b28a3"
+                }
+            ],
+            "sha": "4a5434f77927ead1c2312a1b325fac9dbb927010",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4a5434f77927ead1c2312a1b325fac9dbb927010"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f6e1f14b845be0932aee662e1e924c4fbf7ec0d2/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-12T20:59:53Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T20:59:53Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Move -pedantic from default to debug flags",
+                "tree": {
+                    "sha": "45b1608392169421bf8b4396d5a86a61630be50c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/45b1608392169421bf8b4396d5a86a61630be50c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/f6e1f14b845be0932aee662e1e924c4fbf7ec0d2",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/f6e1f14b845be0932aee662e1e924c4fbf7ec0d2",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6ZjZlMWYxNGI4NDViZTA5MzJhZWU2NjJlMWU5MjRjNGZiZjdlYzBkMg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/4a5434f77927ead1c2312a1b325fac9dbb927010",
+                    "sha": "4a5434f77927ead1c2312a1b325fac9dbb927010",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4a5434f77927ead1c2312a1b325fac9dbb927010"
+                }
+            ],
+            "sha": "f6e1f14b845be0932aee662e1e924c4fbf7ec0d2",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f6e1f14b845be0932aee662e1e924c4fbf7ec0d2"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-12T21:02:31Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-12T21:02:31Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Merge local AddFlag and remote AddCompileFlag",
+                "tree": {
+                    "sha": "2d80dffb6f8a2ea3dc2fd0539cde3ce7d75e8e1c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/2d80dffb6f8a2ea3dc2fd0539cde3ce7d75e8e1c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41",
+                "verification": {
+                    "payload": "tree 2d80dffb6f8a2ea3dc2fd0539cde3ce7d75e8e1c\nparent f6e1f14b845be0932aee662e1e924c4fbf7ec0d2\nauthor WarningX <warningx@gmx.de> 1497301351 +0200\ncommitter WarningX <warningx@gmx.de> 1497301351 +0200\n\nMerge local AddFlag and remote AddCompileFlag\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZPwFnAAoJEHn/XK7iklB2AzcQAL5n6kQgXPNcwYxUffPo3fDD\nZhhCvxAbic7HklSxji+5elmm6hV3QOisUH5t7TVbY0vP4KkyntAqK3w69HgkrV+3\nF1n/gVmx+xeVxuj86ZeaZTN18iQK91idgO7ayACKvp+otGspL63pCJOaEJYhQ1w5\nYliXQ8Bbuf8NSGNbu6SnvkHnJgzuYRGjNMQyubK/bz9XtuSvDj5HLKhoj2n/fZNJ\nGkDqmbnENXsu4j9qRQGgDqZKwlnNBwUD3OgCJKUglLrfsScpE4bt+3QM05Tw5kOn\nP+O9WNCrQQadOG0wWanssxiD96n3x8lvlbFH3Qre/sqekunhrGO+ByAj1UZ74Efv\na1mgRwaqGH9N5XtyvN+Bu0iISJixz0Ll64D/0gZxL6+CMD7zAnpELJokGVHnk3X2\nPcFzRBQ6yCvECqf2yEz7D09ZusHRaEoSA0c+kN68vjHWK6vTqO//X4rT3nRbZIQ+\nyNmW9tQUh+Btb1mFXP+THPKMqa3fBPCpVQMvixnDSoxWlXETYSkQ/lObYTpINVMT\nBW7wwpMShTwG4gViqoQW6xHChONNPJoqzyBtaPIjy/PcdDKbXdBAzeCCBLqOfDqS\nlBUL2sL/A9G6TLvgd4xh5qddJ+6uo2cB9/VgaQ2YkUogQ00qSw3p8QOLmOzYLkR0\nUifGiiBrVeDyKD4Zq+ZD\n=cM/Y\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6N2ZlZTRlNjNmNWYwZDFmMjg3ODE2YmYzMmVkNGFkOGE0ZjRhMGE0MQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f6e1f14b845be0932aee662e1e924c4fbf7ec0d2",
+                    "sha": "f6e1f14b845be0932aee662e1e924c4fbf7ec0d2",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f6e1f14b845be0932aee662e1e924c4fbf7ec0d2"
+                }
+            ],
+            "sha": "7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8731d79067dd4f1b1b1b8c4dbfc4874768145391/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-13T18:31:00Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-13T18:31:00Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Detected if CMAKE_BUILD_TYPE is defined",
+                "tree": {
+                    "sha": "e1f915de668c20726811fdd04f2229afbae37930",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/e1f915de668c20726811fdd04f2229afbae37930"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/8731d79067dd4f1b1b1b8c4dbfc4874768145391",
+                "verification": {
+                    "payload": "tree e1f915de668c20726811fdd04f2229afbae37930\nparent 7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41\nauthor WarningX <warningx@gmx.de> 1497378660 +0200\ncommitter WarningX <warningx@gmx.de> 1497378660 +0200\n\nDetected if CMAKE_BUILD_TYPE is defined\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZQC9kAAoJEHn/XK7iklB20usP/A/VUCn6pteBojS5BhN1n0IE\no7pAYEAp+ZGEmE56vSN+eVPqsmnkDnAX5hrQEm+4T9vBgM0K8Uj9MXI0rx5Ip2mc\nzzT8zq4UqrDjdhcw33AXrIlJK2l0Jq9jIRbFu1zR6xW35c0o0M7PZZGdnSx4fKbr\n1qtZssYcn+4eoS+7gLLK8G/LBYc/Qh4tQRqPwhvD06DSv10fd+msrgeYiD/40QWC\n34WhbYqu3ZpJ4TZe/rYg/8V72sRtTq9ayz/PktnTmPFlH5mUBBUUydt3936xFxby\nqg6/A4LXxLkElGyyLRSMKrPVyioJvwtVrgYWnW0SMWR0juVaI/W5mHJiTyBJIVTG\nv/F4aQzJpTcVq4VDeCRVyqmvBWJQcKKNITHoQDkO8/zPdOP8Oc0CyS/XkKlFCbgm\nfc/Ix0SjeIbPTqDjBK1JAoNH9c1FxlTTNZ6Mun60sdiPP1nyD4dTBeE7gF0j9/Li\nKG5BYGmj22gN5VFim5e6nliLG4map5IAHiyklhiW2+IL7YdIWqyx594uv/xpVGqC\nGprJDtB3Ed0jKNuxF05JU7KTVN8FxidkLr+5ZNH1Vbd7kovU/vnG+tvfnDwMIsFp\nPSBLyEzz6bBnElc/07AxfRtSQknv3AZHo9D3fyO/QgjhiAoZAIBjjBDc89Hz8ugc\nubOGT/VTEvGpHaL1Vsr2\n=ogx2\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/8731d79067dd4f1b1b1b8c4dbfc4874768145391",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6ODczMWQ3OTA2N2RkNGYxYjFiMWI4YzRkYmZjNDg3NDc2ODE0NTM5MQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41",
+                    "sha": "7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7fee4e63f5f0d1f287816bf32ed4ad8a4f4a0a41"
+                }
+            ],
+            "sha": "8731d79067dd4f1b1b1b8c4dbfc4874768145391",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8731d79067dd4f1b1b1b8c4dbfc4874768145391"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ac246456e0d001e5ef2aee697ff5ac676fe9dd4b/comments",
+            "commit": {
+                "author": {
+                    "date": "2017-06-20T21:03:52Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2017-06-20T21:03:52Z",
+                    "email": "warningx@gmx.de",
+                    "name": "WarningX"
+                },
+                "message": "Set required minimum version for CMake",
+                "tree": {
+                    "sha": "d975d8a3119e1f3f5a64484df4de7fec733d6b91",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/d975d8a3119e1f3f5a64484df4de7fec733d6b91"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/ac246456e0d001e5ef2aee697ff5ac676fe9dd4b",
+                "verification": {
+                    "payload": "tree d975d8a3119e1f3f5a64484df4de7fec733d6b91\nparent 8731d79067dd4f1b1b1b8c4dbfc4874768145391\nauthor WarningX <warningx@gmx.de> 1497992632 +0200\ncommitter WarningX <warningx@gmx.de> 1497992632 +0200\n\nSet required minimum version for CMake\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABAgAGBQJZSY24AAoJEHn/XK7iklB28voQAKH6xnXJGSqmLTZVCdGLyL5j\nr0ZTbin2AVHjsYuh0ETJVulF3+h9lp/cEUKUohY3yPPaFMNufwhPhbOL2Lw6+EnD\nhea5CiVccBjVdSB40dCrJUPwpdtGlekj2gwb7S2J4u8mK5XZGECE/rdgQWBZK4gw\n9XHWtKFT5zx0LDuow1nIJh9FcdaYA52xAiq2V7BLKb6sSPGjC6h20bxEmFimxB3/\nZNBZySIbTKkg+lk7V50W+h4Qzi5JjjYzGzyQHfn2UOLGYVSSypKjFkE4HBaby+14\ndEZ1t4vyGUwvHeYsve0tDCqBVhWFVnnfQy4p+JZG2q0suqes7+AWdgcQlGcNWm7l\n49vuh4wazSIQcegtzaFpRttoxemRCxdSd1TbB1ZOOYOdKrk0kDsjkq6ts2R25Nse\nw2Lz6QmOm5wY5L4GcTNQ83724djnE7JHFkqwEyZvvBGKaMCpcDdTfkmn6311C+A0\n9YVBGNu23oGy3KuPmrq2Y/0p+735q6EgreCBdVtp1aEMmsKVfXmMm0YU/j45yAeJ\nYpT7i01RFbIkIIvZnblbMkOogMabDzQzdaadOT+ezbuPcP++i5DxiLazJtgHwtyP\n4hetAaTjM/psYd3LkuJmAwYVGRT9/jR0b2cgBJNol8fLfsQ4rqMO8Wm5ZWb5aPjw\nrW8HXQtK4Hrkqt+x4NJ9\n=Shv+\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/ac246456e0d001e5ef2aee697ff5ac676fe9dd4b",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6YWMyNDY0NTZlMGQwMDFlNWVmMmFlZTY5N2ZmNWFjNjc2ZmU5ZGQ0Yg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/8731d79067dd4f1b1b1b8c4dbfc4874768145391",
+                    "sha": "8731d79067dd4f1b1b1b8c4dbfc4874768145391",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8731d79067dd4f1b1b1b8c4dbfc4874768145391"
+                }
+            ],
+            "sha": "ac246456e0d001e5ef2aee697ff5ac676fe9dd4b",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ac246456e0d001e5ef2aee697ff5ac676fe9dd4b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5d313088bc5a19e21138bff78e54e22fd65d1289/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-03T15:08:21Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-03T15:08:21Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into cmakedebug",
+                "tree": {
+                    "sha": "0d43e5c100a817cb4f9165c52357e22c6226a262",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/0d43e5c100a817cb4f9165c52357e22c6226a262"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/5d313088bc5a19e21138bff78e54e22fd65d1289",
+                "verification": {
+                    "payload": "tree 0d43e5c100a817cb4f9165c52357e22c6226a262\nparent ac246456e0d001e5ef2aee697ff5ac676fe9dd4b\nparent 99bfb9a4f2b15d3b5a9fe3878df2eb5e55c428aa\nauthor iphydf <iphydf@users.noreply.github.com> 1517670501 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517670501 +0000\n\nMerge branch 'master' into cmakedebug\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlp10GYACgkQOFXbotdE\nA8kgCgf+JO4LxA/3pSeAXzzsxgTxqf2/NifAIGYpz/j12iJ2JcrX3bl0hwToyy1O\nP7lrcVEY5G54yOAbT+ypLUKGH3tiNbQA8uL2n3l1JIB3PPKcTuWbop11GB0CDAzj\n+Ft7Bgoo7Dno2Q4zAYZL4UcfHDzQhyHw9+ncKjzJx4QhsWGSHVy4fdR6Jy5jO86P\nFnn6Qwv0+l9LsSXzJ0+zJvtofJb3PnK6AXpu/6oVjpxWtlx1loJ0givqMRxbFUlQ\nF47xk8ey/kQiijuRt9EB2tG2vSRhUjsaKwJzgpmGDb+NIVknTsSmzcGEjP2VLtGw\ndbykEb/ht0VmhELvJzBmVrmN9uNfhA==\n=CJdN\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/5d313088bc5a19e21138bff78e54e22fd65d1289",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NWQzMTMwODhiYzVhMTllMjExMzhiZmY3OGU1NGUyMmZkNjVkMTI4OQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/ac246456e0d001e5ef2aee697ff5ac676fe9dd4b",
+                    "sha": "ac246456e0d001e5ef2aee697ff5ac676fe9dd4b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ac246456e0d001e5ef2aee697ff5ac676fe9dd4b"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/99bfb9a4f2b15d3b5a9fe3878df2eb5e55c428aa",
+                    "sha": "99bfb9a4f2b15d3b5a9fe3878df2eb5e55c428aa",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/99bfb9a4f2b15d3b5a9fe3878df2eb5e55c428aa"
+                }
+            ],
+            "sha": "5d313088bc5a19e21138bff78e54e22fd65d1289",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5d313088bc5a19e21138bff78e54e22fd65d1289"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/da724c8347718f012597b72dba16fb79bde3e047/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-03T15:09:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-03T15:09:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Spaces",
+                "tree": {
+                    "sha": "1cdb0c5a096fe3aa04a085107a3639377b8f6639",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/1cdb0c5a096fe3aa04a085107a3639377b8f6639"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/da724c8347718f012597b72dba16fb79bde3e047",
+                "verification": {
+                    "payload": "tree 1cdb0c5a096fe3aa04a085107a3639377b8f6639\nparent 5d313088bc5a19e21138bff78e54e22fd65d1289\nauthor iphydf <iphydf@users.noreply.github.com> 1517670588 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517670588 +0000\n\nSpaces\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlp10LwACgkQOFXbotdE\nA8msKQgAiShmXK2s4DSMns8C9fO53KSj1opPmb8po3H+xwFOZVK/XRtIwKJD4wA8\n2TsQqrCgph29RMKbt7IXqHw0EbDGyjyo8J829iZqoEqg9MZSMnLeRKLCZA1p/xhw\nDoOF1lWEtkoQwF0XLdtDPC4wdVf0Ni+Abr8EESEh4krwZC1JwPqWPI5KDmOhsJSV\nMtwW8g4spm9Cw1fODVm3ZB/ubkUh0KaLtK7WNMjC8iCPid1ZQSoAJAQ+9SK+npyU\nfMcqFfx12DFeu5k5A7z4ykaCwnM8mA3Izj2/s8TXaVM/Rw+o/9JvMiLwfJVs8QhG\nxB24Pmiylo39BxJIwFz8sdW5654J/A==\n=N+Xa\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/da724c8347718f012597b72dba16fb79bde3e047",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6ZGE3MjRjODM0NzcxOGYwMTI1OTdiNzJkYmExNmZiNzliZGUzZTA0Nw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/5d313088bc5a19e21138bff78e54e22fd65d1289",
+                    "sha": "5d313088bc5a19e21138bff78e54e22fd65d1289",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5d313088bc5a19e21138bff78e54e22fd65d1289"
+                }
+            ],
+            "sha": "da724c8347718f012597b72dba16fb79bde3e047",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/da724c8347718f012597b72dba16fb79bde3e047"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/948fad33beb651462c2cc8aa21d50a2dd7451f10/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-08T17:45:31Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-08T17:45:31Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into cmakedebug",
+                "tree": {
+                    "sha": "588d930fb46daee135d2acf7025df616721f2945",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/588d930fb46daee135d2acf7025df616721f2945"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/948fad33beb651462c2cc8aa21d50a2dd7451f10",
+                "verification": {
+                    "payload": "tree 588d930fb46daee135d2acf7025df616721f2945\nparent da724c8347718f012597b72dba16fb79bde3e047\nparent f2857932d2521bba53863e151266e04fdebe8544\nauthor iphydf <iphydf@users.noreply.github.com> 1518111931 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1518111931 +0000\n\nMerge branch 'master' into cmakedebug\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlp8jLwACgkQOFXbotdE\nA8nZtgf9HmJG1z+eshYH3Ume2brTm2GWUrJeWXOkrIsevT1n+QOXzmZ8+yRPO+Op\ncQIlil+/xsFOFQUbO2DDqu6epQ/M+lWJ+KnBC+gW/8Noc0MoAoGV2giGr5B+RGhw\n+BHBpPzyd8L/pH1JtpSVEo0/cwTPn7VSnYAxYoqX/f2/xF1fGA4A8KfN8lxIo7Au\nU/JdkbD5/JjuPWp58hcN2GZtdBaP9ROVpYS6X8t/eFwGrnb2/YL2iRSs5ZsRO211\nLXAGzN+GLxtp1kcKvmyU2wv/4pqJFexTSMVLZGTox2heus9RcmikjHTF1N1LD9iC\ndRHP1ME9xBkjZj1LbXFHopfFMRxjBg==\n=eRQC\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/948fad33beb651462c2cc8aa21d50a2dd7451f10",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6OTQ4ZmFkMzNiZWI2NTE0NjJjMmNjOGFhMjFkNTBhMmRkNzQ1MWYxMA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/da724c8347718f012597b72dba16fb79bde3e047",
+                    "sha": "da724c8347718f012597b72dba16fb79bde3e047",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/da724c8347718f012597b72dba16fb79bde3e047"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f2857932d2521bba53863e151266e04fdebe8544",
+                    "sha": "f2857932d2521bba53863e151266e04fdebe8544",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f2857932d2521bba53863e151266e04fdebe8544"
+                }
+            ],
+            "sha": "948fad33beb651462c2cc8aa21d50a2dd7451f10",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/948fad33beb651462c2cc8aa21d50a2dd7451f10"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/249292532b636292d5a863bbb5b2f19f22db60fc/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-11T20:49:32Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-11T20:49:32Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into cmakedebug",
+                "tree": {
+                    "sha": "58c8544bdb24126421e36b43847086ceca4f58ef",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/58c8544bdb24126421e36b43847086ceca4f58ef"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/249292532b636292d5a863bbb5b2f19f22db60fc",
+                "verification": {
+                    "payload": "tree 58c8544bdb24126421e36b43847086ceca4f58ef\nparent 948fad33beb651462c2cc8aa21d50a2dd7451f10\nparent 2e74db5447f89745f4bdc375230e20a7247670a0\nauthor iphydf <iphydf@users.noreply.github.com> 1518382172 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1518382172 +0000\n\nMerge branch 'master' into cmakedebug\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlqArF0ACgkQOFXbotdE\nA8m0IwgAgpQQbeDTbO1897CSECDXDzeg2WX9TFcoymZLb414zv0lALDzaG3or14p\nKBVm23Tb8qZii7xMHvX1mmbMqz0I379BMbp1OCRuP1oqA511ixlJbUqnEp8Y0eDX\nhzWD5HiDrqgZuIDJxKSpZvOiwc9EmX5JQWprnIpvIHyMvoHRpIsUflljmxU6Gr+c\nmWK/Dg4+512Y3/+VIcnsEl/Pq6Rn98jkzRKdiABJeDTfvEYSCXnqMw76/8dL1lxe\nVB99sxpUZPg8S3MZVo7m9dT/eK4I2mjJ6mkB/koOcyefWf+zK/Ko1Fvx5fHSCHmj\n8GnOI21Bbni0tKzrwfJMbnWbVU6agg==\n=YkFE\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/249292532b636292d5a863bbb5b2f19f22db60fc",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6MjQ5MjkyNTMyYjYzNjI5MmQ1YTg2M2JiYjViMmYxOWYyMmRiNjBmYw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/948fad33beb651462c2cc8aa21d50a2dd7451f10",
+                    "sha": "948fad33beb651462c2cc8aa21d50a2dd7451f10",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/948fad33beb651462c2cc8aa21d50a2dd7451f10"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/2e74db5447f89745f4bdc375230e20a7247670a0",
+                    "sha": "2e74db5447f89745f4bdc375230e20a7247670a0",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2e74db5447f89745f4bdc375230e20a7247670a0"
+                }
+            ],
+            "sha": "249292532b636292d5a863bbb5b2f19f22db60fc",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/249292532b636292d5a863bbb5b2f19f22db60fc"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5b416d3acb80431972a7df2b0695e277a4306efe/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-11T21:02:57Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-11T21:02:57Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "formatting",
+                "tree": {
+                    "sha": "487311d7b9ec5e300e7332511e8f1c12c3b415e6",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/487311d7b9ec5e300e7332511e8f1c12c3b415e6"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/5b416d3acb80431972a7df2b0695e277a4306efe",
+                "verification": {
+                    "payload": "tree 487311d7b9ec5e300e7332511e8f1c12c3b415e6\nparent 249292532b636292d5a863bbb5b2f19f22db60fc\nauthor iphydf <iphydf@users.noreply.github.com> 1518382977 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1518382977 +0000\n\nformatting\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlqAr4EACgkQOFXbotdE\nA8keEgf+NRpHD76HXXmJZsIXeEymvyMZUBz0G7BoEKMd0eIV2Dnf5OK4Q2SY2ZCJ\nO2EABlR6hAP8DibFNy5atQ+6NQgnpGd7K8zG1b4m0Oo2s+fehpscbLVTsLejuQjI\nZ9iBntYh/8JJ6jTpQ8/wHXuvLVXbhRf+4LKz8YnY08tNEzu+WjMVqjAUoHajaZzQ\nY4MB5/RWQ7DkB6Uv+G1gB6Ya+j52+iGLlkTqHouYQNxvW95bEzWT/m0BFkVlL49o\ndqJYrGuX+r1bRZ1+sPMuoGRdXuKj5REJvYi4cNsFhbWJT7Rp+770MBD6V6He7Fna\nRhmtgLNm9mlrKdUIWbuXXqhvbvniHw==\n=2ceW\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/5b416d3acb80431972a7df2b0695e277a4306efe",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NWI0MTZkM2FjYjgwNDMxOTcyYTdkZjJiMDY5NWUyNzdhNDMwNmVmZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/249292532b636292d5a863bbb5b2f19f22db60fc",
+                    "sha": "249292532b636292d5a863bbb5b2f19f22db60fc",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/249292532b636292d5a863bbb5b2f19f22db60fc"
+                }
+            ],
+            "sha": "5b416d3acb80431972a7df2b0695e277a4306efe",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5b416d3acb80431972a7df2b0695e277a4306efe"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2db33b6fd7670cf6c0380663d54a410e897a09da/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-11T21:08:50Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-11T21:08:50Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "add back removed flags",
+                "tree": {
+                    "sha": "56b82aff81d69a5f2b3af9aa8b1e5cf61068a7bf",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/56b82aff81d69a5f2b3af9aa8b1e5cf61068a7bf"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/2db33b6fd7670cf6c0380663d54a410e897a09da",
+                "verification": {
+                    "payload": "tree 56b82aff81d69a5f2b3af9aa8b1e5cf61068a7bf\nparent 5b416d3acb80431972a7df2b0695e277a4306efe\nauthor iphydf <iphydf@users.noreply.github.com> 1518383330 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1518383330 +0000\n\nadd back removed flags\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlqAsOIACgkQOFXbotdE\nA8nMyAf/STKp3W1UAbIOXIZybd3GePT18oyOssZkdPRqEU5BQR0J5UN0E922/aph\ncf5fBQu7NgOQ3jW6TNbzADLB5hlw436ihS7csZwf1ibvB3uBXA4ZpwPLmgjSXgi5\nx2S0q0M5p/kmSoWWngK0xEbt6CYZNwkJo2zBTwZaYAqc4s8+q3wSNax0qU5OUbOP\nY0VSb+Dk56ywL4/HpDbMM+h7rwbBUWIObXVIW17/rrmRS4zQRMQZaMhbX04c9Nda\nAwRkrduDB85ur4mo+igraO4lC2nUALkI2RUJgSO0MEefXOAwwH/Jg5ibf0uJvLxB\nDsYpfUNf6VtLHn5itzdfqgnDf+HmSQ==\n=V93h\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/2db33b6fd7670cf6c0380663d54a410e897a09da",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6MmRiMzNiNmZkNzY3MGNmNmMwMzgwNjYzZDU0YTQxMGU4OTdhMDlkYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/5b416d3acb80431972a7df2b0695e277a4306efe",
+                    "sha": "5b416d3acb80431972a7df2b0695e277a4306efe",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5b416d3acb80431972a7df2b0695e277a4306efe"
+                }
+            ],
+            "sha": "2db33b6fd7670cf6c0380663d54a410e897a09da",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2db33b6fd7670cf6c0380663d54a410e897a09da"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e4cfcf2b6d7956bab957947139897f036b47b11e/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-11T21:09:18Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-11T21:09:18Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge remote-tracking branch 'upstream/master' into cmakedebug",
+                "tree": {
+                    "sha": "ff2b50bacd9288c7d0e70a279a25a8df32ebfb28",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/ff2b50bacd9288c7d0e70a279a25a8df32ebfb28"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e4cfcf2b6d7956bab957947139897f036b47b11e",
+                "verification": {
+                    "payload": "tree ff2b50bacd9288c7d0e70a279a25a8df32ebfb28\nparent 2db33b6fd7670cf6c0380663d54a410e897a09da\nparent 0647c2c5bc8c871dbcaed64de40eb252d13d303c\nauthor iphydf <iphydf@users.noreply.github.com> 1518383358 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1518383358 +0000\n\nMerge remote-tracking branch 'upstream/master' into cmakedebug\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlqAsP8ACgkQOFXbotdE\nA8kZVAgAjMrztz0FV+NuNoNalCx/bkeU0gZNkB+FgnZMsrKtw7XCI+3NEi57OHcf\n6LVi+9IujC1/QhI0kZjC/79hK8JNyyp562wP3MSQL1+Vt5qQaMCMqMo+2dilyghE\n132CN5gQSVrtCQHf2L9T/A3CWP46vEl9zT7HxzRJTUkhcGFS3v0kxlDNmr0tKFqo\nsf6uCGxVr5Ke1lDgExBymC7vDeFpxuTYmelFkFeB6Vewhaqlsz+2HIMBvkG2rgdH\nTj84+wpiz9p2Iz58r+Qpf9zN1G8HRdz8v/pjcrwPAE90CEbCOc59n7OP+Y3LZ265\nSfChavFeeozgaVrRxmpyICfJdL2ORw==\n=3cGU\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/e4cfcf2b6d7956bab957947139897f036b47b11e",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6ZTRjZmNmMmI2ZDc5NTZiYWI5NTc5NDcxMzk4OTdmMDM2YjQ3YjExZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/2db33b6fd7670cf6c0380663d54a410e897a09da",
+                    "sha": "2db33b6fd7670cf6c0380663d54a410e897a09da",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2db33b6fd7670cf6c0380663d54a410e897a09da"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/0647c2c5bc8c871dbcaed64de40eb252d13d303c",
+                    "sha": "0647c2c5bc8c871dbcaed64de40eb252d13d303c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/0647c2c5bc8c871dbcaed64de40eb252d13d303c"
+                }
+            ],
+            "sha": "e4cfcf2b6d7956bab957947139897f036b47b11e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e4cfcf2b6d7956bab957947139897f036b47b11e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8abd9dd45231af6a2db1ebf75a5fc794a97f42ac/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-18T17:10:44Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-18T17:10:44Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into cmakedebug",
+                "tree": {
+                    "sha": "781af016f09351390e9df621d91c2bd4cc058231",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/781af016f09351390e9df621d91c2bd4cc058231"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/8abd9dd45231af6a2db1ebf75a5fc794a97f42ac",
+                "verification": {
+                    "payload": "tree 781af016f09351390e9df621d91c2bd4cc058231\nparent e4cfcf2b6d7956bab957947139897f036b47b11e\nparent c3515c49e012f76c5d2ca104476e372d924a79f9\nauthor iphydf <iphydf@users.noreply.github.com> 1518973844 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1518973844 +0000\n\nMerge branch 'master' into cmakedebug\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlqJs5UACgkQOFXbotdE\nA8mecgf+Oy0P8rFrFr4uzTNkITZuaTDAPN15Eiur96/OUALi//f9QNeOuRab3znP\nS1/N7KMMQkEOHCu69PW/OhRMPVoV52KhlQi41Or+Bhc8aJQkfIas6oNG27xyiatC\n6rUAGk6v2e/L1kHHXflW6YsZ2mJJgnn5BNLp1ob/xIyo2uY1HrRP6DghX6nX0McI\netjhRgjrSfVXp1oVFw89wZpkDj4yr98X6BPRijYMkkcT4XRrR1pLvZgxHNPCXtY0\nScS5WZWDUO3h6QFkQ+AqeuDNG/MA0Ln9jAZItWxK4XN8Ma67b8q8KE2he5rU2QMF\n2EKcdOCuF6aEt4Zg085oK+rsKgdK8A==\n=hf9K\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/8abd9dd45231af6a2db1ebf75a5fc794a97f42ac",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6OGFiZDlkZDQ1MjMxYWY2YTJkYjFlYmY3NWE1ZmM3OTRhOTdmNDJhYw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/e4cfcf2b6d7956bab957947139897f036b47b11e",
+                    "sha": "e4cfcf2b6d7956bab957947139897f036b47b11e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e4cfcf2b6d7956bab957947139897f036b47b11e"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/c3515c49e012f76c5d2ca104476e372d924a79f9",
+                    "sha": "c3515c49e012f76c5d2ca104476e372d924a79f9",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c3515c49e012f76c5d2ca104476e372d924a79f9"
+                }
+            ],
+            "sha": "8abd9dd45231af6a2db1ebf75a5fc794a97f42ac",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8abd9dd45231af6a2db1ebf75a5fc794a97f42ac"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/08468b8258d4610b7e342d01ae5f4f21356f34c0/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-02-22T18:59:14Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-02-22T18:59:14Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Merge branch 'master' into cmakedebug",
+                "tree": {
+                    "sha": "43a95b024338ecdeaad3b87f31baecf3dc00380c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/43a95b024338ecdeaad3b87f31baecf3dc00380c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/08468b8258d4610b7e342d01ae5f4f21356f34c0",
+                "verification": {
+                    "payload": "tree 43a95b024338ecdeaad3b87f31baecf3dc00380c\nparent 8abd9dd45231af6a2db1ebf75a5fc794a97f42ac\nparent c8359c843b3f2a693e5c9ff47e1a9a0f288fa26d\nauthor iphydf <iphydf@users.noreply.github.com> 1519325954 +0000\ncommitter GitHub <noreply@github.com> 1519325954 +0000\n\nMerge branch 'master' into cmakedebug",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJajxMCCRBK7hj4Ov3rIwAAdHIIAAzCo6ccuQdeAe1JIO/WVCcq\nsANOTWByuKxVk8/c8QFPrKZV9CpgjQ8oV0L5U331QWnuMp+hCuwJ2/udZIadSoEh\nbqHa+nWeZK/fh9wYuQor+1oJHsmCCYtdG5GqbTtZ8cKyl7bcsMeQLKte8uKJJBPX\nxpxgVyx0159fZdQc72D87rHLNlKkPeIqmJxAm0mOODNoDtqz/MOOx+eOZPDr7xPc\ndFyU1ANBsi1uP/IHL+tnVSjUcV/mot0c9r3qDfxajqDX+nR8rkfL+QxYZ2jMdMGI\nnsqrz+e2UDAFrrXge+VsGwtnkL51QR/2TIDa+rsKozFcf48FWHJfzAKWj7uG0oo=\n=GV/Y\n-----END PGP SIGNATURE-----\n",
+                    "verified": true,
+                    "verified_at": "2024-01-16T19:59:59Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/08468b8258d4610b7e342d01ae5f4f21356f34c0",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6MDg0NjhiODI1OGQ0NjEwYjdlMzQyZDAxYWU1ZjRmMjEzNTZmMzRjMA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/8abd9dd45231af6a2db1ebf75a5fc794a97f42ac",
+                    "sha": "8abd9dd45231af6a2db1ebf75a5fc794a97f42ac",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8abd9dd45231af6a2db1ebf75a5fc794a97f42ac"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/c8359c843b3f2a693e5c9ff47e1a9a0f288fa26d",
+                    "sha": "c8359c843b3f2a693e5c9ff47e1a9a0f288fa26d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c8359c843b3f2a693e5c9ff47e1a9a0f288fa26d"
+                }
+            ],
+            "sha": "08468b8258d4610b7e342d01ae5f4f21356f34c0",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/08468b8258d4610b7e342d01ae5f4f21356f34c0"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/54bbe0333bd89530facfec68b2ec973cc14daa60/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-03-16T02:48:47Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-03-16T02:48:47Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into cmakedebug",
+                "tree": {
+                    "sha": "317e5f6ad71625cdcff6424c8807de967dd828a2",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/317e5f6ad71625cdcff6424c8807de967dd828a2"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/54bbe0333bd89530facfec68b2ec973cc14daa60",
+                "verification": {
+                    "payload": "tree 317e5f6ad71625cdcff6424c8807de967dd828a2\nparent 08468b8258d4610b7e342d01ae5f4f21356f34c0\nparent fa8927aa0f90be1b15ef1d059c6f2ce81e2be8f5\nauthor iphydf <iphydf@users.noreply.github.com> 1521168527 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1521168527 +0000\n\nMerge branch 'master' into cmakedebug\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlqrMJAACgkQOFXbotdE\nA8kpgQf/TMnzOGz5SbTgY1Y6J64lpflohUxCccsjPg5D0V9Gd5C6Kr59HxWNKv/v\nrhank1M8SLS0Uk/RORfmo5A5byLLMgZdVjWrlVfkm1a32IwlCtrg2LPwFnEEpEFD\nVVj9mRpHBfhKqTzrv2941WDtVYD2w0V7IZgzWZLlcV3ge7RskoZxTdMWyJpECtkA\njsrTJvwoSw0b+ikivj+Q+uuGYqoZueFzIGq+uHCqzsBfQjb4fs+tNiGkdROoLGlf\nEZ92BHNnmbvkHtlZ9q4/qeKZpKHhlE8rE1aSbjo4PwS2xZsJz4/Ilu/MxiBuTiup\nqvZeEsilhCiVZVXCOAqiXV3br8Sqcg==\n=qEWZ\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T23:11:11Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/54bbe0333bd89530facfec68b2ec973cc14daa60",
+            "node_id": "MDY6Q29tbWl0NjI3MDM2NDI6NTRiYmUwMzMzYmQ4OTUzMGZhY2ZlYzY4YjJlYzk3M2NjMTRkYWE2MA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/08468b8258d4610b7e342d01ae5f4f21356f34c0",
+                    "sha": "08468b8258d4610b7e342d01ae5f4f21356f34c0",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/08468b8258d4610b7e342d01ae5f4f21356f34c0"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/fa8927aa0f90be1b15ef1d059c6f2ce81e2be8f5",
+                    "sha": "fa8927aa0f90be1b15ef1d059c6f2ce81e2be8f5",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fa8927aa0f90be1b15ef1d059c6f2ce81e2be8f5"
+                }
+            ],
+            "sha": "54bbe0333bd89530facfec68b2ec973cc14daa60",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/54bbe0333bd89530facfec68b2ec973cc14daa60"
+        }
+    ],
+    "commits": 29,
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/562/commits",
+    "created_at": "2017-06-06T19:59:01Z",
+    "deletions": 91,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/562.diff",
+    "draft": false,
+    "head": {
+        "label": null,
+        "ref": "cmakedebug",
+        "repo": null,
+        "sha": "54bbe0333bd89530facfec68b2ec973cc14daa60",
+        "user": null
+    },
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/562",
+    "id": 124275178,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/562",
+    "labels": [
+        {
+            "color": "84b6eb",
+            "default": true,
+            "description": "New feature for the user, not a new feature for build script",
+            "id": 403702218,
+            "name": "enhancement",
+            "node_id": "MDU6TGFiZWw0MDM3MDIyMTg=",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/enhancement"
+        },
+        {
+            "color": "eeeeee",
+            "default": false,
+            "description": "Low priority",
+            "id": 406490432,
+            "name": "P3",
+            "node_id": "MDU6TGFiZWw0MDY0OTA0MzI=",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/P3"
+        },
+        {
+            "color": "1d76db",
+            "default": false,
+            "description": "Packaging",
+            "id": 538632124,
+            "name": "packaging",
+            "node_id": "MDU6TGFiZWw1Mzg2MzIxMjQ=",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/packaging"
+        }
+    ],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "ab9629dc7c3354ac2e38008321040df83cd5b9ff",
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": {
+        "closed_at": "2018-06-25T22:17:03Z",
+        "closed_issues": 60,
+        "created_at": "2018-05-10T15:53:46Z",
+        "creator": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+            "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+            "followers_url": "https://api.github.com/users/robinlinden/followers",
+            "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+            "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/robinlinden",
+            "id": 8304462,
+            "login": "robinlinden",
+            "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+            "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+            "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+            "repos_url": "https://api.github.com/users/robinlinden/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/robinlinden",
+            "user_view_type": "public"
+        },
+        "description": "",
+        "due_on": "2018-06-26T07:00:00Z",
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/30",
+        "id": 3336378,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/30/labels",
+        "node_id": "MDk6TWlsZXN0b25lMzMzNjM3OA==",
+        "number": 30,
+        "open_issues": 0,
+        "state": "closed",
+        "title": "v0.2.3",
+        "updated_at": "2022-02-05T01:06:11Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/30"
+    },
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MTI0Mjc1MTc4",
+    "number": 562,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/562.patch",
+    "rebaseable": false,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/562/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/54bbe0333bd89530facfec68b2ec973cc14daa60",
+    "title": "Build types for CMake",
+    "updated_at": "2018-06-09T21:39:27Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/562",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",
+        "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+        "followers_url": "https://api.github.com/users/ghost/followers",
+        "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/ghost",
+        "id": 10137,
+        "login": "ghost",
+        "node_id": "MDQ6VXNlcjEwMTM3",
+        "organizations_url": "https://api.github.com/users/ghost/orgs",
+        "received_events_url": "https://api.github.com/users/ghost/received_events",
+        "repos_url": "https://api.github.com/users/ghost/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/ghost",
+        "user_view_type": "public"
+    }
+}

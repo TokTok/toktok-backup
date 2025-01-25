@@ -1,0 +1,317 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 512571987,
+        "name": "api break",
+        "node_id": "MDU6TGFiZWw1MTI1NzE5ODc=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/api%20break"
+    },
+    {
+        "color": "01707f",
+        "default": false,
+        "description": "Bootstrap",
+        "id": 755286626,
+        "name": "bootstrap",
+        "node_id": "MDU6TGFiZWw3NTUyODY2MjY=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/bootstrap"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 403702216,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMTY=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 2034515478,
+        "name": "chore",
+        "node_id": "MDU6TGFiZWwyMDM0NTE1NDc4",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 2036528013,
+        "name": "cleanup",
+        "node_id": "MDU6TGFiZWwyMDM2NTI4MDEz",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/cleanup"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Crypto",
+        "id": 478458869,
+        "name": "crypto",
+        "node_id": "MDU6TGFiZWw0Nzg0NTg4Njk=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/crypto"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 2012969983,
+        "name": "dependencies",
+        "node_id": "MDU6TGFiZWwyMDEyOTY5OTgz",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 565608293,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWw1NjU2MDgyOTM=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 403702217,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMTc=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 403702218,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMTg=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/enhancement"
+    },
+    {
+        "color": "e02abf",
+        "default": false,
+        "description": "File Transfers",
+        "id": 836101977,
+        "name": "file transfers",
+        "node_id": "MDU6TGFiZWw4MzYxMDE5Nzc=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/file%20transfers"
+    },
+    {
+        "color": "16e2e2",
+        "default": false,
+        "description": "Pull requests that update Go code",
+        "id": 6844570046,
+        "name": "go",
+        "node_id": "LA_kwDOA7zIGs8AAAABl_fZvg",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/go"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 806564177,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWw4MDY1NjQxNzc=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 403702219,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMTk=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/help%20wanted"
+    },
+    {
+        "color": "d73a49",
+        "default": true,
+        "description": "Irrelevant or spam",
+        "id": 3617748356,
+        "name": "invalid",
+        "node_id": "LA_kwDOA7zIGs7XonWE",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/invalid"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Messenger",
+        "id": 438496561,
+        "name": "messenger",
+        "node_id": "MDU6TGFiZWw0Mzg0OTY1NjE=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/messenger"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 836102506,
+        "name": "meta",
+        "node_id": "MDU6TGFiZWw4MzYxMDI1MDY=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/meta"
+    },
+    {
+        "color": "d4c5f9",
+        "default": false,
+        "description": "Network",
+        "id": 438496130,
+        "name": "network",
+        "node_id": "MDU6TGFiZWw0Mzg0OTYxMzA=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/network"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 403702220,
+        "name": "not reproducible",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMjA=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 516723022,
+        "name": "P0",
+        "node_id": "MDU6TGFiZWw1MTY3MjMwMjI=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 406490359,
+        "name": "P1",
+        "node_id": "MDU6TGFiZWw0MDY0OTAzNTk=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 406490410,
+        "name": "P2",
+        "node_id": "MDU6TGFiZWw0MDY0OTA0MTA=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 406490432,
+        "name": "P3",
+        "node_id": "MDU6TGFiZWw0MDY0OTA0MzI=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 538632124,
+        "name": "packaging",
+        "node_id": "MDU6TGFiZWw1Mzg2MzIxMjQ=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 2037200638,
+        "name": "performance",
+        "node_id": "MDU6TGFiZWwyMDM3MjAwNjM4",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 836103236,
+        "name": "proposal",
+        "node_id": "MDU6TGFiZWw4MzYxMDMyMzY=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 403702221,
+        "name": "question",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMjE=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 2034508700,
+        "name": "refactor",
+        "node_id": "MDU6TGFiZWwyMDM0NTA4NzAw",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 476178168,
+        "name": "security",
+        "node_id": "MDU6TGFiZWw0NzYxNzgxNjg=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 2039592167,
+        "name": "style",
+        "node_id": "MDU6TGFiZWwyMDM5NTkyMTY3",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/style"
+    },
+    {
+        "color": "000000",
+        "default": false,
+        "description": "Pull requests that update Submodules code",
+        "id": 6914246782,
+        "name": "submodules",
+        "node_id": "LA_kwDOA7zIGs8AAAABnB8Ifg",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/submodules"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 467410949,
+        "name": "suggestion",
+        "node_id": "MDU6TGFiZWw0Njc0MTA5NDk=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 2037183222,
+        "name": "test",
+        "node_id": "MDU6TGFiZWwyMDM3MTgzMjIy",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/test"
+    },
+    {
+        "color": "0052cc",
+        "default": false,
+        "description": "Audio/video",
+        "id": 467412219,
+        "name": "toxav",
+        "node_id": "MDU6TGFiZWw0Njc0MTIyMTk=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/toxav"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 403702222,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWw0MDM3MDIyMjI=",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/wontfix"
+    }
+]

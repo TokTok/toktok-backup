@@ -1,0 +1,2022 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/toxic/issues/273/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/273/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/toxic/pull/273"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/toxic/issues/273"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/273/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/toxic/statuses/96dc0f8ff9029a834262c2ad4386722814bc1eca"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 118,
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+        "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+        "followers_url": "https://api.github.com/users/TheChymera/followers",
+        "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/TheChymera",
+        "id": 950524,
+        "login": "TheChymera",
+        "node_id": "MDQ6VXNlcjk1MDUyNA==",
+        "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+        "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+        "repos_url": "https://api.github.com/users/TheChymera/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/TheChymera",
+        "user_view_type": "public"
+    },
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+            "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TheChymera/followers",
+            "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TheChymera",
+            "id": 950524,
+            "login": "TheChymera",
+            "node_id": "MDQ6VXNlcjk1MDUyNA==",
+            "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+            "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+            "repos_url": "https://api.github.com/users/TheChymera/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/TheChymera",
+            "user_view_type": "public"
+        },
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+            "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+            "followers_url": "https://api.github.com/users/nurupo/followers",
+            "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/nurupo",
+            "id": 1855294,
+            "login": "nurupo",
+            "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+            "organizations_url": "https://api.github.com/users/nurupo/orgs",
+            "received_events_url": "https://api.github.com/users/nurupo/received_events",
+            "repos_url": "https://api.github.com/users/nurupo/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/nurupo",
+            "user_view_type": "public"
+        }
+    ],
+    "author_association": "FIRST_TIME_CONTRIBUTOR",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toxic/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toxic/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toxic/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toxic/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toxic.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toxic/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toxic/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toxic/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toxic/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toxic/contributors",
+            "created_at": "2018-01-20T18:29:55Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toxic/deployments",
+            "description": "An ncurses-based Tox client",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toxic/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toxic/events",
+            "fork": true,
+            "forks": 4,
+            "forks_count": 4,
+            "forks_url": "https://api.github.com/repos/TokTok/toxic/forks",
+            "full_name": "TokTok/toxic",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toxic/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toxic/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toxic/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toxic.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/",
+            "hooks_url": "https://api.github.com/repos/TokTok/toxic/hooks",
+            "html_url": "https://github.com/TokTok/toxic",
+            "id": 118269669,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toxic/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toxic/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toxic/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toxic/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toxic/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/toxic/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toxic/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toxic/milestones{/number}",
+            "mirror_url": null,
+            "name": "toxic",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMTgyNjk2Njk=",
+            "notifications_url": "https://api.github.com/repos/TokTok/toxic/notifications{?since,all,participating}",
+            "open_issues": 11,
+            "open_issues_count": 11,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toxic/pulls{/number}",
+            "pushed_at": "2025-01-24T17:24:09Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toxic/releases{/id}",
+            "size": 17999,
+            "ssh_url": "git@github.com:TokTok/toxic.git",
+            "stargazers_count": 32,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toxic/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toxic/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toxic/subscription",
+            "svn_url": "https://github.com/TokTok/toxic",
+            "tags_url": "https://api.github.com/repos/TokTok/toxic/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toxic/teams",
+            "topics": [
+                "audiochat",
+                "decentralization",
+                "decentralized-applications",
+                "dht",
+                "dht-network",
+                "filesharing",
+                "instant-messaging",
+                "ncurses",
+                "p2p",
+                "privacy",
+                "privacy-tools",
+                "security",
+                "security-tools",
+                "tox",
+                "tox-client",
+                "tui",
+                "videochat"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toxic/git/trees{/sha}",
+            "updated_at": "2025-01-23T10:38:48Z",
+            "url": "https://api.github.com/repos/TokTok/toxic",
+            "visibility": "public",
+            "watchers": 32,
+            "watchers_count": 32,
+            "web_commit_signoff_required": false
+        },
+        "sha": "248d1ec94161439dd8b7032abc98d4d434605532",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "So the xdg-open command will fire if I call it *before* the download, but not after. Any ideas what's going on? I can see that the code got there via the debugging line, but it doesn't seem to do anything.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toxic/273)\n<!-- Reviewable:end -->\n",
+    "changed_files": 4,
+    "closed_at": null,
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451452891"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451452891"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "to mitigate potential command injection, i suggest we sanitize the string and make them url encoded (with the exception of '/')\r\neg: `xdg-open file:///home/green/mpv-shot0001.jpg`\r\nor with space: `xdg-open file:///home/green/mpv%20shot0001.jpg`",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T10:59:15Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }\n+    char command[MAX_STR_SIZE];\n+    snprintf(command, sizeof(command), \"xdg-open %s\", ft->file_path);",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451452891",
+            "id": 1451452891,
+            "line": 413,
+            "node_id": "PRRC_kwDOBwym5c5Wg2nb",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 413,
+            "original_position": 88,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 88,
+            "pull_request_review_id": 1819975176,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451452891/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T10:59:32Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451452891",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451453780"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451453780"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "i am not sure what the reasoning behind the temp dir is.",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T11:02:07Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451453780",
+            "id": 1451453780,
+            "line": 393,
+            "node_id": "PRRC_kwDOBwym5c5Wg21U",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 393,
+            "original_position": 68,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 68,
+            "pull_request_review_id": 1819975454,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451453780/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T11:02:08Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451453780",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451454002"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451454002"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "there are legitimate uses for opening files that are still being transferred (most streaming media types like videos and audio)",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T11:02:51Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451454002",
+            "id": 1451454002,
+            "line": 411,
+            "node_id": "PRRC_kwDOBwym5c5Wg24y",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 411,
+            "original_position": 86,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 86,
+            "pull_request_review_id": 1819975513,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451454002/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T11:02:51Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451454002",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451552217"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451552217"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "That sleep will freeze toxic. ft->state can't update while we're in that loop because that function is holding a mutex lock. Sleeps in random functions is almost never the correct solution. They're generally only used in the main loop or in task-specific threads.",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T15:21:42Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451552217",
+            "id": 1451552217,
+            "in_reply_to_id": 1451454002,
+            "line": 411,
+            "node_id": "PRRC_kwDOBwym5c5WhO3Z",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 411,
+            "original_position": 86,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 86,
+            "pull_request_review_id": 1820032609,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451552217/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T15:21:42Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451552217",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451559571"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451559571"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "`popen()` is a rather dangerous function that does shell interpretation, so it's prone to shell injection. Why not `fork()` + `exec*()` instead, calling `/usr/bin/xdg-open` directly?",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T15:59:34Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }\n+    char command[MAX_STR_SIZE];\n+    snprintf(command, sizeof(command), \"xdg-open %s\", ft->file_path);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"I am about to run the xdg command.\");\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    int open_result = popen(command, \"r\");",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451559571",
+            "id": 1451559571,
+            "line": 417,
+            "node_id": "PRRC_kwDOBwym5c5WhQqT",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 417,
+            "original_position": 92,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 92,
+            "pull_request_review_id": 1820043826,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451559571/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T17:08:08Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451559571",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451565334"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451565334"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "the url encoder could be used for other hyperlinks too.\r\n\r\n![image](https://github.com/TokTok/toxic/assets/2938071/16a1ad0a-5378-4756-b3ba-c94dc2e9984f)\r\n",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T16:25:19Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }\n+    char command[MAX_STR_SIZE];\n+    snprintf(command, sizeof(command), \"xdg-open %s\", ft->file_path);",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451565334",
+            "id": 1451565334,
+            "in_reply_to_id": 1451452891,
+            "line": 413,
+            "node_id": "PRRC_kwDOBwym5c5WhSEW",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 413,
+            "original_position": 88,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 88,
+            "pull_request_review_id": 1820054596,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451565334/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T16:25:20Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451565334",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451590135"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451590135"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "while I agree with the first statement, said path is not portable.\r\nnixos:\r\n```\r\n$ which xdg-open\r\n/run/current-system/sw/bin/xdg-open\r\n```",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T19:08:21Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }\n+    char command[MAX_STR_SIZE];\n+    snprintf(command, sizeof(command), \"xdg-open %s\", ft->file_path);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"I am about to run the xdg command.\");\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    int open_result = popen(command, \"r\");",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451590135",
+            "id": 1451590135,
+            "in_reply_to_id": 1451559571,
+            "line": 417,
+            "node_id": "PRRC_kwDOBwym5c5WhYH3",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 417,
+            "original_position": 92,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 92,
+            "pull_request_review_id": 1820085111,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451590135/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T19:08:22Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451590135",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toxic/pull/273#discussion_r1451590314"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/273"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451590314"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "ie we would have to search for the binary first (probably once at startup)",
+            "commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "created_at": "2024-01-13T19:09:36Z",
+            "diff_hunk": "@@ -335,6 +337,117 @@ void cmd_game_join(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*a\n \n #endif // GAMES\n \n+\n+void cmd_fopen(WINDOW *window, ToxWindow *self, Tox *tox, int argc, char (*argv)[MAX_STR_SIZE])\n+{\n+    UNUSED_VAR(window);\n+\n+    if (argc < 1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"File ID required.\");\n+        return;\n+    }\n+\n+    long int idx = strtol(argv[1], NULL, 10);\n+\n+    if ((idx == 0 && strcmp(argv[1], \"0\")) || idx < 0 || idx >= MAX_FILES) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld\", idx);\n+        return;\n+    }\n+\n+    FileTransfer *ft = get_file_transfer_struct_index(self->num, idx, FILE_TRANSFER_RECV);\n+\n+    if (!ft) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if (ft->state != FILE_TRANSFER_PENDING) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"No pending file transfers with ID %ld.\", idx);\n+        return;\n+    }\n+\n+    if ((ft->file = fopen(ft->file_path, \"a\")) == NULL) {\n+        const char *msg =  \"File transfer failed: Invalid download path.\";\n+        close_file_transfer(self, tox, ft, TOX_FILE_CONTROL_CANCEL, msg, notif_error);\n+        return;\n+    }\n+\n+    Tox_Err_File_Control err;\n+    tox_file_control(tox, self->num, ft->filenumber, TOX_FILE_CONTROL_RESUME, &err);\n+\n+    if (err != TOX_ERR_FILE_CONTROL_OK) {\n+        goto on_recv_error;\n+    }\n+\n+    // make tmp_dir if it does not exist\n+    /// don't need this for now, prob should go somewhere else anyway.\n+    const char *tmp_dir = \"/tmp/toxic-download-dir/\";\n+    DIR* dir = opendir(\"/tmp/toxic-download-dir/\");\n+    if (dir) {\n+        closedir(dir);\n+    }\n+\n+    if (mkdir(tmp_dir, S_IRWXU) == -1) {\n+        line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Could not create tox download /tmp/ directory.\\n\", err);\n+    }\n+    // end make tmpdir if it does not exist\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"Saving file [%ld] as: '%s'\", idx, ft->file_path);\n+\n+    const bool auto_accept_files = friend_get_auto_accept_files(self->num);\n+    const uint32_t line_skip = auto_accept_files ? 4 : 2;\n+\n+    char progline[MAX_STR_SIZE];\n+    init_progress_bar(progline);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"%s\", progline);\n+    ft->line_id = self->chatwin->hst->line_end->id + line_skip;\n+    ft->state = FILE_TRANSFER_STARTED;\n+\n+    // make and call xdg command\n+    while (ft->state != FILE_TRANSFER_INACTIVE) {\n+        usleep(100000);\n+    }\n+    char command[MAX_STR_SIZE];\n+    snprintf(command, sizeof(command), \"xdg-open %s\", ft->file_path);\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"I am about to run the xdg command.\");\n+    line_info_add(self, false, NULL, NULL, SYS_MSG, 0, 0, \"The file path is '%s'\", ft->file_path);\n+\n+    int open_result = popen(command, \"r\");",
+            "html_url": "https://github.com/TokTok/toxic/pull/273#discussion_r1451590314",
+            "id": 1451590314,
+            "in_reply_to_id": 1451559571,
+            "line": 417,
+            "node_id": "PRRC_kwDOBwym5c5WhYKq",
+            "original_commit_id": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "original_line": 417,
+            "original_position": 92,
+            "original_start_line": null,
+            "path": "src/chat_commands.c",
+            "position": 92,
+            "pull_request_review_id": 1820085250,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451590314/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2024-01-13T19:09:36Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/pulls/comments/1451590314",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/toxic/issues/273/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/e5e4244d45ebef8090132f250636ef8d1f09b749/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T01:16:10Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T01:16:10Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Trying to add open function",
+                "tree": {
+                    "sha": "54ac1aceaa6a1fcdf21bdc07b40d6aa9ba343e75",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/54ac1aceaa6a1fcdf21bdc07b40d6aa9ba343e75"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/e5e4244d45ebef8090132f250636ef8d1f09b749",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/e5e4244d45ebef8090132f250636ef8d1f09b749",
+            "node_id": "C_kwDOLEP2GdoAKGU1ZTQyNDRkNDVlYmVmODA5MDEzMmYyNTA2MzZlZjhkMWYwOWI3NDk",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/daf3d6b4b07a1c3871c11514ee365da1c58eef00",
+                    "sha": "daf3d6b4b07a1c3871c11514ee365da1c58eef00",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/daf3d6b4b07a1c3871c11514ee365da1c58eef00"
+                }
+            ],
+            "sha": "e5e4244d45ebef8090132f250636ef8d1f09b749",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/e5e4244d45ebef8090132f250636ef8d1f09b749"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/26832c34e526f4851e6ddffb587347ac6a9af217/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T01:26:56Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T01:37:29Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Writing xdg function",
+                "tree": {
+                    "sha": "37bdff7b20ef989f90b434560ecf7edce6f630c1",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/37bdff7b20ef989f90b434560ecf7edce6f630c1"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/26832c34e526f4851e6ddffb587347ac6a9af217",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/26832c34e526f4851e6ddffb587347ac6a9af217",
+            "node_id": "C_kwDOLEP2GdoAKDI2ODMyYzM0ZTUyNmY0ODUxZTZkZGZmYjU4NzM0N2FjNmE5YWYyMTc",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/e5e4244d45ebef8090132f250636ef8d1f09b749",
+                    "sha": "e5e4244d45ebef8090132f250636ef8d1f09b749",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/e5e4244d45ebef8090132f250636ef8d1f09b749"
+                }
+            ],
+            "sha": "26832c34e526f4851e6ddffb587347ac6a9af217",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/26832c34e526f4851e6ddffb587347ac6a9af217"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/6f99015dc8616f86fe703f499ea92387369eba80/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T01:37:08Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T01:37:29Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Adding command to more places",
+                "tree": {
+                    "sha": "2854bcb80b36adf56da99300560d210b80ca54ad",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/2854bcb80b36adf56da99300560d210b80ca54ad"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/6f99015dc8616f86fe703f499ea92387369eba80",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/6f99015dc8616f86fe703f499ea92387369eba80",
+            "node_id": "C_kwDOLEP2GdoAKDZmOTkwMTVkYzg2MTZmODZmZTcwM2Y0OTllYTkyMzg3MzY5ZWJhODA",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/26832c34e526f4851e6ddffb587347ac6a9af217",
+                    "sha": "26832c34e526f4851e6ddffb587347ac6a9af217",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/26832c34e526f4851e6ddffb587347ac6a9af217"
+                }
+            ],
+            "sha": "6f99015dc8616f86fe703f499ea92387369eba80",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/6f99015dc8616f86fe703f499ea92387369eba80"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/3940f2be0d8aded24991779b7bc42bdf861bc269/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T01:40:16Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T01:40:16Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Sorted new command and added in header file",
+                "tree": {
+                    "sha": "6716facb82116ec5dc32e564ac605a095543c437",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/6716facb82116ec5dc32e564ac605a095543c437"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/3940f2be0d8aded24991779b7bc42bdf861bc269",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/3940f2be0d8aded24991779b7bc42bdf861bc269",
+            "node_id": "C_kwDOLEP2GdoAKDM5NDBmMmJlMGQ4YWRlZDI0OTkxNzc5YjdiYzQyYmRmODYxYmMyNjk",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/6f99015dc8616f86fe703f499ea92387369eba80",
+                    "sha": "6f99015dc8616f86fe703f499ea92387369eba80",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/6f99015dc8616f86fe703f499ea92387369eba80"
+                }
+            ],
+            "sha": "3940f2be0d8aded24991779b7bc42bdf861bc269",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/3940f2be0d8aded24991779b7bc42bdf861bc269"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/d81eed0132e28b075fe70ee2acd22acd9caba322/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T02:12:03Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T02:12:03Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "tmp dir (not yet used), and included everything in fopen function",
+                "tree": {
+                    "sha": "9573ffae0868d48529c3f5e9acddc4102350222f",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/9573ffae0868d48529c3f5e9acddc4102350222f"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/d81eed0132e28b075fe70ee2acd22acd9caba322",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/d81eed0132e28b075fe70ee2acd22acd9caba322",
+            "node_id": "C_kwDOLEP2GdoAKGQ4MWVlZDAxMzJlMjhiMDc1ZmU3MGVlMmFjZDIyYWNkOWNhYmEzMjI",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/3940f2be0d8aded24991779b7bc42bdf861bc269",
+                    "sha": "3940f2be0d8aded24991779b7bc42bdf861bc269",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/3940f2be0d8aded24991779b7bc42bdf861bc269"
+                }
+            ],
+            "sha": "d81eed0132e28b075fe70ee2acd22acd9caba322",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/d81eed0132e28b075fe70ee2acd22acd9caba322"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/a9b10b0bfdfa11025a544d5c89f5a4296790e086/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T02:14:58Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T02:14:58Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Open after download, not before",
+                "tree": {
+                    "sha": "9a6bf67698b4ddb25bb2ed5c388116be9fdd24af",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/9a6bf67698b4ddb25bb2ed5c388116be9fdd24af"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/a9b10b0bfdfa11025a544d5c89f5a4296790e086",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/a9b10b0bfdfa11025a544d5c89f5a4296790e086",
+            "node_id": "C_kwDOLEP2GdoAKGE5YjEwYjBiZmRmYTExMDI1YTU0NGQ1Yzg5ZjVhNDI5Njc5MGUwODY",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/d81eed0132e28b075fe70ee2acd22acd9caba322",
+                    "sha": "d81eed0132e28b075fe70ee2acd22acd9caba322",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/d81eed0132e28b075fe70ee2acd22acd9caba322"
+                }
+            ],
+            "sha": "a9b10b0bfdfa11025a544d5c89f5a4296790e086",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/a9b10b0bfdfa11025a544d5c89f5a4296790e086"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/856d5a1fabccff90a870b3b50d2470e5568f2f02/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T02:19:41Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T02:19:41Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Debugging why xdg doesn't launch",
+                "tree": {
+                    "sha": "de9239070a3534d76ba79fe74f14ae64ee772ce1",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/de9239070a3534d76ba79fe74f14ae64ee772ce1"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/856d5a1fabccff90a870b3b50d2470e5568f2f02",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/856d5a1fabccff90a870b3b50d2470e5568f2f02",
+            "node_id": "C_kwDOLEP2GdoAKDg1NmQ1YTFmYWJjY2ZmOTBhODcwYjNiNTBkMjQ3MGU1NTY4ZjJmMDI",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/a9b10b0bfdfa11025a544d5c89f5a4296790e086",
+                    "sha": "a9b10b0bfdfa11025a544d5c89f5a4296790e086",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/a9b10b0bfdfa11025a544d5c89f5a4296790e086"
+                }
+            ],
+            "sha": "856d5a1fabccff90a870b3b50d2470e5568f2f02",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/856d5a1fabccff90a870b3b50d2470e5568f2f02"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T02:24:59Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T02:24:59Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Line brak maybe makes the error line clearer 🤔",
+                "tree": {
+                    "sha": "aed8c3e8f4d2693ea50e8a40147cb1058c5b5113",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/aed8c3e8f4d2693ea50e8a40147cb1058c5b5113"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a",
+            "node_id": "C_kwDOLEP2GdoAKDhjNzg5OTRjZDhkMTRjOGY5YTRlOTE1OTBjZmQzYWQxMjJhNWFlOWE",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/856d5a1fabccff90a870b3b50d2470e5568f2f02",
+                    "sha": "856d5a1fabccff90a870b3b50d2470e5568f2f02",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/856d5a1fabccff90a870b3b50d2470e5568f2f02"
+                }
+            ],
+            "sha": "8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/44c5f05b2961088e00602bc185d9ba27dd7b38e5/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T02:38:01Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T02:38:01Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Using popen instead of system",
+                "tree": {
+                    "sha": "e00f9baf148d31c6c0b247587a0a6b969637e860",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/e00f9baf148d31c6c0b247587a0a6b969637e860"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/44c5f05b2961088e00602bc185d9ba27dd7b38e5",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/44c5f05b2961088e00602bc185d9ba27dd7b38e5",
+            "node_id": "C_kwDOLEP2GdoAKDQ0YzVmMDViMjk2MTA4OGUwMDYwMmJjMTg1ZDliYTI3ZGQ3YjM4ZTU",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a",
+                    "sha": "8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/8c78994cd8d14c8f9a4e91590cfd3ad122a5ae9a"
+                }
+            ],
+            "sha": "44c5f05b2961088e00602bc185d9ba27dd7b38e5",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/44c5f05b2961088e00602bc185d9ba27dd7b38e5"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/58e79b328ffac1ff978e4ac04c4604a2c888e5cb/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T02:51:42Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T02:51:42Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "More debugging lines",
+                "tree": {
+                    "sha": "d7547e319ce6e41e918179dd4883f1b0666948d0",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/d7547e319ce6e41e918179dd4883f1b0666948d0"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/58e79b328ffac1ff978e4ac04c4604a2c888e5cb",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/58e79b328ffac1ff978e4ac04c4604a2c888e5cb",
+            "node_id": "C_kwDOLEP2GdoAKDU4ZTc5YjMyOGZmYWMxZmY5NzhlNGFjMDRjNDYwNGEyYzg4OGU1Y2I",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/44c5f05b2961088e00602bc185d9ba27dd7b38e5",
+                    "sha": "44c5f05b2961088e00602bc185d9ba27dd7b38e5",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/44c5f05b2961088e00602bc185d9ba27dd7b38e5"
+                }
+            ],
+            "sha": "58e79b328ffac1ff978e4ac04c4604a2c888e5cb",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/58e79b328ffac1ff978e4ac04c4604a2c888e5cb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/401e55468e7a69eadd624f1143d55726892cc83f/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T03:29:25Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T03:29:25Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "Trying to wait until download is finished",
+                "tree": {
+                    "sha": "46021fbcc03e73a85b95990423f9ce59b96edbcc",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/46021fbcc03e73a85b95990423f9ce59b96edbcc"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/401e55468e7a69eadd624f1143d55726892cc83f",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/401e55468e7a69eadd624f1143d55726892cc83f",
+            "node_id": "C_kwDOLEP2GdoAKDQwMWU1NTQ2OGU3YTY5ZWFkZDYyNGYxMTQzZDU1NzI2ODkyY2M4M2Y",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/58e79b328ffac1ff978e4ac04c4604a2c888e5cb",
+                    "sha": "58e79b328ffac1ff978e4ac04c4604a2c888e5cb",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/58e79b328ffac1ff978e4ac04c4604a2c888e5cb"
+                }
+            ],
+            "sha": "401e55468e7a69eadd624f1143d55726892cc83f",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/401e55468e7a69eadd624f1143d55726892cc83f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/96dc0f8ff9029a834262c2ad4386722814bc1eca/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-01-13T03:39:16Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-01-13T03:39:16Z",
+                    "email": "chr@chymera.eu",
+                    "name": "Horea Christian"
+                },
+                "message": "wait for state",
+                "tree": {
+                    "sha": "41c079cab7e0d8e8959d41c004860a31dc2ae4fc",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/41c079cab7e0d8e8959d41c004860a31dc2ae4fc"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/96dc0f8ff9029a834262c2ad4386722814bc1eca",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "node_id": "C_kwDOLEP2GdoAKDk2ZGMwZjhmZjkwMjlhODM0MjYyYzJhZDQzODY3MjI4MTRiYzFlY2E",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/401e55468e7a69eadd624f1143d55726892cc83f",
+                    "sha": "401e55468e7a69eadd624f1143d55726892cc83f",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/401e55468e7a69eadd624f1143d55726892cc83f"
+                }
+            ],
+            "sha": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/96dc0f8ff9029a834262c2ad4386722814bc1eca"
+        }
+    ],
+    "commits": 12,
+    "commits_url": "https://api.github.com/repos/TokTok/toxic/pulls/273/commits",
+    "created_at": "2024-01-13T02:32:42Z",
+    "deletions": 2,
+    "diff_url": "https://github.com/TokTok/toxic/pull/273.diff",
+    "draft": true,
+    "head": {
+        "label": "TheChymera:fopen",
+        "ref": "fopen",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TheChymera/toxic/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TheChymera/toxic/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TheChymera/toxic/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TheChymera/toxic/branches{/branch}",
+            "clone_url": "https://github.com/TheChymera/toxic.git",
+            "collaborators_url": "https://api.github.com/repos/TheChymera/toxic/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TheChymera/toxic/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TheChymera/toxic/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TheChymera/toxic/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TheChymera/toxic/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TheChymera/toxic/contributors",
+            "created_at": "2024-01-13T00:48:49Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TheChymera/toxic/deployments",
+            "description": "A Tox-based instant messaging and video chat client",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TheChymera/toxic/downloads",
+            "events_url": "https://api.github.com/repos/TheChymera/toxic/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/TheChymera/toxic/forks",
+            "full_name": "TheChymera/toxic",
+            "git_commits_url": "https://api.github.com/repos/TheChymera/toxic/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheChymera/toxic/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheChymera/toxic/git/tags{/sha}",
+            "git_url": "git://github.com/TheChymera/toxic.git",
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/TheChymera/toxic/hooks",
+            "html_url": "https://github.com/TheChymera/toxic",
+            "id": 742651417,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TheChymera/toxic/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TheChymera/toxic/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TheChymera/toxic/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TheChymera/toxic/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TheChymera/toxic/labels{/name}",
+            "language": null,
+            "languages_url": "https://api.github.com/repos/TheChymera/toxic/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TheChymera/toxic/merges",
+            "milestones_url": "https://api.github.com/repos/TheChymera/toxic/milestones{/number}",
+            "mirror_url": null,
+            "name": "toxic",
+            "node_id": "R_kgDOLEP2GQ",
+            "notifications_url": "https://api.github.com/repos/TheChymera/toxic/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+                "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TheChymera/followers",
+                "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TheChymera",
+                "id": 950524,
+                "login": "TheChymera",
+                "node_id": "MDQ6VXNlcjk1MDUyNA==",
+                "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+                "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+                "repos_url": "https://api.github.com/users/TheChymera/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/TheChymera",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TheChymera/toxic/pulls{/number}",
+            "pushed_at": "2024-01-13T03:39:24Z",
+            "releases_url": "https://api.github.com/repos/TheChymera/toxic/releases{/id}",
+            "size": 17276,
+            "ssh_url": "git@github.com:TheChymera/toxic.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/TheChymera/toxic/stargazers",
+            "statuses_url": "https://api.github.com/repos/TheChymera/toxic/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TheChymera/toxic/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheChymera/toxic/subscription",
+            "svn_url": "https://github.com/TheChymera/toxic",
+            "tags_url": "https://api.github.com/repos/TheChymera/toxic/tags",
+            "teams_url": "https://api.github.com/repos/TheChymera/toxic/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/TheChymera/toxic/git/trees{/sha}",
+            "updated_at": "2024-01-13T00:48:49Z",
+            "url": "https://api.github.com/repos/TheChymera/toxic",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "96dc0f8ff9029a834262c2ad4386722814bc1eca",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+            "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TheChymera/followers",
+            "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TheChymera",
+            "id": 950524,
+            "login": "TheChymera",
+            "node_id": "MDQ6VXNlcjk1MDUyNA==",
+            "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+            "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+            "repos_url": "https://api.github.com/users/TheChymera/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/TheChymera",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/toxic/pull/273",
+    "id": 1677501900,
+    "issue_url": "https://api.github.com/repos/TokTok/toxic/issues/273",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": true,
+    "merge_commit_sha": null,
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": {
+        "closed_at": null,
+        "closed_issues": 1,
+        "created_at": "2024-11-29T13:43:17Z",
+        "creator": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        },
+        "description": "",
+        "due_on": null,
+        "html_url": "https://github.com/TokTok/toxic/milestone/16",
+        "id": 11969067,
+        "labels_url": "https://api.github.com/repos/TokTok/toxic/milestones/16/labels",
+        "node_id": "MI_kwDOBwym5c4AtqIr",
+        "number": 16,
+        "open_issues": 8,
+        "state": "open",
+        "title": "v0.16.x",
+        "updated_at": "2025-01-23T10:38:59Z",
+        "url": "https://api.github.com/repos/TokTok/toxic/milestones/16"
+    },
+    "node_id": "PR_kwDOBwym5c5j_KXM",
+    "number": 273,
+    "patch_url": "https://github.com/TokTok/toxic/pull/273.patch",
+    "rebaseable": false,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/toxic/pulls/comments{/number}",
+    "review_comments": 8,
+    "review_comments_url": "https://api.github.com/repos/TokTok/toxic/pulls/273/comments",
+    "state": "open",
+    "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/96dc0f8ff9029a834262c2ad4386722814bc1eca",
+    "title": "feat: `/fopen` command to auto-open downloaded files",
+    "updated_at": "2024-11-29T13:46:12Z",
+    "url": "https://api.github.com/repos/TokTok/toxic/pulls/273",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/950524?v=4",
+        "events_url": "https://api.github.com/users/TheChymera/events{/privacy}",
+        "followers_url": "https://api.github.com/users/TheChymera/followers",
+        "following_url": "https://api.github.com/users/TheChymera/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TheChymera/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/TheChymera",
+        "id": 950524,
+        "login": "TheChymera",
+        "node_id": "MDQ6VXNlcjk1MDUyNA==",
+        "organizations_url": "https://api.github.com/users/TheChymera/orgs",
+        "received_events_url": "https://api.github.com/users/TheChymera/received_events",
+        "repos_url": "https://api.github.com/users/TheChymera/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/TheChymera/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TheChymera/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/TheChymera",
+        "user_view_type": "public"
+    }
+}

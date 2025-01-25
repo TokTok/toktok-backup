@@ -1,0 +1,236 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 2012684668,
+        "name": "api break",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0NjY4",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/api%20break"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 800902229,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMjk=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 2038308500,
+        "name": "chore",
+        "node_id": "MDU6TGFiZWwyMDM4MzA4NTAw",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 2039054610,
+        "name": "cleanup",
+        "node_id": "MDU6TGFiZWwyMDM5MDU0NjEw",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/cleanup"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 2012562014,
+        "name": "dependencies",
+        "node_id": "MDU6TGFiZWwyMDEyNTYyMDE0",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 2012684768,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0NzY4",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 800902230,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMzA=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 800902231,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMzE=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 800902233,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMzM=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 800902232,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMzI=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/help%20wanted"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 2012684790,
+        "name": "meta",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0Nzkw",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/meta"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 2012684995,
+        "name": "not reproducible",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0OTk1",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 2012685037,
+        "name": "P0",
+        "node_id": "MDU6TGFiZWwyMDEyNjg1MDM3",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 2012685061,
+        "name": "P1",
+        "node_id": "MDU6TGFiZWwyMDEyNjg1MDYx",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 2012685080,
+        "name": "P2",
+        "node_id": "MDU6TGFiZWwyMDEyNjg1MDgw",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 2012685117,
+        "name": "P3",
+        "node_id": "MDU6TGFiZWwyMDEyNjg1MTE3",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 2012684855,
+        "name": "packaging",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0ODU1",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 2039054739,
+        "name": "performance",
+        "node_id": "MDU6TGFiZWwyMDM5MDU0NzM5",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 2012684882,
+        "name": "proposal",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0ODgy",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 800902235,
+        "name": "question",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMzU=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 2039054767,
+        "name": "refactor",
+        "node_id": "MDU6TGFiZWwyMDM5MDU0NzY3",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 2012684902,
+        "name": "security",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0OTAy",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 2039054729,
+        "name": "style",
+        "node_id": "MDU6TGFiZWwyMDM5MDU0NzI5",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/style"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 2012684930,
+        "name": "suggestion",
+        "node_id": "MDU6TGFiZWwyMDEyNjg0OTMw",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 2039054816,
+        "name": "test",
+        "node_id": "MDU6TGFiZWwyMDM5MDU0ODE2",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/test"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 800902236,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWw4MDA5MDIyMzY=",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/wontfix"
+    }
+]

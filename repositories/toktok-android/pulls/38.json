@@ -1,0 +1,2359 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/issues/38/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/pulls/38/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/toktok-android/pull/38"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/issues/38"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/pulls/38/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/pulls/38"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/toktok-android/statuses/7a506266e93adf8741ca1ba1e31f72f099404919"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 5775,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toktok-android/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toktok-android/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toktok-android/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toktok-android/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toktok-android.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toktok-android/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toktok-android/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toktok-android/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toktok-android/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toktok-android/contributors",
+            "created_at": "2015-05-19T17:18:56Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toktok-android/deployments",
+            "description": "Tox Android Client",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toktok-android/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toktok-android/events",
+            "fork": false,
+            "forks": 12,
+            "forks_count": 12,
+            "forks_url": "https://api.github.com/repos/TokTok/toktok-android/forks",
+            "full_name": "TokTok/toktok-android",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toktok-android/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toktok-android/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toktok-android/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toktok-android.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/",
+            "hooks_url": "https://api.github.com/repos/TokTok/toktok-android/hooks",
+            "html_url": "https://github.com/TokTok/toktok-android",
+            "id": 35897118,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toktok-android/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toktok-android/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toktok-android/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toktok-android/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toktok-android/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/TokTok/toktok-android/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toktok-android/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toktok-android/milestones{/number}",
+            "mirror_url": null,
+            "name": "toktok-android",
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNTg5NzExOA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/toktok-android/notifications{?since,all,participating}",
+            "open_issues": 1,
+            "open_issues_count": 1,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toktok-android/pulls{/number}",
+            "pushed_at": "2020-04-27T17:45:47Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toktok-android/releases{/id}",
+            "size": 6313,
+            "ssh_url": "git@github.com:TokTok/toktok-android.git",
+            "stargazers_count": 34,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toktok-android/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toktok-android/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toktok-android/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toktok-android/subscription",
+            "svn_url": "https://github.com/TokTok/toktok-android",
+            "tags_url": "https://api.github.com/repos/TokTok/toktok-android/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toktok-android/teams",
+            "topics": [
+                "android",
+                "chat",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toktok-android/git/trees{/sha}",
+            "updated_at": "2023-10-30T10:39:43Z",
+            "url": "https://api.github.com/repos/TokTok/toktok-android",
+            "visibility": "public",
+            "watchers": 34,
+            "watchers_count": 34,
+            "web_commit_signoff_required": false
+        },
+        "sha": "6ca10688f160809a126f65d50d7f90603d96ad64",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/toktok-android/38)\n<!-- Reviewable:end -->\n",
+    "changed_files": 118,
+    "closed_at": "2018-01-28T14:48:06Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/toktok-android/issues/38/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/fb62e44159d869ab133e4839af8395de0ccb8483/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-28T00:06:10Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:06:10Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Fix android SDK installation.",
+                "tree": {
+                    "sha": "3288fdf0a24ba419f3f08d50bab1f7a80936ad45",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/3288fdf0a24ba419f3f08d50bab1f7a80936ad45"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/fb62e44159d869ab133e4839af8395de0ccb8483",
+                "verification": {
+                    "payload": "tree 3288fdf0a24ba419f3f08d50bab1f7a80936ad45\nparent 6ca10688f160809a126f65d50d7f90603d96ad64\nauthor iphydf <iphydf@users.noreply.github.com> 1517097970 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517097970 +0000\n\nFix android SDK installation.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptE/gACgkQOFXbotdE\nA8nrwgf+IlwNc56MGotFObfSgsTvZ3qoBFF/FUwZZnYJwtdCcrLbjunPTNqx9O1A\nAZ1iwlHKIz3BNh0snrJ1wA1QvuxaIVPBsc+Y67UWn226BnwOhD2lbgAnHkHNMvAo\nBlBPQCT0FLWVeYVjudoATbPoGnUlufKewRvvm+MzHEhHqWbrXvVd97Z6Q3JVt9Zo\nhR8mXNnbZ4ngHP3t1f3qciRhzVsSV4sNLDeFV6oXRAplO+vXrBD6SBtJty4Euz79\nlO2hSNR0ofRYGq95P3lmY7VsqPBZUFJFyFbFKa7B0DF8EwrrHLfZXMWOVbORTwOY\n/c8rZvh5ZyaERpUjEhDyMARXTPyyDQ==\n=5VFn\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/fb62e44159d869ab133e4839af8395de0ccb8483",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZmI2MmU0NDE1OWQ4NjlhYjEzM2U0ODM5YWY4Mzk1ZGUwY2NiODQ4Mw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/6ca10688f160809a126f65d50d7f90603d96ad64",
+                    "sha": "6ca10688f160809a126f65d50d7f90603d96ad64",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/6ca10688f160809a126f65d50d7f90603d96ad64"
+                }
+            ],
+            "sha": "fb62e44159d869ab133e4839af8395de0ccb8483",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/fb62e44159d869ab133e4839af8395de0ccb8483"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/67df5b9d3b80e5223a296c2c5223030390853430/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-26T14:15:52Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:47Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Remove scaloid dependency.\n\nThis means moving away from nice lambdas and instead using java style\nanonymous inner classes.",
+                "tree": {
+                    "sha": "a07c00214c875db444a89cb83c102ae560274b05",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/a07c00214c875db444a89cb83c102ae560274b05"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/67df5b9d3b80e5223a296c2c5223030390853430",
+                "verification": {
+                    "payload": "tree a07c00214c875db444a89cb83c102ae560274b05\nparent fb62e44159d869ab133e4839af8395de0ccb8483\nauthor iphydf <iphydf@users.noreply.github.com> 1516976152 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098547 +0000\n\nRemove scaloid dependency.\n\nThis means moving away from nice lambdas and instead using java style\nanonymous inner classes.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjMACgkQOFXbotdE\nA8kuSgf9GMrw84SZ8+P7eDHZi4vRKjQmJvLeEoFFvcwgaE/XDAGtWz+LbF4ixwD8\nhoh5+cfLsHJQOVRVu7Kx+DcRnn+NTTsp4zuq4GmtKKUeHMfLwa1vze4WacKVOYxF\nUIwP8Ps8FthpwShCVsiKYvrRr/gf7Z+ULTd7PSlaBZng/2krFGHtYZpZpT99jxth\nqtEvKn8HITUsUoiWyKMavj6xOTmxQ09Xfw0m/7gtO86mqpDLuBgEsVD7ffqsjma7\neLNzvSMF/2BaYCkU2AQ8rZBKl9AYacD5EtJRsT9qyGwwUVH91OONXbK7EjF7Uhl4\nyoaz4y21Yibl1K/f4UHlU4F08su2GQ==\n=37RV\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/67df5b9d3b80e5223a296c2c5223030390853430",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NjdkZjViOWQzYjgwZTUyMjNhMjk2YzJjNTIyMzAzMDM5MDg1MzQzMA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/fb62e44159d869ab133e4839af8395de0ccb8483",
+                    "sha": "fb62e44159d869ab133e4839af8395de0ccb8483",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/fb62e44159d869ab133e4839af8395de0ccb8483"
+                }
+            ],
+            "sha": "67df5b9d3b80e5223a296c2c5223030390853430",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/67df5b9d3b80e5223a296c2c5223030390853430"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/15149e07c6064691185708c810ff5210545100c3/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-26T18:42:11Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:47Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Java conversion: move MainActivityHolder to Java.\n\nThe other conversions are fallout from having to migrate anything that\ntouches MainActivityHolder to Java as well.",
+                "tree": {
+                    "sha": "6aa400a4629f4e2e26160ea0476b24f558e4988d",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/6aa400a4629f4e2e26160ea0476b24f558e4988d"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/15149e07c6064691185708c810ff5210545100c3",
+                "verification": {
+                    "payload": "tree 6aa400a4629f4e2e26160ea0476b24f558e4988d\nparent 67df5b9d3b80e5223a296c2c5223030390853430\nauthor iphydf <iphydf@users.noreply.github.com> 1516992131 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098547 +0000\n\nJava conversion: move MainActivityHolder to Java.\n\nThe other conversions are fallout from having to migrate anything that\ntouches MainActivityHolder to Java as well.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjMACgkQOFXbotdE\nA8ko6Qf9GKqgxRolFvvXFWkUtGqM9F/IFVi5tNVPh7s7jLdc3WVX2nzy9UTORkXo\nO55G99NqLbkMhg7KFO3Eh0/YETwtBjn8ajl+zHLxfISXdNNjHoRaWtGdfln86G8q\nVYCBQWekx+IF5TmTjxr+ZJ06YDQqzVyXQLb+wbR4HQNY2EkZAFFDEFQxhz5VV0Jr\n87/pS141A6mCFTjRdt+A2HHGa7YfuTcasZkkitaDSZFZMfJbhNq8mluPyfIyxc5k\n57AOzbdNb6M0OKwt+gRSa6yFqWx7C6gEfiFF3RlB3WwjdnsBe7cVoqy7OB7rl8wN\n7aIRLO+KYNtLiVwwRUHy6Kl6YYvvWA==\n=Vevm\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/15149e07c6064691185708c810ff5210545100c3",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6MTUxNDllMDdjNjA2NDY5MTE4NTcwOGM4MTBmZjUyMTA1NDUxMDBjMw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/67df5b9d3b80e5223a296c2c5223030390853430",
+                    "sha": "67df5b9d3b80e5223a296c2c5223030390853430",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/67df5b9d3b80e5223a296c2c5223030390853430"
+                }
+            ],
+            "sha": "15149e07c6064691185708c810ff5210545100c3",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/15149e07c6064691185708c810ff5210545100c3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-26T19:11:54Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:47Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate ChatsFragment to Java.",
+                "tree": {
+                    "sha": "e8782aa9c86729e3638ad58be4dbdf6fcdcdc6f0",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/e8782aa9c86729e3638ad58be4dbdf6fcdcdc6f0"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6",
+                "verification": {
+                    "payload": "tree e8782aa9c86729e3638ad58be4dbdf6fcdcdc6f0\nparent 15149e07c6064691185708c810ff5210545100c3\nauthor iphydf <iphydf@users.noreply.github.com> 1516993914 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098547 +0000\n\nMigrate ChatsFragment to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjMACgkQOFXbotdE\nA8mK7QgAkca0t8XWupZIBVXQZX7sv+KKLAobME88fdZhqPuteqPDmxgUSRX6hrL1\nOArp8UpJbFPLBG+bqHFmLlZumFM0q4nPBj5dudnKWC/VYYH15GsL7h3VEF09LGYP\nSgS8AET0SGzkI5LT+enZrb0bAj9XR6lkEPRDnVeNP/6vh1d86Bt9x4K1Dg82s1gB\npofB/XMW/rdPUNTy4AfwjK4vKcyiCwul5bkbXmyJsMY4IleYOs9918Cs8VM2WNt9\n3lKsd+UDRsKsRLHGlAUFFZhtmMyFJkrVR5S5gpNXZrad0ca2mNmkz3XF+VOJ9AzW\n/9oSyConNNTvlHeQoKok8jpgqS0VBw==\n=qFMm\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6MTY2NTY2YTZiNmVkYTJmMTM3MzllNGYyYjdjN2Q1ZGM3MGFiNDNjNg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/15149e07c6064691185708c810ff5210545100c3",
+                    "sha": "15149e07c6064691185708c810ff5210545100c3",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/15149e07c6064691185708c810ff5210545100c3"
+                }
+            ],
+            "sha": "166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/e77f5a313f01130279590c7e018bf383df4d852a/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-26T19:48:07Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate ChatsRecyclerAdapter to Java.",
+                "tree": {
+                    "sha": "87e9c54927afc728a16150883422b21c9a016b9d",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/87e9c54927afc728a16150883422b21c9a016b9d"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/e77f5a313f01130279590c7e018bf383df4d852a",
+                "verification": {
+                    "payload": "tree 87e9c54927afc728a16150883422b21c9a016b9d\nparent 166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6\nauthor iphydf <iphydf@users.noreply.github.com> 1516996087 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate ChatsRecyclerAdapter to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8nqPQf+KopdOOxM7gQsiEp7QriPcGRjABCFR4uDV9imfC2ztolfPNIT80ByRHUK\nBeAEAmF4A7Ss/nSTUVkj94RfX+RtYSPq+8Arp3EFQcDs/ajLpx45tCcexRhQvfbq\nTeKRmzKDsm+3apREdO6i1UPS8RPXeDxm4kpIY7M5ngqadrBtLGTXMhKt4UPfXy0a\nEZwXhToiISu/0ByRLCs/6dddXtyLvgQTT/IRaD8Ai7L56VIHBjwQ+PhCTvVvFdlx\n6qqCmPPJh1ljZ10GqtQbHEtFCijhfxGLm1Vf9JTyYOj1CVLIu4VemNM3Kdtc666n\niy/vRCyl6fqMXjFVAB8ksEWML1cx3w==\n=VwUm\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/e77f5a313f01130279590c7e018bf383df4d852a",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZTc3ZjVhMzEzZjAxMTMwMjc5NTkwYzdlMDE4YmYzODNkZjRkODUyYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6",
+                    "sha": "166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/166566a6b6eda2f13739e4f2b7c7d5dc70ab43c6"
+                }
+            ],
+            "sha": "e77f5a313f01130279590c7e018bf383df4d852a",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/e77f5a313f01130279590c7e018bf383df4d852a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/e5cd355cf1f5a50cec30022aa64915bfc0108031/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T00:31:44Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate MessageActivity to Java.",
+                "tree": {
+                    "sha": "da975a4c61b4abea26285b9c716e9b494d353ec2",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/da975a4c61b4abea26285b9c716e9b494d353ec2"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/e5cd355cf1f5a50cec30022aa64915bfc0108031",
+                "verification": {
+                    "payload": "tree da975a4c61b4abea26285b9c716e9b494d353ec2\nparent e77f5a313f01130279590c7e018bf383df4d852a\nauthor iphydf <iphydf@users.noreply.github.com> 1517013104 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate MessageActivity to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8nc5wf/XNMmS4Eiw38QNTLkrQ7ysSFoeSnprPC0Sp9gN6UIu9HO4VSQfaIWQ8MU\ncLwKG5N7RuTrHhZIYSnvz3Iog5qUUvadfdRI0tnsk/tawak3TBEvnJKk8sjIYh2Y\nFdqsNzMrSVKnnhvVpi7mPJd6CIe6LhXM1KTo7+WeXKwaLgaCx5skfdpYLyK/x9GS\ncUn7wrp2YuDW7hK/bFaVotB8wZ4KsZaUxeljWDFjVmPpf3r2Al3aeU6EhYfYWKSz\nwezUz6k+PugUWyjbgXg618Cc4K8w7YDqWC3qg21a+83DTf089T0yMD3nb7hdlG3l\ntFjBMfoELJC6/3Wsq5w8CimrYxGUnw==\n=JYr+\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/e5cd355cf1f5a50cec30022aa64915bfc0108031",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZTVjZDM1NWNmMWY1YTUwY2VjMzAwMjJhYTY0OTE1YmZjMDEwODAzMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/e77f5a313f01130279590c7e018bf383df4d852a",
+                    "sha": "e77f5a313f01130279590c7e018bf383df4d852a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/e77f5a313f01130279590c7e018bf383df4d852a"
+                }
+            ],
+            "sha": "e5cd355cf1f5a50cec30022aa64915bfc0108031",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/e5cd355cf1f5a50cec30022aa64915bfc0108031"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/7bb8cda95698dace2ca41480d9433b60aeccda2a/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T11:27:44Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate SizeAnimation to Java.",
+                "tree": {
+                    "sha": "6fa0b95b8f28cdd769a1ef21c674c70da34b7c9e",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/6fa0b95b8f28cdd769a1ef21c674c70da34b7c9e"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/7bb8cda95698dace2ca41480d9433b60aeccda2a",
+                "verification": {
+                    "payload": "tree 6fa0b95b8f28cdd769a1ef21c674c70da34b7c9e\nparent e5cd355cf1f5a50cec30022aa64915bfc0108031\nauthor iphydf <iphydf@users.noreply.github.com> 1517052464 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate SizeAnimation to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8mhKQf/dnAUIprjXkN6nRZG9tSEzVIiMfQK+gmPUxuigujixgyIYQZ1g8UnLfWT\nhGetb0tdk/7TH7xqaCNDVtk4hJ1VaBgXuW5bt7GwDTqY4H0oNJiNfb8XTIFZLBZi\n78dB42UC1L7g8RF3d1sCLum9yzRg+NFmQZ1brf65I/4FI8942wrEBfs6On/VV5Gx\nnGSNRT5JXBIioWrwhAJ1rt2DUmPTmC42/eKer3Sx6WymP73mGCiOCtfHmNSodfeE\nNyt+w1aPmPgXcCi7dOPXU0T3PcAlodOEUkBHJJNsqL/QZWnQoWeAY8aM4i6A1yNd\n5fqVADVyPacUgHSiem8+OiIULeptnA==\n=dblf\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/7bb8cda95698dace2ca41480d9433b60aeccda2a",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6N2JiOGNkYTk1Njk4ZGFjZTJjYTQxNDgwZDk0MzNiNjBhZWNjZGEyYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/e5cd355cf1f5a50cec30022aa64915bfc0108031",
+                    "sha": "e5cd355cf1f5a50cec30022aa64915bfc0108031",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/e5cd355cf1f5a50cec30022aa64915bfc0108031"
+                }
+            ],
+            "sha": "7bb8cda95698dace2ca41480d9433b60aeccda2a",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/7bb8cda95698dace2ca41480d9433b60aeccda2a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T12:22:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate CallActivity to Java.",
+                "tree": {
+                    "sha": "9adfc7d5ddf738a96b06bc86bb72dc970145c93e",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/9adfc7d5ddf738a96b06bc86bb72dc970145c93e"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176",
+                "verification": {
+                    "payload": "tree 9adfc7d5ddf738a96b06bc86bb72dc970145c93e\nparent 7bb8cda95698dace2ca41480d9433b60aeccda2a\nauthor iphydf <iphydf@users.noreply.github.com> 1517055722 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate CallActivity to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8mXEQf+M88ZbDij8mqoM913sb51QpQh1gzw3m8MjUt2ywKQ6KLWjvHinaWVt3ya\nrn42sSmSUZGKoj2Q3G8fKb4tCELb2GjsIsjrsKZ2d7AZ1EWqqqx6DkEsx3RrDgMs\nXOZ+HBUb0J0sWN2KVP7c004tpGWWvYfPnG39M/ZTHZjF2R9XOdOVhBVu04rlXEgD\nF+nLvSHQhm2B2HzgULKtM4LM9EMdCqa8scrslcf+MVyDVQFgTRhqvrJGZXQ4tUr5\nRUR1gXduClCi4I1LXrqr394E40ROC/iEt/bCaw2jTgVZhc3UNecPrpHvkR+B54He\nU48G8L3EyMWaWl/oVgMVwxXEQ2MABA==\n=cDLO\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NTdlZDA4OTNhM2M5ZGNiMmZjMWUwYzYwY2U0Mjc3YTEyZTJhMzE3Ng==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/7bb8cda95698dace2ca41480d9433b60aeccda2a",
+                    "sha": "7bb8cda95698dace2ca41480d9433b60aeccda2a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/7bb8cda95698dace2ca41480d9433b60aeccda2a"
+                }
+            ],
+            "sha": "57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/68e16fe67d657d031e922fad17386604d5e176ef/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T12:51:29Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate BlurBuilder to Java.",
+                "tree": {
+                    "sha": "56b2c79805ee3fa5c86f40a6b6d3e756cfde1735",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/56b2c79805ee3fa5c86f40a6b6d3e756cfde1735"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/68e16fe67d657d031e922fad17386604d5e176ef",
+                "verification": {
+                    "payload": "tree 56b2c79805ee3fa5c86f40a6b6d3e756cfde1735\nparent 57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176\nauthor iphydf <iphydf@users.noreply.github.com> 1517057489 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate BlurBuilder to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8lyjgf7B76nRId5dH8nY8FTXm92nNv6gl375lgzgxlLo8ujCJeDc7ukKa1tdhpo\nP77OxSnXMjz437QEVBvFIW0Rf4qAxdVk3HPywnANkaJl/ou7uUFoGZdjMBi5ubSY\no5+clJgjNanjTe29rOyTSNoaqbwW5YIsdCy8ZI2qxg3OflJyPr5OxQ7wnK+Y4Ksg\nxF5MrGQyjfgkmtVyTyjWCGqCmrGvcC6VODDOYx4qp5EvY/Vet588EJu02iDUKHIQ\ncQ8DvanpWT0rcOASlcGclhYprZkXXr1QCyM1SmWk0v3i9NtFP0A4lYRwPlC2SYYs\nY4jErJcSzh5WgrCswZrV2bfp4me7fg==\n=s5EY\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/68e16fe67d657d031e922fad17386604d5e176ef",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NjhlMTZmZTY3ZDY1N2QwMzFlOTIyZmFkMTczODY2MDRkNWUxNzZlZg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176",
+                    "sha": "57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/57ed0893a3c9dcb2fc1e0c60ce4277a12e2a3176"
+                }
+            ],
+            "sha": "68e16fe67d657d031e922fad17386604d5e176ef",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/68e16fe67d657d031e922fad17386604d5e176ef"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/5ad0bb2e852d9a1b83511323ca08f2aa9648f6be/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T13:02:26Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate Call*Adapter to Java.",
+                "tree": {
+                    "sha": "dc6267d9419f4a91f1eab066a3309f3ac4379a46",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/dc6267d9419f4a91f1eab066a3309f3ac4379a46"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/5ad0bb2e852d9a1b83511323ca08f2aa9648f6be",
+                "verification": {
+                    "payload": "tree dc6267d9419f4a91f1eab066a3309f3ac4379a46\nparent 68e16fe67d657d031e922fad17386604d5e176ef\nauthor iphydf <iphydf@users.noreply.github.com> 1517058146 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate Call*Adapter to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8kTSgf+JCMNFjjJmcEvYkI0L9wYRhniTE5k5oBtQUTFIRDjEcaCwAXHNUw+yCQp\nw58hZWZ6O44pOCVPYEr+AIoXI9pYhe9OSrrR6GVen70Qg01TPJTM2zWPHiZN4Xup\nJUo0mvj4uLqJX/ILa6xQpU0uMLpyBH79PKVeD6fmXNkV24F9XVqtDUHDZzKpW6to\nF1HCCtjLER6++l7u3G01Jjq+YAJLVn6KS55F53+Do//wQQXmDDo6PNhd79KsJ8NB\nceErrnULRU0Ttqc3gM0pQPQA4j5EEWQUFpcHXlHpMBxf+QhZph0GRVIyXtIFhGBz\n3YyS8AD3oz5ea1j5Z7wwtAYGTfFGtw==\n=8Rbw\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/5ad0bb2e852d9a1b83511323ca08f2aa9648f6be",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NWFkMGJiMmU4NTJkOWExYjgzNTExMzIzY2EwOGYyYWE5NjQ4ZjZiZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/68e16fe67d657d031e922fad17386604d5e176ef",
+                    "sha": "68e16fe67d657d031e922fad17386604d5e176ef",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/68e16fe67d657d031e922fad17386604d5e176ef"
+                }
+            ],
+            "sha": "5ad0bb2e852d9a1b83511323ca08f2aa9648f6be",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/5ad0bb2e852d9a1b83511323ca08f2aa9648f6be"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/ddfa4f4a6db950d1d079223996332758e0da388f/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T14:59:14Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate NewMessageActivity to Java.",
+                "tree": {
+                    "sha": "a2d8a51291fdde8fb70de1d73aff0dec9b58e05e",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/a2d8a51291fdde8fb70de1d73aff0dec9b58e05e"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/ddfa4f4a6db950d1d079223996332758e0da388f",
+                "verification": {
+                    "payload": "tree a2d8a51291fdde8fb70de1d73aff0dec9b58e05e\nparent 5ad0bb2e852d9a1b83511323ca08f2aa9648f6be\nauthor iphydf <iphydf@users.noreply.github.com> 1517065154 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate NewMessageActivity to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8m+Rgf9Egd2R//Q0e/PTFMGsfMV3k+L3s4AyBnSHyDP3e3s21JNMzaE4778FppW\nBvR4TIBxo3jvC4FVaylmWoHPAuEdTI+WTo7QjcSeZi5a8fkdBNFWJgxOZZY6fWvh\nq9EJpPObFYpD7icBqlF2gP2dHALSAfjATzcUA79eSfuYxR3wdaCEwTENvhM6g0gd\nTbtChHVm3wJWRMUHKJB3YTagepVnPwxLRjckIJGYd2R5RroqK1We34hMgTMtxYd4\nzv5IMAekWwXB+v0gyfOVW4MhwgaatSQX64OtlmTD0FqZvKQa9raMSjyG1j1CNdY4\nYRrW1Zog8xk/CwX0x0rOEsAfyEejXA==\n=6k4j\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/ddfa4f4a6db950d1d079223996332758e0da388f",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZGRmYTRmNGE2ZGI5NTBkMWQwNzkyMjM5OTYzMzI3NThlMGRhMzg4Zg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/5ad0bb2e852d9a1b83511323ca08f2aa9648f6be",
+                    "sha": "5ad0bb2e852d9a1b83511323ca08f2aa9648f6be",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/5ad0bb2e852d9a1b83511323ca08f2aa9648f6be"
+                }
+            ],
+            "sha": "ddfa4f4a6db950d1d079223996332758e0da388f",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/ddfa4f4a6db950d1d079223996332758e0da388f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/936f0279952005f9896f431fffeaf7b0cefa2c3e/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T15:06:39Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate VideoCallActivity to Java.",
+                "tree": {
+                    "sha": "cf401f3fe8782c6bfd0b0cc21f1417abc4d647f7",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/cf401f3fe8782c6bfd0b0cc21f1417abc4d647f7"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/936f0279952005f9896f431fffeaf7b0cefa2c3e",
+                "verification": {
+                    "payload": "tree cf401f3fe8782c6bfd0b0cc21f1417abc4d647f7\nparent ddfa4f4a6db950d1d079223996332758e0da388f\nauthor iphydf <iphydf@users.noreply.github.com> 1517065599 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate VideoCallActivity to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8lbsAgAlH5XNt0qbqUxhimxyx9FPeac/JG1qpN14G9ziwpeANQ+spsnLu8DgtDh\n1+yH4/dlo/EBMTaeBxaTegWFFeM//hI+QfOKi+zukPeBnT82SpVivyRLlprLAYDg\nTcOn0J6/F3i2Ve84/18P+sZ6e9scXLOVDvLkOabb4XlVI9g5yO4LKpPV5JUUv3L+\n2Bl21+DSDdw6Jvv+rh4yTXtJ/Lj51U6fVpv3ZLoy9ic8F8Q4dDSvQlLSM7QlW6fj\nltiq0Ct1zIgY5Qw9PnOoOfhNd7FZyStkoNSuNXz86/9ixwFsEqGuNbLvvwK33oan\n5nMWrkPyS3SHESEWCW9+QNA2bz1/Cg==\n=FzCY\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/936f0279952005f9896f431fffeaf7b0cefa2c3e",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6OTM2ZjAyNzk5NTIwMDVmOTg5NmY0MzFmZmZlYWY3YjBjZWZhMmMzZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/ddfa4f4a6db950d1d079223996332758e0da388f",
+                    "sha": "ddfa4f4a6db950d1d079223996332758e0da388f",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/ddfa4f4a6db950d1d079223996332758e0da388f"
+                }
+            ],
+            "sha": "936f0279952005f9896f431fffeaf7b0cefa2c3e",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/936f0279952005f9896f431fffeaf7b0cefa2c3e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/58aad02b7e2085220502a1c11b0cd8a4dfbcad7a/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T15:19:13Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate SlideInAttachmentsLayout to Java.",
+                "tree": {
+                    "sha": "626f4bd197d7f59f4751722954494b65b64faa7e",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/626f4bd197d7f59f4751722954494b65b64faa7e"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/58aad02b7e2085220502a1c11b0cd8a4dfbcad7a",
+                "verification": {
+                    "payload": "tree 626f4bd197d7f59f4751722954494b65b64faa7e\nparent 936f0279952005f9896f431fffeaf7b0cefa2c3e\nauthor iphydf <iphydf@users.noreply.github.com> 1517066353 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate SlideInAttachmentsLayout to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8mb6Af/ad3w2dH9NcIR1Fi4BKnx3A0uR6CJQ62imV732GnuJ5Ysda0GZr4UoWZ8\nsvT0ghmeqhap7wmOPkBG+5i9Bvf8OuO5GCRKcO4f79o4NCLoQ04Pib+b99E0ic0n\n2js7cb50CYZogLBlM0h/oeFxPkSgP5Hk33WX4IPzZnP7LBQmtNP52ka3zphAqWmd\nuvZP6zHwGJae4epMmV7HA3+rA4f/zJ4+IjC780WpiozgJCtmUtRKLnPPtQ10PZhF\n0GEeHXVLp0OiKChfBbNyWNS8+wyaSYvrb5o/AiO8NtIacBLluQhg96eNmGEgOlqb\npDPORDxevctN4e8tzC1Iofn+KSXmWg==\n=hExT\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/58aad02b7e2085220502a1c11b0cd8a4dfbcad7a",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NThhYWQwMmI3ZTIwODUyMjA1MDJhMWMxMWIwY2Q4YTRkZmJjYWQ3YQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/936f0279952005f9896f431fffeaf7b0cefa2c3e",
+                    "sha": "936f0279952005f9896f431fffeaf7b0cefa2c3e",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/936f0279952005f9896f431fffeaf7b0cefa2c3e"
+                }
+            ],
+            "sha": "58aad02b7e2085220502a1c11b0cd8a4dfbcad7a",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/58aad02b7e2085220502a1c11b0cd8a4dfbcad7a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/db9f4c064cfa6706deba8e5229a10f5a8c695a4e/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T16:39:33Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate MessageRecallActivity to Java.",
+                "tree": {
+                    "sha": "7e1268b227cdb2c538ec432ef2347f27ac65de14",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/7e1268b227cdb2c538ec432ef2347f27ac65de14"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/db9f4c064cfa6706deba8e5229a10f5a8c695a4e",
+                "verification": {
+                    "payload": "tree 7e1268b227cdb2c538ec432ef2347f27ac65de14\nparent 58aad02b7e2085220502a1c11b0cd8a4dfbcad7a\nauthor iphydf <iphydf@users.noreply.github.com> 1517071173 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate MessageRecallActivity to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8lKmwf/QObp5uHQH5p+Ve7DIsJBCcOFcpS2GcoOMGrQRnRcgOmtTXvnU5AJWBCF\nIyVn/sJQ50QzyOWQ+JQ2Jc+oJLzQQIoXIKCoMiNwf+3mUDrW0ZT3fGK+9UqgLT0D\n2cdTJlqI5LrKeznfdquBBCWkg8wwVnE8vMFsmyuEmLWze7kTteQOD1CRMY+xsEMP\nRbwPGk/AN+nD3ZXVhph0YFpktbWT9SPKNDSfG9VyEw9bR36g3YnHRBs/UM2tdp3c\ngLSeXmvYffN13/OEVtQnRNXRRHFb8tRCEmpjkFeA+uARo4OkPg/XpD6CQummcDRm\nGdN/ATK7AN8hKXWCaMBYazJMY8Am2w==\n=0OW+\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/db9f4c064cfa6706deba8e5229a10f5a8c695a4e",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZGI5ZjRjMDY0Y2ZhNjcwNmRlYmE4ZTUyMjlhMTBmNWE4YzY5NWE0ZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/58aad02b7e2085220502a1c11b0cd8a4dfbcad7a",
+                    "sha": "58aad02b7e2085220502a1c11b0cd8a4dfbcad7a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/58aad02b7e2085220502a1c11b0cd8a4dfbcad7a"
+                }
+            ],
+            "sha": "db9f4c064cfa6706deba8e5229a10f5a8c695a4e",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/db9f4c064cfa6706deba8e5229a10f5a8c695a4e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/7191511192727c1486543d43d7f2d83e5035c28f/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T16:57:59Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate MessageAttachments to Java.",
+                "tree": {
+                    "sha": "8958ee4da2a253ac5bbaf23d32da0c41229e8348",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/8958ee4da2a253ac5bbaf23d32da0c41229e8348"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/7191511192727c1486543d43d7f2d83e5035c28f",
+                "verification": {
+                    "payload": "tree 8958ee4da2a253ac5bbaf23d32da0c41229e8348\nparent db9f4c064cfa6706deba8e5229a10f5a8c695a4e\nauthor iphydf <iphydf@users.noreply.github.com> 1517072279 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate MessageAttachments to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8nwgggAkJvpZnEEPx3OtY9PvpvP5ckqRGOx6U/mlmWYAnVrtmcVNgmNhzdtIf0b\nOVNIhQWS+A3hjeclGURAMXH7pooM21lwGLd1P6HIeeejVXX6NGxnntK87s4TTqAX\nQcehx7XMnhGfdSjAytvfavLaMDQpfPIl56VX03aHcnnsw9cm8NwYbfw8jNbDEd8j\n3+z52MAHSG7Hqfr28ujnyBjPkR5Q+Pf3QQElrh5M7zu+5sDb/eVgQ+FIgRbNri6b\n30YGKKrCS+zxf5x2aW+zDNr3DVzDleQHhrjjK5ppMAV3Cd4O7nMjrEImFlo1LFf1\ndZeU9kKwKFt4NJeOIC5QCmbMOCpOsA==\n=ytqo\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/7191511192727c1486543d43d7f2d83e5035c28f",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NzE5MTUxMTE5MjcyN2MxNDg2NTQzZDQzZDdmMmQ4M2U1MDM1YzI4Zg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/db9f4c064cfa6706deba8e5229a10f5a8c695a4e",
+                    "sha": "db9f4c064cfa6706deba8e5229a10f5a8c695a4e",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/db9f4c064cfa6706deba8e5229a10f5a8c695a4e"
+                }
+            ],
+            "sha": "7191511192727c1486543d43d7f2d83e5035c28f",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/7191511192727c1486543d43d7f2d83e5035c28f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/ff42bfa42dac19f4511396918d9d5d3f354ebaeb/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T17:03:09Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate MessageItemAnimator and MessageInputBarBehavior to Java.",
+                "tree": {
+                    "sha": "be6fc92975356a289e3c785e2e8cc8975557173d",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/be6fc92975356a289e3c785e2e8cc8975557173d"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/ff42bfa42dac19f4511396918d9d5d3f354ebaeb",
+                "verification": {
+                    "payload": "tree be6fc92975356a289e3c785e2e8cc8975557173d\nparent 7191511192727c1486543d43d7f2d83e5035c28f\nauthor iphydf <iphydf@users.noreply.github.com> 1517072589 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate MessageItemAnimator and MessageInputBarBehavior to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8k39Af/Yn9mbFvmuDhkkaYRrhPTQ4cZ7kpCa4x8E1X5r53z9Ng5b/eZykPpcFrI\nL448ePqKIUW5lbGLzwvK5tQ6GyhzL0vu3sVYG4iKvmtuQ+tggVw2EHmpvTHG+ObW\nl9BCm4ekFd04y7Clbkxo5cB1waIZlSsLppSXnJecvsavbfcCFGCLSPMl5gHB6HXP\no/kXp9KFlz4Az8aMUKxHFj45caLnFujU4YgG2MdF6CoHw1Ax1H+j87uBLfo5mgsr\nVYpscgTTzMdJ/G2HdKbCHvjqxG35oQ83XCLGbgXVh57n98gUWMCBrksida++1C3n\n2GA1mF5LgBX2j3nbG8AlAFH3k+4PYw==\n=aKrz\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/ff42bfa42dac19f4511396918d9d5d3f354ebaeb",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZmY0MmJmYTQyZGFjMTlmNDUxMTM5NjkxOGQ5ZDVkM2YzNTRlYmFlYg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/7191511192727c1486543d43d7f2d83e5035c28f",
+                    "sha": "7191511192727c1486543d43d7f2d83e5035c28f",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/7191511192727c1486543d43d7f2d83e5035c28f"
+                }
+            ],
+            "sha": "ff42bfa42dac19f4511396918d9d5d3f354ebaeb",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/ff42bfa42dac19f4511396918d9d5d3f354ebaeb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/b5c043b64d75acd007585dc8bbcd863a670b4b1a/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T17:26:37Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate ProfileFragment to Java.",
+                "tree": {
+                    "sha": "0202e81530fd54008ecc1793acf730cdc335f312",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/0202e81530fd54008ecc1793acf730cdc335f312"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/b5c043b64d75acd007585dc8bbcd863a670b4b1a",
+                "verification": {
+                    "payload": "tree 0202e81530fd54008ecc1793acf730cdc335f312\nparent ff42bfa42dac19f4511396918d9d5d3f354ebaeb\nauthor iphydf <iphydf@users.noreply.github.com> 1517073997 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate ProfileFragment to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8l6DAf9ENkgSbuhaX36sLIZ7Oe58jBF1fmyjTcv++WbyDPixazr8G5blznZ1pTy\n8pRC59wedMtxaqYNyUMrO1Nx1/MVjVCzTPoQlg+uDyU22uT9jWYo3v5Bft+JtDVp\nX9FI9a7wVrBrPB8/09B7En73qrmd9a5vNUOFiWogqtKe+mpqdmGDECOvbVRx9pIY\nnyLjl1fqDUVvShcbuMOQeC6piopypU/6pFC8KhuQ+AkX8HzqGgUnlubIJTXr35nr\n7bGSuyIp3Npl0m0zn+LrHc2xEZDqDV6oT9X8Hw9Yf6xEpBEzFf3iThf8B4DzPPvZ\nbDAlrFrxKYT/3B/ot3o+btIl67H8MQ==\n=DdHM\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/b5c043b64d75acd007585dc8bbcd863a670b4b1a",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6YjVjMDQzYjY0ZDc1YWNkMDA3NTg1ZGM4YmJjZDg2M2E2NzBiNGIxYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/ff42bfa42dac19f4511396918d9d5d3f354ebaeb",
+                    "sha": "ff42bfa42dac19f4511396918d9d5d3f354ebaeb",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/ff42bfa42dac19f4511396918d9d5d3f354ebaeb"
+                }
+            ],
+            "sha": "b5c043b64d75acd007585dc8bbcd863a670b4b1a",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/b5c043b64d75acd007585dc8bbcd863a670b4b1a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/804bb2a218e684c80bad94e65746ee265d19ed26/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T17:37:41Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate FileSendActivity to Java.",
+                "tree": {
+                    "sha": "7ad367580b8ae393b548d0288aab34f4ecb6d511",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/7ad367580b8ae393b548d0288aab34f4ecb6d511"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/804bb2a218e684c80bad94e65746ee265d19ed26",
+                "verification": {
+                    "payload": "tree 7ad367580b8ae393b548d0288aab34f4ecb6d511\nparent b5c043b64d75acd007585dc8bbcd863a670b4b1a\nauthor iphydf <iphydf@users.noreply.github.com> 1517074661 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate FileSendActivity to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8n03wf+OIyBFLs5Z1Ssxqmr9iaUTEdZ2XAWvQqigb0JipBd8t6HW9RA8AqQbNOo\nlA4Jxp2YlcAmMxcalhDi3fI14WH2egS68GG9MkGA+Avmv7GPOCJYWo37hIIXqtUz\nzlMk4oc0P465WFo6g5TkEHJQlZgrEFOvXgZBrihihr+cILIVDPuymVmBCWE6VItI\nF5gW7UzetQeicjm4xI/2hJZCg89E+HnuFLNT7RpgI34EuBg6TLutGyuderdB0tj6\nyEoawqmheG/hSoIX2kUU5yf3nEWQ0E3qs0vdK9vKBMl7EJi5eUT3XJwNJbbvUcLE\nF9Q0X/51sUdEk/zcC5YUniPoESrXzA==\n=tuRb\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/804bb2a218e684c80bad94e65746ee265d19ed26",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ODA0YmIyYTIxOGU2ODRjODBiYWQ5NGU2NTc0NmVlMjY1ZDE5ZWQyNg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/b5c043b64d75acd007585dc8bbcd863a670b4b1a",
+                    "sha": "b5c043b64d75acd007585dc8bbcd863a670b4b1a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/b5c043b64d75acd007585dc8bbcd863a670b4b1a"
+                }
+            ],
+            "sha": "804bb2a218e684c80bad94e65746ee265d19ed26",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/804bb2a218e684c80bad94e65746ee265d19ed26"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/38bb870353d36dcaf5e9a166b668e280234ee830/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T17:54:05Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate FriendsRecyclerAdapter to Java.",
+                "tree": {
+                    "sha": "4eb6280509deeede29808b4d42cb7e86c9dae64a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/4eb6280509deeede29808b4d42cb7e86c9dae64a"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/38bb870353d36dcaf5e9a166b668e280234ee830",
+                "verification": {
+                    "payload": "tree 4eb6280509deeede29808b4d42cb7e86c9dae64a\nparent 804bb2a218e684c80bad94e65746ee265d19ed26\nauthor iphydf <iphydf@users.noreply.github.com> 1517075645 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate FriendsRecyclerAdapter to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8nFyAf/QbZ9WXyhyLzdH2csPz9RBHHzmT3IVTdJn/B1K24XD03x1JOhv7rNA2Ai\n3YQbdNGxvmQIdaL2YUP+r9iGQt+7KXLu9PRJx2szsYM77hXXRQFm5CK6tJCn3zEM\nqu+Wp+0cCsIt84QVDqMREtjpec2fLZbB+KrY3tbqglnObszqGbOHMfOZmwRC/mfE\ny6BZglVuZ7qM4umd3ZcSd7tfF3zIHD1REKLGXGfumcVV7V/4i1nom+MLhUe3bAG3\nAyaaURDsbG+jAdDO5zACHOfY0AtqJklBt9X4B5Xqh+abPauA52wseJDM2ea7nYTI\nbkkqDKiRyD1uY6zVoxqdUIPwv6HSFw==\n=2pGR\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/38bb870353d36dcaf5e9a166b668e280234ee830",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6MzhiYjg3MDM1M2QzNmRjYWY1ZTlhMTY2YjY2OGUyODAyMzRlZTgzMA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/804bb2a218e684c80bad94e65746ee265d19ed26",
+                    "sha": "804bb2a218e684c80bad94e65746ee265d19ed26",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/804bb2a218e684c80bad94e65746ee265d19ed26"
+                }
+            ],
+            "sha": "38bb870353d36dcaf5e9a166b668e280234ee830",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/38bb870353d36dcaf5e9a166b668e280234ee830"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/d2c01a69ac6c08811a72da8a9c724416d04ecdcc/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T18:05:31Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate CustomViewPager to Java.",
+                "tree": {
+                    "sha": "9b32b284907d20ae6893d2521e5e647704d11ec4",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/9b32b284907d20ae6893d2521e5e647704d11ec4"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/d2c01a69ac6c08811a72da8a9c724416d04ecdcc",
+                "verification": {
+                    "payload": "tree 9b32b284907d20ae6893d2521e5e647704d11ec4\nparent 38bb870353d36dcaf5e9a166b668e280234ee830\nauthor iphydf <iphydf@users.noreply.github.com> 1517076331 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098548 +0000\n\nMigrate CustomViewPager to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjQACgkQOFXbotdE\nA8n1swf/UV/mhscpy7rhivOHIeCUgScKmHsGmxyEz0SKM0ZeevGn38wLQXRUHUOy\nyzCJJTYx4/Xfda+GqF7l04jl7FqZl1od5OlTJ4T1TESGeXtoq3qd0Dc+6nALqj+L\nzDakkUj4KoFK8JioRz0o0su/BxomHSJmziRWV7IkdRZvaXnsL9t3VRgnEBggxYJ3\n/5njgomXhLSM4TDKDyORmU77YzMAu/Oxzd5SVXlwjuIsj9X0tpFrKh1Pni6gScvN\n6qrnzoD0NGR6ePmyU9njI9p4WBFMb1a77y6lH4nPU5bgQdmz02tH24xqVAe/mJWu\nGBpz5/R0E7b5OgmzoNUsvnlJSyt77g==\n=dViL\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/d2c01a69ac6c08811a72da8a9c724416d04ecdcc",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZDJjMDFhNjlhYzZjMDg4MTFhNzJkYThhOWM3MjQ0MTZkMDRlY2RjYw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/38bb870353d36dcaf5e9a166b668e280234ee830",
+                    "sha": "38bb870353d36dcaf5e9a166b668e280234ee830",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/38bb870353d36dcaf5e9a166b668e280234ee830"
+                }
+            ],
+            "sha": "d2c01a69ac6c08811a72da8a9c724416d04ecdcc",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/d2c01a69ac6c08811a72da8a9c724416d04ecdcc"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/42a71fc70ef783cbeb6e5e13de326851a270addc/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T18:01:48Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:49Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate HomeSearch to Java.",
+                "tree": {
+                    "sha": "a4c7f7e0c32e5891c5f8fb39884818bb7a196992",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/a4c7f7e0c32e5891c5f8fb39884818bb7a196992"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/42a71fc70ef783cbeb6e5e13de326851a270addc",
+                "verification": {
+                    "payload": "tree a4c7f7e0c32e5891c5f8fb39884818bb7a196992\nparent d2c01a69ac6c08811a72da8a9c724416d04ecdcc\nauthor iphydf <iphydf@users.noreply.github.com> 1517076108 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098549 +0000\n\nMigrate HomeSearch to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjUACgkQOFXbotdE\nA8l2XAf+LgSeA6cARJmZMxsouizokEmVGjyGSZZPeWJ4a4/mKA2cvM+nML6OTqdU\n+1R9yq5o2tYkzSm5L7U1RF33omMRhid3gKoiTsL1h5Uc7V/vMdNNzC3U2PrAPDyM\nT/fFtRsfnsvBdqfotgR0oFVR9mFu8p7qO1tpF1dG2omE5VApO9G0BqSPzoEwKYFA\nC2uLLh43oLVTcUjNNTq7mmM4C2fy6VHkumTNyO8AOE23Wl7+urFrll8rssIvS4H3\nFFKjmMFDxxgP2dpco2VtA0XICgz74qc0bAnHcNNOo3z+mrWxdAvjp4HLam8dqdrM\nOXqlS8iYcQ5reTQN0JYg4jlkeE9cIw==\n=T2uF\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/42a71fc70ef783cbeb6e5e13de326851a270addc",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6NDJhNzFmYzcwZWY3ODNjYmViNmU1ZTEzZGUzMjY4NTFhMjcwYWRkYw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/d2c01a69ac6c08811a72da8a9c724416d04ecdcc",
+                    "sha": "d2c01a69ac6c08811a72da8a9c724416d04ecdcc",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/d2c01a69ac6c08811a72da8a9c724416d04ecdcc"
+                }
+            ],
+            "sha": "42a71fc70ef783cbeb6e5e13de326851a270addc",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/42a71fc70ef783cbeb6e5e13de326851a270addc"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/b5f91aa6379467e4cce4819cfad45bf98a2c84c3/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T18:54:16Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:15:49Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate simple_dialogs to Java.",
+                "tree": {
+                    "sha": "06cd70a5195ebb78f3b63775362c22660066bb92",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/06cd70a5195ebb78f3b63775362c22660066bb92"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/b5f91aa6379467e4cce4819cfad45bf98a2c84c3",
+                "verification": {
+                    "payload": "tree 06cd70a5195ebb78f3b63775362c22660066bb92\nparent 42a71fc70ef783cbeb6e5e13de326851a270addc\nauthor iphydf <iphydf@users.noreply.github.com> 1517079256 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517098549 +0000\n\nMigrate simple_dialogs to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptFjUACgkQOFXbotdE\nA8mPYgf8DuU0p5jz6+3qk2W395bwLc0EkzLbwJSs532rk2z9opF9iHYzXIj9andD\nCgYppY1JTi+A7SnnrWsAWQxldoI2+zIe9hulGCsi7yrKSkEx2GtOiYHTNilf+Zli\npADCtt80Ev2BIP2L7h+eXdGbmEreYl3LTrWRHCRpLANk2/aobWeofy4ailHZWZYH\nQxj84AH3kZA6h4IaZT1698KdVygZ39p8JaZCKNOp1/BryzNu4QVH/s4je7yv4b/2\nYN68BlYl7PqhihKkspF3cRlJ5gkcncxCMoPF1jlFRU/0k1ybbyeb5XRbFAirP0nq\nPfthC6Bo7J8YEPyz4z9eHG1XX+uVRg==\n=G1cS\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/b5f91aa6379467e4cce4819cfad45bf98a2c84c3",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6YjVmOTFhYTYzNzk0NjdlNGNjZTQ4MTljZmFkNDViZjk4YTJjODRjMw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/42a71fc70ef783cbeb6e5e13de326851a270addc",
+                    "sha": "42a71fc70ef783cbeb6e5e13de326851a270addc",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/42a71fc70ef783cbeb6e5e13de326851a270addc"
+                }
+            ],
+            "sha": "b5f91aa6379467e4cce4819cfad45bf98a2c84c3",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/b5f91aa6379467e4cce4819cfad45bf98a2c84c3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T18:58:28Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:36:04Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate MyRecyclerScroll to Java.",
+                "tree": {
+                    "sha": "e221f08c395b6edd7606a60cd30b775ebf5361f2",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/e221f08c395b6edd7606a60cd30b775ebf5361f2"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1",
+                "verification": {
+                    "payload": "tree e221f08c395b6edd7606a60cd30b775ebf5361f2\nparent b5f91aa6379467e4cce4819cfad45bf98a2c84c3\nauthor iphydf <iphydf@users.noreply.github.com> 1517079508 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517099764 +0000\n\nMigrate MyRecyclerScroll to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptGvYACgkQOFXbotdE\nA8n0CAf/ZFHodsG8BwjKSEsjDuATP/zC4AktxPtHBi3hBVL/SxhF42neGSNr0UGg\nz/uD7EgLRzjwsEvE3yDOV8oP/HNJt6B3jZBhZ1hAdL7nppR7AMLx0TvubpHkwB2S\nz6fSB8PZEaxLbV6gQNN+g3xUlxT0Vw5eiHcGupA8WpaazRnqcyEOQPKC6Ou2eIzX\nMrRS2CrxmuSwbGUVOkCA0MWMP33WI7yQ6e93RbV/O1Ix+UabVJxZ0B7iNTNLigIY\nNB9prs8/1DMnYsqR5optlaEMrxeVyeUwUS/D7ff/EIvPV+C8FVrjtJXtuZSfC72E\n9mNEaUzgOKRbgmCKYYsq6vNVVIyWOQ==\n=0tAh\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6ZmQ1YTcyZTQ5OGExZmJiN2IwMjk5YmJkNWJlODJjMGQyNmZjMzBmMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/b5f91aa6379467e4cce4819cfad45bf98a2c84c3",
+                    "sha": "b5f91aa6379467e4cce4819cfad45bf98a2c84c3",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/b5f91aa6379467e4cce4819cfad45bf98a2c84c3"
+                }
+            ],
+            "sha": "fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-android/commits/7a506266e93adf8741ca1ba1e31f72f099404919/comments",
+            "commit": {
+                "author": {
+                    "date": "2018-01-27T19:27:06Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2018-01-28T00:36:12Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Migrate domain objects to Java.",
+                "tree": {
+                    "sha": "10780c18d7ec9365ca7ca7546045575b0398c73a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/git/trees/10780c18d7ec9365ca7ca7546045575b0398c73a"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-android/git/commits/7a506266e93adf8741ca1ba1e31f72f099404919",
+                "verification": {
+                    "payload": "tree 10780c18d7ec9365ca7ca7546045575b0398c73a\nparent fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1\nauthor iphydf <iphydf@users.noreply.github.com> 1517081226 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1517099772 +0000\n\nMigrate domain objects to Java.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAlptGvwACgkQOFXbotdE\nA8nYkAf9EecF+9YE5oreYdxugGCxPjsy+8Sbgx3n1Wqp/oLPG8dUcpJAwLNshxZl\n58JctyNkIMC6h2/7QLcbABLq5QXvseihzg4e9EnvgwId21fhuAiurHCdWM+8mvjk\nhf7t7c96QDeQ5AZJ9lw0sO2EZWWTglageRKv1aRW/tNk1DMlMZvPe7Uq6M779uYN\nk9L2LNgIxgwJ2M6gUDg806cOS+x859mG2HJ2pD2eXfJHqCihyva6qSDsPz1kuVcX\n5+0gsRSJS7QMoG9yzbWGrhk4Y/20q9lxVXSJtL5ECyPf72Cx9Hqbnj5jouKA21jk\nYDSZThv5Me1R/mGHRXPzVUnlqlzXGw==\n=5sCt\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T21:20:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-android/commit/7a506266e93adf8741ca1ba1e31f72f099404919",
+            "node_id": "MDY6Q29tbWl0Mzc5NTU4MTY6N2E1MDYyNjZlOTNhZGY4NzQxY2ExYmExZTMxZjcyZjA5OTQwNDkxOQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-android/commit/fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1",
+                    "sha": "fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1",
+                    "url": "https://api.github.com/repos/TokTok/toktok-android/commits/fd5a72e498a1fbb7b0299bbd5be82c0d26fc30f1"
+                }
+            ],
+            "sha": "7a506266e93adf8741ca1ba1e31f72f099404919",
+            "url": "https://api.github.com/repos/TokTok/toktok-android/commits/7a506266e93adf8741ca1ba1e31f72f099404919"
+        }
+    ],
+    "commits": 24,
+    "commits_url": "https://api.github.com/repos/TokTok/toktok-android/pulls/38/commits",
+    "created_at": "2018-01-27T19:27:25Z",
+    "deletions": 4700,
+    "diff_url": "https://github.com/TokTok/toktok-android/pull/38.diff",
+    "draft": false,
+    "head": {
+        "label": "iphydf:java-22",
+        "ref": "java-22",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/iphydf/toktok-android/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/iphydf/toktok-android/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/iphydf/toktok-android/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/iphydf/toktok-android/branches{/branch}",
+            "clone_url": "https://github.com/iphydf/toktok-android.git",
+            "collaborators_url": "https://api.github.com/repos/iphydf/toktok-android/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/iphydf/toktok-android/comments{/number}",
+            "commits_url": "https://api.github.com/repos/iphydf/toktok-android/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/iphydf/toktok-android/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/iphydf/toktok-android/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/iphydf/toktok-android/contributors",
+            "created_at": "2015-06-24T01:52:31Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/iphydf/toktok-android/deployments",
+            "description": "Tox Android Client",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/iphydf/toktok-android/downloads",
+            "events_url": "https://api.github.com/repos/iphydf/toktok-android/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/iphydf/toktok-android/forks",
+            "full_name": "iphydf/toktok-android",
+            "git_commits_url": "https://api.github.com/repos/iphydf/toktok-android/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/iphydf/toktok-android/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/iphydf/toktok-android/git/tags{/sha}",
+            "git_url": "git://github.com/iphydf/toktok-android.git",
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": null,
+            "hooks_url": "https://api.github.com/repos/iphydf/toktok-android/hooks",
+            "html_url": "https://github.com/iphydf/toktok-android",
+            "id": 37955816,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/iphydf/toktok-android/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/iphydf/toktok-android/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/iphydf/toktok-android/issues{/number}",
+            "keys_url": "https://api.github.com/repos/iphydf/toktok-android/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/iphydf/toktok-android/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/iphydf/toktok-android/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/iphydf/toktok-android/merges",
+            "milestones_url": "https://api.github.com/repos/iphydf/toktok-android/milestones{/number}",
+            "mirror_url": null,
+            "name": "toktok-android",
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNzk1NTgxNg==",
+            "notifications_url": "https://api.github.com/repos/iphydf/toktok-android/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/iphydf/toktok-android/pulls{/number}",
+            "pushed_at": "2022-01-30T19:14:22Z",
+            "releases_url": "https://api.github.com/repos/iphydf/toktok-android/releases{/id}",
+            "size": 13555,
+            "ssh_url": "git@github.com:iphydf/toktok-android.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/iphydf/toktok-android/stargazers",
+            "statuses_url": "https://api.github.com/repos/iphydf/toktok-android/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/iphydf/toktok-android/subscribers",
+            "subscription_url": "https://api.github.com/repos/iphydf/toktok-android/subscription",
+            "svn_url": "https://github.com/iphydf/toktok-android",
+            "tags_url": "https://api.github.com/repos/iphydf/toktok-android/tags",
+            "teams_url": "https://api.github.com/repos/iphydf/toktok-android/teams",
+            "topics": [
+                "android",
+                "chat",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/iphydf/toktok-android/git/trees{/sha}",
+            "updated_at": "2020-04-25T03:41:39Z",
+            "url": "https://api.github.com/repos/iphydf/toktok-android",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "7a506266e93adf8741ca1ba1e31f72f099404919",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/toktok-android/pull/38",
+    "id": 165532483,
+    "issue_url": "https://api.github.com/repos/TokTok/toktok-android/issues/38",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "7a506266e93adf8741ca1ba1e31f72f099404919",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2018-01-28T14:48:06Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MTY1NTMyNDgz",
+    "number": 38,
+    "patch_url": "https://github.com/TokTok/toktok-android/pull/38.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/toktok-android/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/toktok-android/pulls/38/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toktok-android/statuses/7a506266e93adf8741ca1ba1e31f72f099404919",
+    "title": "Migrate domain objects to Java.",
+    "updated_at": "2018-01-28T14:50:05Z",
+    "url": "https://api.github.com/repos/TokTok/toktok-android/pulls/38",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    }
+}

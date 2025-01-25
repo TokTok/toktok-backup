@@ -1,0 +1,1142 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/issues/46/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/46/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/hs-toxcore/pull/46"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/issues/46"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/46/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/46"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/c349e17e60c87301a1ec9f68b009eaf790c74e46"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 321,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "CONTRIBUTOR",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/hs-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/hs-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/hs-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/hs-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/hs-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/hs-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/hs-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/hs-toxcore/contributors",
+            "created_at": "2016-02-15T17:31:08Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/hs-toxcore/deployments",
+            "description": "Haskell Tox protocol implementation",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/hs-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/hs-toxcore/events",
+            "fork": false,
+            "forks": 16,
+            "forks_count": 16,
+            "forks_url": "https://api.github.com/repos/TokTok/hs-toxcore/forks",
+            "full_name": "TokTok/hs-toxcore",
+            "git_commits_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/hs-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/spec",
+            "hooks_url": "https://api.github.com/repos/TokTok/hs-toxcore/hooks",
+            "html_url": "https://github.com/TokTok/hs-toxcore",
+            "id": 51772717,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/hs-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/hs-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/hs-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/hs-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/hs-toxcore/labels{/name}",
+            "language": "Haskell",
+            "languages_url": "https://api.github.com/repos/TokTok/hs-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/hs-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/hs-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "hs-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk1MTc3MjcxNw==",
+            "notifications_url": "https://api.github.com/repos/TokTok/hs-toxcore/notifications{?since,all,participating}",
+            "open_issues": 3,
+            "open_issues_count": 3,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-20T12:30:54Z",
+            "releases_url": "https://api.github.com/repos/TokTok/hs-toxcore/releases{/id}",
+            "size": 891,
+            "ssh_url": "git@github.com:TokTok/hs-toxcore.git",
+            "stargazers_count": 42,
+            "stargazers_url": "https://api.github.com/repos/TokTok/hs-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/hs-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/hs-toxcore/subscription",
+            "svn_url": "https://github.com/TokTok/hs-toxcore",
+            "tags_url": "https://api.github.com/repos/TokTok/hs-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/hs-toxcore/teams",
+            "topics": [
+                "haskell",
+                "network",
+                "p2p",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-20T12:30:55Z",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore",
+            "visibility": "public",
+            "watchers": 42,
+            "watchers_count": 42,
+            "web_commit_signoff_required": false
+        },
+        "sha": "59d9c776537d62c5c46c74241c7d095a1e13775d",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "This isn't ready to merge, it's open as review only.\n\nIt depends on the tests before it being merged.\n\nIt'll also likely need a rebase\n\n<!-- Reviewable:start -->\n\n---\n\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/hstox/46)\n\n<!-- Reviewable:end -->\n",
+    "changed_files": 4,
+    "closed_at": "2016-07-30T21:23:08Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/issues/46/comments",
+    "commit_data": [
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/1385883a97f7bfc34e0e185c938d03fc25f9cfb3/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-16T00:53:56Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:17Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "Binary_Encode node info test\n\nthis is a temp commit that will get rewritten when it works",
+                "tree": {
+                    "sha": "03dc3dd375c8aa77e398e113f99e4f45680e0ee6",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/03dc3dd375c8aa77e398e113f99e4f45680e0ee6"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/1385883a97f7bfc34e0e185c938d03fc25f9cfb3",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/1385883a97f7bfc34e0e185c938d03fc25f9cfb3",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6MTM4NTg4M2E5N2Y3YmZjMzRlMGUxODVjOTM4ZDAzZmMyNWY5Y2ZiMw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/59d9c776537d62c5c46c74241c7d095a1e13775d",
+                    "sha": "59d9c776537d62c5c46c74241c7d095a1e13775d",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/59d9c776537d62c5c46c74241c7d095a1e13775d"
+                }
+            ],
+            "sha": "1385883a97f7bfc34e0e185c938d03fc25f9cfb3",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/1385883a97f7bfc34e0e185c938d03fc25f9cfb3"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/0aacc99916bfd761f55805eeca7966da67eaefb6/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-23T02:25:46Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:39Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "still broken",
+                "tree": {
+                    "sha": "1d50638bda7ab887564a30820d3807dc7c536907",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/1d50638bda7ab887564a30820d3807dc7c536907"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/0aacc99916bfd761f55805eeca7966da67eaefb6",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/0aacc99916bfd761f55805eeca7966da67eaefb6",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6MGFhY2M5OTkxNmJmZDc2MWY1NTgwNWVlY2E3OTY2ZGE2N2VhZWZiNg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/1385883a97f7bfc34e0e185c938d03fc25f9cfb3",
+                    "sha": "1385883a97f7bfc34e0e185c938d03fc25f9cfb3",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/1385883a97f7bfc34e0e185c938d03fc25f9cfb3"
+                }
+            ],
+            "sha": "0aacc99916bfd761f55805eeca7966da67eaefb6",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/0aacc99916bfd761f55805eeca7966da67eaefb6"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/240dce09f04b6ecae99dccf661b6e688c495b5f1/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-23T10:17:51Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:39Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "make it compile\n\nSigned-off-by: Gregory Mullen (grayhatter) <greg@grayhatter.com>",
+                "tree": {
+                    "sha": "3833ef9f34ffb58a278ba8829fe3f6693482beee",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/3833ef9f34ffb58a278ba8829fe3f6693482beee"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/240dce09f04b6ecae99dccf661b6e688c495b5f1",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/240dce09f04b6ecae99dccf661b6e688c495b5f1",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6MjQwZGNlMDlmMDRiNmVjYWU5OWRjY2Y2NjFiNmU2ODhjNDk1YjVmMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/0aacc99916bfd761f55805eeca7966da67eaefb6",
+                    "sha": "0aacc99916bfd761f55805eeca7966da67eaefb6",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/0aacc99916bfd761f55805eeca7966da67eaefb6"
+                }
+            ],
+            "sha": "240dce09f04b6ecae99dccf661b6e688c495b5f1",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/240dce09f04b6ecae99dccf661b6e688c495b5f1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/2334ab39664b57e21fa22cba31620c8f8140cb1d/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-23T11:43:49Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:56Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "Improve test failure messages.",
+                "tree": {
+                    "sha": "fc6ebcd057913f7ad9f8cc9524ec101eb9bf41bd",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/fc6ebcd057913f7ad9f8cc9524ec101eb9bf41bd"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/2334ab39664b57e21fa22cba31620c8f8140cb1d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/2334ab39664b57e21fa22cba31620c8f8140cb1d",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6MjMzNGFiMzk2NjRiNTdlMjFmYTIyY2JhMzE2MjBjOGY4MTQwY2IxZA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/240dce09f04b6ecae99dccf661b6e688c495b5f1",
+                    "sha": "240dce09f04b6ecae99dccf661b6e688c495b5f1",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/240dce09f04b6ecae99dccf661b6e688c495b5f1"
+                }
+            ],
+            "sha": "2334ab39664b57e21fa22cba31620c8f8140cb1d",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/2334ab39664b57e21fa22cba31620c8f8140cb1d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/edbc969848bc8fe58587f119d1a7f0bdcfb649e4/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-23T11:43:57Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:56Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "Fix binary encode NodeInfo test.",
+                "tree": {
+                    "sha": "8c512e14d5292d2ba021759b140b48bba66cc7ae",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/8c512e14d5292d2ba021759b140b48bba66cc7ae"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/edbc969848bc8fe58587f119d1a7f0bdcfb649e4",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/edbc969848bc8fe58587f119d1a7f0bdcfb649e4",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6ZWRiYzk2OTg0OGJjOGZlNTg1ODdmMTE5ZDFhN2YwYmRjZmI2NDllNA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/2334ab39664b57e21fa22cba31620c8f8140cb1d",
+                    "sha": "2334ab39664b57e21fa22cba31620c8f8140cb1d",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/2334ab39664b57e21fa22cba31620c8f8140cb1d"
+                }
+            ],
+            "sha": "edbc969848bc8fe58587f119d1a7f0bdcfb649e4",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/edbc969848bc8fe58587f119d1a7f0bdcfb649e4"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/f5b38d831907a61f0aaa074d464cd40176ff673a/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-23T17:13:53Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:56Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "bin_decode",
+                "tree": {
+                    "sha": "2cdc40652543270e54c7e315eb76d0fb0958f16c",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/2cdc40652543270e54c7e315eb76d0fb0958f16c"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/f5b38d831907a61f0aaa074d464cd40176ff673a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/f5b38d831907a61f0aaa074d464cd40176ff673a",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6ZjViMzhkODMxOTA3YTYxZjBhYWEwNzRkNDY0Y2Q0MDE3NmZmNjczYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/edbc969848bc8fe58587f119d1a7f0bdcfb649e4",
+                    "sha": "edbc969848bc8fe58587f119d1a7f0bdcfb649e4",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/edbc969848bc8fe58587f119d1a7f0bdcfb649e4"
+                }
+            ],
+            "sha": "f5b38d831907a61f0aaa074d464cd40176ff673a",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/f5b38d831907a61f0aaa074d464cd40176ff673a"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/98fbeeac0359740925daaf06e1eff7d819f5ba84/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-23T17:41:53Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:26:56Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "Binary encode-decode for NodeInfo",
+                "tree": {
+                    "sha": "7a5a17b79df4b934d60d7d0e0c75b38a6b659898",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/7a5a17b79df4b934d60d7d0e0c75b38a6b659898"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/98fbeeac0359740925daaf06e1eff7d819f5ba84",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/98fbeeac0359740925daaf06e1eff7d819f5ba84",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6OThmYmVlYWMwMzU5NzQwOTI1ZGFhZjA2ZTFlZmY3ZDgxOWY1YmE4NA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/f5b38d831907a61f0aaa074d464cd40176ff673a",
+                    "sha": "f5b38d831907a61f0aaa074d464cd40176ff673a",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/f5b38d831907a61f0aaa074d464cd40176ff673a"
+                }
+            ],
+            "sha": "98fbeeac0359740925daaf06e1eff7d819f5ba84",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/98fbeeac0359740925daaf06e1eff7d819f5ba84"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/a22e680a5126f700d3448ba69fd5a494ac51c585/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-14T15:07:19Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:27:26Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "Remove unused imports; pretty-print msgpack-parser output.\n\nWe now use the Text.Groom package to pretty-print the output from \"show\" when\nusing the msgpack-parser tool. This helps a human understand the output better,\nespecially when the output becomes larger.\n\nThis commit also removes all unused imports and improves compatibility with\nolder versions of GHC (7.6). We now use lists instead of vectors in the msgpack\ndata model.",
+                "tree": {
+                    "sha": "319a97a35fcb92706242d8d616b55c8e2b0ec3db",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/319a97a35fcb92706242d8d616b55c8e2b0ec3db"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/a22e680a5126f700d3448ba69fd5a494ac51c585",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/a22e680a5126f700d3448ba69fd5a494ac51c585",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6YTIyZTY4MGE1MTI2ZjcwMGQzNDQ4YmE2OWZkNWE0OTRhYzUxYzU4NQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/98fbeeac0359740925daaf06e1eff7d819f5ba84",
+                    "sha": "98fbeeac0359740925daaf06e1eff7d819f5ba84",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/98fbeeac0359740925daaf06e1eff7d819f5ba84"
+                }
+            ],
+            "sha": "a22e680a5126f700d3448ba69fd5a494ac51c585",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/a22e680a5126f700d3448ba69fd5a494ac51c585"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-25T19:54:37Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:27:26Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "CipherText",
+                "tree": {
+                    "sha": "cf5e7b4a692346403cfe356a64001de2ccdbadf1",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/cf5e7b4a692346403cfe356a64001de2ccdbadf1"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6NGUzZjk4OTNhZDZmZWE5ZmNmOTQzOWJmY2ZjMTZiYTBjMzJhYmZhYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/a22e680a5126f700d3448ba69fd5a494ac51c585",
+                    "sha": "a22e680a5126f700d3448ba69fd5a494ac51c585",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/a22e680a5126f700d3448ba69fd5a494ac51c585"
+                }
+            ],
+            "sha": "4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/a4ffc75275c4545371622d506482ddd4bde679df/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-25T21:07:10Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:27:26Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "u64 tests",
+                "tree": {
+                    "sha": "8231d436dfccea44a63b075dc9b6e0f9c73a5633",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/8231d436dfccea44a63b075dc9b6e0f9c73a5633"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/a4ffc75275c4545371622d506482ddd4bde679df",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/a4ffc75275c4545371622d506482ddd4bde679df",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6YTRmZmM3NTI3NWM0NTQ1MzcxNjIyZDUwNjQ4MmRkZDRiZGU2NzlkZg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa",
+                    "sha": "4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/4e3f9893ad6fea9fcf9439bfcfc16ba0c32abfaa"
+                }
+            ],
+            "sha": "a4ffc75275c4545371622d506482ddd4bde679df",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/a4ffc75275c4545371622d506482ddd4bde679df"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/108dffb510c6499e3ea8179ab8d1810eaba019d1/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-25T21:52:56Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:27:26Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "fix merge issue",
+                "tree": {
+                    "sha": "9eecb3e6f4ccb58d746e4cd1cbabb62f4dea380f",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/9eecb3e6f4ccb58d746e4cd1cbabb62f4dea380f"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/108dffb510c6499e3ea8179ab8d1810eaba019d1",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/108dffb510c6499e3ea8179ab8d1810eaba019d1",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6MTA4ZGZmYjUxMGM2NDk5ZTNlYTgxNzlhYjhkMTgxMGVhYmEwMTlkMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/a4ffc75275c4545371622d506482ddd4bde679df",
+                    "sha": "a4ffc75275c4545371622d506482ddd4bde679df",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/a4ffc75275c4545371622d506482ddd4bde679df"
+                }
+            ],
+            "sha": "108dffb510c6499e3ea8179ab8d1810eaba019d1",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/108dffb510c6499e3ea8179ab8d1810eaba019d1"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/285fede8944649a9ffcaca74f05f7dbd121cf729/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-26T02:13:24Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:27:26Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "Patch from @iphydf to return + and - int's",
+                "tree": {
+                    "sha": "adca72a28106d6218324414c61d1f5734c6bb278",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/adca72a28106d6218324414c61d1f5734c6bb278"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/285fede8944649a9ffcaca74f05f7dbd121cf729",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/285fede8944649a9ffcaca74f05f7dbd121cf729",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6Mjg1ZmVkZTg5NDQ2NDlhOWZmY2FjYTc0ZjA1ZjdkYmQxMjFjZjcyOQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/108dffb510c6499e3ea8179ab8d1810eaba019d1",
+                    "sha": "108dffb510c6499e3ea8179ab8d1810eaba019d1",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/108dffb510c6499e3ea8179ab8d1810eaba019d1"
+                }
+            ],
+            "sha": "285fede8944649a9ffcaca74f05f7dbd121cf729",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/285fede8944649a9ffcaca74f05f7dbd121cf729"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/ed592171e54a92f056644bfc94e8a9b38a19bac9/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-27T17:26:05Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:27:26Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "temp commit to rebase to master",
+                "tree": {
+                    "sha": "9097648b0c69ac1c08d7cf0edecb7fc96090c0a3",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/9097648b0c69ac1c08d7cf0edecb7fc96090c0a3"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/ed592171e54a92f056644bfc94e8a9b38a19bac9",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/ed592171e54a92f056644bfc94e8a9b38a19bac9",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6ZWQ1OTIxNzFlNTRhOTJmMDU2NjQ0YmZjOTRlOGE5YjM4YTE5YmFjOQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/285fede8944649a9ffcaca74f05f7dbd121cf729",
+                    "sha": "285fede8944649a9ffcaca74f05f7dbd121cf729",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/285fede8944649a9ffcaca74f05f7dbd121cf729"
+                }
+            ],
+            "sha": "ed592171e54a92f056644bfc94e8a9b38a19bac9",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/ed592171e54a92f056644bfc94e8a9b38a19bac9"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/080e0220395260d2130e62c49895db1e38a2d114/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-27T17:48:21Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T17:48:21Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "verify length and size",
+                "tree": {
+                    "sha": "18a5f97ac1744ecd38b56ec1c64f51d289477e6f",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/18a5f97ac1744ecd38b56ec1c64f51d289477e6f"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/080e0220395260d2130e62c49895db1e38a2d114",
+                "verification": {
+                    "payload": "tree 18a5f97ac1744ecd38b56ec1c64f51d289477e6f\nparent ed592171e54a92f056644bfc94e8a9b38a19bac9\nauthor Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469641701 -0700\ncommitter Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469641701 -0700\n\nverify length and size\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v2\n\niQEcBAABCAAGBQJXmPPmAAoJEFoOP5ZK3imbXZ0IAPCbqbK76ye6IH3QyHQY2HCj\nC6zutrcBc9QeiUtzeUUyk1TH1u2v9dTnZVg9al72baC0MCIn+SjA6g4IFksQhp7D\nvtWVIYId7IHS7W+CWKzA+YwmNpg3FV6fHVMmkIdv9fY3TQB+WjRYmzVgBd9z3tjK\n1QoDSXt48XrCG3FBY4DRzS8Fb/Ge4QuR9A9yJmyDE4QEa0v2tCZTNoKRzVKdp0ni\nlogekTPssgqicehtnHfnZZmN1zUJ14bDYaiVYeS3QwA3OeRmpCdG2EcZtp4VlPUU\ndUp7AQ4Pjzhqzs1+MgYDyIANo4HpnqmVbZYL/7y66W+P6V3bbbv4WbOIGnRDLS4=\n=2XsL\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/080e0220395260d2130e62c49895db1e38a2d114",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6MDgwZTAyMjAzOTUyNjBkMjEzMGU2MmM0OTg5NWRiMWUzOGEyZDExNA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/ed592171e54a92f056644bfc94e8a9b38a19bac9",
+                    "sha": "ed592171e54a92f056644bfc94e8a9b38a19bac9",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/ed592171e54a92f056644bfc94e8a9b38a19bac9"
+                }
+            ],
+            "sha": "080e0220395260d2130e62c49895db1e38a2d114",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/080e0220395260d2130e62c49895db1e38a2d114"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/872e3537bbbd28e1774602579974bddf514ea864/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-27T18:05:44Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T18:05:44Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "DhtPacket Bin Encode",
+                "tree": {
+                    "sha": "77a7f29927a8eb59a76cae339eeca4e1a4a30125",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/77a7f29927a8eb59a76cae339eeca4e1a4a30125"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/872e3537bbbd28e1774602579974bddf514ea864",
+                "verification": {
+                    "payload": "tree 77a7f29927a8eb59a76cae339eeca4e1a4a30125\nparent 080e0220395260d2130e62c49895db1e38a2d114\nauthor Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469642744 -0700\ncommitter Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469642744 -0700\n\nDhtPacket Bin Encode\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v2\n\niQEcBAABCAAGBQJXmPf4AAoJEFoOP5ZK3imbCywIAKVzm6z/cQOA/C0VvqrbUbAC\nWY8pa6dQ1XnkXjsJ3mXllGy2IbcvyKW3kND8nemvqdQjrpXxERQjacc5xkfAezbU\nwgthzKcoiCcGg7BiPMX5po1JXdOftOkG78hsPbsbEhmLwkK7StX0oyn8RwTKXz/G\n68pxhB2hYVKFQMH7TmqrJe7NUcwPq0IFuURYPzj64mOSeAtNAEwiVrSjBd+VQA3w\nEiTvMjUVXX1Azl2X/J//UWIcYDcwYonNLDnMdm5lHh27fBha/NTvgIBOBrICG5kL\nLu1+aMbqD40L35kL2SL2xOZMM2SGCGUdMXUrUvFk7BlWzL8VNJSGfmA+zm/5fcI=\n=kt5/\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/872e3537bbbd28e1774602579974bddf514ea864",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6ODcyZTM1MzdiYmJkMjhlMTc3NDYwMjU3OTk3NGJkZGY1MTRlYTg2NA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/080e0220395260d2130e62c49895db1e38a2d114",
+                    "sha": "080e0220395260d2130e62c49895db1e38a2d114",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/080e0220395260d2130e62c49895db1e38a2d114"
+                }
+            ],
+            "sha": "872e3537bbbd28e1774602579974bddf514ea864",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/872e3537bbbd28e1774602579974bddf514ea864"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/95fa8644335980957bf169ea05fd786833da7e3b/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-27T18:17:21Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-27T18:17:21Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "DhtPacket Bin Decode unworking",
+                "tree": {
+                    "sha": "73e2ff041d36abf3b2908a367a63de05b55c8cd9",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/73e2ff041d36abf3b2908a367a63de05b55c8cd9"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/95fa8644335980957bf169ea05fd786833da7e3b",
+                "verification": {
+                    "payload": "tree 73e2ff041d36abf3b2908a367a63de05b55c8cd9\nparent 872e3537bbbd28e1774602579974bddf514ea864\nauthor Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469643441 -0700\ncommitter Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469643441 -0700\n\nDhtPacket Bin Decode unworking\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v2\n\niQEcBAABCAAGBQJXmPqxAAoJEFoOP5ZK3imbXmwH/RNvc24RvcBNJJvVbIgDP3n6\nfblX+XUaE0wx2tooY1+2ib7IvqgziATH4xinOBlGI8fjT89YynP6PjaHsMIe6Ldi\nwAIuI6rq+y+Ov2HfHU/WDeO9O0tiIKjKxyH0GzYpK3WeFLCyALtP0C2sUG3+YUC3\nodsG5grDwNoMwuoj99vd6TvuimZqWCl30FMYeRVo6S0JQtCjlnGomOj+EQ/oAIAK\nXjBKgU6Y4k8VXgMb92/E9S6J6ZokmFDY1+25XmIwu3CJJCvE5/cVliXsuhHkkwvA\nrPKHtSGrxv7ZTBVDgMumS4BPVdWR69qgm7rOkLyLcOaOIGOTROqx1ZpB4pSPRLo=\n=57Je\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/95fa8644335980957bf169ea05fd786833da7e3b",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6OTVmYTg2NDQzMzU5ODA5NTdiZjE2OWVhMDVmZDc4NjgzM2RhN2UzYg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/872e3537bbbd28e1774602579974bddf514ea864",
+                    "sha": "872e3537bbbd28e1774602579974bddf514ea864",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/872e3537bbbd28e1774602579974bddf514ea864"
+                }
+            ],
+            "sha": "95fa8644335980957bf169ea05fd786833da7e3b",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/95fa8644335980957bf169ea05fd786833da7e3b"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/c349e17e60c87301a1ec9f68b009eaf790c74e46/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-07-28T07:43:35Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2016-07-28T07:43:35Z",
+                    "email": "greg@grayhatter.com",
+                    "name": "Gregory Mullen (grayhatter)"
+                },
+                "message": "DhtPacket, pending test fix",
+                "tree": {
+                    "sha": "9ccca665745414717c44fd803f6b8cff975a8850",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/9ccca665745414717c44fd803f6b8cff975a8850"
+                },
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/c349e17e60c87301a1ec9f68b009eaf790c74e46",
+                "verification": {
+                    "payload": "tree 9ccca665745414717c44fd803f6b8cff975a8850\nparent 95fa8644335980957bf169ea05fd786833da7e3b\nauthor Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469691815 -0700\ncommitter Gregory Mullen (grayhatter) <greg@grayhatter.com> 1469691815 -0700\n\nDhtPacket, pending test fix\n",
+                    "reason": "no_user",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v2\n\niQEcBAABCAAGBQJXmbenAAoJEFoOP5ZK3imbxOMH/027//uLhNX+F/kGUStyInWz\nPVxFR2Adk9nlbH5/aLsxFROD6eHLgTODFT9Z8clNsEsNh8BQETn7lA4np820hUwJ\n+yT2e79NzRLe/KsIw+iCXeimOmE/pcsjj768707nEPYVbeSRw5bCpZmkUlgBlMhb\nfM4HlYCpnzV0dJtz2dt9YSyNcEuWxXeBr/uGn2JHBscjuVl3aAwqCqXMMfa1DbQ+\nWt+cLDIMaShG2tUaBv+ZmA1FZM78CVR7IHOkAUuWfNGDymYsGtkHoIt9Kr5aJIK0\nFXU8kTrZ9O4zVhL2tWh/FhNGBxtZOZ8wG+CDTMniBTNuaGHNGly6m38wivoEzRg=\n=F6/x\n-----END PGP SIGNATURE-----",
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/c349e17e60c87301a1ec9f68b009eaf790c74e46",
+            "node_id": "MDY6Q29tbWl0NjI0MjcyNDU6YzM0OWUxN2U2MGM4NzMwMWExZWM5ZjY4YjAwOWVhZjc5MGM3NGU0Ng==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/hs-toxcore/commit/95fa8644335980957bf169ea05fd786833da7e3b",
+                    "sha": "95fa8644335980957bf169ea05fd786833da7e3b",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/95fa8644335980957bf169ea05fd786833da7e3b"
+                }
+            ],
+            "sha": "c349e17e60c87301a1ec9f68b009eaf790c74e46",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/c349e17e60c87301a1ec9f68b009eaf790c74e46"
+        }
+    ],
+    "commits": 17,
+    "commits_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/46/commits",
+    "created_at": "2016-07-28T07:45:57Z",
+    "deletions": 33,
+    "diff_url": "https://github.com/TokTok/hs-toxcore/pull/46.diff",
+    "draft": false,
+    "head": {
+        "label": "GrayHatter:test/bin/dht",
+        "ref": "test/bin/dht",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/GrayHatter/hstox/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/GrayHatter/hstox/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/GrayHatter/hstox/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/GrayHatter/hstox/branches{/branch}",
+            "clone_url": "https://github.com/GrayHatter/hstox.git",
+            "collaborators_url": "https://api.github.com/repos/GrayHatter/hstox/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/GrayHatter/hstox/comments{/number}",
+            "commits_url": "https://api.github.com/repos/GrayHatter/hstox/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/GrayHatter/hstox/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/GrayHatter/hstox/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/GrayHatter/hstox/contributors",
+            "created_at": "2016-07-02T00:52:38Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/GrayHatter/hstox/deployments",
+            "description": "Haskell Tox protocol implementation",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/GrayHatter/hstox/downloads",
+            "events_url": "https://api.github.com/repos/GrayHatter/hstox/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/GrayHatter/hstox/forks",
+            "full_name": "GrayHatter/hstox",
+            "git_commits_url": "https://api.github.com/repos/GrayHatter/hstox/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/GrayHatter/hstox/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/GrayHatter/hstox/git/tags{/sha}",
+            "git_url": "git://github.com/GrayHatter/hstox.git",
+            "has_discussions": false,
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://toktok.github.io/spec",
+            "hooks_url": "https://api.github.com/repos/GrayHatter/hstox/hooks",
+            "html_url": "https://github.com/GrayHatter/hstox",
+            "id": 62427245,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/GrayHatter/hstox/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/GrayHatter/hstox/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/GrayHatter/hstox/issues{/number}",
+            "keys_url": "https://api.github.com/repos/GrayHatter/hstox/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/GrayHatter/hstox/labels{/name}",
+            "language": "Haskell",
+            "languages_url": "https://api.github.com/repos/GrayHatter/hstox/languages",
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "node_id": "MDc6TGljZW5zZTA=",
+                "spdx_id": "NOASSERTION",
+                "url": null
+            },
+            "merges_url": "https://api.github.com/repos/GrayHatter/hstox/merges",
+            "milestones_url": "https://api.github.com/repos/GrayHatter/hstox/milestones{/number}",
+            "mirror_url": null,
+            "name": "hstox",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjQyNzI0NQ==",
+            "notifications_url": "https://api.github.com/repos/GrayHatter/hstox/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/243408?v=4",
+                "events_url": "https://api.github.com/users/GrayHatter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/GrayHatter/followers",
+                "following_url": "https://api.github.com/users/GrayHatter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/GrayHatter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/GrayHatter",
+                "id": 243408,
+                "login": "GrayHatter",
+                "node_id": "MDQ6VXNlcjI0MzQwOA==",
+                "organizations_url": "https://api.github.com/users/GrayHatter/orgs",
+                "received_events_url": "https://api.github.com/users/GrayHatter/received_events",
+                "repos_url": "https://api.github.com/users/GrayHatter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/GrayHatter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/GrayHatter/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/GrayHatter",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/GrayHatter/hstox/pulls{/number}",
+            "pushed_at": "2016-10-02T23:45:43Z",
+            "releases_url": "https://api.github.com/repos/GrayHatter/hstox/releases{/id}",
+            "size": 381,
+            "ssh_url": "git@github.com:GrayHatter/hstox.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/GrayHatter/hstox/stargazers",
+            "statuses_url": "https://api.github.com/repos/GrayHatter/hstox/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/GrayHatter/hstox/subscribers",
+            "subscription_url": "https://api.github.com/repos/GrayHatter/hstox/subscription",
+            "svn_url": "https://github.com/GrayHatter/hstox",
+            "tags_url": "https://api.github.com/repos/GrayHatter/hstox/tags",
+            "teams_url": "https://api.github.com/repos/GrayHatter/hstox/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/GrayHatter/hstox/git/trees{/sha}",
+            "updated_at": "2016-07-02T00:52:40Z",
+            "url": "https://api.github.com/repos/GrayHatter/hstox",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "c349e17e60c87301a1ec9f68b009eaf790c74e46",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/243408?v=4",
+            "events_url": "https://api.github.com/users/GrayHatter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/GrayHatter/followers",
+            "following_url": "https://api.github.com/users/GrayHatter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/GrayHatter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/GrayHatter",
+            "id": 243408,
+            "login": "GrayHatter",
+            "node_id": "MDQ6VXNlcjI0MzQwOA==",
+            "organizations_url": "https://api.github.com/users/GrayHatter/orgs",
+            "received_events_url": "https://api.github.com/users/GrayHatter/received_events",
+            "repos_url": "https://api.github.com/users/GrayHatter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/GrayHatter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/GrayHatter/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/GrayHatter",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/hs-toxcore/pull/46",
+    "id": 79150718,
+    "issue_url": "https://api.github.com/repos/TokTok/hs-toxcore/issues/46",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "2f0c8e0e9011c143dedac2aa66decd19cb39717f",
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NzkxNTA3MTg=",
+    "number": 46,
+    "patch_url": "https://github.com/TokTok/hs-toxcore/pull/46.patch",
+    "rebaseable": false,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/46/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/c349e17e60c87301a1ec9f68b009eaf790c74e46",
+    "title": "Tests DHT.DhtPacket (review only)",
+    "updated_at": "2016-07-30T21:23:08Z",
+    "url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/46",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/243408?v=4",
+        "events_url": "https://api.github.com/users/GrayHatter/events{/privacy}",
+        "followers_url": "https://api.github.com/users/GrayHatter/followers",
+        "following_url": "https://api.github.com/users/GrayHatter/following{/other_user}",
+        "gists_url": "https://api.github.com/users/GrayHatter/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/GrayHatter",
+        "id": 243408,
+        "login": "GrayHatter",
+        "node_id": "MDQ6VXNlcjI0MzQwOA==",
+        "organizations_url": "https://api.github.com/users/GrayHatter/orgs",
+        "received_events_url": "https://api.github.com/users/GrayHatter/received_events",
+        "repos_url": "https://api.github.com/users/GrayHatter/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/GrayHatter/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/GrayHatter/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/GrayHatter",
+        "user_view_type": "public"
+    }
+}

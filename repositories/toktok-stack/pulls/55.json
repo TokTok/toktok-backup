@@ -1,0 +1,608 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/issues/55/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/55/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/toktok-stack/pull/55"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/issues/55"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/55/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/55"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/statuses/5bb89c71eec951ae5672a65a9d2f5150109acbee"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 135,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toktok-stack/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toktok-stack/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toktok-stack/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toktok-stack/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toktok-stack.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toktok-stack/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toktok-stack/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toktok-stack/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toktok-stack/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toktok-stack/contributors",
+            "created_at": "2016-09-02T09:04:48Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toktok-stack/deployments",
+            "description": "A snapshot of the complete software stack (excluding some external libraries and programs)",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toktok-stack/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toktok-stack/events",
+            "fork": false,
+            "forks": 8,
+            "forks_count": 8,
+            "forks_url": "https://api.github.com/repos/TokTok/toktok-stack/forks",
+            "full_name": "TokTok/toktok-stack",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toktok-stack/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toktok-stack/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toktok-stack.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd",
+            "hooks_url": "https://api.github.com/repos/TokTok/toktok-stack/hooks",
+            "html_url": "https://github.com/TokTok/toktok-stack",
+            "id": 67208080,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toktok-stack/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toktok-stack/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toktok-stack/labels{/name}",
+            "language": "Starlark",
+            "languages_url": "https://api.github.com/repos/TokTok/toktok-stack/languages",
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "node_id": "MDc6TGljZW5zZTA=",
+                "spdx_id": "NOASSERTION",
+                "url": null
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toktok-stack/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toktok-stack/milestones{/number}",
+            "mirror_url": null,
+            "name": "toktok-stack",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NzIwODA4MA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/toktok-stack/notifications{?since,all,participating}",
+            "open_issues": 1,
+            "open_issues_count": 1,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls{/number}",
+            "pushed_at": "2025-01-24T14:18:14Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toktok-stack/releases{/id}",
+            "size": 5616,
+            "ssh_url": "git@github.com:TokTok/toktok-stack.git",
+            "stargazers_count": 17,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toktok-stack/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toktok-stack/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toktok-stack/subscription",
+            "svn_url": "https://github.com/TokTok/toktok-stack",
+            "tags_url": "https://api.github.com/repos/TokTok/toktok-stack/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toktok-stack/teams",
+            "topics": [
+                "bazel",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees{/sha}",
+            "updated_at": "2025-01-24T14:18:09Z",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack",
+            "visibility": "public",
+            "watchers": 17,
+            "watchers_count": 17,
+            "web_commit_signoff_required": false
+        },
+        "sha": "bd17f78eb7b9101e21d123e3e820f8f2445ccc0d",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "This will become the default in the future. Until then, we should migrate\r\nto exec_tools early.\r\n\r\nSee https://docs.bazel.build/versions/master/be/general.html#genrule.exec_tools\n\n<!-- Reviewable:start -->\n---\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/toktok-stack/55)\n<!-- Reviewable:end -->\n",
+    "changed_files": 31,
+    "closed_at": "2020-04-22T11:43:16Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/55/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/2ee9f90c28ef6c70944d23d5217f5932458a19bb/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-20T01:16:04Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-21T21:42:34Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Enable running tests on Travis.",
+                "tree": {
+                    "sha": "96789ae7b26abe7c37265537d5209793aa1d9d93",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/96789ae7b26abe7c37265537d5209793aa1d9d93"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/2ee9f90c28ef6c70944d23d5217f5932458a19bb",
+                "verification": {
+                    "payload": "tree 96789ae7b26abe7c37265537d5209793aa1d9d93\nparent bd17f78eb7b9101e21d123e3e820f8f2445ccc0d\nauthor iphydf <iphydf@users.noreply.github.com> 1587345364 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587505354 +0000\n\nEnable running tests on Travis.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6faMwACgkQOFXbotdE\nA8nkXwf9F+EPg6MlO7EMJ6adgtkC1aimYMpScvnI5uWCuXCCeS/TNx42JRgVlMWZ\n1Aoq6+zXHSwULUHJ56iPVB6uwIV83pkWGIQjgSNzqU55B6c8d0Vhi5CACVAD2Sf4\nUj/HaIcZSpOYUHV4R+Ph5K61OqSVxcs/7A1L/melgkkAuev9S+74uN2AEUHR18w4\nzycmHzc0PZr4o0qJOFjT0Sh6B1Cnd1B/YtehFFVNGQh4UOQDSZbDHZyQtC7QheEz\nSADDUDd1md2Egr7ZiSKbFZVFpo9RpUIe07pq8hOeK1Amk2FvCAnx6aktpYQUQWzE\na8jmDNOK5wSt1N6aRp0ZVbCqx/ZaVQ==\n=2sl+\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T05:07:55Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/2ee9f90c28ef6c70944d23d5217f5932458a19bb",
+            "node_id": "MDY6Q29tbWl0NjcyMDgwODA6MmVlOWY5MGMyOGVmNmM3MDk0NGQyM2Q1MjE3ZjU5MzI0NThhMTliYg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/bd17f78eb7b9101e21d123e3e820f8f2445ccc0d",
+                    "sha": "bd17f78eb7b9101e21d123e3e820f8f2445ccc0d",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/bd17f78eb7b9101e21d123e3e820f8f2445ccc0d"
+                }
+            ],
+            "sha": "2ee9f90c28ef6c70944d23d5217f5932458a19bb",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/2ee9f90c28ef6c70944d23d5217f5932458a19bb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/5e333ea514918f09b0301d1c00ad6cd99b02cf9a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-21T18:02:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-21T21:52:42Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Add \"experimental\" subdirectory.\n\nAnyone can push to this repo (but no force pushes to master).",
+                "tree": {
+                    "sha": "c43b65d1b0d2f1c35c06ae6e50fd66e122b9e1b4",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/c43b65d1b0d2f1c35c06ae6e50fd66e122b9e1b4"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/5e333ea514918f09b0301d1c00ad6cd99b02cf9a",
+                "verification": {
+                    "payload": "tree c43b65d1b0d2f1c35c06ae6e50fd66e122b9e1b4\nparent 2ee9f90c28ef6c70944d23d5217f5932458a19bb\nauthor iphydf <iphydf@users.noreply.github.com> 1587492122 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587505962 +0000\n\nAdd \"experimental\" subdirectory.\n\nAnyone can push to this repo (but no force pushes to master).\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6fayoACgkQOFXbotdE\nA8n6ogf+LNVVAaqXqCD7G6dq6fVr95GvTbMPxQFOkuVLUA2AviAn7fqyH+8hGTUW\nkaIdCLnVlFWoB1g0RGLC9+q1sfpgRxItTD7vcJqJ7AUMLmOe0/dJi6BDFaGAygAu\nr70O24NuZwzb06SejykfMBZiG/rgBXNwdGdo2pBf8H9pH1lkGuG0f++CXVT8txjw\nfWfDe3VzEZYjFKZI82AVybFwLwEtGU+ZMGj9XnTlo12L3C32WUQOqDw/PdAB3Pn+\nhUYlJ2v0CT0H/bjUF7WyNjiO9FotEb9SciEC4cGVI2M7lbCNC5p9DpAdpecu0rWI\nENQkJ8n5QSodK8HAaW5AYenzaNuzYw==\n=Qqss\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T12:47:02Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/5e333ea514918f09b0301d1c00ad6cd99b02cf9a",
+            "node_id": "MDY6Q29tbWl0NjcyMDgwODA6NWUzMzNlYTUxNDkxOGYwOWIwMzAxZDFjMDBhZDZjZDk5YjAyY2Y5YQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/2ee9f90c28ef6c70944d23d5217f5932458a19bb",
+                    "sha": "2ee9f90c28ef6c70944d23d5217f5932458a19bb",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/2ee9f90c28ef6c70944d23d5217f5932458a19bb"
+                }
+            ],
+            "sha": "5e333ea514918f09b0301d1c00ad6cd99b02cf9a",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/5e333ea514918f09b0301d1c00ad6cd99b02cf9a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/61f5e355c5919c2460cf67e5dcc4ad73e6c783ba/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-21T13:21:42Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-21T21:55:39Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Add qt_win_deploy Skylark macro.\n\nThis is a parallel to qt_mac_deploy. It calls windeployqt and packs up\nthe result in a tarball. It also adds a script to unpack it, optionally\nlaunching it under the MSVS debugger.",
+                "tree": {
+                    "sha": "008b8f52149cf66f4b5b04e8c01943631bc30103",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/008b8f52149cf66f4b5b04e8c01943631bc30103"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/61f5e355c5919c2460cf67e5dcc4ad73e6c783ba",
+                "verification": {
+                    "payload": "tree 008b8f52149cf66f4b5b04e8c01943631bc30103\nparent 5e333ea514918f09b0301d1c00ad6cd99b02cf9a\nauthor iphydf <iphydf@users.noreply.github.com> 1587475302 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587506139 +0000\n\nAdd qt_win_deploy Skylark macro.\n\nThis is a parallel to qt_mac_deploy. It calls windeployqt and packs up\nthe result in a tarball. It also adds a script to unpack it, optionally\nlaunching it under the MSVS debugger.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6fa9sACgkQOFXbotdE\nA8mjOQf/SwKmoi+NBRLqMxi5/0Qwi9Au7z0ixd6Ll19FuaR4JyUYU7OWGJWVwgKy\n9cK+7eciQqhwsXwZtMu41dNeDCkVh9M1z1FasFQuhTN3n3ADyyELa/EDvZfGye57\nt9WAewPp6rxEWok4PjZ7/Zv8kr8NIKbWdPAL9qOb/MH6i3P1/xD0HOs7RJkYvH1U\nx6r1GHJBf2MfR5Xzsj43aS71J4BWbltOArwmAANGsz3Hwh9US2kE4QEpjCbu8dyF\n+arAVR/1FTULcG86wCqAg9qs2mgp7Ze5nBXaKDbenHrpYkbFeWbHmOJ/VC/Vj8Ek\nNNonJ8oJSj7oCIfZBUpurJFe1zzYRw==\n=gU4I\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T12:47:02Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/61f5e355c5919c2460cf67e5dcc4ad73e6c783ba",
+            "node_id": "MDY6Q29tbWl0NjcyMDgwODA6NjFmNWUzNTVjNTkxOWMyNDYwY2Y2N2U1ZGNjNGFkNzNlNmM3ODNiYQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/5e333ea514918f09b0301d1c00ad6cd99b02cf9a",
+                    "sha": "5e333ea514918f09b0301d1c00ad6cd99b02cf9a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/5e333ea514918f09b0301d1c00ad6cd99b02cf9a"
+                }
+            ],
+            "sha": "61f5e355c5919c2460cf67e5dcc4ad73e6c783ba",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/61f5e355c5919c2460cf67e5dcc4ad73e6c783ba"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/5bb89c71eec951ae5672a65a9d2f5150109acbee/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-21T01:26:30Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-22T01:44:58Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Use exec_tools and cfg = \"exec\" for genrules/rules.\n\nThis will become the default in the future. Until then, we should migrate\nto exec_tools early.\n\nSee https://docs.bazel.build/versions/master/be/general.html#genrule.exec_tools",
+                "tree": {
+                    "sha": "e56c9323323a9e8f76a2d7849b02f597ed55011c",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/e56c9323323a9e8f76a2d7849b02f597ed55011c"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/5bb89c71eec951ae5672a65a9d2f5150109acbee",
+                "verification": {
+                    "payload": "tree e56c9323323a9e8f76a2d7849b02f597ed55011c\nparent 61f5e355c5919c2460cf67e5dcc4ad73e6c783ba\nauthor iphydf <iphydf@users.noreply.github.com> 1587432390 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587519898 +0000\n\nUse exec_tools and cfg = \"exec\" for genrules/rules.\n\nThis will become the default in the future. Until then, we should migrate\nto exec_tools early.\n\nSee https://docs.bazel.build/versions/master/be/general.html#genrule.exec_tools\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6foZsACgkQOFXbotdE\nA8mM0gf/VG5h8VkW2LWQnNJKXacN145EBvZmPQ7v78di+Ix5nS73EiLmcB1FWVRl\nMh3v1XHmXIvUkPi216ZehiC88t7DdgobuYwvze8W229rOC9eTP5mmBhQbywkWm/d\n2ED/uP4VRQn/dYtX9WK2cWh3xR+siFY8Fz8A0CSNwkpnsfYNEIXfaAiH+dO+EH/W\nwYl+xo22i8TIthioh0Ijh+6dW17Rz+aYjXob2OFJi21zYwdHPzYg2N3/H3hjcBoE\nMUyNf8+j71t/eXk+NEYu7G/7MjkyRlvioawXjH5nA7D56BjmlzNSNnyqlzgmUTs4\nvCGrV2k0QJAaBbDyePDMS6OmKYdbqA==\n=jyYM\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-12T22:09:41Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/5bb89c71eec951ae5672a65a9d2f5150109acbee",
+            "node_id": "MDY6Q29tbWl0NjcyMDgwODA6NWJiODljNzFlZWM5NTFhZTU2NzJhNjVhOWQyZjUxNTAxMDlhY2JlZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/61f5e355c5919c2460cf67e5dcc4ad73e6c783ba",
+                    "sha": "61f5e355c5919c2460cf67e5dcc4ad73e6c783ba",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/61f5e355c5919c2460cf67e5dcc4ad73e6c783ba"
+                }
+            ],
+            "sha": "5bb89c71eec951ae5672a65a9d2f5150109acbee",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/5bb89c71eec951ae5672a65a9d2f5150109acbee"
+        }
+    ],
+    "commits": 4,
+    "commits_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/55/commits",
+    "created_at": "2020-04-21T01:28:06Z",
+    "deletions": 57,
+    "diff_url": "https://github.com/TokTok/toktok-stack/pull/55.diff",
+    "draft": false,
+    "head": {
+        "label": "iphydf:exec-tools",
+        "ref": "exec-tools",
+        "repo": null,
+        "sha": "5bb89c71eec951ae5672a65a9d2f5150109acbee",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/toktok-stack/pull/55",
+    "id": 406386305,
+    "issue_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/55",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "5bb89c71eec951ae5672a65a9d2f5150109acbee",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2020-04-22T11:43:16Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NDA2Mzg2MzA1",
+    "number": 55,
+    "patch_url": "https://github.com/TokTok/toktok-stack/pull/55.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/55/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/5bb89c71eec951ae5672a65a9d2f5150109acbee",
+    "title": "Use exec_tools and cfg = \"exec\" for genrules/rules.",
+    "updated_at": "2020-04-22T11:43:22Z",
+    "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/55",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    }
+}

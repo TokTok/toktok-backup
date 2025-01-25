@@ -1,0 +1,263 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 2013009784,
+        "name": "api break",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5Nzg0",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/api%20break"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 824828844,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NDQ=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 2038111819,
+        "name": "chore",
+        "node_id": "MDU6TGFiZWwyMDM4MTExODE5",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 2038113850,
+        "name": "cleanup",
+        "node_id": "MDU6TGFiZWwyMDM4MTEzODUw",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/cleanup"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 2013009887,
+        "name": "dependencies",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5ODg3",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 2013009896,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5ODk2",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 824828845,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NDU=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 824828846,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NDY=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/enhancement"
+    },
+    {
+        "color": "16e2e2",
+        "default": false,
+        "description": "Pull requests that update Go code",
+        "id": 7732327796,
+        "name": "go",
+        "node_id": "LA_kwDOByarZc8AAAABzOH1dA",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/go"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 824828848,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NDg=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 824828847,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NDc=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/help%20wanted"
+    },
+    {
+        "color": "d73a49",
+        "default": true,
+        "description": "Irrelevant or spam",
+        "id": 3717174746,
+        "name": "invalid",
+        "node_id": "LA_kwDOByarZc7dj5Xa",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/invalid"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 2013009925,
+        "name": "meta",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5OTI1",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/meta"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 2013010110,
+        "name": "not reproducible",
+        "node_id": "MDU6TGFiZWwyMDEzMDEwMTEw",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 2013010156,
+        "name": "P0",
+        "node_id": "MDU6TGFiZWwyMDEzMDEwMTU2",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 2013010168,
+        "name": "P1",
+        "node_id": "MDU6TGFiZWwyMDEzMDEwMTY4",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 2013010233,
+        "name": "P2",
+        "node_id": "MDU6TGFiZWwyMDEzMDEwMjMz",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 2013010307,
+        "name": "P3",
+        "node_id": "MDU6TGFiZWwyMDEzMDEwMzA3",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 2013009953,
+        "name": "packaging",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5OTUz",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 2038113973,
+        "name": "performance",
+        "node_id": "MDU6TGFiZWwyMDM4MTEzOTcz",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 2013009954,
+        "name": "proposal",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5OTU0",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 824828850,
+        "name": "question",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NTA=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 2038113994,
+        "name": "refactor",
+        "node_id": "MDU6TGFiZWwyMDM4MTEzOTk0",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 2013009981,
+        "name": "security",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5OTgx",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 2038113972,
+        "name": "style",
+        "node_id": "MDU6TGFiZWwyMDM4MTEzOTcy",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/style"
+    },
+    {
+        "color": "000000",
+        "default": false,
+        "description": "Pull requests that update Submodules code",
+        "id": 7732327782,
+        "name": "submodules",
+        "node_id": "LA_kwDOByarZc8AAAABzOH1Zg",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/submodules"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 2013009992,
+        "name": "suggestion",
+        "node_id": "MDU6TGFiZWwyMDEzMDA5OTky",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 2038114015,
+        "name": "test",
+        "node_id": "MDU6TGFiZWwyMDM4MTE0MDE1",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/test"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 824828851,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWw4MjQ4Mjg4NTE=",
+        "url": "https://api.github.com/repos/TokTok/toxins/labels/wontfix"
+    }
+]

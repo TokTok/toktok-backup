@@ -1,0 +1,236 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 2012958613,
+        "name": "api break",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4NjEz",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/api%20break"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 194382924,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxOTQzODI5MjQ=",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 3583525068,
+        "name": "chore",
+        "node_id": "LA_kwDOAfrXms7VmEDM",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 3583567365,
+        "name": "cleanup",
+        "node_id": "LA_kwDOAfrXms7VmOYF",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/cleanup"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 2012958714,
+        "name": "dependencies",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4NzE0",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 2012958725,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4NzI1",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 194382925,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxOTQzODI5MjU=",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 194382926,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxOTQzODI5MjY=",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 2012958945,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4OTQ1",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 194382927,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxOTQzODI5Mjc=",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/help%20wanted"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 2012958779,
+        "name": "meta",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4Nzc5",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/meta"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 2012958973,
+        "name": "not reproducible",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4OTcz",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 2012959029,
+        "name": "P0",
+        "node_id": "MDU6TGFiZWwyMDEyOTU5MDI5",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 2012959066,
+        "name": "P1",
+        "node_id": "MDU6TGFiZWwyMDEyOTU5MDY2",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 2012959101,
+        "name": "P2",
+        "node_id": "MDU6TGFiZWwyMDEyOTU5MTAx",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 2012959124,
+        "name": "P3",
+        "node_id": "MDU6TGFiZWwyMDEyOTU5MTI0",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 2012958844,
+        "name": "packaging",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4ODQ0",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 3583567541,
+        "name": "performance",
+        "node_id": "LA_kwDOAfrXms7VmOa1",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 2012958863,
+        "name": "proposal",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4ODYz",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 194382929,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxOTQzODI5Mjk=",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 3583567598,
+        "name": "refactor",
+        "node_id": "LA_kwDOAfrXms7VmObu",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 2012958893,
+        "name": "security",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4ODkz",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 3583567505,
+        "name": "style",
+        "node_id": "LA_kwDOAfrXms7VmOaR",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/style"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 2012958901,
+        "name": "suggestion",
+        "node_id": "MDU6TGFiZWwyMDEyOTU4OTAx",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 3583567650,
+        "name": "test",
+        "node_id": "LA_kwDOAfrXms7VmOci",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/test"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 194382930,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxOTQzODI5MzA=",
+        "url": "https://api.github.com/repos/TokTok/apidsl/labels/wontfix"
+    }
+]

@@ -1,0 +1,2823 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/toxic/issues/117/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/117/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/toxic/pull/117"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/toxic/issues/117"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/117/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/toxic/pulls/117"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/toxic/statuses/4c63e15db85323a9086a9f4cce00e273f4e56778"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 3416,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "NONE",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toxic/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toxic/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toxic/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toxic/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toxic.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toxic/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toxic/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toxic/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toxic/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toxic/contributors",
+            "created_at": "2018-01-20T18:29:55Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toxic/deployments",
+            "description": "An ncurses-based Tox client",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toxic/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toxic/events",
+            "fork": true,
+            "forks": 4,
+            "forks_count": 4,
+            "forks_url": "https://api.github.com/repos/TokTok/toxic/forks",
+            "full_name": "TokTok/toxic",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toxic/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toxic/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toxic/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toxic.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/",
+            "hooks_url": "https://api.github.com/repos/TokTok/toxic/hooks",
+            "html_url": "https://github.com/TokTok/toxic",
+            "id": 118269669,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toxic/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toxic/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toxic/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toxic/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toxic/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/toxic/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toxic/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toxic/milestones{/number}",
+            "mirror_url": null,
+            "name": "toxic",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMTgyNjk2Njk=",
+            "notifications_url": "https://api.github.com/repos/TokTok/toxic/notifications{?since,all,participating}",
+            "open_issues": 11,
+            "open_issues_count": 11,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toxic/pulls{/number}",
+            "pushed_at": "2025-01-24T17:24:09Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toxic/releases{/id}",
+            "size": 17999,
+            "ssh_url": "git@github.com:TokTok/toxic.git",
+            "stargazers_count": 32,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toxic/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toxic/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toxic/subscription",
+            "svn_url": "https://github.com/TokTok/toxic",
+            "tags_url": "https://api.github.com/repos/TokTok/toxic/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toxic/teams",
+            "topics": [
+                "audiochat",
+                "decentralization",
+                "decentralized-applications",
+                "dht",
+                "dht-network",
+                "filesharing",
+                "instant-messaging",
+                "ncurses",
+                "p2p",
+                "privacy",
+                "privacy-tools",
+                "security",
+                "security-tools",
+                "tox",
+                "tox-client",
+                "tui",
+                "videochat"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toxic/git/trees{/sha}",
+            "updated_at": "2025-01-23T10:38:48Z",
+            "url": "https://api.github.com/repos/TokTok/toxic",
+            "visibility": "public",
+            "watchers": 32,
+            "watchers_count": 32,
+            "web_commit_signoff_required": false
+        },
+        "sha": "4188b392cc985a4fd15ef5ebb631f682f8da3fb0",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "\nA duplicate of #116 with additional commits that automatically address\nincorrect style, created by [Restyled][].\n\nSince the original Pull Request was opened as a fork in a contributor's\nrepository, we are unable to create a Pull Request branching from it with only\nthe style fixes.\n\nThe following Restylers [made fixes](https://restyled.io/gh/TokTok/repos/toxic/jobs/434056):\n\n- astyle\n\n\nTo incorporate these changes, you can either:\n\n1. Merge this Pull Request *instead of* the original, or\n\n1. Ask your contributor to locally incorporate these commits and push them to\n   the original Pull Request\n\n   <details>\n       <summary>Expand for example instructions</summary>\n\n       ```console\n       git remote add upstream https://github.com/TokTok/toxic.git\n       git fetch upstream pull/<this PR number>/head\n       git merge --ff-only FETCH_HEAD\n       git push\n       ```\n\n   </details>\n\n\n**NOTE**: As work continues on the original Pull Request, this process will\nre-run and update (force-push) this Pull Request with updated style fixes as\nnecessary. If the style is fixed manually at any point (i.e. this process finds\nno fixes to make), this Pull Request will be closed automatically.\n\nSorry if this was unexpected. To disable it, see our [documentation][].\n\n[restyled]: https://restyled.io\n[documentation]: https://github.com/restyled-io/restyled.io/wiki/Disabling-Restyled\n\n<!-- Reviewable:start -->\n---\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/toxic/117)\n<!-- Reviewable:end -->\n",
+    "changed_files": 36,
+    "closed_at": "2020-11-09T04:23:11Z",
+    "comment_data": [],
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/toxic?pullRequest=117) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/toxic?pullRequest=117) before we can accept your contribution.<br/>**1** out of **2** committers have signed the CLA.<br/><br/>:white_check_mark: JFreegman<br/>:x: restyled-commits<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/toxic?pullRequest=117) it.</sub>",
+            "created_at": "2020-11-09T04:22:28Z",
+            "html_url": "https://github.com/TokTok/toxic/pull/117#issuecomment-723745235",
+            "id": 723745235,
+            "issue_url": "https://api.github.com/repos/TokTok/toxic/issues/117",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDcyMzc0NTIzNQ==",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toxic/issues/comments/723745235/reactions"
+            },
+            "updated_at": "2020-11-09T04:22:28Z",
+            "url": "https://api.github.com/repos/TokTok/toxic/issues/comments/723745235",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
+                "events_url": "https://api.github.com/users/CLAassistant/events{/privacy}",
+                "followers_url": "https://api.github.com/users/CLAassistant/followers",
+                "following_url": "https://api.github.com/users/CLAassistant/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CLAassistant/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/CLAassistant",
+                "id": 11571300,
+                "login": "CLAassistant",
+                "node_id": "MDQ6VXNlcjExNTcxMzAw",
+                "organizations_url": "https://api.github.com/users/CLAassistant/orgs",
+                "received_events_url": "https://api.github.com/users/CLAassistant/received_events",
+                "repos_url": "https://api.github.com/users/CLAassistant/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/CLAassistant/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CLAassistant/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/CLAassistant",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
+    "comments_url": "https://api.github.com/repos/TokTok/toxic/issues/117/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/e622ac357ac953548736de05c320a3eacf6b2b4a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-19T18:37:30Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:49:38Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Implement new groupchats (again) alongside old ones",
+                "tree": {
+                    "sha": "5224ac919686253f6afca1a56320e3a757ec8b62",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/5224ac919686253f6afca1a56320e3a757ec8b62"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/e622ac357ac953548736de05c320a3eacf6b2b4a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/e622ac357ac953548736de05c320a3eacf6b2b4a",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmU2MjJhYzM1N2FjOTUzNTQ4NzM2ZGUwNWMzMjBhM2VhY2Y2YjJiNGE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/4188b392cc985a4fd15ef5ebb631f682f8da3fb0",
+                    "sha": "4188b392cc985a4fd15ef5ebb631f682f8da3fb0",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/4188b392cc985a4fd15ef5ebb631f682f8da3fb0"
+                }
+            ],
+            "sha": "e622ac357ac953548736de05c320a3eacf6b2b4a",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/e622ac357ac953548736de05c320a3eacf6b2b4a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/b5610345218ccf9a3f7cd31b02a7cecc52223e24/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-20T18:09:10Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:50:40Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix memory leak caused by improperly closing groups on exit and fix a private message display bug",
+                "tree": {
+                    "sha": "fbf71682302285474dc5ffe86d1a48e952863060",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/fbf71682302285474dc5ffe86d1a48e952863060"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/b5610345218ccf9a3f7cd31b02a7cecc52223e24",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/b5610345218ccf9a3f7cd31b02a7cecc52223e24",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmI1NjEwMzQ1MjE4Y2NmOWEzZjdjZDMxYjAyYTdjZWNjNTIyMjNlMjQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/e622ac357ac953548736de05c320a3eacf6b2b4a",
+                    "sha": "e622ac357ac953548736de05c320a3eacf6b2b4a",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/e622ac357ac953548736de05c320a3eacf6b2b4a"
+                }
+            ],
+            "sha": "b5610345218ccf9a3f7cd31b02a7cecc52223e24",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/b5610345218ccf9a3f7cd31b02a7cecc52223e24"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/7c94a284d54c68bf130aea922fffe04e74ae580d/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-21T18:54:38Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:52:14Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Update peer_exit callback",
+                "tree": {
+                    "sha": "08fd04434ded2050d009debe433f98d285710d22",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/08fd04434ded2050d009debe433f98d285710d22"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/7c94a284d54c68bf130aea922fffe04e74ae580d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/7c94a284d54c68bf130aea922fffe04e74ae580d",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjdjOTRhMjg0ZDU0YzY4YmYxMzBhZWE5MjJmZmZlMDRlNzRhZTU4MGQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/b5610345218ccf9a3f7cd31b02a7cecc52223e24",
+                    "sha": "b5610345218ccf9a3f7cd31b02a7cecc52223e24",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/b5610345218ccf9a3f7cd31b02a7cecc52223e24"
+                }
+            ],
+            "sha": "7c94a284d54c68bf130aea922fffe04e74ae580d",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/7c94a284d54c68bf130aea922fffe04e74ae580d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/8eb13c9faa4122043ce69c6a736d6506724e1b61/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T00:41:09Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:52:39Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Handle self-initiated moderation events client-side since callbacks are no longer triggered",
+                "tree": {
+                    "sha": "1b8bddfa2eb73f68d2c3035f356de9ea26c82485",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/1b8bddfa2eb73f68d2c3035f356de9ea26c82485"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/8eb13c9faa4122043ce69c6a736d6506724e1b61",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/8eb13c9faa4122043ce69c6a736d6506724e1b61",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjhlYjEzYzlmYWE0MTIyMDQzY2U2OWM2YTczNmQ2NTA2NzI0ZTFiNjE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/7c94a284d54c68bf130aea922fffe04e74ae580d",
+                    "sha": "7c94a284d54c68bf130aea922fffe04e74ae580d",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/7c94a284d54c68bf130aea922fffe04e74ae580d"
+                }
+            ],
+            "sha": "8eb13c9faa4122043ce69c6a736d6506724e1b61",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/8eb13c9faa4122043ce69c6a736d6506724e1b61"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/2c2917db83127153d3218b54b1e7bec3880f49e9/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T06:52:05Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:52:39Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Improve error handling for invalid moderator actions",
+                "tree": {
+                    "sha": "93f0995b1d710292b0da75f4d6e211672bc3a396",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/93f0995b1d710292b0da75f4d6e211672bc3a396"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/2c2917db83127153d3218b54b1e7bec3880f49e9",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/2c2917db83127153d3218b54b1e7bec3880f49e9",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjJjMjkxN2RiODMxMjcxNTNkMzIxOGI1NGIxZTdiZWMzODgwZjQ5ZTk=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/8eb13c9faa4122043ce69c6a736d6506724e1b61",
+                    "sha": "8eb13c9faa4122043ce69c6a736d6506724e1b61",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/8eb13c9faa4122043ce69c6a736d6506724e1b61"
+                }
+            ],
+            "sha": "2c2917db83127153d3218b54b1e7bec3880f49e9",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/2c2917db83127153d3218b54b1e7bec3880f49e9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/f79ce979cff07d15ce5aed3f7d00d4b3a8a47272/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T17:17:33Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:52:39Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Disable DHT node list updates temporarily",
+                "tree": {
+                    "sha": "4a7309705a46b94f3aa494587e971a489ae97279",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/4a7309705a46b94f3aa494587e971a489ae97279"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/f79ce979cff07d15ce5aed3f7d00d4b3a8a47272",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/f79ce979cff07d15ce5aed3f7d00d4b3a8a47272",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmY3OWNlOTc5Y2ZmMDdkMTVjZTVhZWQzZjdkMDBkNGIzYThhNDcyNzI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/2c2917db83127153d3218b54b1e7bec3880f49e9",
+                    "sha": "2c2917db83127153d3218b54b1e7bec3880f49e9",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/2c2917db83127153d3218b54b1e7bec3880f49e9"
+                }
+            ],
+            "sha": "f79ce979cff07d15ce5aed3f7d00d4b3a8a47272",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/f79ce979cff07d15ce5aed3f7d00d4b3a8a47272"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/4fbac600c219a4fb28f2385cac879b71280ebc31/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T22:30:28Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:53:32Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Remove groupchat ban commands",
+                "tree": {
+                    "sha": "8117c5286d4c6505cfbfcde70a36823cf87568c8",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/8117c5286d4c6505cfbfcde70a36823cf87568c8"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/4fbac600c219a4fb28f2385cac879b71280ebc31",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/4fbac600c219a4fb28f2385cac879b71280ebc31",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjRmYmFjNjAwYzIxOWE0ZmIyOGYyMzg1Y2FjODc5YjcxMjgwZWJjMzE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/f79ce979cff07d15ce5aed3f7d00d4b3a8a47272",
+                    "sha": "f79ce979cff07d15ce5aed3f7d00d4b3a8a47272",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/f79ce979cff07d15ce5aed3f7d00d4b3a8a47272"
+                }
+            ],
+            "sha": "4fbac600c219a4fb28f2385cac879b71280ebc31",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/4fbac600c219a4fb28f2385cac879b71280ebc31"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/e182fbadf4335144e0931d0631c9669134123754/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-24T19:39:05Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:53:32Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "use test network bootstrap nodes list",
+                "tree": {
+                    "sha": "abcafef5970117b5c6ea9e5ec20b7b48558b4050",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/abcafef5970117b5c6ea9e5ec20b7b48558b4050"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/e182fbadf4335144e0931d0631c9669134123754",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/e182fbadf4335144e0931d0631c9669134123754",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmUxODJmYmFkZjQzMzUxNDRlMDkzMWQwNjMxYzk2NjkxMzQxMjM3NTQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/4fbac600c219a4fb28f2385cac879b71280ebc31",
+                    "sha": "4fbac600c219a4fb28f2385cac879b71280ebc31",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/4fbac600c219a4fb28f2385cac879b71280ebc31"
+                }
+            ],
+            "sha": "e182fbadf4335144e0931d0631c9669134123754",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/e182fbadf4335144e0931d0631c9669134123754"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/b8fca347e518e7fb0591e83a96a15cceba7d13e3/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-25T00:35:16Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:53:32Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix bug causing peer list not to be cleared on rejoin",
+                "tree": {
+                    "sha": "ac8aba90c28553d65ef01cf693759d56def98169",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/ac8aba90c28553d65ef01cf693759d56def98169"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/b8fca347e518e7fb0591e83a96a15cceba7d13e3",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/b8fca347e518e7fb0591e83a96a15cceba7d13e3",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmI4ZmNhMzQ3ZTUxOGU3ZmIwNTkxZTgzYTk2YTE1Y2NlYmE3ZDEzZTM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/e182fbadf4335144e0931d0631c9669134123754",
+                    "sha": "e182fbadf4335144e0931d0631c9669134123754",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/e182fbadf4335144e0931d0631c9669134123754"
+                }
+            ],
+            "sha": "b8fca347e518e7fb0591e83a96a15cceba7d13e3",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/b8fca347e518e7fb0591e83a96a15cceba7d13e3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/022055ae1de854c70a6bb25c470af8f0672798a6/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-29T04:30:59Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:54:30Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Update for TCP-DHT groupchats",
+                "tree": {
+                    "sha": "254c460a67ace6e1af34d72c6fc632a3fda66232",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/254c460a67ace6e1af34d72c6fc632a3fda66232"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/022055ae1de854c70a6bb25c470af8f0672798a6",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/022055ae1de854c70a6bb25c470af8f0672798a6",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjAyMjA1NWFlMWRlODU0YzcwYTZiYjI1YzQ3MGFmOGYwNjcyNzk4YTY=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/b8fca347e518e7fb0591e83a96a15cceba7d13e3",
+                    "sha": "b8fca347e518e7fb0591e83a96a15cceba7d13e3",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/b8fca347e518e7fb0591e83a96a15cceba7d13e3"
+                }
+            ],
+            "sha": "022055ae1de854c70a6bb25c470af8f0672798a6",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/022055ae1de854c70a6bb25c470af8f0672798a6"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/c7725687d4d0fa1505098ccf808478614d4ae522/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-29T07:40:12Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:54:30Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix bug causing topic change spam when there are sync issues",
+                "tree": {
+                    "sha": "a7fd48cbede14520bb11a0b673e8737cfdf32a6f",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/a7fd48cbede14520bb11a0b673e8737cfdf32a6f"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/c7725687d4d0fa1505098ccf808478614d4ae522",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/c7725687d4d0fa1505098ccf808478614d4ae522",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmM3NzI1Njg3ZDRkMGZhMTUwNTA5OGNjZjgwODQ3ODYxNGQ0YWU1MjI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/022055ae1de854c70a6bb25c470af8f0672798a6",
+                    "sha": "022055ae1de854c70a6bb25c470af8f0672798a6",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/022055ae1de854c70a6bb25c470af8f0672798a6"
+                }
+            ],
+            "sha": "c7725687d4d0fa1505098ccf808478614d4ae522",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/c7725687d4d0fa1505098ccf808478614d4ae522"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/9160182b413bea7ccc997a7f0809dc0b91d1e28e/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-29T21:50:27Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:54:30Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix bug causing kicked peer's name to show up as unknown to the kicker",
+                "tree": {
+                    "sha": "008d878b8f1f6a73d9b1b97e1e5ace45f5f3c2e7",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/008d878b8f1f6a73d9b1b97e1e5ace45f5f3c2e7"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/9160182b413bea7ccc997a7f0809dc0b91d1e28e",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/9160182b413bea7ccc997a7f0809dc0b91d1e28e",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjkxNjAxODJiNDEzYmVhN2NjYzk5N2E3ZjA4MDlkYzBiOTFkMWUyOGU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/c7725687d4d0fa1505098ccf808478614d4ae522",
+                    "sha": "c7725687d4d0fa1505098ccf808478614d4ae522",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/c7725687d4d0fa1505098ccf808478614d4ae522"
+                }
+            ],
+            "sha": "9160182b413bea7ccc997a7f0809dc0b91d1e28e",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/9160182b413bea7ccc997a7f0809dc0b91d1e28e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-30T18:07:58Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:54:30Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix and improve group name fetching",
+                "tree": {
+                    "sha": "15e6d8a0cc314623470e3061968606d5e96ee8e0",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/15e6d8a0cc314623470e3061968606d5e96ee8e0"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjVhOWE2OTAwN2I1M2ZhMDliMmQ3MmM0ZDcxOWM4NmNmNTJlMGRiZTg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/9160182b413bea7ccc997a7f0809dc0b91d1e28e",
+                    "sha": "9160182b413bea7ccc997a7f0809dc0b91d1e28e",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/9160182b413bea7ccc997a7f0809dc0b91d1e28e"
+                }
+            ],
+            "sha": "5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/31c33497068f334cdd66c46f096d19b7ebce9393/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-30T21:01:10Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:54:30Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Initialize peer_id",
+                "tree": {
+                    "sha": "16d5e86a00532aeb0bf2792a676740a050db26e0",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/16d5e86a00532aeb0bf2792a676740a050db26e0"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/31c33497068f334cdd66c46f096d19b7ebce9393",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/31c33497068f334cdd66c46f096d19b7ebce9393",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjMxYzMzNDk3MDY4ZjMzNGNkZDY2YzQ2ZjA5NmQxOWI3ZWJjZTkzOTM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8",
+                    "sha": "5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/5a9a69007b53fa09b2d72c4d719c86cf52e0dbe8"
+                }
+            ],
+            "sha": "31c33497068f334cdd66c46f096d19b7ebce9393",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/31c33497068f334cdd66c46f096d19b7ebce9393"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/568587aff55674c5bb6ce110be0b2a6ef8a90be8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T02:43:55Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:54:52Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix bug causing incorrect name to be displayed on self group nick change",
+                "tree": {
+                    "sha": "869766ac37aff00d44bde076ae87b7490cde39e2",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/869766ac37aff00d44bde076ae87b7490cde39e2"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/568587aff55674c5bb6ce110be0b2a6ef8a90be8",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/568587aff55674c5bb6ce110be0b2a6ef8a90be8",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjU2ODU4N2FmZjU1Njc0YzViYjZjZTExMGJlMGIyYTZlZjhhOTBiZTg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/31c33497068f334cdd66c46f096d19b7ebce9393",
+                    "sha": "31c33497068f334cdd66c46f096d19b7ebce9393",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/31c33497068f334cdd66c46f096d19b7ebce9393"
+                }
+            ],
+            "sha": "568587aff55674c5bb6ce110be0b2a6ef8a90be8",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/568587aff55674c5bb6ce110be0b2a6ef8a90be8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/ca8d79ba3bcc5dd06a056b56b721b205e38021eb/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T02:49:17Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:55:37Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Rename all instances of groupnum -> groupnumber",
+                "tree": {
+                    "sha": "c295499860b4c83a7fd9e84e2fd61513b6a1aeeb",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/c295499860b4c83a7fd9e84e2fd61513b6a1aeeb"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/ca8d79ba3bcc5dd06a056b56b721b205e38021eb",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/ca8d79ba3bcc5dd06a056b56b721b205e38021eb",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmNhOGQ3OWJhM2JjYzVkZDA2YTA1NmI1NmI3MjFiMjA1ZTM4MDIxZWI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/568587aff55674c5bb6ce110be0b2a6ef8a90be8",
+                    "sha": "568587aff55674c5bb6ce110be0b2a6ef8a90be8",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/568587aff55674c5bb6ce110be0b2a6ef8a90be8"
+                }
+            ],
+            "sha": "ca8d79ba3bcc5dd06a056b56b721b205e38021eb",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/ca8d79ba3bcc5dd06a056b56b721b205e38021eb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/09df4890c1827fc9a5a7e6bf69c2a7c602df6817/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T03:24:33Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:56:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Format fixes and variable name changes",
+                "tree": {
+                    "sha": "ae9d02d381eec6aae99a51b5759f8ed2797a6d5b",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/ae9d02d381eec6aae99a51b5759f8ed2797a6d5b"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/09df4890c1827fc9a5a7e6bf69c2a7c602df6817",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/09df4890c1827fc9a5a7e6bf69c2a7c602df6817",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjA5ZGY0ODkwYzE4MjdmYzlhNWE3ZTZiZjY5YzJhN2M2MDJkZjY4MTc=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/ca8d79ba3bcc5dd06a056b56b721b205e38021eb",
+                    "sha": "ca8d79ba3bcc5dd06a056b56b721b205e38021eb",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/ca8d79ba3bcc5dd06a056b56b721b205e38021eb"
+                }
+            ],
+            "sha": "09df4890c1827fc9a5a7e6bf69c2a7c602df6817",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/09df4890c1827fc9a5a7e6bf69c2a7c602df6817"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/446015c33e49f42e9c84236d404931dcddb7515a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-02T03:52:33Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:56:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "No longer use API supplied groupnumbers to index groups",
+                "tree": {
+                    "sha": "c50b58e90d31bd8e462252ba00ee9cb43ec551c8",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/c50b58e90d31bd8e462252ba00ee9cb43ec551c8"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/446015c33e49f42e9c84236d404931dcddb7515a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/446015c33e49f42e9c84236d404931dcddb7515a",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjQ0NjAxNWMzM2U0OWY0MmU5Yzg0MjM2ZDQwNDkzMWRjZGRiNzUxNWE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/09df4890c1827fc9a5a7e6bf69c2a7c602df6817",
+                    "sha": "09df4890c1827fc9a5a7e6bf69c2a7c602df6817",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/09df4890c1827fc9a5a7e6bf69c2a7c602df6817"
+                }
+            ],
+            "sha": "446015c33e49f42e9c84236d404931dcddb7515a",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/446015c33e49f42e9c84236d404931dcddb7515a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/bca359d437ce9117399960c78eab894da02f5e73/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-12T23:20:50Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:56:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Update self role on group join and remove some unnecessary code",
+                "tree": {
+                    "sha": "962d1abb0f4bc93108761bc4b02e464d6e4ee56a",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/962d1abb0f4bc93108761bc4b02e464d6e4ee56a"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/bca359d437ce9117399960c78eab894da02f5e73",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/bca359d437ce9117399960c78eab894da02f5e73",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmJjYTM1OWQ0MzdjZTkxMTczOTk5NjBjNzhlYWI4OTRkYTAyZjVlNzM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/446015c33e49f42e9c84236d404931dcddb7515a",
+                    "sha": "446015c33e49f42e9c84236d404931dcddb7515a",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/446015c33e49f42e9c84236d404931dcddb7515a"
+                }
+            ],
+            "sha": "bca359d437ce9117399960c78eab894da02f5e73",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/bca359d437ce9117399960c78eab894da02f5e73"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-13T07:25:33Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:56:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Group peer exit refactor",
+                "tree": {
+                    "sha": "fadc1e00d640650aecefc6ba5f4a822e14be17f4",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/fadc1e00d640650aecefc6ba5f4a822e14be17f4"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjhmNmFjNjBjZTBlNTI0YjBiMmU5OWU3NGZiZjFiNGYxYjI2NzFmMjQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/bca359d437ce9117399960c78eab894da02f5e73",
+                    "sha": "bca359d437ce9117399960c78eab894da02f5e73",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/bca359d437ce9117399960c78eab894da02f5e73"
+                }
+            ],
+            "sha": "8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/e5fbb1b635347e7bd154063aeb4d69c332145f36/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-13T19:44:40Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:56:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Add sync error group exit type",
+                "tree": {
+                    "sha": "6fa1dac057d56541b48d62bc60ccc7d33e41d5f6",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/6fa1dac057d56541b48d62bc60ccc7d33e41d5f6"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/e5fbb1b635347e7bd154063aeb4d69c332145f36",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/e5fbb1b635347e7bd154063aeb4d69c332145f36",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmU1ZmJiMWI2MzUzNDdlN2JkMTU0MDYzYWViNGQ2OWMzMzIxNDVmMzY=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24",
+                    "sha": "8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/8f6ac60ce0e524b0b2e99e74fbf1b4f1b2671f24"
+                }
+            ],
+            "sha": "e5fbb1b635347e7bd154063aeb4d69c332145f36",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/e5fbb1b635347e7bd154063aeb4d69c332145f36"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/1e7c801bd824fc0b7576f072493dd8f8dc8951b9/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-21T21:06:57Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:56:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Add self_disconnected group exit type",
+                "tree": {
+                    "sha": "7f9c6d01205f6cdd260fa31c61acd8bd658c1d1b",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/7f9c6d01205f6cdd260fa31c61acd8bd658c1d1b"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/1e7c801bd824fc0b7576f072493dd8f8dc8951b9",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/1e7c801bd824fc0b7576f072493dd8f8dc8951b9",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjFlN2M4MDFiZDgyNGZjMGI3NTc2ZjA3MjQ5M2RkOGY4ZGM4OTUxYjk=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/e5fbb1b635347e7bd154063aeb4d69c332145f36",
+                    "sha": "e5fbb1b635347e7bd154063aeb4d69c332145f36",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/e5fbb1b635347e7bd154063aeb4d69c332145f36"
+                }
+            ],
+            "sha": "1e7c801bd824fc0b7576f072493dd8f8dc8951b9",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/1e7c801bd824fc0b7576f072493dd8f8dc8951b9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/0689994fb988ac2e30f5aeec0fbecb4b07f706eb/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-22T16:42:13Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:57:08Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Add group disconnect command",
+                "tree": {
+                    "sha": "74b8f6bd10a0469c078b9907584bd8da764afe58",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/74b8f6bd10a0469c078b9907584bd8da764afe58"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/0689994fb988ac2e30f5aeec0fbecb4b07f706eb",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/0689994fb988ac2e30f5aeec0fbecb4b07f706eb",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjA2ODk5OTRmYjk4OGFjMmUzMGY1YWVlYzBmYmVjYjRiMDdmNzA2ZWI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/1e7c801bd824fc0b7576f072493dd8f8dc8951b9",
+                    "sha": "1e7c801bd824fc0b7576f072493dd8f8dc8951b9",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/1e7c801bd824fc0b7576f072493dd8f8dc8951b9"
+                }
+            ],
+            "sha": "0689994fb988ac2e30f5aeec0fbecb4b07f706eb",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/0689994fb988ac2e30f5aeec0fbecb4b07f706eb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/07e86c069bafc597151521b0d0d514fcdbc717be/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-05-25T01:02:24Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:57:08Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Add config setting for custom group part messages",
+                "tree": {
+                    "sha": "c82c5ace1669a0e65668c06a2fa2d9aaddb98b21",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/c82c5ace1669a0e65668c06a2fa2d9aaddb98b21"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/07e86c069bafc597151521b0d0d514fcdbc717be",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/07e86c069bafc597151521b0d0d514fcdbc717be",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjA3ZTg2YzA2OWJhZmM1OTcxNTE1MjFiMGQwZDUxNGZjZGJjNzE3YmU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/0689994fb988ac2e30f5aeec0fbecb4b07f706eb",
+                    "sha": "0689994fb988ac2e30f5aeec0fbecb4b07f706eb",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/0689994fb988ac2e30f5aeec0fbecb4b07f706eb"
+                }
+            ],
+            "sha": "07e86c069bafc597151521b0d0d514fcdbc717be",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/07e86c069bafc597151521b0d0d514fcdbc717be"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/990615862932926a4f76ef36b1e928ca179de4dc/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-11-08T17:25:01Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T03:57:51Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "rename groupchat.* groupchats.*\n\nThis is just to make merging with the master branch easier",
+                "tree": {
+                    "sha": "c1482a32101ad56462df6c07c1b247f04dbd8598",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/c1482a32101ad56462df6c07c1b247f04dbd8598"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/990615862932926a4f76ef36b1e928ca179de4dc",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/990615862932926a4f76ef36b1e928ca179de4dc",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5Ojk5MDYxNTg2MjkzMjkyNmE0Zjc2ZWYzNmIxZTkyOGNhMTc5ZGU0ZGM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/07e86c069bafc597151521b0d0d514fcdbc717be",
+                    "sha": "07e86c069bafc597151521b0d0d514fcdbc717be",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/07e86c069bafc597151521b0d0d514fcdbc717be"
+                }
+            ],
+            "sha": "990615862932926a4f76ef36b1e928ca179de4dc",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/990615862932926a4f76ef36b1e928ca179de4dc"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/ad33813aed1adf7b2df6b06221cd67542c0c3ce7/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-10-30T00:28:09Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T04:00:22Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "modularize string arrays for line completion\n\nInstead of using various different forms of string arrays and having to handle them\ndifferently for string completion, we now always use char pointer arrays. This allows\nus to remove some large stack allocations, remove a bunch of confusing defines that\nkeep track of global array sizes, and generally unclutters the code so it's easier\nto read.",
+                "tree": {
+                    "sha": "c5b5dffabb515f59a624d409b559d917de874014",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/c5b5dffabb515f59a624d409b559d917de874014"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/ad33813aed1adf7b2df6b06221cd67542c0c3ce7",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/ad33813aed1adf7b2df6b06221cd67542c0c3ce7",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OmFkMzM4MTNhZWQxYWRmN2IyZGY2YjA2MjIxY2Q2NzU0MmMwYzNjZTc=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/990615862932926a4f76ef36b1e928ca179de4dc",
+                    "sha": "990615862932926a4f76ef36b1e928ca179de4dc",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/990615862932926a4f76ef36b1e928ca179de4dc"
+                }
+            ],
+            "sha": "ad33813aed1adf7b2df6b06221cd67542c0c3ce7",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/ad33813aed1adf7b2df6b06221cd67542c0c3ce7"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/641a7d6a1930343df49346bacf8b7fbc92d365be/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-11-02T23:08:54Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T04:00:48Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Fix a few issues\n\n- realloc needs to be error checked\n- use correct format specifiers\n- make sure optarg and DATA_FILE aren't null before using them",
+                "tree": {
+                    "sha": "921dea64da65cb0d32557a64d6b37a2a0e44a28e",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/921dea64da65cb0d32557a64d6b37a2a0e44a28e"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/641a7d6a1930343df49346bacf8b7fbc92d365be",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/641a7d6a1930343df49346bacf8b7fbc92d365be",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjY0MWE3ZDZhMTkzMDM0M2RmNDkzNDZiYWNmOGI3ZmJjOTJkMzY1YmU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/ad33813aed1adf7b2df6b06221cd67542c0c3ce7",
+                    "sha": "ad33813aed1adf7b2df6b06221cd67542c0c3ce7",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/ad33813aed1adf7b2df6b06221cd67542c0c3ce7"
+                }
+            ],
+            "sha": "641a7d6a1930343df49346bacf8b7fbc92d365be",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/641a7d6a1930343df49346bacf8b7fbc92d365be"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/15c8af14886183d7cac30ae7e9d728f8b5058e20/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-11-09T04:08:42Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T04:08:42Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Merge with master branch",
+                "tree": {
+                    "sha": "21377cac0df64be503dc069c0baa8fa149f6dbad",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/21377cac0df64be503dc069c0baa8fa149f6dbad"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/15c8af14886183d7cac30ae7e9d728f8b5058e20",
+                "verification": {
+                    "payload": "tree 21377cac0df64be503dc069c0baa8fa149f6dbad\nparent 641a7d6a1930343df49346bacf8b7fbc92d365be\nauthor jfreegman <jfreegman@gmail.com> 1604894922 -0500\ncommitter jfreegman <jfreegman@gmail.com> 1604894922 -0500\n\nMerge with master branch\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQFIBAABCgAyFiEEur0AVzoGW/qQ1T1WNifzFEB2rmMFAl+owMoUHGpmcmVlZ21h\nbkBnbWFpbC5jb20ACgkQNifzFEB2rmP4uAgAsfdxr8hIZc2uAOtLAhKisGXjFAsN\n9AnAMysUVUORp6UyQIKXOddFrXQ6ML0Hjped1a9N5qCgkMNvSqCR9pcYINF3CS41\n6cNeRnWT/sRubYrIOeNidcitCJc2pMcyrIsLxsN52tV3NoKjHOb4m22vronAw9rM\nncH766rh4/1ZpzL1pGA/szfUp21ILkXvRQyvCrwKaGrr7NWX2M6KTj0RCn5HJftN\nDZVFJdrp5rZ/BTX/S/J+T9C3d8pb1ZCTUqW26iurXcLqLQwkE3BbwPelpZOrWSZF\ncvvAEIN3F6e5iw7XU41ygyoxO5enTcvFLqHoieEtKbUtwXRe/Nx5ta2FaA==\n=cpfZ\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-30T05:03:29Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/15c8af14886183d7cac30ae7e9d728f8b5058e20",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjE1YzhhZjE0ODg2MTgzZDdjYWMzMGFlN2U5ZDcyOGY4YjUwNThlMjA=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/641a7d6a1930343df49346bacf8b7fbc92d365be",
+                    "sha": "641a7d6a1930343df49346bacf8b7fbc92d365be",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/641a7d6a1930343df49346bacf8b7fbc92d365be"
+                }
+            ],
+            "sha": "15c8af14886183d7cac30ae7e9d728f8b5058e20",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/15c8af14886183d7cac30ae7e9d728f8b5058e20"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/4c63e15db85323a9086a9f4cce00e273f4e56778/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-11-09T04:22:20Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-11-09T04:22:20Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by astyle",
+                "tree": {
+                    "sha": "918520bb3d119dfaff5290e3a14b61fcbb82ef14",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/918520bb3d119dfaff5290e3a14b61fcbb82ef14"
+                },
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/4c63e15db85323a9086a9f4cce00e273f4e56778",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toxic/commit/4c63e15db85323a9086a9f4cce00e273f4e56778",
+            "node_id": "MDY6Q29tbWl0MTE4MjY5NjY5OjRjNjNlMTVkYjg1MzIzYTkwODZhOWY0Y2NlMDBlMjczZjRlNTY3Nzg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toxic/commit/15c8af14886183d7cac30ae7e9d728f8b5058e20",
+                    "sha": "15c8af14886183d7cac30ae7e9d728f8b5058e20",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/15c8af14886183d7cac30ae7e9d728f8b5058e20"
+                }
+            ],
+            "sha": "4c63e15db85323a9086a9f4cce00e273f4e56778",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/4c63e15db85323a9086a9f4cce00e273f4e56778"
+        }
+    ],
+    "commits": 29,
+    "commits_url": "https://api.github.com/repos/TokTok/toxic/pulls/117/commits",
+    "created_at": "2020-11-09T04:22:23Z",
+    "deletions": 40,
+    "diff_url": "https://github.com/TokTok/toxic/pull/117.diff",
+    "draft": false,
+    "head": {
+        "label": "TokTok:restyled/pull-116",
+        "ref": "restyled/pull-116",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toxic/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toxic/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toxic/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toxic/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toxic.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toxic/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toxic/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toxic/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toxic/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toxic/contributors",
+            "created_at": "2018-01-20T18:29:55Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toxic/deployments",
+            "description": "An ncurses-based Tox client",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toxic/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toxic/events",
+            "fork": true,
+            "forks": 4,
+            "forks_count": 4,
+            "forks_url": "https://api.github.com/repos/TokTok/toxic/forks",
+            "full_name": "TokTok/toxic",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toxic/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toxic/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toxic/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toxic.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/",
+            "hooks_url": "https://api.github.com/repos/TokTok/toxic/hooks",
+            "html_url": "https://github.com/TokTok/toxic",
+            "id": 118269669,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toxic/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toxic/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toxic/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toxic/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toxic/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/toxic/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toxic/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toxic/milestones{/number}",
+            "mirror_url": null,
+            "name": "toxic",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMTgyNjk2Njk=",
+            "notifications_url": "https://api.github.com/repos/TokTok/toxic/notifications{?since,all,participating}",
+            "open_issues": 11,
+            "open_issues_count": 11,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toxic/pulls{/number}",
+            "pushed_at": "2025-01-24T17:24:09Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toxic/releases{/id}",
+            "size": 17999,
+            "ssh_url": "git@github.com:TokTok/toxic.git",
+            "stargazers_count": 32,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toxic/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toxic/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toxic/subscription",
+            "svn_url": "https://github.com/TokTok/toxic",
+            "tags_url": "https://api.github.com/repos/TokTok/toxic/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toxic/teams",
+            "topics": [
+                "audiochat",
+                "decentralization",
+                "decentralized-applications",
+                "dht",
+                "dht-network",
+                "filesharing",
+                "instant-messaging",
+                "ncurses",
+                "p2p",
+                "privacy",
+                "privacy-tools",
+                "security",
+                "security-tools",
+                "tox",
+                "tox-client",
+                "tui",
+                "videochat"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toxic/git/trees{/sha}",
+            "updated_at": "2025-01-23T10:38:48Z",
+            "url": "https://api.github.com/repos/TokTok/toxic",
+            "visibility": "public",
+            "watchers": 32,
+            "watchers_count": 32,
+            "web_commit_signoff_required": false
+        },
+        "sha": "4c63e15db85323a9086a9f4cce00e273f4e56778",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/toxic/pull/117",
+    "id": 517456398,
+    "issue_url": "https://api.github.com/repos/TokTok/toxic/issues/117",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "5294e64ba517510eeda34cc173d14393929f2763",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NTE3NDU2Mzk4",
+    "number": 117,
+    "patch_url": "https://github.com/TokTok/toxic/pull/117.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/toxic/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/toxic/pulls/117/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/4c63e15db85323a9086a9f4cce00e273f4e56778",
+    "title": "Restyle Tcp new groupchats",
+    "updated_at": "2020-11-09T04:23:13Z",
+    "url": "https://api.github.com/repos/TokTok/toxic/pulls/117",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/in/5851?v=4",
+        "events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/events{/privacy}",
+        "followers_url": "https://api.github.com/users/restyled-io%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/restyled-io%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/restyled-io%5Bbot%5D/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/apps/restyled-io",
+        "id": 32688539,
+        "login": "restyled-io[bot]",
+        "node_id": "MDM6Qm90MzI2ODg1Mzk=",
+        "organizations_url": "https://api.github.com/users/restyled-io%5Bbot%5D/orgs",
+        "received_events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/received_events",
+        "repos_url": "https://api.github.com/users/restyled-io%5Bbot%5D/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/restyled-io%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/restyled-io%5Bbot%5D/subscriptions",
+        "type": "Bot",
+        "url": "https://api.github.com/users/restyled-io%5Bbot%5D",
+        "user_view_type": "public"
+    }
+}

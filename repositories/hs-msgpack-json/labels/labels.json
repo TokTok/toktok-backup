@@ -1,0 +1,263 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 6492199234,
+        "name": "api break",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZQg",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/api%20break"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 6491274044,
+        "name": "bug",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7PA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 6492199326,
+        "name": "chore",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZng",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 6492199033,
+        "name": "cleanup",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcYeQ",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/cleanup"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 6492199245,
+        "name": "dependencies",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZTQ",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 6491274047,
+        "name": "documentation",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7Pw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 6491274050,
+        "name": "duplicate",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7Qg",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 6491274053,
+        "name": "enhancement",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7RQ",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/enhancement"
+    },
+    {
+        "color": "16e2e2",
+        "default": false,
+        "description": "Pull requests that update Go code",
+        "id": 7732326180,
+        "name": "go",
+        "node_id": "LA_kwDOLLNfXM8AAAABzOHvJA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/go"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 6491274056,
+        "name": "good first issue",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7SA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 6491274059,
+        "name": "help wanted",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7Sw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/help%20wanted"
+    },
+    {
+        "color": "d73a49",
+        "default": true,
+        "description": "Irrelevant or spam",
+        "id": 6491274064,
+        "name": "invalid",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7UA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/invalid"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 6492199104,
+        "name": "meta",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcYwA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/meta"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 6492199275,
+        "name": "not reproducible",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZaw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 6492199203,
+        "name": "P0",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZIw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 6492199176,
+        "name": "P1",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZCA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 6492199161,
+        "name": "P2",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcY-Q",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 6492199145,
+        "name": "P3",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcY6Q",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 6492199068,
+        "name": "packaging",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcYnA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 6492199268,
+        "name": "performance",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZZA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 6492199260,
+        "name": "proposal",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZXA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 6491274069,
+        "name": "question",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7VQ",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 6492199048,
+        "name": "refactor",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcYiA",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 6492199123,
+        "name": "security",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcY0w",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 6492199315,
+        "name": "style",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZkw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/style"
+    },
+    {
+        "color": "000000",
+        "default": false,
+        "description": "Pull requests that update Submodules code",
+        "id": 7732326163,
+        "name": "submodules",
+        "node_id": "LA_kwDOLLNfXM8AAAABzOHvEw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/submodules"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 6492199079,
+        "name": "suggestion",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcYpw",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 6492199169,
+        "name": "test",
+        "node_id": "LA_kwDOLLNfXM8AAAABgvcZAQ",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/test"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 6491274074,
+        "name": "wontfix",
+        "node_id": "LA_kwDOLLNfXM8AAAABguj7Wg",
+        "url": "https://api.github.com/repos/TokTok/hs-msgpack-json/labels/wontfix"
+    }
+]

@@ -1,0 +1,943 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/issues/670/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/670/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/toktok-stack/pull/670"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/issues/670"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/670/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/670"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/statuses/592d4816552630b3c131e0157792b4bd917af0cb"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 91,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "CONTRIBUTOR",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toktok-stack/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toktok-stack/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toktok-stack/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toktok-stack/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toktok-stack.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toktok-stack/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toktok-stack/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toktok-stack/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toktok-stack/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toktok-stack/contributors",
+            "created_at": "2016-09-02T09:04:48Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toktok-stack/deployments",
+            "description": "A snapshot of the complete software stack (excluding some external libraries and programs)",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toktok-stack/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toktok-stack/events",
+            "fork": false,
+            "forks": 8,
+            "forks_count": 8,
+            "forks_url": "https://api.github.com/repos/TokTok/toktok-stack/forks",
+            "full_name": "TokTok/toktok-stack",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toktok-stack/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toktok-stack/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toktok-stack.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd",
+            "hooks_url": "https://api.github.com/repos/TokTok/toktok-stack/hooks",
+            "html_url": "https://github.com/TokTok/toktok-stack",
+            "id": 67208080,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toktok-stack/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toktok-stack/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toktok-stack/labels{/name}",
+            "language": "Starlark",
+            "languages_url": "https://api.github.com/repos/TokTok/toktok-stack/languages",
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "node_id": "MDc6TGljZW5zZTA=",
+                "spdx_id": "NOASSERTION",
+                "url": null
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toktok-stack/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toktok-stack/milestones{/number}",
+            "mirror_url": null,
+            "name": "toktok-stack",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NzIwODA4MA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/toktok-stack/notifications{?since,all,participating}",
+            "open_issues": 1,
+            "open_issues_count": 1,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls{/number}",
+            "pushed_at": "2025-01-24T14:18:14Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toktok-stack/releases{/id}",
+            "size": 5616,
+            "ssh_url": "git@github.com:TokTok/toktok-stack.git",
+            "stargazers_count": 17,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toktok-stack/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toktok-stack/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toktok-stack/subscription",
+            "svn_url": "https://github.com/TokTok/toktok-stack",
+            "tags_url": "https://api.github.com/repos/TokTok/toktok-stack/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toktok-stack/teams",
+            "topics": [
+                "bazel",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees{/sha}",
+            "updated_at": "2025-01-24T14:18:09Z",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack",
+            "visibility": "public",
+            "watchers": 17,
+            "watchers_count": 17,
+            "web_commit_signoff_required": false
+        },
+        "sha": "2c79bff5f0ab8b9d70ab3190486547ec731cbff0",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "\nA duplicate of #669 with additional commits that automatically address\nincorrect style, created by [Restyled][].\n\nSince the original Pull Request was opened as a fork in a contributor's\nrepository, we are unable to create a Pull Request branching from it with only\nthe style fixes.\n\nThe following Restylers [made fixes](https://restyled.io/gh/TokTok/repos/toktok-stack/jobs/3735963):\n\n- black\n- isort\n- reorder-python-imports\n- shellharden\n- shfmt\n- yapf\n\n\nTo incorporate these changes, you can either:\n\n1. Merge this Pull Request *instead of* the original, or\n\n1. Ask your contributor to locally incorporate these commits and push them to\n   the original Pull Request\n\n   <details>\n       <summary>Expand for example instructions</summary>\n\n       ```console\n       git remote add upstream https://github.com/TokTok/toktok-stack.git\n       git fetch upstream pull/<this PR number>/head\n       git merge --ff-only FETCH_HEAD\n       git push\n       ```\n\n   </details>\n\n\n**NOTE**: As work continues on the original Pull Request, this process will\nre-run and update (force-push) this Pull Request with updated style fixes as\nnecessary. If the style is fixed manually at any point (i.e. this process finds\nno fixes to make), this Pull Request will be closed automatically.\n\nSorry if this was unexpected. To disable it, see our [documentation][].\n\n[restyled]: https://restyled.io\n[documentation]: https://github.com/restyled-io/restyled.io/wiki/Disabling-Restyled\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toktok-stack/670)\n<!-- Reviewable:end -->\n",
+    "changed_files": 18,
+    "closed_at": "2023-11-06T14:33:40Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/670/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T00:52:42Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:31:42Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "cleanup: Add tor to home; fix inject-repo for cirrus.",
+                "tree": {
+                    "sha": "7b3d6e5f6112ef26bec0ac159672d1047040d71a",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/7b3d6e5f6112ef26bec0ac159672d1047040d71a"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1",
+                "verification": {
+                    "payload": "tree 7b3d6e5f6112ef26bec0ac159672d1047040d71a\nparent 2c79bff5f0ab8b9d70ab3190486547ec731cbff0\nauthor iphydf <iphydf@users.noreply.github.com> 1699231962 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1699281102 +0000\n\ncleanup: Add tor to home; fix inject-repo for cirrus.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmVI+NkACgkQOFXbotdE\nA8nOhAf9GPW1vCNlJksMPYscq5uT2dvkQP6NLhQsGtFxu3pMjKwyaqY/TSrpxc/h\nKy0Pc+qjSHaGyVkeT7YaAeX/fsnyEq9cWxx3A4/cJCJ5Hce6Afo8YE4XDx0fB+zE\nBa5Hh4Si00342l7CsGMTDaE53Mm4OjJPVf0iZltJyW+7V+HS77Kr6R9ofxqSxU0V\n24K9Xc5kIGbYGp8EwXR4rk6JvZbk6SNiTUwKePT/0YGFfMEBoIGLwxf2i27xXusB\nDJIxd1Q1+TNKQlcH61i3YX2heJN1H94IbqwOrHeU96pOR5QIcRGlxzku6mKlHiKM\nI5dRiZJpR2bitAj2/rZADyhE+CJ0Ug==\n=rvYC\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:34:53Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1",
+            "node_id": "C_kwDOBAGDkNoAKDE1MThhZGJjM2MyYWUwMDk4YmJmYWNmZTVjNWZhMGJkMzkwMDdiYzE",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/2c79bff5f0ab8b9d70ab3190486547ec731cbff0",
+                    "sha": "2c79bff5f0ab8b9d70ab3190486547ec731cbff0",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/2c79bff5f0ab8b9d70ab3190486547ec731cbff0"
+                }
+            ],
+            "sha": "1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/b9477af0933da7b3051d30c31bf11bbecc75987d/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T14:32:23Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:32:23Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by black",
+                "tree": {
+                    "sha": "77ae621414221e8536403bdfb4372c1920283973",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/77ae621414221e8536403bdfb4372c1920283973"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/b9477af0933da7b3051d30c31bf11bbecc75987d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/b9477af0933da7b3051d30c31bf11bbecc75987d",
+            "node_id": "C_kwDOBAGDkNoAKGI5NDc3YWYwOTMzZGE3YjMwNTFkMzBjMzFiZjExYmJlY2M3NTk4N2Q",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1",
+                    "sha": "1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/1518adbc3c2ae0098bbfacfe5c5fa0bd39007bc1"
+                }
+            ],
+            "sha": "b9477af0933da7b3051d30c31bf11bbecc75987d",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/b9477af0933da7b3051d30c31bf11bbecc75987d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/0b933a64ac63f670ed564d9777e9e2309c63fd71/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T14:32:32Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:32:32Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by isort",
+                "tree": {
+                    "sha": "1682a6ff493501c09ba233e9535959399acc33c9",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/1682a6ff493501c09ba233e9535959399acc33c9"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/0b933a64ac63f670ed564d9777e9e2309c63fd71",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/0b933a64ac63f670ed564d9777e9e2309c63fd71",
+            "node_id": "C_kwDOBAGDkNoAKDBiOTMzYTY0YWM2M2Y2NzBlZDU2NGQ5Nzc3ZTllMjMwOWM2M2ZkNzE",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/b9477af0933da7b3051d30c31bf11bbecc75987d",
+                    "sha": "b9477af0933da7b3051d30c31bf11bbecc75987d",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/b9477af0933da7b3051d30c31bf11bbecc75987d"
+                }
+            ],
+            "sha": "0b933a64ac63f670ed564d9777e9e2309c63fd71",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/0b933a64ac63f670ed564d9777e9e2309c63fd71"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/a1bb81771e6fdb160189a8f757cc5eae7c27ee45/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T14:32:34Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:32:34Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by reorder-python-imports",
+                "tree": {
+                    "sha": "77ae621414221e8536403bdfb4372c1920283973",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/77ae621414221e8536403bdfb4372c1920283973"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/a1bb81771e6fdb160189a8f757cc5eae7c27ee45",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/a1bb81771e6fdb160189a8f757cc5eae7c27ee45",
+            "node_id": "C_kwDOBAGDkNoAKGExYmI4MTc3MWU2ZmRiMTYwMTg5YThmNzU3Y2M1ZWFlN2MyN2VlNDU",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/0b933a64ac63f670ed564d9777e9e2309c63fd71",
+                    "sha": "0b933a64ac63f670ed564d9777e9e2309c63fd71",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/0b933a64ac63f670ed564d9777e9e2309c63fd71"
+                }
+            ],
+            "sha": "a1bb81771e6fdb160189a8f757cc5eae7c27ee45",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/a1bb81771e6fdb160189a8f757cc5eae7c27ee45"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/9baf5dfff09bcdd62173d83c524832764edcdc2f/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T14:32:35Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:32:35Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by shellharden",
+                "tree": {
+                    "sha": "3925c9e86a994a965219cd910cf896c6fafa987f",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/3925c9e86a994a965219cd910cf896c6fafa987f"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/9baf5dfff09bcdd62173d83c524832764edcdc2f",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/9baf5dfff09bcdd62173d83c524832764edcdc2f",
+            "node_id": "C_kwDOBAGDkNoAKDliYWY1ZGZmZjA5YmNkZDYyMTczZDgzYzUyNDgzMjc2NGVkY2RjMmY",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/a1bb81771e6fdb160189a8f757cc5eae7c27ee45",
+                    "sha": "a1bb81771e6fdb160189a8f757cc5eae7c27ee45",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/a1bb81771e6fdb160189a8f757cc5eae7c27ee45"
+                }
+            ],
+            "sha": "9baf5dfff09bcdd62173d83c524832764edcdc2f",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/9baf5dfff09bcdd62173d83c524832764edcdc2f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/b315ac48ddadbd0687a8ad9666dc54824d052fe4/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T14:32:35Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:32:35Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by shfmt",
+                "tree": {
+                    "sha": "e5e0dd11e680dc21e0856d53fe319501a947bbb4",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/e5e0dd11e680dc21e0856d53fe319501a947bbb4"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/b315ac48ddadbd0687a8ad9666dc54824d052fe4",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/b315ac48ddadbd0687a8ad9666dc54824d052fe4",
+            "node_id": "C_kwDOBAGDkNoAKGIzMTVhYzQ4ZGRhZGJkMDY4N2E4YWQ5NjY2ZGM1NDgyNGQwNTJmZTQ",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/9baf5dfff09bcdd62173d83c524832764edcdc2f",
+                    "sha": "9baf5dfff09bcdd62173d83c524832764edcdc2f",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/9baf5dfff09bcdd62173d83c524832764edcdc2f"
+                }
+            ],
+            "sha": "b315ac48ddadbd0687a8ad9666dc54824d052fe4",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/b315ac48ddadbd0687a8ad9666dc54824d052fe4"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/592d4816552630b3c131e0157792b4bd917af0cb/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-11-06T14:32:38Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-11-06T14:32:38Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by yapf",
+                "tree": {
+                    "sha": "2ab8ebdf8461b4f308217a3f7088a8cb60d10630",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/2ab8ebdf8461b4f308217a3f7088a8cb60d10630"
+                },
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/592d4816552630b3c131e0157792b4bd917af0cb",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/592d4816552630b3c131e0157792b4bd917af0cb",
+            "node_id": "C_kwDOBAGDkNoAKDU5MmQ0ODE2NTUyNjMwYjNjMTMxZTAxNTc3OTJiNGJkOTE3YWYwY2I",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/b315ac48ddadbd0687a8ad9666dc54824d052fe4",
+                    "sha": "b315ac48ddadbd0687a8ad9666dc54824d052fe4",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/b315ac48ddadbd0687a8ad9666dc54824d052fe4"
+                }
+            ],
+            "sha": "592d4816552630b3c131e0157792b4bd917af0cb",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/592d4816552630b3c131e0157792b4bd917af0cb"
+        }
+    ],
+    "commits": 7,
+    "commits_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/670/commits",
+    "created_at": "2023-11-06T14:32:39Z",
+    "deletions": 114,
+    "diff_url": "https://github.com/TokTok/toktok-stack/pull/670.diff",
+    "draft": false,
+    "head": {
+        "label": "TokTok:restyled/pull-669",
+        "ref": "restyled/pull-669",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/toktok-stack/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/toktok-stack/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/toktok-stack/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/toktok-stack/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/toktok-stack.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/toktok-stack/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/toktok-stack/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/toktok-stack/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/toktok-stack/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/toktok-stack/contributors",
+            "created_at": "2016-09-02T09:04:48Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/toktok-stack/deployments",
+            "description": "A snapshot of the complete software stack (excluding some external libraries and programs)",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/toktok-stack/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/toktok-stack/events",
+            "fork": false,
+            "forks": 8,
+            "forks_count": 8,
+            "forks_url": "https://api.github.com/repos/TokTok/toktok-stack/forks",
+            "full_name": "TokTok/toktok-stack",
+            "git_commits_url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/toktok-stack/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/toktok-stack/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/toktok-stack.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd",
+            "hooks_url": "https://api.github.com/repos/TokTok/toktok-stack/hooks",
+            "html_url": "https://github.com/TokTok/toktok-stack",
+            "id": 67208080,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/toktok-stack/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/toktok-stack/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/toktok-stack/labels{/name}",
+            "language": "Starlark",
+            "languages_url": "https://api.github.com/repos/TokTok/toktok-stack/languages",
+            "license": {
+                "key": "other",
+                "name": "Other",
+                "node_id": "MDc6TGljZW5zZTA=",
+                "spdx_id": "NOASSERTION",
+                "url": null
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/toktok-stack/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/toktok-stack/milestones{/number}",
+            "mirror_url": null,
+            "name": "toktok-stack",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NzIwODA4MA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/toktok-stack/notifications{?since,all,participating}",
+            "open_issues": 1,
+            "open_issues_count": 1,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls{/number}",
+            "pushed_at": "2025-01-24T14:18:14Z",
+            "releases_url": "https://api.github.com/repos/TokTok/toktok-stack/releases{/id}",
+            "size": 5616,
+            "ssh_url": "git@github.com:TokTok/toktok-stack.git",
+            "stargazers_count": 17,
+            "stargazers_url": "https://api.github.com/repos/TokTok/toktok-stack/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/toktok-stack/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/toktok-stack/subscription",
+            "svn_url": "https://github.com/TokTok/toktok-stack",
+            "tags_url": "https://api.github.com/repos/TokTok/toktok-stack/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/toktok-stack/teams",
+            "topics": [
+                "bazel",
+                "tox"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees{/sha}",
+            "updated_at": "2025-01-24T14:18:09Z",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack",
+            "visibility": "public",
+            "watchers": 17,
+            "watchers_count": 17,
+            "web_commit_signoff_required": false
+        },
+        "sha": "592d4816552630b3c131e0157792b4bd917af0cb",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/toktok-stack/pull/670",
+    "id": 1588760571,
+    "issue_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/670",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "8c70207e04eecedafa567c3191fd7d65c55e5c6d",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": null,
+    "node_id": "PR_kwDOBAGDkM5eso_7",
+    "number": 670,
+    "patch_url": "https://github.com/TokTok/toktok-stack/pull/670.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/670/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/592d4816552630b3c131e0157792b4bd917af0cb",
+    "title": "Restyle cleanup: Add tor to home; fix inject-repo for cirrus.",
+    "updated_at": "2023-11-06T14:33:43Z",
+    "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/670",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/in/5851?v=4",
+        "events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/events{/privacy}",
+        "followers_url": "https://api.github.com/users/restyled-io%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/restyled-io%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/restyled-io%5Bbot%5D/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/apps/restyled-io",
+        "id": 32688539,
+        "login": "restyled-io[bot]",
+        "node_id": "MDM6Qm90MzI2ODg1Mzk=",
+        "organizations_url": "https://api.github.com/users/restyled-io%5Bbot%5D/orgs",
+        "received_events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/received_events",
+        "repos_url": "https://api.github.com/users/restyled-io%5Bbot%5D/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/restyled-io%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/restyled-io%5Bbot%5D/subscriptions",
+        "type": "Bot",
+        "url": "https://api.github.com/users/restyled-io%5Bbot%5D",
+        "user_view_type": "public"
+    }
+}

@@ -1,0 +1,1443 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2714/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2714/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/c-toxcore/pull/2714"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2714"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2714/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2714"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/a53d491c280562e12f1a278f2fc0e077d5b130d6"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 274,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "NONE",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/c-toxcore/contributors",
+            "created_at": "2016-07-06T08:15:22Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
+            "fork": true,
+            "forks": 292,
+            "forks_count": 292,
+            "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
+            "full_name": "TokTok/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://tox.chat",
+            "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
+            "html_url": "https://github.com/TokTok/c-toxcore",
+            "id": 62703642,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
+            "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 210,
+            "open_issues_count": 210,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-24T18:18:40Z",
+            "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
+            "size": 25245,
+            "ssh_url": "git@github.com:TokTok/c-toxcore.git",
+            "stargazers_count": 2329,
+            "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/c-toxcore/subscription",
+            "svn_url": "https://github.com/TokTok/c-toxcore",
+            "tags_url": "https://api.github.com/repos/TokTok/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/c-toxcore/teams",
+            "topics": [
+                "cryptography",
+                "encryption",
+                "network",
+                "p2p",
+                "security",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-24T22:05:30Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore",
+            "visibility": "public",
+            "watchers": 2329,
+            "watchers_count": 2329,
+            "web_commit_signoff_required": false
+        },
+        "sha": "d7f21010a1f4882a83a9578cd20450b5c6bdb3eb",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "\nA duplicate of #2713 with additional commits that automatically address\nincorrect style, created by [Restyled][].\n\nSince the original Pull Request was opened as a fork in a contributor's\nrepository, we are unable to create a Pull Request branching from it with only\nthe style fixes.\n\nThe following Restylers [made fixes](https://restyled.io/gh/TokTok/repos/c-toxcore/jobs/4133653):\n\n- astyle\n- prettier-markdown\n- shellharden\n- shfmt\n\n\nTo incorporate these changes, you can either:\n\n1. Merge this Pull Request *instead of* the original, or\n\n1. Ask your contributor to locally incorporate these commits and push them to\n   the original Pull Request\n\n   <details>\n       <summary>Expand for example instructions</summary>\n\n       ```console\n       git remote add upstream https://github.com/TokTok/c-toxcore.git\n       git fetch upstream pull/<this PR number>/head\n       git merge --ff-only FETCH_HEAD\n       git push\n       ```\n\n   </details>\n\n\n**NOTE**: As work continues on the original Pull Request, this process will\nre-run and update (force-push) this Pull Request with updated style fixes as\nnecessary. If the style is fixed manually at any point (i.e. this process finds\nno fixes to make), this Pull Request will be closed automatically.\n\nSorry if this was unexpected. To disable it, see our [documentation][].\n\n[restyled]: https://restyled.io\n[documentation]: https://github.com/restyled-io/restyled.io/wiki/Disabling-Restyled\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2714)\n<!-- Reviewable:end -->\n",
+    "changed_files": 13,
+    "closed_at": "2024-02-26T19:12:48Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2714/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/10f9c7b69dcc94516d650c199e066b6716eb3fc9/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-25T22:08:15Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-25T22:08:15Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "fix: Remove unnecessary wsock32 dependency on Windows\n\nLooks like it was added by a mistake:\n\n1. We didn't have this dependency before, in fact, autotools still\n   doesn't have it, it was added only to CMake.\n\n2. During my testing, when building the echo_bot example, there are no\n   unresolved symbols left after linking against `libtox.a libsodium.a\n   -pthread -lws2_32 -liphlpapi`, which indicates that `-lwsock32` is\n   unnecessary.",
+                "tree": {
+                    "sha": "6215f281f905850fbdef6948bdc13d97fa93ee6a",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/6215f281f905850fbdef6948bdc13d97fa93ee6a"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/10f9c7b69dcc94516d650c199e066b6716eb3fc9",
+                "verification": {
+                    "payload": "tree 6215f281f905850fbdef6948bdc13d97fa93ee6a\nparent d7f21010a1f4882a83a9578cd20450b5c6bdb3eb\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708898895 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708898895 -0500\n\nfix: Remove unnecessary wsock32 dependency on Windows\n\nLooks like it was added by a mistake:\n\n1. We didn't have this dependency before, in fact, autotools still\n   doesn't have it, it was added only to CMake.\n\n2. During my testing, when building the echo_bot example, there are no\n   unresolved symbols left after linking against `libtox.a libsodium.a\n   -pthread -lws2_32 -liphlpapi`, which indicates that `-lwsock32` is\n   unnecessary.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXbvZEACgkQqzrZiWRy\nv6Sq9Q/7BdYwSwevZ8lFKMXijL2UCx+E4TYiPM52pYfXxOxtwH05LRLC7mwdd8Tv\nG70a/uQQxQCcddDc2THLtJLAHbAyUp4PKmRHUzYubKSX4DnLLZzT55+Sg2ipp65x\ntSC6/C8wuMZAPHe57mEVMc/SdVPbTDGdBpargczsrTaGIYemfQlfkpKdy0cvbEhF\nuOwlQn5QPn88z0hilD5ExN7k+UyQngrEHLZvbvO91XSRAe31Md1ARSLUv1xNCPmj\nvuRiRYPU5DfFz7wQGBwl4yxnXcbhXkrqT21yU8mdv3RsqneK5IelxOsl4jIz8lNh\nLB0y1aemeedsIlk50p9oysu560TdYtWracYLa9IhJBMe1WFXG8JO4hXtItNNVkCP\nbYGIXdXp1tdu25rN3zcU5buftTMpXcXuACTG49pxYlVFNfDkSO1dDYqsf2I9aQX2\nKXbGKylFsTxv0ek7UwPB8huDoh/r/rfQ2n6K+SSqXxsDut0nRPwx2t8/yrpWdJ0L\nHlH+gj17ZWL9vz97YRmrRkZUQQiNXmLhhdm0PqJ32cbATwDyJV7tjaIQfVJCdJF+\npKINTgX0nSvz3gHWoIaGTIl2BmSjlQ6o/zR4oR58L+baFsPMfYjTO2BuDpLXNFFl\nY8r+iIUyiohE3rx25th6HOkMTmd/djQCSzljkSou/t7GdSLN5UQ=\n=POMS\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/10f9c7b69dcc94516d650c199e066b6716eb3fc9",
+            "node_id": "C_kwDOA7zIGtoAKDEwZjljN2I2OWRjYzk0NTE2ZDY1MGMxOTllMDY2YjY3MTZlYjNmYzk",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/d7f21010a1f4882a83a9578cd20450b5c6bdb3eb",
+                    "sha": "d7f21010a1f4882a83a9578cd20450b5c6bdb3eb",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d7f21010a1f4882a83a9578cd20450b5c6bdb3eb"
+                }
+            ],
+            "sha": "10f9c7b69dcc94516d650c199e066b6716eb3fc9",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/10f9c7b69dcc94516d650c199e066b6716eb3fc9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/092dd7728a2d3a64131fc6c4a55399d4af954da9/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-25T23:25:54Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T08:05:45Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "chore: Bump Windows build dependency versions",
+                "tree": {
+                    "sha": "a0e59e13b1b609be5043a4ca2adce10ef256160d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/a0e59e13b1b609be5043a4ca2adce10ef256160d"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/092dd7728a2d3a64131fc6c4a55399d4af954da9",
+                "verification": {
+                    "payload": "tree a0e59e13b1b609be5043a4ca2adce10ef256160d\nparent 10f9c7b69dcc94516d650c199e066b6716eb3fc9\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708903554 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708934745 -0500\n\nchore: Bump Windows build dependency versions\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXcRlkACgkQqzrZiWRy\nv6S2Mw/+N9RV9uFl7i2qwu/cJwPQSdx8UthBQtIzaF5PKcIG1IhZo0z/mEY7ZtWc\npCG+9VOfH3CnxmdNPfBeIWJfm347sd0g3VT4BLVq5AWXVJBB6Pb1FMpxgvlgDIT/\nHfOFxCd25/BgAkUoLaoY+9yLEgZiXnT2hIOMIDZYsK5+G9dX1xS0UjApKDDRAKfD\ni4dHLMiJtLfXlg+iS9pX9u/GA+Nsgf55M+dXg5WB/RLY5BUZPkeR2g/sN1Dv8Fnw\nH893cL7ttUkLHKro8C2KWhU4sxRx0ELFM6n1MBHqnbvdRHTNMPy4/holjqjSh6Cr\nsS4POEOTm4TDSGra6yhseUTn3R1PXMn1Jg8BolHxRGSEvS4Re9xguttPBmNKcKqm\nznb1subPKaywIq+K/Co9/DEgEnLKBR7EGElgo3cx6vnzA4VDkY5Q6Wu7xpuILqtI\nG4/yMotXuAYSfFF7E7ydD9cIjWmy07kfOsBdCF38HvYeiGFmEBgvFcjKAwumveQR\nBYu098RdBeB8jvrOlXMeoxp45+c9OJSoQ6XyTqFdB0DVi95U946vO0XGbcIxAqjd\nAf/JYgRnJfZSehrlNuHaGIeq/0s0SY7eu+lV3cmBGDpzyOQXgHRuRJtniPEE1is5\nChjMEcSUwx5bqW6KC9n4q3frM20mlo4/uBYjx4CAvua4miz0GQQ=\n=VQMe\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/092dd7728a2d3a64131fc6c4a55399d4af954da9",
+            "node_id": "C_kwDOA7zIGtoAKDA5MmRkNzcyOGEyZDNhNjQxMzFmYzZjNGE1NTM5OWQ0YWY5NTRkYTk",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/10f9c7b69dcc94516d650c199e066b6716eb3fc9",
+                    "sha": "10f9c7b69dcc94516d650c199e066b6716eb3fc9",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/10f9c7b69dcc94516d650c199e066b6716eb3fc9"
+                }
+            ],
+            "sha": "092dd7728a2d3a64131fc6c4a55399d4af954da9",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/092dd7728a2d3a64131fc6c4a55399d4af954da9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e9729070bd1ec763d78ad6d056f696c18c658527/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-25T23:57:15Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:49:10Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "feat: Harden Windows cross-compilation\n\nThe same hardening flags as the slated for the upcoming gcc's\n`-fhardened` sets, sans `-Wl,-z,relro,-z,now` as MinGW-w64's gcc doesn't\nsupport -z flags. This adds a dependency on libssp -- gcc's stack\nprotector library.",
+                "tree": {
+                    "sha": "509223caca103efdd7a8bb78a7df42fe085decca",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/509223caca103efdd7a8bb78a7df42fe085decca"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e9729070bd1ec763d78ad6d056f696c18c658527",
+                "verification": {
+                    "payload": "tree 509223caca103efdd7a8bb78a7df42fe085decca\nparent 092dd7728a2d3a64131fc6c4a55399d4af954da9\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708905435 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973350 -0500\n\nfeat: Harden Windows cross-compilation\n\nThe same hardening flags as the slated for the upcoming gcc's\n`-fhardened` sets, sans `-Wl,-z,relro,-z,now` as MinGW-w64's gcc doesn't\nsupport -z flags. This adds a dependency on libssp -- gcc's stack\nprotector library.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3SgACgkQqzrZiWRy\nv6QprRAAvNxx48ruikMBly6cqlTLyTdqRTSnExqoUJBbUNb76Pj2+L/avmXgcApG\nEWct4JdTaEnbFnbM4/hWoHg9SSsyv4foa2ffAyVze0An05iJLpL47hhmZh2TtRC2\n3MCm18Nx05laAjWImtwXbQ16JyRak7pfrHbEy0wlqxueXhG/jv4vSMdyPk0ndUpi\n2OOeWhfIzC52MFOdHtNEGg/XY3JuBX2TDNst563RqP4HnuzJpSg16NNoYUJcwiOW\nHXwQcri8ZB807apkYbJBAqcxz+olAmLEzJvu0zKHMED9yXJPaGLH5QcftWIBK7XN\n0+/m/0MMPBIv6FN3qxAr2bqyibqXctEVlnoC+fo5ttGBP2Y2oiVqQBJHd111PIw2\n/XNgpCvdov87xNlPobWx//jqLB4HzeBw+LIQ07jIUh5VDzmVzbEmHZFqmHqCY7Nb\n10l/fImj+Oie12cx8CVhwTKfUI4pczJsYoq9ARxkc+rtNmggBQRUG3+VAXUUKpmk\ny21FybikGLIy2SccNn2c5PZ2+ESKe/tHAG7dtW6nygmiFM5ol4kV9wkFD91u0PzK\n/IjpefPLq4zcc90F2ZelV7YzBkEh7CC6FAw5zOUfnp8kDD9ua2l5+xSDsi1zuHOG\n7e05xkxhXcqqwuUt6qbnWW5XEKzA3PBM2RrTZq58gdIoyWizoEU=\n=xJs+\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/e9729070bd1ec763d78ad6d056f696c18c658527",
+            "node_id": "C_kwDOA7zIGtoAKGU5NzI5MDcwYmQxZWM3NjNkNzhhZDZkMDU2ZjY5NmMxOGM2NTg1Mjc",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/092dd7728a2d3a64131fc6c4a55399d4af954da9",
+                    "sha": "092dd7728a2d3a64131fc6c4a55399d4af954da9",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/092dd7728a2d3a64131fc6c4a55399d4af954da9"
+                }
+            ],
+            "sha": "e9729070bd1ec763d78ad6d056f696c18c658527",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e9729070bd1ec763d78ad6d056f696c18c658527"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/1233a4b5913091a8cbbb773a2cc66129f7bfc95a/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T00:15:42Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:51:22Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "feat: Let CMake create the dll instead of doing so ourselves\n\nWe used to make the dll manually as we previously had 3 dlls:\nlibtoxcore.dll, libtoxav.dll and libtoxencryptsave.dll, but for Windows\nwe wanted them to be all combined into libtox.dll with all the\ndependencies included: libsodium, libopus, libvpx, pthreads, etc, to\nreduce the overall dll size and simplify linking. However, since CMake\nnow produces a single libtoxcore.dll with toxcore, toxav and\ntoxencryptsave included, we don't have to do this manually anymore.\n\nThis results in the dll being named libtoxcore.dll instead of the\nlibtox.dll that it previously was, matching the static libtoxcore.a's\nname.",
+                "tree": {
+                    "sha": "2af7d3d1b2b29156034403ca4e71b91a085b78eb",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/2af7d3d1b2b29156034403ca4e71b91a085b78eb"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/1233a4b5913091a8cbbb773a2cc66129f7bfc95a",
+                "verification": {
+                    "payload": "tree 2af7d3d1b2b29156034403ca4e71b91a085b78eb\nparent e9729070bd1ec763d78ad6d056f696c18c658527\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708906542 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973482 -0500\n\nfeat: Let CMake create the dll instead of doing so ourselves\n\nWe used to make the dll manually as we previously had 3 dlls:\nlibtoxcore.dll, libtoxav.dll and libtoxencryptsave.dll, but for Windows\nwe wanted them to be all combined into libtox.dll with all the\ndependencies included: libsodium, libopus, libvpx, pthreads, etc, to\nreduce the overall dll size and simplify linking. However, since CMake\nnow produces a single libtoxcore.dll with toxcore, toxav and\ntoxencryptsave included, we don't have to do this manually anymore.\n\nThis results in the dll being named libtoxcore.dll instead of the\nlibtox.dll that it previously was, matching the static libtoxcore.a's\nname.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3asACgkQqzrZiWRy\nv6Qc8g/+OE0Fc928qUgEZF7iKm/+pnKUJ9zs2SkK2IJ3KDG1I/Y01zVs8zxrNrYO\nhuKWppK4FPNwKWK2R23kldmoIdW6zG2nU4JU5NPiScahFLLWGVHT0EsUWlIWbtSW\niK2gHzHzToWgofaIlLvDIAyf/mLF963mpVl0mWqtqabD40nksaxiI7F3QEqUMJIG\nlpacBIwrVKIaA8+JC3RQzCg1CYQs7oD/GEYypeV5iEJ14ccFaKisKHa94P6jD5Oy\noZ2M/LJ7fSiJIpX7FnbHaSrjPuQ/xWSGXpuOfdfDWuLPwY6qzNqnuDxOFWyPipN7\nU0JljEwmdU26H612sRZ3L/53x9YkFbODcwRPU7Eaq49ziVxmezdG+3X6UjCGrTmq\nlJ0nvWNKXOZPAEjRYjukGaIo2AQnsDh1dvNRk+D4zArsPwijS+cgV8PhlmKsXjLs\nGe8ARqIgWYG/mkNQcNw3sp1D4JH6iQNyCBrM7He+p0FIVDubzIWUGxaAY2TA6XcN\n5DLSY8jy3bZ0NUkrgOsUb0qN+z0rN/JfjSCBiS3wxPflryge09wPgqUGuWxwkRTE\nksSKmEgZBJpzrM0zQNhYDQOfL1HX6qoBG3gmtTzzZ9R1DWjzSMvbhMOsmf6HsCi+\nUpKvXPqIcxksxYt5RJVFFNY0yWNA79WCFOeXmu+Dbd4jQEGXklM=\n=ynVS\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/1233a4b5913091a8cbbb773a2cc66129f7bfc95a",
+            "node_id": "C_kwDOA7zIGtoAKDEyMzNhNGI1OTEzMDkxYThjYmJiNzczYTJjYzY2MTI5ZjdiZmM5NWE",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/e9729070bd1ec763d78ad6d056f696c18c658527",
+                    "sha": "e9729070bd1ec763d78ad6d056f696c18c658527",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e9729070bd1ec763d78ad6d056f696c18c658527"
+                }
+            ],
+            "sha": "1233a4b5913091a8cbbb773a2cc66129f7bfc95a",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/1233a4b5913091a8cbbb773a2cc66129f7bfc95a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fe383f73868214d551e13fac396870ef986137dc/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T02:01:04Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:52:15Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "feat: Generate .def, .exp and .lib files when building for Windows",
+                "tree": {
+                    "sha": "1d778db1ad850f484fb06585a4d41651aae381c5",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/1d778db1ad850f484fb06585a4d41651aae381c5"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/fe383f73868214d551e13fac396870ef986137dc",
+                "verification": {
+                    "payload": "tree 1d778db1ad850f484fb06585a4d41651aae381c5\nparent 1233a4b5913091a8cbbb773a2cc66129f7bfc95a\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708912864 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973535 -0500\n\nfeat: Generate .def, .exp and .lib files when building for Windows\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3eAACgkQqzrZiWRy\nv6TS8hAAoVWzxruaKFYUe7xHCqnIYms9JsV2ktBbcRrabburgcV1TDR2o+9Eo4xl\ntoqFpkeH+d80vdD0SCOUbR9NTsRebMtnldE+sQGavPKLyxifk+bWTjPhtpY1hL9g\nxOVoOqlZA/ew5hNM2vfOe37KI7qgP+Ojkl6sZ1IFJ69ITS/7nkJo5qnhBUEetu5f\ndnfaHbM8CoJYR+69S0/bZgWYqcMf3rKpoXlDBwV62b83aU0vX/ITCOHZafibHfk2\n+bVhoyBV658MHgEBLPMZWqrvECEFhmhNUvZMPVd7+PER7axN4SUM4INVtWPlkja4\n04F7oAZ7dn72v0rmZwHRX+mpwhWKj5VgBp1GP/jH4Qt1442SsQ7t423rPzf0SjoL\nLc8XFoP3uUbFyfbx1dIrIzU5Lkf1djIGfcarTIGI0BjhLUIKvf2FiY8j9UHA6yNN\na7ly9cSaeWc6V5rXjBY1y3Eg/SUiWoN/sDubavnENr1+9PO5DYv7IghCoMYhNzhj\nwnM+FIfZ3JIlImalfBUnpaMWeuP1HW099ct6YK2/bX1ADGQfDwUdt6gbeTQzZSnd\nmTXXvIvxYrLscCngnTUK85NBsf7PInz+qhN40vMliH7gpesX1Jq+OFo7k7HCaaiS\nAlMwJjpiuWoig/0WiIDZ+uG8t534gYOSfewHup0ahOpBlPflwVg=\n=FJjT\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/fe383f73868214d551e13fac396870ef986137dc",
+            "node_id": "C_kwDOA7zIGtoAKGZlMzgzZjczODY4MjE0ZDU1MWUxM2ZhYzM5Njg3MGVmOTg2MTM3ZGM",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/1233a4b5913091a8cbbb773a2cc66129f7bfc95a",
+                    "sha": "1233a4b5913091a8cbbb773a2cc66129f7bfc95a",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/1233a4b5913091a8cbbb773a2cc66129f7bfc95a"
+                }
+            ],
+            "sha": "fe383f73868214d551e13fac396870ef986137dc",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fe383f73868214d551e13fac396870ef986137dc"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/477de0410a4200606e6d8a29bb865d801575912b/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T08:09:07Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:52:19Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "refactor: Copy over all of the required static dependencies\n\nIncluding libwinpthread and libssp.",
+                "tree": {
+                    "sha": "d8526e97e5f02ecc61bc24a8c34064a2a1b454a5",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/d8526e97e5f02ecc61bc24a8c34064a2a1b454a5"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/477de0410a4200606e6d8a29bb865d801575912b",
+                "verification": {
+                    "payload": "tree d8526e97e5f02ecc61bc24a8c34064a2a1b454a5\nparent fe383f73868214d551e13fac396870ef986137dc\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708934947 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973539 -0500\n\nrefactor: Copy over all of the required static dependencies\n\nIncluding libwinpthread and libssp.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3eMACgkQqzrZiWRy\nv6T+dxAAg7boS8SvMzeoTJSvTd/vgPa/1l2CEjnReBCsJRB4MEAYSwPHat4IsUyk\nCmLCIn1B0inRj8sDPsa0CPUG67CwUM8kFENdKOvJpdCtPLyiD//KSpuHhzzDAF5B\nQnoG5XTVorB/qD979PtRPvnMiO1Qn3F5YsILr06lHtdzilFll+A03Y53MN4iPebJ\n95c/lE6HbJAFfCQDzAb2pQcLfz9IFNoyaUF84Oa6kIX42vuZv+BxYHh5kd/TTfqj\nhsOZhRHw2K1zk37cvMlFuhr7SuFAY3G9pPT+kW27rHldSlRLPU/fjxtQN86934Z8\n0uMrLL7F5bTpSNZkPIPh2ZkrdIjGqKKTNwKtQ/IhODaIRSxaiSbHmXrIQE6+PZ6P\n3gsEPcKNuTub3qsTh4xX7VMj4A46IjMsLKeIO8qSyfddP7k+ZiKZcaTwiI0+46Vi\nX6X2mH7uKz7ifXP6V5szSe4gX0NyKPlTmIplACfBFGDZj5LJQ9N9ZLpif80yG9Mf\nk43RXHXawystRbtmuCvuAdur89lEyFLn5r/DBPajrjg+Eqa/n6Pa6kozwmRbkQqK\ndKs/B8q10ZhJSEXfcauH47e74HZhvRrVYGD16PDC6YSA8pX68P6VVWHwU8D8dNJE\n1cg4hYS3Sa4fhNqaGpo80+hhA88mtX84JLnv42keGk/uJtWn2Pk=\n=QM9y\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/477de0410a4200606e6d8a29bb865d801575912b",
+            "node_id": "C_kwDOA7zIGtoAKDQ3N2RlMDQxMGE0MjAwNjA2ZTZkOGEyOWJiODY1ZDgwMTU3NTkxMmI",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/fe383f73868214d551e13fac396870ef986137dc",
+                    "sha": "fe383f73868214d551e13fac396870ef986137dc",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/fe383f73868214d551e13fac396870ef986137dc"
+                }
+            ],
+            "sha": "477de0410a4200606e6d8a29bb865d801575912b",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/477de0410a4200606e6d8a29bb865d801575912b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/65ea8177fcf2b14f923813cd8fdc425969b99349/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T14:54:26Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:52:22Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "chore: Strip Windows binaries",
+                "tree": {
+                    "sha": "44aa477e742d826ec6f530208b3335def4669def",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/44aa477e742d826ec6f530208b3335def4669def"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/65ea8177fcf2b14f923813cd8fdc425969b99349",
+                "verification": {
+                    "payload": "tree 44aa477e742d826ec6f530208b3335def4669def\nparent 477de0410a4200606e6d8a29bb865d801575912b\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708959266 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973542 -0500\n\nchore: Strip Windows binaries\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3eYACgkQqzrZiWRy\nv6RUNhAA3abKCWtcEga1yzlYyJfg1HyS6tsHIqASvfG46py9jD6pryw0za+9hhbw\n5yLX1N0YVV/Yez/tOJnXXjoPossgmyyOdlcKLylhhQTIn3kBH259BmSP1bIqdjmC\nm4H4AZEPJ4rL87gHhccyvImnFhNK2nac5sfoXx2AM6sa6ADTJxaKrlkxFmu2Ve9h\nJEQda80wwQu7dXUJh+mlkK499ybhFeFIRCMkWWhQGdBY+sCtMgK+3kPphbLmCE2X\nwfB0fDVD4sev2FC2KJw1/PyyridlqS4CMD0pbjzdLrvEtDXz95FuBGSwvT5FR0Qu\nRQkEyXUb1nBsUbwhz5UHq8iT0Fci+cZKIgftvigf/pX5n6OlgSACju/DAAPbaqSf\nVct1phKlNqAEu+BycTP62JtGlbIBLI4vw9yq7+4k/1EeIU6My64TmGU3C/aUZ4He\nHM0FljRQsxEJOYQc5mfKevybIs4hehfwAOAfMISk/sDFs2QecwfkXBm55eMUrCBy\n0/yGe8nUmo5EaoM96YNF9NQ06n7jTsCSrCZzbkzStAP/G6CcER1vrzp+qUx3B0vN\nZUAdBEekbrqS+TfaQsMNNi4J+VkowChCsAazCJLVFSLqhC5CATIUPyOhz4qa16T9\nY1vwLpN2xTTdsZ/PnEPRwei63H7wyfv/7npjxlP1AfYLGOJVp2w=\n=YgQ0\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/65ea8177fcf2b14f923813cd8fdc425969b99349",
+            "node_id": "C_kwDOA7zIGtoAKDY1ZWE4MTc3ZmNmMmIxNGY5MjM4MTNjZDhmZGM0MjU5NjliOTkzNDk",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/477de0410a4200606e6d8a29bb865d801575912b",
+                    "sha": "477de0410a4200606e6d8a29bb865d801575912b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/477de0410a4200606e6d8a29bb865d801575912b"
+                }
+            ],
+            "sha": "65ea8177fcf2b14f923813cd8fdc425969b99349",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/65ea8177fcf2b14f923813cd8fdc425969b99349"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57611be732d0a5b4fdb99e468f0b9e04bbed3146/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T15:02:53Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:53:11Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "feat: Build the fun utils when cross-compiling to Windows\n\nWhile fun utils are of very low quality, both code-wise and usage-wise\n-- not checking for failed mallocs, not offering usage instructions,\netc., there are a couple of them that Windows users might find useful,\nlike the vanity key generators or a savedata creator, for example.\n\nThe building of the fun utils was broken on Windows due to the utils\nfailing to find sodium.h, as no libsodium include dirs were set on the\nfun utils.",
+                "tree": {
+                    "sha": "056ec3ec7706a01126913359d2b11d343d59144b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/056ec3ec7706a01126913359d2b11d343d59144b"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/57611be732d0a5b4fdb99e468f0b9e04bbed3146",
+                "verification": {
+                    "payload": "tree 056ec3ec7706a01126913359d2b11d343d59144b\nparent 65ea8177fcf2b14f923813cd8fdc425969b99349\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708959773 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973591 -0500\n\nfeat: Build the fun utils when cross-compiling to Windows\n\nWhile fun utils are of very low quality, both code-wise and usage-wise\n-- not checking for failed mallocs, not offering usage instructions,\netc., there are a couple of them that Windows users might find useful,\nlike the vanity key generators or a savedata creator, for example.\n\nThe building of the fun utils was broken on Windows due to the utils\nfailing to find sodium.h, as no libsodium include dirs were set on the\nfun utils.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3hgACgkQqzrZiWRy\nv6R5tA/9FUIKBWnG0E9daOZ98DSYFw+lVF5cBad8Yf43jATJxln6NVmRt3wQspUG\n13foyoVzFbL3pU2lL7dF54Hs8Njogt3Itc3NIDClQ6KwyThxAl91SjoD+abzvceX\n0A/6Gwy5985kOGMJTWXAbjsxg4RIokKQMiwouLRbIpuaqCHGRH8hOGAgvUEpnv7z\nYLX5jC5S8Ruct56lV9k1fwlyqvfaC+NUQBcd+u42EaL5OdEzBE02D44RmsruMT+/\n2Gg+cy72nIzR+9G+858ZzcXDZDclt4jQnqPo6zi3xR4iX1ghpCxqT3lG/5x9JkfN\no1WdHDQJMJsYN6gI3bpwG3DWLuj1FEXVNGppMdRk2ONFM/XZh2NtMbA8gNMzjf1P\nJelGXsMLFa4j8spBinxsOI3jYKLrOdabyskJOObyzmfR+saD3wpGg4z4hkfp9DWz\nWXnk9jjc3Zx2jvsaNgR9i7tYI9x7siwdrvQaezKo5GT1N9getczQJBbLnc21rkhf\nfE5VoA3Lw+z8QiVG83ZK5JCvc4lk1intkyIUU3PbtEa0q7/vCw1fFTeasHO+4HEn\nRSA0k8JilGJb9ISH/fiRP/jsufXThaQWv3BWqzNa5y1cOOUb9D6hMmLiq3w2JvZJ\n5i1kE+QKeUQvvIrIXIiDgS0jSfewg0PjgtoeQfgDrE+jjm/22fc=\n=pxmF\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/57611be732d0a5b4fdb99e468f0b9e04bbed3146",
+            "node_id": "C_kwDOA7zIGtoAKDU3NjExYmU3MzJkMGE1YjRmZGI5OWU0NjhmMGI5ZTA0YmJlZDMxNDY",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/65ea8177fcf2b14f923813cd8fdc425969b99349",
+                    "sha": "65ea8177fcf2b14f923813cd8fdc425969b99349",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/65ea8177fcf2b14f923813cd8fdc425969b99349"
+                }
+            ],
+            "sha": "57611be732d0a5b4fdb99e468f0b9e04bbed3146",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57611be732d0a5b4fdb99e468f0b9e04bbed3146"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/20f528d211c2856be584149c5875a2b8658de628/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T15:31:00Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:53:14Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "chore: Statically link OpenMP into the cracker fun util on Windows\n\nFor some reason even with -DCMAKE_EXE_LINKER_FLAGS=\"-static\" specified,\nCMake still links OpenMP dynamically, even though it links other libs\nstatically, e.g. -pthread.",
+                "tree": {
+                    "sha": "79a458d440241a16529ba1eaa5c7cd3d070801d8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/79a458d440241a16529ba1eaa5c7cd3d070801d8"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/20f528d211c2856be584149c5875a2b8658de628",
+                "verification": {
+                    "payload": "tree 79a458d440241a16529ba1eaa5c7cd3d070801d8\nparent 57611be732d0a5b4fdb99e468f0b9e04bbed3146\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708961460 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973594 -0500\n\nchore: Statically link OpenMP into the cracker fun util on Windows\n\nFor some reason even with -DCMAKE_EXE_LINKER_FLAGS=\"-static\" specified,\nCMake still links OpenMP dynamically, even though it links other libs\nstatically, e.g. -pthread.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3hoACgkQqzrZiWRy\nv6R1cBAAlywesrK9m8oxrlEzY9VAMsO6at6cMlk746A0HvhdD7OTmU/mRQ2HayhX\nwsoRX4zLvFwa4O9PvBxJH3yV0BlU4023/YpN2apFrDuccTtsoLXKbUoEdf2Iwwus\nWmj3EtnuzX2+yERjpGZrpJmBp6lsghj//NZC2jSCvTTeHR/y9biRv8y1jO2E5sym\nEOvvPIqGaqpWEpIc9QpotEUWxtfUQsZjOvLYKkd8valr2xlKTFLncB754B0+3vRJ\n/NqMSvwi78yisj8gWUwuFzKE5iN/6GRkgSKNwMbqrwfml5FSZ+AkOHOrsJbuR73P\nlo1PmpyB5xxMCxMINQxg3frT6blPZ25UPoK9bW0CNiAImv3/KszMBfs+cCu+e+hW\n6B8uaFHPOvecvv/rxj1XiowRyyBBq5P6TVA1y1i+ll+0CzLIV+7P12sT+dxQ5l62\nsOuSUsZv+z3775lu41oE4EzKxKGeEBV2YwKz4fE0Y+8Jg3X606B8/dAXgMAc3kbn\nNPw8Rjkp0a6rkWdewMbuJ0beFDlvlSlDwRKuqqIAdDPxam6Xfeq8LO2uynIB7znM\nbYLXyl5xNTC5HvMAAXzu1M2kioQPktAlR+9bXAnMvN14da2iEJmqbN5YCv1LGNDO\nbNsLcOoIX6vcEOWj23ZiYwxmQPrsJPp/65Y2fr0oVI+nzxg7mLg=\n=6mud\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/20f528d211c2856be584149c5875a2b8658de628",
+            "node_id": "C_kwDOA7zIGtoAKDIwZjUyOGQyMTFjMjg1NmJlNTg0MTQ5YzU4NzVhMmI4NjU4ZGU2Mjg",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/57611be732d0a5b4fdb99e468f0b9e04bbed3146",
+                    "sha": "57611be732d0a5b4fdb99e468f0b9e04bbed3146",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57611be732d0a5b4fdb99e468f0b9e04bbed3146"
+                }
+            ],
+            "sha": "20f528d211c2856be584149c5875a2b8658de628",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/20f528d211c2856be584149c5875a2b8658de628"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/09f0023e574840aaefce85b831d430fea5364912/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T15:51:16Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:53:16Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "cleanup: Remove a couple of unnecessary misc_tools dependencies\n\nThese programs link against libsodium, which already provides bin-to-hex\nand hex-to-bin conversion functions. Removing the misc_tools dependency\nshaves ~30KiB (in some cases 10%) off Windows static binaries using it.",
+                "tree": {
+                    "sha": "3a01bc8ccaff31fe9b4e1cdbcfc61a961ca9e310",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/3a01bc8ccaff31fe9b4e1cdbcfc61a961ca9e310"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/09f0023e574840aaefce85b831d430fea5364912",
+                "verification": {
+                    "payload": "tree 3a01bc8ccaff31fe9b4e1cdbcfc61a961ca9e310\nparent 20f528d211c2856be584149c5875a2b8658de628\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708962676 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973596 -0500\n\ncleanup: Remove a couple of unnecessary misc_tools dependencies\n\nThese programs link against libsodium, which already provides bin-to-hex\nand hex-to-bin conversion functions. Removing the misc_tools dependency\nshaves ~30KiB (in some cases 10%) off Windows static binaries using it.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3hwACgkQqzrZiWRy\nv6T/SA/+KI2A/0eY/izRoThPgUA1rasNyug154rSTmsg/mN+JGO1RrZKkAXRYXgy\nKsrMWZjX+zHcgxqYaxZe33U+ljIbGqDRrUgy0iOs5z7tHIJgc++2MwC9eqGPxJN3\nEoYe8WxeeJpBLV6oZmTyhhkNOF+gXM7JzN4FQEs29CT/ax9lI1dERmGLlCEi4ott\nYZ7AjR5hYkh00g3GYoL1VcweEsbdROARnMDvGpL5wPpE+qboAR9mNelcHI/j6lk7\nJT288weiJidaWnAR1dG+llzgmIOJuQZUzAItEVMHHolrH+4+X+V05YlD1RD4O7nV\ne7SCqqbW4TidVbGi5Ve+gWSgO1ze0BTs1WZNlAdN4CIKYdK0oXq96D9SeD3wDckh\nDQCIQ3YvDhVAozJS0+h9INwGEu9/Eb+RpXtdx0lDhAxe0n90J8remhz3emaKME4D\n/chB+WyfyzP3lfb9Id9jiyC6iYQhZDte5ZCIdqA14YoM74xZp9Q7s3d/KjRwYFSt\nNfkZOowWKiHre7zY3f9pRIAyuyQh7JS0YRx0lFkZm7dkfeI1vHDFOWVbvhoZBF96\nz57qlHjmrX+v4EHl36dDoBnLhJAMgEGqSGCh3rvC0CD+qUeyV1aBso/4s0Szs0E2\n6XGLf33MVg8TcXZLeagU0OzYbiihex8FSJLboP2s3f5a8OLTJCg=\n=xyyg\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/09f0023e574840aaefce85b831d430fea5364912",
+            "node_id": "C_kwDOA7zIGtoAKDA5ZjAwMjNlNTc0ODQwYWFlZmNlODViODMxZDQzMGZlYTUzNjQ5MTI",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/20f528d211c2856be584149c5875a2b8658de628",
+                    "sha": "20f528d211c2856be584149c5875a2b8658de628",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/20f528d211c2856be584149c5875a2b8658de628"
+                }
+            ],
+            "sha": "09f0023e574840aaefce85b831d430fea5364912",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/09f0023e574840aaefce85b831d430fea5364912"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8fa52afca52ea36a4b56264cb6ff0a625657aa9e/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T17:14:21Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T18:53:18Z",
+                    "email": "nurupo.contributions@gmail.com",
+                    "name": "Maxim Biro"
+                },
+                "message": "docs: Update the Windows cross-compilation section",
+                "tree": {
+                    "sha": "1acbcd9977c8ca1c13058b73412ffbf923947e7f",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/1acbcd9977c8ca1c13058b73412ffbf923947e7f"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/8fa52afca52ea36a4b56264cb6ff0a625657aa9e",
+                "verification": {
+                    "payload": "tree 1acbcd9977c8ca1c13058b73412ffbf923947e7f\nparent 09f0023e574840aaefce85b831d430fea5364912\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1708967661 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1708973598 -0500\n\ndocs: Update the Windows cross-compilation section\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmXc3h4ACgkQqzrZiWRy\nv6SckQ//Rrx5cOyTZyv7bUWP+FjojBvlGjcr/JmVy/WTi6gLFOq8rW2esDw1Xars\nNcwjVm4t1IpmBec8HlljRZHwKTViSIeriod5gbJJov9RLT5aFX6T1VPvwsknLIjD\nyVTXcj69ZoTp0tv4htEbS3IsztxLo8hAl1WQD830YA5ON6+VpfClWm0h+EHEzvAs\nx1KcZvPxRFFHvbEksQ0CGKOA+HRFTXLWFjVyPyq4I/HE2hU5pMgfeNuKgNHVunrS\nO4oqRoX8BR6qAI33umwN7BTUpHWxUM4nTXaHKZ7J7MQTGQW+bpqkF/VBj7221oDa\ndi/C2ngV8gMOlY5z+4rqoFHR8CNQtJvX/eGe4kfXuG81Dtel0fTRy3GOrX5iMVmL\nPDMC5hTxfh8pxzPDiRWBP4K55AWiO+oC1vtoPY9m8j6nF7uMZOO/N9xwZYm+ZkXk\nyJuh5cl5LS6Av6sC2UlG3eqvDUkmKoEEF39neGAkx3Ylpp3PItW3hwUcw2u89LWA\ngANir32mn79H+InvBS6X8NhIRV6PXoCWcvk9fI389+CtItyOTeMVFG/W74GvkiTX\nLVKC1NpSifBh0tTFVKJb8su2Ap7olM6YiiBhfmKzhSOj6IEeDm+xGQXeb6d1s/dm\nuifBJsoIDxj36Rz14bFIQlWs4gUP1XXvP4fcKFtwnejJNZFq1ag=\n=JCuX\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T16:45:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/8fa52afca52ea36a4b56264cb6ff0a625657aa9e",
+            "node_id": "C_kwDOA7zIGtoAKDhmYTUyYWZjYTUyZWEzNmE0YjU2MjY0Y2I2ZmYwYTYyNTY1N2FhOWU",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/09f0023e574840aaefce85b831d430fea5364912",
+                    "sha": "09f0023e574840aaefce85b831d430fea5364912",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/09f0023e574840aaefce85b831d430fea5364912"
+                }
+            ],
+            "sha": "8fa52afca52ea36a4b56264cb6ff0a625657aa9e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8fa52afca52ea36a4b56264cb6ff0a625657aa9e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d3c721e6f36475845385060ea2644917e3c3d6c3/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T19:01:00Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T19:01:00Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by prettier-markdown",
+                "tree": {
+                    "sha": "9f06133d1d630022dbab78ec3c7476ab36842f6b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/9f06133d1d630022dbab78ec3c7476ab36842f6b"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/d3c721e6f36475845385060ea2644917e3c3d6c3",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/d3c721e6f36475845385060ea2644917e3c3d6c3",
+            "node_id": "C_kwDOA7zIGtoAKGQzYzcyMWU2ZjM2NDc1ODQ1Mzg1MDYwZWEyNjQ0OTE3ZTNjM2Q2YzM",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/8fa52afca52ea36a4b56264cb6ff0a625657aa9e",
+                    "sha": "8fa52afca52ea36a4b56264cb6ff0a625657aa9e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8fa52afca52ea36a4b56264cb6ff0a625657aa9e"
+                }
+            ],
+            "sha": "d3c721e6f36475845385060ea2644917e3c3d6c3",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d3c721e6f36475845385060ea2644917e3c3d6c3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/a53d491c280562e12f1a278f2fc0e077d5b130d6/comments",
+            "commit": {
+                "author": {
+                    "date": "2024-02-26T19:01:09Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2024-02-26T19:01:09Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by shfmt",
+                "tree": {
+                    "sha": "336d2cab25fff5c25c8609f1d67a8fc9c3c60445",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/336d2cab25fff5c25c8609f1d67a8fc9c3c60445"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/a53d491c280562e12f1a278f2fc0e077d5b130d6",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/a53d491c280562e12f1a278f2fc0e077d5b130d6",
+            "node_id": "C_kwDOA7zIGtoAKGE1M2Q0OTFjMjgwNTYyZTEyZjFhMjc4ZjJmYzBlMDc3ZDViMTMwZDY",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/d3c721e6f36475845385060ea2644917e3c3d6c3",
+                    "sha": "d3c721e6f36475845385060ea2644917e3c3d6c3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d3c721e6f36475845385060ea2644917e3c3d6c3"
+                }
+            ],
+            "sha": "a53d491c280562e12f1a278f2fc0e077d5b130d6",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/a53d491c280562e12f1a278f2fc0e077d5b130d6"
+        }
+    ],
+    "commits": 13,
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2714/commits",
+    "created_at": "2024-02-26T18:04:24Z",
+    "deletions": 104,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2714.diff",
+    "draft": false,
+    "head": {
+        "label": "TokTok:restyled/pull-2713",
+        "ref": "restyled/pull-2713",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/c-toxcore/contributors",
+            "created_at": "2016-07-06T08:15:22Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
+            "fork": true,
+            "forks": 292,
+            "forks_count": 292,
+            "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
+            "full_name": "TokTok/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://tox.chat",
+            "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
+            "html_url": "https://github.com/TokTok/c-toxcore",
+            "id": 62703642,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
+            "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 210,
+            "open_issues_count": 210,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-24T18:18:40Z",
+            "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
+            "size": 25245,
+            "ssh_url": "git@github.com:TokTok/c-toxcore.git",
+            "stargazers_count": 2329,
+            "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/c-toxcore/subscription",
+            "svn_url": "https://github.com/TokTok/c-toxcore",
+            "tags_url": "https://api.github.com/repos/TokTok/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/c-toxcore/teams",
+            "topics": [
+                "cryptography",
+                "encryption",
+                "network",
+                "p2p",
+                "security",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-24T22:05:30Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore",
+            "visibility": "public",
+            "watchers": 2329,
+            "watchers_count": 2329,
+            "web_commit_signoff_required": false
+        },
+        "sha": "a53d491c280562e12f1a278f2fc0e077d5b130d6",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/2714",
+    "id": 1743965851,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2714",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "1bf07c5a245699d57db186180e21751c0cd84cf0",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": null,
+    "node_id": "PR_kwDOA7zIGs5n8s6b",
+    "number": 2714,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2714.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2714/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/a53d491c280562e12f1a278f2fc0e077d5b130d6",
+    "title": "Restyle feat: Update and improve the Windows cross-compilation",
+    "updated_at": "2024-02-26T19:12:53Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2714",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/in/5851?v=4",
+        "events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/events{/privacy}",
+        "followers_url": "https://api.github.com/users/restyled-io%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/restyled-io%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/restyled-io%5Bbot%5D/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/apps/restyled-io",
+        "id": 32688539,
+        "login": "restyled-io[bot]",
+        "node_id": "MDM6Qm90MzI2ODg1Mzk=",
+        "organizations_url": "https://api.github.com/users/restyled-io%5Bbot%5D/orgs",
+        "received_events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/received_events",
+        "repos_url": "https://api.github.com/users/restyled-io%5Bbot%5D/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/restyled-io%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/restyled-io%5Bbot%5D/subscriptions",
+        "type": "Bot",
+        "url": "https://api.github.com/users/restyled-io%5Bbot%5D",
+        "user_view_type": "public"
+    }
+}

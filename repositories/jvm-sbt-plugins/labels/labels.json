@@ -1,0 +1,245 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 2012989271,
+        "name": "api break",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5Mjcx",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/api%20break"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 454142006,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWw0NTQxNDIwMDY=",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 3708233295,
+        "name": "chore",
+        "node_id": "LA_kwDOBCnxVc7dByZP",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 3712930200,
+        "name": "cleanup",
+        "node_id": "LA_kwDOBCnxVc7dTtGY",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/cleanup"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 2012989355,
+        "name": "dependencies",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5MzU1",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 2012989370,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5Mzcw",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 454142007,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWw0NTQxNDIwMDc=",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 454142008,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWw0NTQxNDIwMDg=",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 2012989544,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NTQ0",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 454142009,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWw0NTQxNDIwMDk=",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/help%20wanted"
+    },
+    {
+        "color": "d73a49",
+        "default": true,
+        "description": "Irrelevant or spam",
+        "id": 3712930406,
+        "name": "invalid",
+        "node_id": "LA_kwDOBCnxVc7dTtJm",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/invalid"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 2012989438,
+        "name": "meta",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NDM4",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/meta"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 2012989627,
+        "name": "not reproducible",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NjI3",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 2012989646,
+        "name": "P0",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NjQ2",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 2012989665,
+        "name": "P1",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NjY1",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 2012989693,
+        "name": "P2",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5Njkz",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 2012989705,
+        "name": "P3",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NzA1",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 2012989462,
+        "name": "packaging",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NDYy",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 3712930319,
+        "name": "performance",
+        "node_id": "LA_kwDOBCnxVc7dTtIP",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 2012989474,
+        "name": "proposal",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NDc0",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 454142011,
+        "name": "question",
+        "node_id": "MDU6TGFiZWw0NTQxNDIwMTE=",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 3712930356,
+        "name": "refactor",
+        "node_id": "LA_kwDOBCnxVc7dTtI0",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 2012989507,
+        "name": "security",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NTA3",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 3712930290,
+        "name": "style",
+        "node_id": "LA_kwDOBCnxVc7dTtHy",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/style"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 2012989520,
+        "name": "suggestion",
+        "node_id": "MDU6TGFiZWwyMDEyOTg5NTIw",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 3712930375,
+        "name": "test",
+        "node_id": "LA_kwDOBCnxVc7dTtJH",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/test"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 454142012,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWw0NTQxNDIwMTI=",
+        "url": "https://api.github.com/repos/TokTok/jvm-sbt-plugins/labels/wontfix"
+    }
+]

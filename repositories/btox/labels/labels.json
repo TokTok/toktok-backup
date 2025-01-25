@@ -1,0 +1,272 @@
+[
+    {
+        "color": "d96f0b",
+        "default": false,
+        "description": "Change breaks API or ABI",
+        "id": 3782636996,
+        "name": "api break",
+        "node_id": "LA_kwDOGwPtrc7hdnXE",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/api%20break"
+    },
+    {
+        "color": "ee0701",
+        "default": true,
+        "description": "Bug fix for the user, not a fix to a build script",
+        "id": 3777211337,
+        "name": "bug",
+        "node_id": "LA_kwDOGwPtrc7hI6vJ",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/bug"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "description": "Updating grunt tasks etc; no production code change",
+        "id": 3782624929,
+        "name": "chore",
+        "node_id": "LA_kwDOGwPtrc7hdkah",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/chore"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+        "id": 3782637068,
+        "name": "cleanup",
+        "node_id": "LA_kwDOGwPtrc7hdnYM",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/cleanup"
+    },
+    {
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file",
+        "id": 3782637093,
+        "name": "dependencies",
+        "node_id": "LA_kwDOGwPtrc7hdnYl",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/dependencies"
+    },
+    {
+        "color": "1d76db",
+        "default": true,
+        "description": "Changes to the documentation",
+        "id": 3777211338,
+        "name": "documentation",
+        "node_id": "LA_kwDOGwPtrc7hI6vK",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/documentation"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 3777211340,
+        "name": "duplicate",
+        "node_id": "LA_kwDOGwPtrc7hI6vM",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "description": "New feature for the user, not a new feature for build script",
+        "id": 3777211343,
+        "name": "enhancement",
+        "node_id": "LA_kwDOGwPtrc7hI6vP",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/enhancement"
+    },
+    {
+        "color": "16e2e2",
+        "default": false,
+        "description": "Pull requests that update Go code",
+        "id": 7732324814,
+        "name": "go",
+        "node_id": "LA_kwDOGwPtrc8AAAABzOHpzg",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/go"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good first issue",
+        "id": 3777211349,
+        "name": "good first issue",
+        "node_id": "LA_kwDOGwPtrc7hI6vV",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/good%20first%20issue"
+    },
+    {
+        "color": "128a0c",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 3777211346,
+        "name": "help wanted",
+        "node_id": "LA_kwDOGwPtrc7hI6vS",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/help%20wanted"
+    },
+    {
+        "color": "d73a49",
+        "default": true,
+        "description": "Irrelevant or spam",
+        "id": 3777211351,
+        "name": "invalid",
+        "node_id": "LA_kwDOGwPtrc7hI6vX",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/invalid"
+    },
+    {
+        "color": "256784",
+        "default": false,
+        "description": "Process related",
+        "id": 3782637282,
+        "name": "meta",
+        "node_id": "LA_kwDOGwPtrc7hdnbi",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/meta"
+    },
+    {
+        "color": "e6e6e6",
+        "default": false,
+        "description": "Won't Fix (Not reproducible)",
+        "id": 3782637434,
+        "name": "not reproducible",
+        "node_id": "LA_kwDOGwPtrc7hdnd6",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/not%20reproducible"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Critical priority",
+        "id": 3782637507,
+        "name": "P0",
+        "node_id": "LA_kwDOGwPtrc7hdnfD",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/P0"
+    },
+    {
+        "color": "eb6420",
+        "default": false,
+        "description": "High priority",
+        "id": 3782637534,
+        "name": "P1",
+        "node_id": "LA_kwDOGwPtrc7hdnfe",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/P1"
+    },
+    {
+        "color": "ffcccc",
+        "default": false,
+        "description": "Medium priority",
+        "id": 3782637544,
+        "name": "P2",
+        "node_id": "LA_kwDOGwPtrc7hdnfo",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/P2"
+    },
+    {
+        "color": "eeeeee",
+        "default": false,
+        "description": "Low priority",
+        "id": 3782637557,
+        "name": "P3",
+        "node_id": "LA_kwDOGwPtrc7hdnf1",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/P3"
+    },
+    {
+        "color": "1d76db",
+        "default": false,
+        "description": "Packaging",
+        "id": 3782637292,
+        "name": "packaging",
+        "node_id": "LA_kwDOGwPtrc7hdnbs",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/packaging"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "A code change that improves performance",
+        "id": 3782637203,
+        "name": "performance",
+        "node_id": "LA_kwDOGwPtrc7hdnaT",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/performance"
+    },
+    {
+        "color": "8effa5",
+        "default": false,
+        "description": "Proposals",
+        "id": 3782637295,
+        "name": "proposal",
+        "node_id": "LA_kwDOGwPtrc7hdnbv",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/proposal"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "description": "Questions",
+        "id": 3777211354,
+        "name": "question",
+        "node_id": "LA_kwDOGwPtrc7hI6va",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/question"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+        "id": 3782637226,
+        "name": "refactor",
+        "node_id": "LA_kwDOGwPtrc7hdnaq",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/refactor"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Security",
+        "id": 3782637323,
+        "name": "security",
+        "node_id": "LA_kwDOGwPtrc7hdncL",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/security"
+    },
+    {
+        "color": "fef2c0",
+        "default": false,
+        "description": "Formatting, missing semi colons, etc; no production code change",
+        "id": 3782637178,
+        "name": "style",
+        "node_id": "LA_kwDOGwPtrc7hdnZ6",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/style"
+    },
+    {
+        "color": "000000",
+        "default": false,
+        "description": "Pull requests that update Submodules code",
+        "id": 7732324795,
+        "name": "submodules",
+        "node_id": "LA_kwDOGwPtrc8AAAABzOHpuw",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/submodules"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "description": "Suggestions",
+        "id": 3782637358,
+        "name": "suggestion",
+        "node_id": "LA_kwDOGwPtrc7hdncu",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/suggestion"
+    },
+    {
+        "color": "0e8a16",
+        "default": false,
+        "description": "Adding missing tests, refactoring tests; no production code change",
+        "id": 3782637272,
+        "name": "test",
+        "node_id": "LA_kwDOGwPtrc7hdnbY",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/test"
+    },
+    {
+        "color": "ededed",
+        "default": false,
+        "description": "Work in progress",
+        "id": 3785786685,
+        "name": "WIP",
+        "node_id": "LA_kwDOGwPtrc7hpoU9",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/WIP"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "Won't Fix (Intended behaviour)",
+        "id": 3777211357,
+        "name": "wontfix",
+        "node_id": "LA_kwDOGwPtrc7hI6vd",
+        "url": "https://api.github.com/repos/TokTok/btox/labels/wontfix"
+    }
+]

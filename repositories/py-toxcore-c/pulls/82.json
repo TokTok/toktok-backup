@@ -1,0 +1,945 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/82/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/82/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/py-toxcore-c/pull/82"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/82"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/82/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/82"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/39274e0436c8e7af15c0a9327c224d3bdded0bd7"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 523,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "NONE",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/py-toxcore-c/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/py-toxcore-c/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/py-toxcore-c/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/py-toxcore-c.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/py-toxcore-c/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/py-toxcore-c/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/py-toxcore-c/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/py-toxcore-c/contributors",
+            "created_at": "2016-09-30T08:32:14Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/deployments",
+            "description": "Python binding for Project-Tox the skype replacement.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/py-toxcore-c/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/py-toxcore-c/events",
+            "fork": false,
+            "forks": 18,
+            "forks_count": 18,
+            "forks_url": "https://api.github.com/repos/TokTok/py-toxcore-c/forks",
+            "full_name": "TokTok/py-toxcore-c",
+            "git_commits_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/py-toxcore-c.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/",
+            "hooks_url": "https://api.github.com/repos/TokTok/py-toxcore-c/hooks",
+            "html_url": "https://github.com/TokTok/py-toxcore-c",
+            "id": 69649034,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/py-toxcore-c/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/py-toxcore-c/labels{/name}",
+            "language": "Cython",
+            "languages_url": "https://api.github.com/repos/TokTok/py-toxcore-c/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/py-toxcore-c/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/py-toxcore-c/milestones{/number}",
+            "mirror_url": null,
+            "name": "py-toxcore-c",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2OTY0OTAzNA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/py-toxcore-c/notifications{?since,all,participating}",
+            "open_issues": 4,
+            "open_issues_count": 4,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls{/number}",
+            "pushed_at": "2025-01-25T00:49:10Z",
+            "releases_url": "https://api.github.com/repos/TokTok/py-toxcore-c/releases{/id}",
+            "size": 985,
+            "ssh_url": "git@github.com:TokTok/py-toxcore-c.git",
+            "stargazers_count": 61,
+            "stargazers_url": "https://api.github.com/repos/TokTok/py-toxcore-c/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/py-toxcore-c/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/py-toxcore-c/subscription",
+            "svn_url": "https://github.com/TokTok/py-toxcore-c",
+            "tags_url": "https://api.github.com/repos/TokTok/py-toxcore-c/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/py-toxcore-c/teams",
+            "topics": [
+                "ffi",
+                "python",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees{/sha}",
+            "updated_at": "2025-01-25T00:49:13Z",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c",
+            "visibility": "public",
+            "watchers": 61,
+            "watchers_count": 61,
+            "web_commit_signoff_required": false
+        },
+        "sha": "1c574ed1b0e00de40dd0fb98c6f6e24fd332dee3",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "\nA duplicate of #81 with additional commits that automatically address\nincorrect style, created by [Restyled][].\n\nSince the original Pull Request was opened as a fork in a contributor's\nrepository, we are unable to create a Pull Request branching from it with only\nthe style fixes.\n\nThe following Restylers [made fixes](https://restyled.io/gh/TokTok/repos/py-toxcore-c/jobs/3525339):\n\n- autopep8\n- black\n- isort\n- reorder-python-imports\n- whitespace\n- yapf\n\n\nTo incorporate these changes, you can either:\n\n1. Merge this Pull Request *instead of* the original, or\n\n1. Ask your contributor to locally incorporate these commits and push them to\n   the original Pull Request\n\n   <details>\n       <summary>Expand for example instructions</summary>\n\n       ```console\n       git remote add upstream https://github.com/TokTok/py-toxcore-c.git\n       git fetch upstream pull/<this PR number>/head\n       git merge --ff-only FETCH_HEAD\n       git push\n       ```\n\n   </details>\n\n\n**NOTE**: As work continues on the original Pull Request, this process will\nre-run and update (force-push) this Pull Request with updated style fixes as\nnecessary. If the style is fixed manually at any point (i.e. this process finds\nno fixes to make), this Pull Request will be closed automatically.\n\nSorry if this was unexpected. To disable it, see our [documentation][].\n\n[restyled]: https://restyled.io\n[documentation]: https://github.com/restyled-io/restyled.io/wiki/Disabling-Restyled\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/py-toxcore-c/82)\n<!-- Reviewable:end -->\n",
+    "changed_files": 24,
+    "closed_at": "2023-09-11T07:45:23Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/82/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/63ef16eb8807ca20ee7448997ccc0094c150ec8b/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-07T15:04:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:41:51Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "refactor: Adapt pytox to the new tox_system stuff.",
+                "tree": {
+                    "sha": "4f54887dc064e8c165542c1422f4d209b52b3d19",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/4f54887dc064e8c165542c1422f4d209b52b3d19"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/63ef16eb8807ca20ee7448997ccc0094c150ec8b",
+                "verification": {
+                    "payload": "tree 4f54887dc064e8c165542c1422f4d209b52b3d19\nparent 1c574ed1b0e00de40dd0fb98c6f6e24fd332dee3\nauthor iphydf <iphydf@users.noreply.github.com> 1694099042 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1694418111 +0000\n\nrefactor: Adapt pytox to the new tox_system stuff.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmT+xMMACgkQOFXbotdE\nA8kaWwf/XKUVaxLNe8GTXnk2B+NyQyHSnp9bgfb9BtoHw76q02Ik49WGBGAw4shn\nbOLZOnlmu2sPunByRP+0EUUU83LthmcH5cHW3izeZpaYnbPuDA7l5vw9+5MQZNIl\nbTX1Hmto/7osTtFUgEab9mWs6ZyhB0pfCfo2Em9l5dcfABlelSHV/qIB92j8oC6j\nuCxsnB9wq4XufuJmnbeDINnJIr0W1JyI2kOoLQiy2bB2lCi9hHVYd1AqrYkkGh7b\nO+T/Tss9/Ab72TdEmtocbBzS6YpGZ/ShjUrQzzzNnfn5EAGjJmpharPAouw3fRFq\n2Eya6p+6DXHC3UnhHrxCAsnH5x3uHQ==\n=RfS7\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T12:44:40Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/63ef16eb8807ca20ee7448997ccc0094c150ec8b",
+            "node_id": "C_kwDOBCbCitoAKDYzZWYxNmViODgwN2NhMjBlZTc0NDg5OTdjY2MwMDk0YzE1MGVjOGI",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/1c574ed1b0e00de40dd0fb98c6f6e24fd332dee3",
+                    "sha": "1c574ed1b0e00de40dd0fb98c6f6e24fd332dee3",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/1c574ed1b0e00de40dd0fb98c6f6e24fd332dee3"
+                }
+            ],
+            "sha": "63ef16eb8807ca20ee7448997ccc0094c150ec8b",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/63ef16eb8807ca20ee7448997ccc0094c150ec8b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/0db706675b8804fe510c17c77b905a2d74dd6932/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-11T07:42:21Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:42:21Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by autopep8",
+                "tree": {
+                    "sha": "88243e0fcf72dded276ac7dc12f3628e023c045c",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/88243e0fcf72dded276ac7dc12f3628e023c045c"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/0db706675b8804fe510c17c77b905a2d74dd6932",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/0db706675b8804fe510c17c77b905a2d74dd6932",
+            "node_id": "C_kwDOBCbCitoAKDBkYjcwNjY3NWI4ODA0ZmU1MTBjMTdjNzdiOTA1YTJkNzRkZDY5MzI",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/63ef16eb8807ca20ee7448997ccc0094c150ec8b",
+                    "sha": "63ef16eb8807ca20ee7448997ccc0094c150ec8b",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/63ef16eb8807ca20ee7448997ccc0094c150ec8b"
+                }
+            ],
+            "sha": "0db706675b8804fe510c17c77b905a2d74dd6932",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/0db706675b8804fe510c17c77b905a2d74dd6932"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/889c7cf95b107b88952d7499270502a425953f7b/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-11T07:42:30Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:42:30Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by black",
+                "tree": {
+                    "sha": "4e8ff9c8efb7ee3e9c43dbfd856b6bc78879e932",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/4e8ff9c8efb7ee3e9c43dbfd856b6bc78879e932"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/889c7cf95b107b88952d7499270502a425953f7b",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/889c7cf95b107b88952d7499270502a425953f7b",
+            "node_id": "C_kwDOBCbCitoAKDg4OWM3Y2Y5NWIxMDdiODg5NTJkNzQ5OTI3MDUwMmE0MjU5NTNmN2I",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/0db706675b8804fe510c17c77b905a2d74dd6932",
+                    "sha": "0db706675b8804fe510c17c77b905a2d74dd6932",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/0db706675b8804fe510c17c77b905a2d74dd6932"
+                }
+            ],
+            "sha": "889c7cf95b107b88952d7499270502a425953f7b",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/889c7cf95b107b88952d7499270502a425953f7b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-11T07:42:40Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:42:40Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by isort",
+                "tree": {
+                    "sha": "77730c3fb2caa9c564f024242f3f7b1bf6f1a41e",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/77730c3fb2caa9c564f024242f3f7b1bf6f1a41e"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd",
+            "node_id": "C_kwDOBCbCitoAKGYyZThiODdkNzJkYTk4YzZiOTY3YjNiYWQyM2ZhZDA0YTZjOGQwY2Q",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/889c7cf95b107b88952d7499270502a425953f7b",
+                    "sha": "889c7cf95b107b88952d7499270502a425953f7b",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/889c7cf95b107b88952d7499270502a425953f7b"
+                }
+            ],
+            "sha": "f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/56b682b2597153c0456a3d936fd5035c1351a1b5/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-11T07:42:41Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:42:41Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by reorder-python-imports",
+                "tree": {
+                    "sha": "4e8ff9c8efb7ee3e9c43dbfd856b6bc78879e932",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/4e8ff9c8efb7ee3e9c43dbfd856b6bc78879e932"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/56b682b2597153c0456a3d936fd5035c1351a1b5",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/56b682b2597153c0456a3d936fd5035c1351a1b5",
+            "node_id": "C_kwDOBCbCitoAKDU2YjY4MmIyNTk3MTUzYzA0NTZhM2Q5MzZmZDUwMzVjMTM1MWExYjU",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd",
+                    "sha": "f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/f2e8b87d72da98c6b967b3bad23fad04a6c8d0cd"
+                }
+            ],
+            "sha": "56b682b2597153c0456a3d936fd5035c1351a1b5",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/56b682b2597153c0456a3d936fd5035c1351a1b5"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/2761466d8aa51f68efda588ff0fc46d82193c099/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-11T07:42:48Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:42:48Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by whitespace",
+                "tree": {
+                    "sha": "b960070d2e924a4a6f2215272ec5b51797980403",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/b960070d2e924a4a6f2215272ec5b51797980403"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/2761466d8aa51f68efda588ff0fc46d82193c099",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/2761466d8aa51f68efda588ff0fc46d82193c099",
+            "node_id": "C_kwDOBCbCitoAKDI3NjE0NjZkOGFhNTFmNjhlZmRhNTg4ZmYwZmM0NmQ4MjE5M2MwOTk",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/56b682b2597153c0456a3d936fd5035c1351a1b5",
+                    "sha": "56b682b2597153c0456a3d936fd5035c1351a1b5",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/56b682b2597153c0456a3d936fd5035c1351a1b5"
+                }
+            ],
+            "sha": "2761466d8aa51f68efda588ff0fc46d82193c099",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/2761466d8aa51f68efda588ff0fc46d82193c099"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/39274e0436c8e7af15c0a9327c224d3bdded0bd7/comments",
+            "commit": {
+                "author": {
+                    "date": "2023-09-11T07:42:51Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2023-09-11T07:42:51Z",
+                    "email": "commits@restyled.io",
+                    "name": "Restyled.io"
+                },
+                "message": "Restyled by yapf",
+                "tree": {
+                    "sha": "d88f4fa8e9419bc069b3f3d2328bfd37cac96c0c",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/d88f4fa8e9419bc069b3f3d2328bfd37cac96c0c"
+                },
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/39274e0436c8e7af15c0a9327c224d3bdded0bd7",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/65077583?v=4",
+                "events_url": "https://api.github.com/users/restyled-commits/events{/privacy}",
+                "followers_url": "https://api.github.com/users/restyled-commits/followers",
+                "following_url": "https://api.github.com/users/restyled-commits/following{/other_user}",
+                "gists_url": "https://api.github.com/users/restyled-commits/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/restyled-commits",
+                "id": 65077583,
+                "login": "restyled-commits",
+                "node_id": "MDQ6VXNlcjY1MDc3NTgz",
+                "organizations_url": "https://api.github.com/users/restyled-commits/orgs",
+                "received_events_url": "https://api.github.com/users/restyled-commits/received_events",
+                "repos_url": "https://api.github.com/users/restyled-commits/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/restyled-commits/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/restyled-commits/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/restyled-commits",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/39274e0436c8e7af15c0a9327c224d3bdded0bd7",
+            "node_id": "C_kwDOBCbCitoAKDM5Mjc0ZTA0MzZjOGU3YWYxNWMwYTkzMjdjMjI0ZDNiZGRlZDBiZDc",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/py-toxcore-c/commit/2761466d8aa51f68efda588ff0fc46d82193c099",
+                    "sha": "2761466d8aa51f68efda588ff0fc46d82193c099",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/2761466d8aa51f68efda588ff0fc46d82193c099"
+                }
+            ],
+            "sha": "39274e0436c8e7af15c0a9327c224d3bdded0bd7",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/39274e0436c8e7af15c0a9327c224d3bdded0bd7"
+        }
+    ],
+    "commits": 7,
+    "commits_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/82/commits",
+    "created_at": "2023-09-07T15:05:31Z",
+    "deletions": 113,
+    "diff_url": "https://github.com/TokTok/py-toxcore-c/pull/82.diff",
+    "draft": false,
+    "head": {
+        "label": "TokTok:restyled/pull-81",
+        "ref": "restyled/pull-81",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/py-toxcore-c/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/py-toxcore-c/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/py-toxcore-c/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/py-toxcore-c.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/py-toxcore-c/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/py-toxcore-c/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/py-toxcore-c/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/py-toxcore-c/contributors",
+            "created_at": "2016-09-30T08:32:14Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/deployments",
+            "description": "Python binding for Project-Tox the skype replacement.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/py-toxcore-c/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/py-toxcore-c/events",
+            "fork": false,
+            "forks": 18,
+            "forks_count": 18,
+            "forks_url": "https://api.github.com/repos/TokTok/py-toxcore-c/forks",
+            "full_name": "TokTok/py-toxcore-c",
+            "git_commits_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/py-toxcore-c.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://toktok.ltd/",
+            "hooks_url": "https://api.github.com/repos/TokTok/py-toxcore-c/hooks",
+            "html_url": "https://github.com/TokTok/py-toxcore-c",
+            "id": 69649034,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/py-toxcore-c/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/py-toxcore-c/labels{/name}",
+            "language": "Cython",
+            "languages_url": "https://api.github.com/repos/TokTok/py-toxcore-c/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/py-toxcore-c/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/py-toxcore-c/milestones{/number}",
+            "mirror_url": null,
+            "name": "py-toxcore-c",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2OTY0OTAzNA==",
+            "notifications_url": "https://api.github.com/repos/TokTok/py-toxcore-c/notifications{?since,all,participating}",
+            "open_issues": 4,
+            "open_issues_count": 4,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls{/number}",
+            "pushed_at": "2025-01-25T00:49:10Z",
+            "releases_url": "https://api.github.com/repos/TokTok/py-toxcore-c/releases{/id}",
+            "size": 985,
+            "ssh_url": "git@github.com:TokTok/py-toxcore-c.git",
+            "stargazers_count": 61,
+            "stargazers_url": "https://api.github.com/repos/TokTok/py-toxcore-c/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/py-toxcore-c/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/py-toxcore-c/subscription",
+            "svn_url": "https://github.com/TokTok/py-toxcore-c",
+            "tags_url": "https://api.github.com/repos/TokTok/py-toxcore-c/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/py-toxcore-c/teams",
+            "topics": [
+                "ffi",
+                "python",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees{/sha}",
+            "updated_at": "2025-01-25T00:49:13Z",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c",
+            "visibility": "public",
+            "watchers": 61,
+            "watchers_count": 61,
+            "web_commit_signoff_required": false
+        },
+        "sha": "39274e0436c8e7af15c0a9327c224d3bdded0bd7",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/py-toxcore-c/pull/82",
+    "id": 1506471461,
+    "issue_url": "https://api.github.com/repos/TokTok/py-toxcore-c/issues/82",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "9927ac2104bff69fd0b878a740b7c2e2bb405775",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": null,
+    "node_id": "PR_kwDOBCbCis5Zyu4l",
+    "number": 82,
+    "patch_url": "https://github.com/TokTok/py-toxcore-c/pull/82.patch",
+    "rebaseable": null,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/82/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/39274e0436c8e7af15c0a9327c224d3bdded0bd7",
+    "title": "Restyle refactor: Adapt pytox to the new tox_system stuff.",
+    "updated_at": "2023-09-11T07:45:26Z",
+    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/82",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/in/5851?v=4",
+        "events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/events{/privacy}",
+        "followers_url": "https://api.github.com/users/restyled-io%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/restyled-io%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/restyled-io%5Bbot%5D/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/apps/restyled-io",
+        "id": 32688539,
+        "login": "restyled-io[bot]",
+        "node_id": "MDM6Qm90MzI2ODg1Mzk=",
+        "organizations_url": "https://api.github.com/users/restyled-io%5Bbot%5D/orgs",
+        "received_events_url": "https://api.github.com/users/restyled-io%5Bbot%5D/received_events",
+        "repos_url": "https://api.github.com/users/restyled-io%5Bbot%5D/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/restyled-io%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/restyled-io%5Bbot%5D/subscriptions",
+        "type": "Bot",
+        "url": "https://api.github.com/users/restyled-io%5Bbot%5D",
+        "user_view_type": "public"
+    }
+}

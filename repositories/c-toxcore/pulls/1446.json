@@ -1,0 +1,1654 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/1446/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1446/commits"
+        },
+        "html": {
+            "href": "https://github.com/TokTok/c-toxcore/pull/1446"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/1446"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1446/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1446"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/317456f1fc76385746ec576672d3d32104c77b8b"
+        }
+    },
+    "active_lock_reason": null,
+    "additions": 15438,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "TokTok:udp-dht-group-chats",
+        "ref": "udp-dht-group-chats",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/TokTok/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/TokTok/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/TokTok/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/TokTok/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/TokTok/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/TokTok/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/TokTok/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/TokTok/c-toxcore/contributors",
+            "created_at": "2016-07-06T08:15:22Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/TokTok/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
+            "fork": true,
+            "forks": 292,
+            "forks_count": 292,
+            "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
+            "full_name": "TokTok/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TokTok/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TokTok/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/TokTok/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://tox.chat",
+            "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
+            "html_url": "https://github.com/TokTok/c-toxcore",
+            "id": 62703642,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/TokTok/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/TokTok/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/TokTok/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/TokTok/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
+            "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 210,
+            "open_issues_count": 210,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+                "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+                "followers_url": "https://api.github.com/users/TokTok/followers",
+                "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+                "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/TokTok",
+                "id": 17427091,
+                "login": "TokTok",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+                "organizations_url": "https://api.github.com/users/TokTok/orgs",
+                "received_events_url": "https://api.github.com/users/TokTok/received_events",
+                "repos_url": "https://api.github.com/users/TokTok/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/TokTok",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-24T18:18:40Z",
+            "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
+            "size": 25245,
+            "ssh_url": "git@github.com:TokTok/c-toxcore.git",
+            "stargazers_count": 2329,
+            "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/TokTok/c-toxcore/subscription",
+            "svn_url": "https://github.com/TokTok/c-toxcore",
+            "tags_url": "https://api.github.com/repos/TokTok/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/TokTok/c-toxcore/teams",
+            "topics": [
+                "cryptography",
+                "encryption",
+                "network",
+                "p2p",
+                "security",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-24T22:05:30Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore",
+            "visibility": "public",
+            "watchers": 2329,
+            "watchers_count": 2329,
+            "web_commit_signoff_required": false
+        },
+        "sha": "adac55403ac25cf0fe0a6785c6812b2bc8dfc3e8",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
+            "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
+            "followers_url": "https://api.github.com/users/TokTok/followers",
+            "following_url": "https://api.github.com/users/TokTok/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TokTok/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/TokTok",
+            "id": 17427091,
+            "login": "TokTok",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE3NDI3MDkx",
+            "organizations_url": "https://api.github.com/users/TokTok/orgs",
+            "received_events_url": "https://api.github.com/users/TokTok/received_events",
+            "repos_url": "https://api.github.com/users/TokTok/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/TokTok/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TokTok/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/TokTok",
+            "user_view_type": "public"
+        }
+    },
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/toktok/c-toxcore/1446)\n<!-- Reviewable:end -->\n",
+    "changed_files": 44,
+    "closed_at": "2020-04-26T20:49:52Z",
+    "comment_data": [],
+    "comment_regular_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1446/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/51fea542256c6c9b88d8820dcb0b8d86b815a92d/comments",
+            "commit": {
+                "author": {
+                    "date": "2016-09-06T09:27:04Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-19T21:03:28Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Initial implementation of DHT based group chats.\n\nThis code only supports UDP for now, but does not break the friend\nfinding protocol or the DHT protocol.",
+                "tree": {
+                    "sha": "27395facdd99961e45ce4e0b51bb084bc2e25d34",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/27395facdd99961e45ce4e0b51bb084bc2e25d34"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/51fea542256c6c9b88d8820dcb0b8d86b815a92d",
+                "verification": {
+                    "payload": "tree 27395facdd99961e45ce4e0b51bb084bc2e25d34\nparent 3ad953c6c3ccbe2e68ec4a23765c99997b0c5145\nauthor jfreegman <jfreegman@gmail.com> 1473154024 +0100\ncommitter iphydf <iphydf@users.noreply.github.com> 1587330208 +0000\n\nInitial implementation of DHT based group chats.\n\nThis code only supports UDP for now, but does not break the friend\nfinding protocol or the DHT protocol.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6cvKIACgkQOFXbotdE\nA8ke/wgAmCnZAsqTrHludOv9xxUm8jOLEmUcHqS1eRdP/9OySJsiZQ6B7j2vM0vB\nLYMDoCuOAaOrU93uGwLB45RPYLulCoIxdc/xWu0RYa8Y57FU+bKATFhOJ69wdp4b\nUEDyMQ/A9aZPUT7beCuKwtCoN99eB8eRMBCXDVBRgjv9VuVfT5CUc4Y254mtrayR\noyfRpMoZ3eIxX4z90F9M5mvCcI9Ordw3bS7qK1c9Tk6drlHRaCfAvAeZ6p93IN+Y\nPXeiytksHqoBRrwPvraK64q0OQoYaPy7q5Ljm8tOCkNItpufTr54R6kGOI+33ug0\ndemVirpWVMnwfuk0jNUDJtkAdJtWZw==\n=8/nJ\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T09:19:10Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/51fea542256c6c9b88d8820dcb0b8d86b815a92d",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6NTFmZWE1NDIyNTZjNmM5Yjg4ZDg4MjBkY2IwYjhkODZiODE1YTkyZA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/3ad953c6c3ccbe2e68ec4a23765c99997b0c5145",
+                    "sha": "3ad953c6c3ccbe2e68ec4a23765c99997b0c5145",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3ad953c6c3ccbe2e68ec4a23765c99997b0c5145"
+                }
+            ],
+            "sha": "51fea542256c6c9b88d8820dcb0b8d86b815a92d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/51fea542256c6c9b88d8820dcb0b8d86b815a92d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57bfbd1ed85437d7f9f803106d5970d05d99569f/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-19T21:55:42Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-19T21:55:42Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Remove debug print statements",
+                "tree": {
+                    "sha": "89f9321c5794c6917818e69ec9b09f5fff532fd2",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/89f9321c5794c6917818e69ec9b09f5fff532fd2"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/57bfbd1ed85437d7f9f803106d5970d05d99569f",
+                "verification": {
+                    "payload": "tree 89f9321c5794c6917818e69ec9b09f5fff532fd2\nparent 51fea542256c6c9b88d8820dcb0b8d86b815a92d\nauthor jfreegman <jfreegman@gmail.com> 1587333342 -0400\ncommitter jfreegman <jfreegman@gmail.com> 1587333342 -0400\n\nRemove debug print statements\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQFIBAABCgAyFiEEur0AVzoGW/qQ1T1WNifzFEB2rmMFAl6cyN4UHGpmcmVlZ21h\nbkBnbWFpbC5jb20ACgkQNifzFEB2rmMlDAf/c6ndsU8Kk6CgKGeAvl6b1G3SeiJH\nrRBV9N9IFdf5kDq3GQDSWmUdzU6qEef9eVkrfIThw4Th8dMIENs4SRPG6GbK0QDK\nsWh1NW29NTxp/cGesFcrA/Oel9xdyF3IxNp/ofSD2kE3QBmFmsGtjmH6PBf3EyJO\n06jHApuf/bJDTnDM6s+owKJvXBMq6+hZa40PFCPNf8FlfCnxPbgo8qZG23ckz/Ye\nRbCDXmoojS3zcR4+eXp+y6HpWG46nGQpLWQKHhG5LgtsqXLFoDlMMVqDafPmTAgo\na2k73nWFX0TyrL0Vzzb1jBHR/LRi5OCq6qGnWaZSBED2u4VjJbLmsWhTuw==\n=+c7v\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T09:19:10Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/57bfbd1ed85437d7f9f803106d5970d05d99569f",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6NTdiZmJkMWVkODU0MzdkN2Y5ZjgwMzEwNmQ1OTcwZDA1ZDk5NTY5Zg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/51fea542256c6c9b88d8820dcb0b8d86b815a92d",
+                    "sha": "51fea542256c6c9b88d8820dcb0b8d86b815a92d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/51fea542256c6c9b88d8820dcb0b8d86b815a92d"
+                }
+            ],
+            "sha": "57bfbd1ed85437d7f9f803106d5970d05d99569f",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57bfbd1ed85437d7f9f803106d5970d05d99569f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8e2a6e27c180c38cf01b8e8c358ffd48791276a1/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-20T11:17:38Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-20T11:17:38Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into udp-dht-group-chats",
+                "tree": {
+                    "sha": "d8437e452243cb5ec84830e5f5729522179a91cf",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/d8437e452243cb5ec84830e5f5729522179a91cf"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/8e2a6e27c180c38cf01b8e8c358ffd48791276a1",
+                "verification": {
+                    "payload": "tree d8437e452243cb5ec84830e5f5729522179a91cf\nparent 57bfbd1ed85437d7f9f803106d5970d05d99569f\nparent 7c0eb5c70bea026eca665466b05213e7b21e3cba\nauthor iphydf <iphydf@users.noreply.github.com> 1587381458 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587381458 +0000\n\nMerge branch 'master' into udp-dht-group-chats\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6dhNMACgkQOFXbotdE\nA8m8jQf+NBUT677NIW2/5/5MNHBIgTO69A9bccmW3zRlPPiWEy4XoT54f29IcdJ7\n3YnBgRfAWVmkkQdoq7r641NTlgLKucL2lAcOOwx8ZUJZ8b6uwXjfJkszaZ+fBcbr\nqOBBaPgYKEUcupN/h1pQrapvkOi8iw+2zr7tWvp5wPlSSfs/N9cOK4Uivvq5PQYh\nSWGwy3Cd8yELxYISABeDWztRpfDc1Z+3hpONFT+iiXh1GcHLIs/cySD1lLGabw2P\nV7KNdyN6M7t/JiLJCSm/eQk/MqY3vfMAPMe+75lSc33Uz66uV5MQXMkmeJNgp10H\npFEdrGY/YbSyGQcxf/6qU91Vv356LQ==\n=JRJz\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-08T09:19:10Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/8e2a6e27c180c38cf01b8e8c358ffd48791276a1",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6OGUyYTZlMjdjMTgwYzM4Y2YwMWI4ZThjMzU4ZmZkNDg3OTEyNzZhMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/57bfbd1ed85437d7f9f803106d5970d05d99569f",
+                    "sha": "57bfbd1ed85437d7f9f803106d5970d05d99569f",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57bfbd1ed85437d7f9f803106d5970d05d99569f"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/7c0eb5c70bea026eca665466b05213e7b21e3cba",
+                    "sha": "7c0eb5c70bea026eca665466b05213e7b21e3cba",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7c0eb5c70bea026eca665466b05213e7b21e3cba"
+                }
+            ],
+            "sha": "8e2a6e27c180c38cf01b8e8c358ffd48791276a1",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8e2a6e27c180c38cf01b8e8c358ffd48791276a1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d8813d945cae9bf6899d5e63955826435cda9f1e/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-26T17:58:29Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T17:58:29Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Merge branch 'master' into udp-dht-group-chats",
+                "tree": {
+                    "sha": "104f4b8efcebf9d6ced3f7d03f5d05c89e8f131e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/104f4b8efcebf9d6ced3f7d03f5d05c89e8f131e"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/d8813d945cae9bf6899d5e63955826435cda9f1e",
+                "verification": {
+                    "payload": "tree 104f4b8efcebf9d6ced3f7d03f5d05c89e8f131e\nparent 8e2a6e27c180c38cf01b8e8c358ffd48791276a1\nparent a2d586b78254f6ba3b12d20f2398f31e9ee66235\nauthor iphydf <iphydf@users.noreply.github.com> 1587923909 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587923909 +0000\n\nMerge branch 'master' into udp-dht-group-chats\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6ly8cACgkQOFXbotdE\nA8lnPQf/XmvlCcGCbVqQ766aE3JNW0yIiJNt/R5TgckzMxEDn8fuIlisrLsT2Pgm\nkUCCpG60jivJ4w3+7VMXqgAflPq/SZ1wf65qI9vYRt9z/uPTVFW3N5x1q5gt1OQL\nwU9xh6Yly2Zu/KRRxBdDZnRRcbclkrBHK4TbaPvB4u74iBShunEnk62g/weD8oq9\n7XPPF2m17bM1c23yl9HsFx0ruVMFNwS6Rksw2at223kqWB/ky9EWgQAKUGeVZxU1\nZciPqJO7mi/5Yi3SPJ3TvPFc6+suYt3vu64PrrM6HyCKuc8KYlAtG3Zucg3FF51V\nTctQ4Aw0wc7cO6XUuMM616yBKwxhpQ==\n=+XyS\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/d8813d945cae9bf6899d5e63955826435cda9f1e",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6ZDg4MTNkOTQ1Y2FlOWJmNjg5OWQ1ZTYzOTU1ODI2NDM1Y2RhOWYxZQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/8e2a6e27c180c38cf01b8e8c358ffd48791276a1",
+                    "sha": "8e2a6e27c180c38cf01b8e8c358ffd48791276a1",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8e2a6e27c180c38cf01b8e8c358ffd48791276a1"
+                },
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/a2d586b78254f6ba3b12d20f2398f31e9ee66235",
+                    "sha": "a2d586b78254f6ba3b12d20f2398f31e9ee66235",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/a2d586b78254f6ba3b12d20f2398f31e9ee66235"
+                }
+            ],
+            "sha": "d8813d945cae9bf6899d5e63955826435cda9f1e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d8813d945cae9bf6899d5e63955826435cda9f1e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/547c5179e3325fd33dcd735ce63f4f36af714c15/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-20T17:42:00Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Keep same peer_id when peer info gets updated\nThis was causing a rare bug where the client and core had different peer_id's for a peer.\nThe peer_id should never change.",
+                "tree": {
+                    "sha": "06706e2019cba861950de6e7af3b53595c43c21c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/06706e2019cba861950de6e7af3b53595c43c21c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/547c5179e3325fd33dcd735ce63f4f36af714c15",
+                "verification": {
+                    "payload": "tree 06706e2019cba861950de6e7af3b53595c43c21c\nparent d8813d945cae9bf6899d5e63955826435cda9f1e\nauthor jfreegman <jfreegman@gmail.com> 1587404520 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nKeep same peer_id when peer info gets updated\nThis was causing a rare bug where the client and core had different peer_id's for a peer.\nThe peer_id should never change.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8kkxAf/dQ5WuqGs5bY9yN8H3S9dNKGEuQjPSWe5VpcgB50pMc7ZUwsDplPIoKpa\njtTQH0MV/GGVaIbA2SoHef+HbvuHRYRV2jeFA+FQKr6Bsgt2co2A3Ne3hnPgfgLo\nkY2b/9TbKIPQeaM91rUnXChy5VLlC5JcBaiMrgNek6BBf9MCec/nXu2M60lRSbs/\nrRiXBHY/Z0pBGT2c85Xw6utyUUUnxEKpfdUi6RS+F3VmbKFc8wobsxjlZLFv95B7\nFT758FeK89qIkPcU9vVNiiuEbPVsSmYa7Xwr7mUZy+bQMZ/wsqJbsH7U0PIKWqcv\nT+aOwnArjlR263iWEUtFRArRpSmhAg==\n=+j4k\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/547c5179e3325fd33dcd735ce63f4f36af714c15",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6NTQ3YzUxNzllMzMyNWZkMzNkY2Q3MzVjZTYzZjRmMzZhZjcxNGMxNQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/d8813d945cae9bf6899d5e63955826435cda9f1e",
+                    "sha": "d8813d945cae9bf6899d5e63955826435cda9f1e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d8813d945cae9bf6899d5e63955826435cda9f1e"
+                }
+            ],
+            "sha": "547c5179e3325fd33dcd735ce63f4f36af714c15",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/547c5179e3325fd33dcd735ce63f4f36af714c15"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/647b789f7b42403a9042c4ca45629ce8f2926b7f/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-21T18:54:10Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "make peer_exit callback supply nick",
+                "tree": {
+                    "sha": "18646114dc3811640bc9a7d9eb1354d988bf086c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/18646114dc3811640bc9a7d9eb1354d988bf086c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/647b789f7b42403a9042c4ca45629ce8f2926b7f",
+                "verification": {
+                    "payload": "tree 18646114dc3811640bc9a7d9eb1354d988bf086c\nparent 547c5179e3325fd33dcd735ce63f4f36af714c15\nauthor jfreegman <jfreegman@gmail.com> 1587495250 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nmake peer_exit callback supply nick\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8l25Qf/S89hPl3FrF3QWCO3I7u8De3aGSEeGBQVz77iLDn4ADFVx+vGvrnOtEkr\nF+5OFwHONtCZcz3+pH8OCWkX1cTbHpTwktF4KoGbZFcD66fhA47WwH+p+B7CKnVg\n+9nXp/3C3DCIjMJTQ32OdDbfA+li95lDDPlm8jVbmq6/orPV5jC737mHUcAoSVFJ\nfmpUEe8HO205PlzWkhObfChhwcet8Kn8ke5b60+wBrezFhpis+xfbrh0Oo/Rzir5\ndlkdfXtT2dH1VoaVgQaASbmQKHC8803HEGIgYFSVbTdnQSwyqRlzbxsXVRXXHpV/\nSM0pykLEnr3+e2qTl9uZTvoj2/dXqw==\n=jnkf\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/647b789f7b42403a9042c4ca45629ce8f2926b7f",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6NjQ3Yjc4OWY3YjQyNDAzYTkwNDJjNGNhNDU2MjljZThmMjkyNmI3Zg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/547c5179e3325fd33dcd735ce63f4f36af714c15",
+                    "sha": "547c5179e3325fd33dcd735ce63f4f36af714c15",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/547c5179e3325fd33dcd735ce63f4f36af714c15"
+                }
+            ],
+            "sha": "647b789f7b42403a9042c4ca45629ce8f2926b7f",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/647b789f7b42403a9042c4ca45629ce8f2926b7f"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/6131ac782923d80ce106e627ed460955f8448152/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T00:41:38Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Remove all callback events initiated from API calls\nThis makes all group events asynchronous. It is now the client's sole responsibility\nto handle these events when they initiate them.",
+                "tree": {
+                    "sha": "711598c2ea672f93e8e6ad5697ee89b196804876",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/711598c2ea672f93e8e6ad5697ee89b196804876"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/6131ac782923d80ce106e627ed460955f8448152",
+                "verification": {
+                    "payload": "tree 711598c2ea672f93e8e6ad5697ee89b196804876\nparent 647b789f7b42403a9042c4ca45629ce8f2926b7f\nauthor jfreegman <jfreegman@gmail.com> 1587516098 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nRemove all callback events initiated from API calls\nThis makes all group events asynchronous. It is now the client's sole responsibility\nto handle these events when they initiate them.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8lCDQgAg0qJdHDunt9xkQyojegf2T+m0lbkg9qw1u2UGfKU0YguR/egWzdHz5ud\nW0Kf0BIighxCu3pvbU/kt5P33mfVjfpBSUZAtxlZcN3j2s+eXHfo7GsQzxVZlsGB\nWf7Jfq12rVlPGeFgLCw951UyohiiT9qMK+nB4bDu4Ig56o/ey31fmyrOH67wjNhj\nzkVQqrJP0ashjgAb+aN56h6ijwn+Lmk8JTeb50PnKRAsLgVXeVBDX7SN1izlHaaI\nEuX2u6H+kv8LZZnZVVDHvWhiIDYIVC2kJZpHHYxHvIjiv+6ONuD0Bu0c3r3d84Kc\nzHp4uOsXtc+zy3ph6O9KWcji7VfOhw==\n=3bnH\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/6131ac782923d80ce106e627ed460955f8448152",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6NjEzMWFjNzgyOTIzZDgwY2UxMDZlNjI3ZWQ0NjA5NTVmODQ0ODE1Mg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/647b789f7b42403a9042c4ca45629ce8f2926b7f",
+                    "sha": "647b789f7b42403a9042c4ca45629ce8f2926b7f",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/647b789f7b42403a9042c4ca45629ce8f2926b7f"
+                }
+            ],
+            "sha": "6131ac782923d80ce106e627ed460955f8448152",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/6131ac782923d80ce106e627ed460955f8448152"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/88249f8c9089f1ed138e1e9f9e9a272aa390ff8a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T06:51:32Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Add error codes for invalid moderator actions on self",
+                "tree": {
+                    "sha": "0b203e7fc45ff671df1a55fe7dfe3758ed02a6aa",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/0b203e7fc45ff671df1a55fe7dfe3758ed02a6aa"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/88249f8c9089f1ed138e1e9f9e9a272aa390ff8a",
+                "verification": {
+                    "payload": "tree 0b203e7fc45ff671df1a55fe7dfe3758ed02a6aa\nparent 6131ac782923d80ce106e627ed460955f8448152\nauthor jfreegman <jfreegman@gmail.com> 1587538292 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nAdd error codes for invalid moderator actions on self\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8n/vwgAhdbt65UMn32CAduOXPjQUsYwTZc5zojOIpRWZt4FQFxLQNsOSxzrWoBR\ntC+q80RsaPBMsG4oi8SSJ/82WFAfLw1iZ6TNYOKOd4rx3K+NkqG7mjD+i1sU0vgs\nIvpRnJDOl1aarhPyGpFL4UGqeiKD38GqkMN5cTiAxEjX9rqbIjTsrwVe4y38Tqd3\nKmFdPQPc72bUBUA4yoEdnkmZpWXmZpGCktRcUZiZ9GA24HVeR7fA/cY6FzRdnIQv\n6NK5isc4vH6h9diO0PC8vHRuPsqxGAaZTDYmzRQ1dxlNvUnjHvsNzF5M09RBDl6X\nw/hl50PymKvDylTNw4CZOX65B3L56g==\n=cvX1\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/88249f8c9089f1ed138e1e9f9e9a272aa390ff8a",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6ODgyNDlmOGM5MDg5ZjFlZDEzOGUxZTlmOWU5YTI3MmFhMzkwZmY4YQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/6131ac782923d80ce106e627ed460955f8448152",
+                    "sha": "6131ac782923d80ce106e627ed460955f8448152",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/6131ac782923d80ce106e627ed460955f8448152"
+                }
+            ],
+            "sha": "88249f8c9089f1ed138e1e9f9e9a272aa390ff8a",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/88249f8c9089f1ed138e1e9f9e9a272aa390ff8a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/eef0066b459978aa68c4b018f54e30cac10739d9/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-22T18:07:36Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Change core packet values for separate test network",
+                "tree": {
+                    "sha": "c9413b863f045debcd6ae729fca18da0c4d4c45c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c9413b863f045debcd6ae729fca18da0c4d4c45c"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/eef0066b459978aa68c4b018f54e30cac10739d9",
+                "verification": {
+                    "payload": "tree c9413b863f045debcd6ae729fca18da0c4d4c45c\nparent 88249f8c9089f1ed138e1e9f9e9a272aa390ff8a\nauthor jfreegman <jfreegman@gmail.com> 1587578856 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nChange core packet values for separate test network\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8nuEAf6Aj1OgQKkVYgg5wBCyN5eghfXv5dk0vFfuFc2BMf7vmJg2F78Hd2uGtQS\nrGgo/o4kpQ6MGYNMxTJOJgDZOfUsUQAZL4wEYlQZRB8Pr0WMVGgq+3hzsCiaN3rW\nylwPM/VUZq6bSFwp+BrChBWNNg6yhQzJZ1vcsVknywbz0Wp74nL9bSOlb9Qs5Ej4\n5yUwoSD7+JS4jCEjbZm2Fr9gE2LEqpI99znVzOAORMDWzprVgc1ZZ7zYb5CfxWPJ\nuJ8S39zoMzbfZ+1f0p9gsXHoGTgTuCFmA8O9iqcQWbvrFtcsyN5m9ueMro58t/7H\n1aMEDWKk2TlonFkpafNGJjzMyGlrkw==\n=vFEu\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/eef0066b459978aa68c4b018f54e30cac10739d9",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6ZWVmMDA2NmI0NTk5NzhhYTY4YzRiMDE4ZjU0ZTMwY2FjMTA3MzlkOQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/88249f8c9089f1ed138e1e9f9e9a272aa390ff8a",
+                    "sha": "88249f8c9089f1ed138e1e9f9e9a272aa390ff8a",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/88249f8c9089f1ed138e1e9f9e9a272aa390ff8a"
+                }
+            ],
+            "sha": "eef0066b459978aa68c4b018f54e30cac10739d9",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/eef0066b459978aa68c4b018f54e30cac10739d9"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3a47695f6268aa8ffa3d56986191ebcdbf33bd9d/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-23T04:03:24Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Remove ability to ban peers from groups\nIt is impossible to effectively ban a peer from a tox groupchat due to the usage of\nTCP relay nodes and the ease of creating new private keys. Therefore the feature is\nbroken and should be removed.",
+                "tree": {
+                    "sha": "a62d66d1fb69cf2b6965db391dac82ae9fdf6dd4",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/a62d66d1fb69cf2b6965db391dac82ae9fdf6dd4"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/3a47695f6268aa8ffa3d56986191ebcdbf33bd9d",
+                "verification": {
+                    "payload": "tree a62d66d1fb69cf2b6965db391dac82ae9fdf6dd4\nparent eef0066b459978aa68c4b018f54e30cac10739d9\nauthor jfreegman <jfreegman@gmail.com> 1587614604 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nRemove ability to ban peers from groups\nIt is impossible to effectively ban a peer from a tox groupchat due to the usage of\nTCP relay nodes and the ease of creating new private keys. Therefore the feature is\nbroken and should be removed.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8mStAf7Bj9zJJtGUsw2XS8ARleKM7bUop4QMlAVLw3tmoXGe/QA1TvjJT3bmIXs\n4M9dLc5BC4V1DFOfp2UHKOQslGwS6GhY9Mmbc8DdA+eC+tMb8Qw2kahAReQsZ0yd\neG+zoaLL0xL7LFQ1iNb3wWsnCqu+DhhdM7o6/yRHDebgEbJmATdQiifGnt9dQmkC\nZAn0ymwk/RBzODt/IYhI2ssiWpuK3EKDr6C6sMi6Mp4x9C9UqwRlQ7FoOAW2ktFP\nKQiNEcUo38lBecwGInelckWtszMXkhnxpV/B2hvQfdNQRPggeQjT3+Qf+01x6V+6\npGeAVBM59kQbAdjoFM6h8K8q/f88JA==\n=TGag\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/3a47695f6268aa8ffa3d56986191ebcdbf33bd9d",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6M2E0NzY5NWY2MjY4YWE4ZmZhM2Q1Njk4NjE5MWViY2RiZjMzYmQ5ZA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/eef0066b459978aa68c4b018f54e30cac10739d9",
+                    "sha": "eef0066b459978aa68c4b018f54e30cac10739d9",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/eef0066b459978aa68c4b018f54e30cac10739d9"
+                }
+            ],
+            "sha": "3a47695f6268aa8ffa3d56986191ebcdbf33bd9d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3a47695f6268aa8ffa3d56986191ebcdbf33bd9d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2343d46c4fd0d5b6d096aca021fc1dc5baba2c83/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-26T17:10:00Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Add NGC testnetwork node to dht bootstrap test",
+                "tree": {
+                    "sha": "e23a1db0421a71ceeeea9a5cf36ae9b846bf65d8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/e23a1db0421a71ceeeea9a5cf36ae9b846bf65d8"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/2343d46c4fd0d5b6d096aca021fc1dc5baba2c83",
+                "verification": {
+                    "payload": "tree e23a1db0421a71ceeeea9a5cf36ae9b846bf65d8\nparent 3a47695f6268aa8ffa3d56986191ebcdbf33bd9d\nauthor jfreegman <jfreegman@gmail.com> 1587921000 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nAdd NGC testnetwork node to dht bootstrap test\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8kH5Af+K1D/QKR3WVUo1sLiMTB1ImcLzjsetMu84R/txQeHEvNCWxmKvvh0kWy8\nbvDxEObyQhSRcOG/MAYqMq7n/W96aUwN1vs/Ov+Bfdu6/y2hW60Q64TVp/mlFRH9\nI6P4glln7gUWKyvDKixG3aPjNNHovH3kuDkY6rodg51WlaFg3iFlGtdaBZvFphef\njbm/s16NoKmsLQ+MIZZ26ql+YS2MpveX5Lilno/VOFg3zdI8xbaqEgrOYetocjG2\nTaepTcHfJ6bQ/1RZXeLRBcuZRCWqUaw6co3efPkNt1l39t4mKLRCB+Cl9EDc7CkB\nrEF0+oYfXcWnQJwMmG7UFjxHVM/Fug==\n=BQ3q\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/2343d46c4fd0d5b6d096aca021fc1dc5baba2c83",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6MjM0M2Q0NmM0ZmQwZDViNmQwOTZhY2EwMjFmYzFkYzViYWJhMmM4Mw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/3a47695f6268aa8ffa3d56986191ebcdbf33bd9d",
+                    "sha": "3a47695f6268aa8ffa3d56986191ebcdbf33bd9d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3a47695f6268aa8ffa3d56986191ebcdbf33bd9d"
+                }
+            ],
+            "sha": "2343d46c4fd0d5b6d096aca021fc1dc5baba2c83",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2343d46c4fd0d5b6d096aca021fc1dc5baba2c83"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bfe9a081ec9ea18ab2265f43bfe79bd033718238/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-26T17:24:50Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:25:02Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Fix unused variable/function warnings",
+                "tree": {
+                    "sha": "f95109081d097dfb9a23de547ab3c37e7e694cbf",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/f95109081d097dfb9a23de547ab3c37e7e694cbf"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/bfe9a081ec9ea18ab2265f43bfe79bd033718238",
+                "verification": {
+                    "payload": "tree f95109081d097dfb9a23de547ab3c37e7e694cbf\nparent 2343d46c4fd0d5b6d096aca021fc1dc5baba2c83\nauthor jfreegman <jfreegman@gmail.com> 1587921890 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587929102 +0000\n\nFix unused variable/function warnings\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l4A4ACgkQOFXbotdE\nA8l9JAf/Rax7jt5muYUHggbzWTu5LzLeMy0XydssKsOR/5ZeGbJCcqXX0ubJq3Ph\n+o5fAuPnYTl2CXhaISqGMYtx0iImbcBPYvuOBbSAxd5SP99Dhlx7xdQ+2J3pJtkd\notDYxp6eFkmEz4Cb5Mt7pCoFNDK3GcBn4f0RjgKGNXraQIm4/ZCE55W27YpNoC5j\nzuYUZ1csoZ0nCk+L9UEYp53p3N1jZf8fX1lJ+Q3GqcUhETH98wpbyXu7g7aRhn3a\nOSWB0j1c7dvjXNV1PbLrx2tFNnUOnhl120qR4q2VJy+KmSRkhHM/BLzNckYwRKYU\nnWvUL48gc+LYkXyFZAas+YUMOZ7+jA==\n=bhh8\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/bfe9a081ec9ea18ab2265f43bfe79bd033718238",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6YmZlOWEwODFlYzllYTE4YWIyMjY1ZjQzYmZlNzliZDAzMzcxODIzOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/2343d46c4fd0d5b6d096aca021fc1dc5baba2c83",
+                    "sha": "2343d46c4fd0d5b6d096aca021fc1dc5baba2c83",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/2343d46c4fd0d5b6d096aca021fc1dc5baba2c83"
+                }
+            ],
+            "sha": "bfe9a081ec9ea18ab2265f43bfe79bd033718238",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bfe9a081ec9ea18ab2265f43bfe79bd033718238"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/443b6264277ef6b14a823c3ac80eac4fb86dacb8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-26T19:39:34Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:39:34Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "message": "Change TCP packet ID's for test network",
+                "tree": {
+                    "sha": "64daf791d18e65b85b9f31f212f4d3a39c7f0f6d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/64daf791d18e65b85b9f31f212f4d3a39c7f0f6d"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/443b6264277ef6b14a823c3ac80eac4fb86dacb8",
+                "verification": {
+                    "payload": "tree 64daf791d18e65b85b9f31f212f4d3a39c7f0f6d\nparent bfe9a081ec9ea18ab2265f43bfe79bd033718238\nauthor jfreegman <jfreegman@gmail.com> 1587929974 -0400\ncommitter jfreegman <jfreegman@gmail.com> 1587929974 -0400\n\nChange TCP packet ID's for test network\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQFIBAABCgAyFiEEur0AVzoGW/qQ1T1WNifzFEB2rmMFAl6l43YUHGpmcmVlZ21h\nbkBnbWFpbC5jb20ACgkQNifzFEB2rmM8VQgAuV0ThKTnxWnD+P2pEyVshf+ZAER6\nsDCICqBNdf6gHiPHUys1MojRphwb6WWDdAuErrZf0GXsA83y2QzEitm1w+aReheD\nHmPa5Zkau0uJi6IQ+f1gxfxJANuQh/iNyYR4ln7CbM913ipZ580CKLu8YeSv4SQR\neoF2QtZNfafP5ZsVZVY2fGk2OtXW66Y/izMjL3BQ4Tf5LMAmZlqTLUbdH0PqocOh\nkMuIavYqpCrbarorzFEa9zN9mh9h49jKsq1nJ9nBuVTvRGZBFlp6ueX4cGV5Kp2h\n9XQf0Kld4qMxhudlIoGQVo0mIn4yhPcdrHEIVBPg2iTRLYhbvNaPZqn4+g==\n=WZMN\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/443b6264277ef6b14a823c3ac80eac4fb86dacb8",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6NDQzYjYyNjQyNzdlZjZiMTRhODIzYzNhYzgwZWFjNGZiODZkYWNiOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/bfe9a081ec9ea18ab2265f43bfe79bd033718238",
+                    "sha": "bfe9a081ec9ea18ab2265f43bfe79bd033718238",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bfe9a081ec9ea18ab2265f43bfe79bd033718238"
+                }
+            ],
+            "sha": "443b6264277ef6b14a823c3ac80eac4fb86dacb8",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/443b6264277ef6b14a823c3ac80eac4fb86dacb8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8fe877ed0c425748ac819b313c091a62ac5b4f68/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-26T19:49:34Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T19:49:34Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "Make test network configurable.",
+                "tree": {
+                    "sha": "ab70279774acd5f08e5c61ca2c9b5e2bc00dfa55",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/ab70279774acd5f08e5c61ca2c9b5e2bc00dfa55"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/8fe877ed0c425748ac819b313c091a62ac5b4f68",
+                "verification": {
+                    "payload": "tree ab70279774acd5f08e5c61ca2c9b5e2bc00dfa55\nparent 443b6264277ef6b14a823c3ac80eac4fb86dacb8\nauthor iphydf <iphydf@users.noreply.github.com> 1587930574 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1587930574 +0000\n\nMake test network configurable.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l5dUACgkQOFXbotdE\nA8ki5QgAjLDtHT/eGnFTUcINqT5Kg41/XiNPzIgjkxjiKybn5sxGlroo/2S7C4xP\nzMuR4Hj+IIyuBZjUQ9QvEEd3qkxIvoa4NAj+rST4D03asM5TFifw7hR+rY2VcRsw\nRAtI57LkNMS3SC12x2aXEvJnIxvOTpxyDvpPvYM/pIM3/mfo3XDD5RclnDFKuQrX\no5ZlGmR7heZOFSEBd+voH3m1wOH4Y2+f8lkScN7guB/09qwv8Curjo2uFG9TGfoF\neiEOLWhA0l8Oo6lg4lmj8aQNBX15jH/kVGfe4ALYnaba2+87wzYXxIz1Cr00xQ3D\n+E76ETbZyyd1HBCGgiOOUwguWFHpng==\n=8pTD\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/8fe877ed0c425748ac819b313c091a62ac5b4f68",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6OGZlODc3ZWQwYzQyNTc0OGFjODE5YjMxM2MwOTFhNjJhYzViNGY2OA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/443b6264277ef6b14a823c3ac80eac4fb86dacb8",
+                    "sha": "443b6264277ef6b14a823c3ac80eac4fb86dacb8",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/443b6264277ef6b14a823c3ac80eac4fb86dacb8"
+                }
+            ],
+            "sha": "8fe877ed0c425748ac819b313c091a62ac5b4f68",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8fe877ed0c425748ac819b313c091a62ac5b4f68"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
+                "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JFreegman/followers",
+                "following_url": "https://api.github.com/users/JFreegman/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JFreegman/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JFreegman",
+                "id": 1646057,
+                "login": "JFreegman",
+                "node_id": "MDQ6VXNlcjE2NDYwNTc=",
+                "organizations_url": "https://api.github.com/users/JFreegman/orgs",
+                "received_events_url": "https://api.github.com/users/JFreegman/received_events",
+                "repos_url": "https://api.github.com/users/JFreegman/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JFreegman/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JFreegman/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JFreegman",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/317456f1fc76385746ec576672d3d32104c77b8b/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-26T20:09:37Z",
+                    "email": "jfreegman@gmail.com",
+                    "name": "jfreegman"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-04-26T20:14:04Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "use define for NET_PACKET test network packet ID's",
+                "tree": {
+                    "sha": "9acb75f1ece69faa93d131968e9a89a8b4157dcd",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/9acb75f1ece69faa93d131968e9a89a8b4157dcd"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/317456f1fc76385746ec576672d3d32104c77b8b",
+                "verification": {
+                    "payload": "tree 9acb75f1ece69faa93d131968e9a89a8b4157dcd\nparent 8fe877ed0c425748ac819b313c091a62ac5b4f68\nauthor jfreegman <jfreegman@gmail.com> 1587931777 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1587932044 +0000\n\nuse define for NET_PACKET test network packet ID's\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAl6l640ACgkQOFXbotdE\nA8mJ7wf8C0OVAh8dfS9cNULZ90QGl9n3nAmdqgeW0RsZiHXu9Ij2LfwzA1xJ22EN\n/aSacduhCsjIQX1haAIcwC231uwBalR86O3H5Cjy6faEbMNfeOnKzmE2LmP/tDc4\nGljyQNPOx2F3YlPjGgdhuKH801EAeuNSZXmrJU92OJayIwz2xIV4MMtH6lcMLYi3\nSbqHu5eE/nlbZZPhCsrytueOu/Lo8r1cJkdTrJXxpF1Nx5lqbs63s46RgohjtpWV\nYELXpHTby6LWNhQcZW96bhVh2Z3IZA15fPheTLvtxQd8lU4hKtry8WUOngK/A24E\n4ZTC33w9np3LCutYj6lvO6JydExeiQ==\n=x6bT\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2024-11-26T20:51:54Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/317456f1fc76385746ec576672d3d32104c77b8b",
+            "node_id": "MDY6Q29tbWl0NjI3MTY4NjY6MzE3NDU2ZjFmYzc2Mzg1NzQ2ZWM1NzY2NzJkM2QzMjEwNGM3N2I4Yg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/8fe877ed0c425748ac819b313c091a62ac5b4f68",
+                    "sha": "8fe877ed0c425748ac819b313c091a62ac5b4f68",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8fe877ed0c425748ac819b313c091a62ac5b4f68"
+                }
+            ],
+            "sha": "317456f1fc76385746ec576672d3d32104c77b8b",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/317456f1fc76385746ec576672d3d32104c77b8b"
+        }
+    ],
+    "commits": 15,
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1446/commits",
+    "created_at": "2020-04-26T20:49:10Z",
+    "deletions": 32,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/1446.diff",
+    "draft": false,
+    "head": {
+        "label": "iphydf:udp-dht-group-chats",
+        "ref": "udp-dht-group-chats",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/iphydf/c-toxcore/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/iphydf/c-toxcore/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/iphydf/c-toxcore/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/iphydf/c-toxcore/branches{/branch}",
+            "clone_url": "https://github.com/iphydf/c-toxcore.git",
+            "collaborators_url": "https://api.github.com/repos/iphydf/c-toxcore/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/iphydf/c-toxcore/comments{/number}",
+            "commits_url": "https://api.github.com/repos/iphydf/c-toxcore/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/iphydf/c-toxcore/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/iphydf/c-toxcore/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/iphydf/c-toxcore/contributors",
+            "created_at": "2016-07-06T11:44:34Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/iphydf/c-toxcore/deployments",
+            "description": "The future of online communications.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/iphydf/c-toxcore/downloads",
+            "events_url": "https://api.github.com/repos/iphydf/c-toxcore/events",
+            "fork": true,
+            "forks": 2,
+            "forks_count": 2,
+            "forks_url": "https://api.github.com/repos/iphydf/c-toxcore/forks",
+            "full_name": "iphydf/c-toxcore",
+            "git_commits_url": "https://api.github.com/repos/iphydf/c-toxcore/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/iphydf/c-toxcore/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/iphydf/c-toxcore/git/tags{/sha}",
+            "git_url": "git://github.com/iphydf/c-toxcore.git",
+            "has_discussions": false,
+            "has_downloads": false,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": false,
+            "has_wiki": false,
+            "homepage": "https://tox.chat/",
+            "hooks_url": "https://api.github.com/repos/iphydf/c-toxcore/hooks",
+            "html_url": "https://github.com/iphydf/c-toxcore",
+            "id": 62716866,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/iphydf/c-toxcore/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/iphydf/c-toxcore/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/iphydf/c-toxcore/issues{/number}",
+            "keys_url": "https://api.github.com/repos/iphydf/c-toxcore/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/iphydf/c-toxcore/labels{/name}",
+            "language": "C",
+            "languages_url": "https://api.github.com/repos/iphydf/c-toxcore/languages",
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "node_id": "MDc6TGljZW5zZTk=",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0"
+            },
+            "merges_url": "https://api.github.com/repos/iphydf/c-toxcore/merges",
+            "milestones_url": "https://api.github.com/repos/iphydf/c-toxcore/milestones{/number}",
+            "mirror_url": null,
+            "name": "c-toxcore",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2MjcxNjg2Ng==",
+            "notifications_url": "https://api.github.com/repos/iphydf/c-toxcore/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
+            "pushed_at": "2025-01-24T20:59:53Z",
+            "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
+            "size": 19513,
+            "ssh_url": "git@github.com:iphydf/c-toxcore.git",
+            "stargazers_count": 3,
+            "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
+            "statuses_url": "https://api.github.com/repos/iphydf/c-toxcore/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/iphydf/c-toxcore/subscribers",
+            "subscription_url": "https://api.github.com/repos/iphydf/c-toxcore/subscription",
+            "svn_url": "https://github.com/iphydf/c-toxcore",
+            "tags_url": "https://api.github.com/repos/iphydf/c-toxcore/tags",
+            "teams_url": "https://api.github.com/repos/iphydf/c-toxcore/teams",
+            "topics": [
+                "cryptography",
+                "encryption",
+                "network",
+                "p2p",
+                "security",
+                "toxcore"
+            ],
+            "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
+            "updated_at": "2025-01-24T14:42:33Z",
+            "url": "https://api.github.com/repos/iphydf/c-toxcore",
+            "visibility": "public",
+            "watchers": 3,
+            "watchers_count": 3,
+            "web_commit_signoff_required": false
+        },
+        "sha": "317456f1fc76385746ec576672d3d32104c77b8b",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        }
+    },
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/1446",
+    "id": 409155505,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1446",
+    "labels": [],
+    "locked": false,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": null,
+    "mergeable": false,
+    "mergeable_state": "dirty",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
+    "milestone": {
+        "closed_at": "2020-05-01T20:57:09Z",
+        "closed_issues": 43,
+        "created_at": "2020-05-01T10:12:57Z",
+        "creator": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+            "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+            "followers_url": "https://api.github.com/users/robinlinden/followers",
+            "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+            "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/robinlinden",
+            "id": 8304462,
+            "login": "robinlinden",
+            "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+            "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+            "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+            "repos_url": "https://api.github.com/users/robinlinden/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/robinlinden",
+            "user_view_type": "public"
+        },
+        "description": "",
+        "due_on": null,
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/41",
+        "id": 5370678,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/41/labels",
+        "node_id": "MDk6TWlsZXN0b25lNTM3MDY3OA==",
+        "number": 41,
+        "open_issues": 0,
+        "state": "closed",
+        "title": "v0.2.12",
+        "updated_at": "2020-05-01T20:57:09Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/41"
+    },
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NDA5MTU1NTA1",
+    "number": 1446,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/1446.patch",
+    "rebaseable": false,
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
+    "review_comments": 0,
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1446/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/317456f1fc76385746ec576672d3d32104c77b8b",
+    "title": "Udp dht group chats",
+    "updated_at": "2020-05-01T10:20:27Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1446",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    }
+}
