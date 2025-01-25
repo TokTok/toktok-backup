@@ -1,0 +1,46 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+load("@rules_haskell//haskell:defs.bzl", "haskell_binary")
+load("//third_party/qt:build_defs.bzl", "qt_binary")
+
+cc_binary(
+    name = "load",
+    srcs = ["load.cpp"],
+    deps = ["@json"],
+)
+
+cc_binary(
+    name = "load_hastur",
+    srcs = [
+        "json/json.h",
+        "load_hastur.cpp",
+        "unicode/util.h",
+        "util/from_chars.h",
+    ],
+    includes = ["."],
+)
+
+cc_binary(
+    name = "load_simd",
+    srcs = ["load_simd.cpp"],
+    deps = ["@simdjson"],
+)
+
+qt_binary(
+    name = "load_qt",
+    srcs = ["load_qt.cpp"],
+    deps = ["@qt//:qt_core"],
+)
+
+haskell_binary(
+    name = "load_hs",
+    srcs = ["load.hs"],
+    tags = ["haskell"],
+    deps = [
+        "//third_party/haskell:aeson",
+        "//third_party/haskell:base",
+        "//third_party/haskell:bytestring",
+        "//third_party/haskell:directory",
+        "//third_party/haskell:filepath",
+        "//third_party/haskell:text",
+    ],
+)
