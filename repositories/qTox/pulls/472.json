@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/472"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/cddacf70fdc96efaeb5e704fa3f9543618d8ef30"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/0b7d1439c3e87a89677c3f977890dd7bfa4c715b"
         }
     },
     "active_lock_reason": null,
-    "additions": 185,
+    "additions": 190,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -95,8 +95,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 39,
-            "open_issues_count": 39,
+            "open_issues": 40,
+            "open_issues_count": 40,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,7 +120,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2025-01-25T10:33:41Z",
+            "pushed_at": "2025-01-25T15:20:11Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
             "size": 60945,
             "ssh_url": "git@github.com:TokTok/qTox.git",
@@ -168,7 +168,7 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/qTox/472)\n<!-- Reviewable:end -->\n",
-    "changed_files": 53,
+    "changed_files": 54,
     "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [],
@@ -197,7 +197,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/cddacf70fdc96efaeb5e704fa3f9543618d8ef30/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/0b7d1439c3e87a89677c3f977890dd7bfa4c715b/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-23T17:12:00Z",
@@ -206,22 +206,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-25T10:33:29Z",
+                    "date": "2025-01-25T15:20:03Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "cleanup: Enable some more modernize clang-tidy checks.",
                 "tree": {
-                    "sha": "3f13960db73f9d80482ff70a68bcef11a857430b",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/3f13960db73f9d80482ff70a68bcef11a857430b"
+                    "sha": "e3a8308567e6b6ce416446e880b8eb38d9d4bbb3",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/e3a8308567e6b6ce416446e880b8eb38d9d4bbb3"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/cddacf70fdc96efaeb5e704fa3f9543618d8ef30",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/0b7d1439c3e87a89677c3f977890dd7bfa4c715b",
                 "verification": {
-                    "payload": "tree 3f13960db73f9d80482ff70a68bcef11a857430b\nparent 464939aff9163d7e10e77af9c49659490f2821e2\nauthor iphydf <iphydf@users.noreply.github.com> 1737652320 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737801209 +0000\n\ncleanup: Enable some more modernize clang-tidy checks.\n",
+                    "payload": "tree e3a8308567e6b6ce416446e880b8eb38d9d4bbb3\nparent 464939aff9163d7e10e77af9c49659490f2821e2\nauthor iphydf <iphydf@users.noreply.github.com> 1737652320 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737818403 +0000\n\ncleanup: Enable some more modernize clang-tidy checks.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeUvfkACgkQOFXbotdE\nA8l1swf/WVbArvaaO4Lysrq7nMHA7/F85QtU972B/ZzPiEPX4EsDRdUFqssdau5x\nX/MB2QAi9yaMizvtGnx+nfWFIa3l6Oi+L6AurbLaLSlxkWTKdsGq2wecCriXnIdn\no6x3xJVpGlYsLQO/GnDI95fMFDWV6yxGWuOfRBB2/04U7jNPyaBmvzlBp1r3kBEG\nwO/QCIUs8MK93YpQBb1LamgdrUk3j7kGc2WqET7MjjjavjMcQEln1OxOKbDOiPS3\ndN46Z7GOj4cdgPxwb+VDgzAa2p55mafCBjQATYAqkSCs4D8grw8SXDFJVA8zJZIO\nG29/OjiFVIdqM4kstlUF1Gzw0RSRdw==\n=Y4pS\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeVASMACgkQOFXbotdE\nA8ncrwf8CSnUz3mfU9+7veTJ1H0x1BQsQCU4AmlJSnRjyEqUVZtmj20a0PIHY60v\nsAre5QAjYJMwkZWGoMSdn28A6t89FmqEONsu5oodInEYdPaaFG7KJEj9VG05ilNp\nh/cAIMSkunGXy3Cw6d/LaYmMOvb/a/aUwQM8FUupuz3EPF8jNoIvS1L2WQwAsq0b\nP40sRoQ499H5X30QvonO86CQknvkKlnjMmvjOus6PQ04S5Rv1NcoeI6T9eI52Lyg\nT6v4KzFPOZhGrmJs3Ca4OKNk9uaAaRGJzBsKtndiGI6zBKKE7mtd4lfdOBubptn5\nyFA6zyc30iniigu1eTjmWzGU/6gWlQ==\n=LBAJ\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-25T10:33:37Z"
+                    "verified_at": "2025-01-25T15:20:06Z"
                 }
             },
             "committer": {
@@ -245,8 +245,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/cddacf70fdc96efaeb5e704fa3f9543618d8ef30",
-            "node_id": "C_kwDOBF7DatoAKGNkZGFjZjcwZmRjOTZlZmFlYjVlNzA0ZmEzZjk1NDM2MThkOGVmMzA",
+            "html_url": "https://github.com/TokTok/qTox/commit/0b7d1439c3e87a89677c3f977890dd7bfa4c715b",
+            "node_id": "C_kwDOBF7DatoAKDBiN2QxNDM5YzNlODdhODk2NzdjM2Y5Nzc4OTBkZDdiZmE0YzcxNWI",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/qTox/commit/464939aff9163d7e10e77af9c49659490f2821e2",
@@ -254,8 +254,8 @@
                     "url": "https://api.github.com/repos/TokTok/qTox/commits/464939aff9163d7e10e77af9c49659490f2821e2"
                 }
             ],
-            "sha": "cddacf70fdc96efaeb5e704fa3f9543618d8ef30",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/cddacf70fdc96efaeb5e704fa3f9543618d8ef30"
+            "sha": "0b7d1439c3e87a89677c3f977890dd7bfa4c715b",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/0b7d1439c3e87a89677c3f977890dd7bfa4c715b"
         }
     ],
     "commits": 1,
@@ -353,7 +353,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
-            "pushed_at": "2025-01-25T10:33:35Z",
+            "pushed_at": "2025-01-25T15:20:04Z",
             "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
             "size": 55405,
             "ssh_url": "git@github.com:iphydf/qTox.git",
@@ -377,7 +377,7 @@
             "watchers_count": 2,
             "web_commit_signoff_required": false
         },
-        "sha": "cddacf70fdc96efaeb5e704fa3f9543618d8ef30",
+        "sha": "0b7d1439c3e87a89677c3f977890dd7bfa4c715b",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -416,7 +416,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "6ff36ed46ba589d68d0567973c31c8a715af930b",
+    "merge_commit_sha": "2355d3fe45231a7cbeba19106306b60a1bf33a77",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -470,9 +470,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/472/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/cddacf70fdc96efaeb5e704fa3f9543618d8ef30",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/0b7d1439c3e87a89677c3f977890dd7bfa4c715b",
     "title": "cleanup: Enable some more modernize clang-tidy checks.",
-    "updated_at": "2025-01-25T10:33:47Z",
+    "updated_at": "2025-01-25T15:20:17Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/472",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
