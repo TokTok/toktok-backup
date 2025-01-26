@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/issues/10/comments"
+            "href": "https://api.github.com/repos/TokTok/tokhub/issues/14/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/10/commits"
+            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/14/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/tokhub/pull/10"
+            "href": "https://github.com/TokTok/tokhub/pull/14"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/issues/10"
+            "href": "https://api.github.com/repos/TokTok/tokhub/issues/14"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/tokhub/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/10/comments"
+            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/14/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/10"
+            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/14"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/statuses/184e9e92c67668d7ebbdd4c39a5f338b254baf62"
+            "href": "https://api.github.com/repos/TokTok/tokhub/statuses/eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4"
         }
     },
     "active_lock_reason": null,
-    "additions": 48,
+    "additions": 3,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -183,7 +183,7 @@
             "watchers_count": 1,
             "web_commit_signoff_required": false
         },
-        "sha": "511599bdf6ff38a356e9cda10c47b09a25c26ec0",
+        "sha": "34003ea370d21b2db03d80a0cd3691138ac06e96",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -206,13 +206,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/tokhub/10)\n<!-- Reviewable:end -->\n",
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/tokhub/14)\n<!-- Reviewable:end -->\n",
     "changed_files": 1,
-    "closed_at": "2025-01-26T11:49:00Z",
+    "closed_at": "2025-01-26T13:33:32Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/tokhub/issues/10/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/tokhub/issues/14/comments",
     "commit_data": [
         {
             "author": {
@@ -236,31 +236,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/tokhub/commits/184e9e92c67668d7ebbdd4c39a5f338b254baf62/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/tokhub/commits/eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-26T11:02:19Z",
+                    "date": "2025-01-26T13:25:06Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-26T11:02:19Z",
+                    "date": "2025-01-26T13:25:06Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Add GitHub pages deploy workflow.",
+                "message": "fix(Settings): Correctly load settings from DB.",
                 "tree": {
-                    "sha": "b145fa0e2379397c24b2988130cc06b3c67a0753",
-                    "url": "https://api.github.com/repos/TokTok/tokhub/git/trees/b145fa0e2379397c24b2988130cc06b3c67a0753"
+                    "sha": "4057f0e2aa6058f791c693991c6c7fd24c0a58a5",
+                    "url": "https://api.github.com/repos/TokTok/tokhub/git/trees/4057f0e2aa6058f791c693991c6c7fd24c0a58a5"
                 },
-                "url": "https://api.github.com/repos/TokTok/tokhub/git/commits/184e9e92c67668d7ebbdd4c39a5f338b254baf62",
+                "url": "https://api.github.com/repos/TokTok/tokhub/git/commits/eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4",
                 "verification": {
-                    "payload": "tree b145fa0e2379397c24b2988130cc06b3c67a0753\nparent 511599bdf6ff38a356e9cda10c47b09a25c26ec0\nauthor iphydf <iphydf@users.noreply.github.com> 1737889339 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737889339 +0000\n\nchore: Add GitHub pages deploy workflow.\n",
+                    "payload": "tree 4057f0e2aa6058f791c693991c6c7fd24c0a58a5\nparent 34003ea370d21b2db03d80a0cd3691138ac06e96\nauthor iphydf <iphydf@users.noreply.github.com> 1737897906 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737897906 +0000\n\nfix(Settings): Correctly load settings from DB.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeWFkYACgkQOFXbotdE\nA8kuvAf+OuDEvSt/NL6Ta/Gz0OXmDWqf0jEyF1kj0HX08K1ZRdThWHWAhXpdiGU1\npmFlnwIXz14FyC4eiMgKgWsIbdGFSaYqEJmKfI8eJbQvsoppfXm+eHMHNwi6WNYC\nswnP6YwLahaIGWFrdyjS/pwRzRsf00hdtSS6AYyFMIRQAXXiePUE9M687lDWdSyh\nPNAZuZiFbB4fuBot/Jyq0EBZHIU004+qKiVbS+G92fix9IMz1UBjgde8Y/LRphLd\nhgL450rKZ/ogA07AlNUgQaAwjBREHrvohkInfJ51vuuufMXLDX3l0zN2FLss2vAz\ncOrI8mCnCy78ElW0myIhsoSP9MN5yQ==\n=8yks\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeWN7sACgkQOFXbotdE\nA8mVXQgAiSX197jXTwaZLeyV9XzDOvqM4pQP2cQxnKzFvMexFSztl5R8/LIh6GbI\nZ4EO+OulTOPU77x4T70NknaCquFGxnNj63wrDTj1UkbmMdK5PJnXYmXbr4JZtiJZ\nqrnOrsYTff9H7Jyw5KJL3gvafeWgP/qMcWKbMn8XNett2zQb8eyKqawwI55QARtU\ni5UczFsFUCCfeS+0WKHlevxZk0aNfNYAdk1JlmtzkNA4xNNRHH+cR2n0r4UOOvlg\n5Ir7sAfUa30i6qvILxYbI4PK1E7BcHg/tvJXPR8/4KYCzlHTs2Xw/N7k/wD1aC5l\nwtwP2VFPMUv2+UY1B5Xdpx/erUCRSg==\n=R+/x\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-26T11:02:39Z"
+                    "verified_at": "2025-01-26T13:25:19Z"
                 }
             },
             "committer": {
@@ -284,28 +284,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/tokhub/commit/184e9e92c67668d7ebbdd4c39a5f338b254baf62",
-            "node_id": "C_kwDONMGek9oAKDE4NGU5ZTkyYzY3NjY4ZDdlYmJkZDRjMzlhNWYzMzhiMjU0YmFmNjI",
+            "html_url": "https://github.com/TokTok/tokhub/commit/eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4",
+            "node_id": "C_kwDONMGek9oAKGVhZWE2MzcxZmUzZWE0NmYwZmRlYTZiNTZmODRiOWY1YzBhN2Q2YjQ",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/tokhub/commit/511599bdf6ff38a356e9cda10c47b09a25c26ec0",
-                    "sha": "511599bdf6ff38a356e9cda10c47b09a25c26ec0",
-                    "url": "https://api.github.com/repos/TokTok/tokhub/commits/511599bdf6ff38a356e9cda10c47b09a25c26ec0"
+                    "html_url": "https://github.com/TokTok/tokhub/commit/34003ea370d21b2db03d80a0cd3691138ac06e96",
+                    "sha": "34003ea370d21b2db03d80a0cd3691138ac06e96",
+                    "url": "https://api.github.com/repos/TokTok/tokhub/commits/34003ea370d21b2db03d80a0cd3691138ac06e96"
                 }
             ],
-            "sha": "184e9e92c67668d7ebbdd4c39a5f338b254baf62",
-            "url": "https://api.github.com/repos/TokTok/tokhub/commits/184e9e92c67668d7ebbdd4c39a5f338b254baf62"
+            "sha": "eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4",
+            "url": "https://api.github.com/repos/TokTok/tokhub/commits/eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/tokhub/pulls/10/commits",
-    "created_at": "2025-01-26T11:02:37Z",
-    "deletions": 0,
-    "diff_url": "https://github.com/TokTok/tokhub/pull/10.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/tokhub/pulls/14/commits",
+    "created_at": "2025-01-26T13:25:23Z",
+    "deletions": 1,
+    "diff_url": "https://github.com/TokTok/tokhub/pull/14.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:pages",
-        "ref": "pages",
+        "label": "iphydf:settings",
+        "ref": "settings",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/tokhub/{archive_format}{/ref}",
@@ -413,7 +413,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "184e9e92c67668d7ebbdd4c39a5f338b254baf62",
+        "sha": "eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -436,27 +436,27 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/tokhub/pull/10",
-    "id": 2298537967,
-    "issue_url": "https://api.github.com/repos/TokTok/tokhub/issues/10",
+    "html_url": "https://github.com/TokTok/tokhub/pull/14",
+    "id": 2298621816,
+    "issue_url": "https://api.github.com/repos/TokTok/tokhub/issues/14",
     "labels": [
         {
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Updating grunt tasks etc; no production code change",
-            "id": 7939076272,
-            "name": "chore",
-            "node_id": "LA_kwDONMGdTc8AAAAB2TSwsA",
-            "url": "https://api.github.com/repos/TokTok/tokhub/labels/chore"
+            "color": "ee0701",
+            "default": true,
+            "description": "Bug fix for the user, not a fix to a build script",
+            "id": 7716815385,
+            "name": "bug",
+            "node_id": "LA_kwDONMGdTc8AAAABy_VCGQ",
+            "url": "https://api.github.com/repos/TokTok/tokhub/labels/bug"
         }
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "184e9e92c67668d7ebbdd4c39a5f338b254baf62",
+    "merge_commit_sha": "eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-01-26T11:49:00Z",
+    "merged_at": "2025-01-26T13:33:32Z",
     "merged_by": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -516,20 +516,20 @@
         "updated_at": "2025-01-26T14:08:41Z",
         "url": "https://api.github.com/repos/TokTok/tokhub/milestones/1"
     },
-    "node_id": "PR_kwDONMGdTc6JAOfv",
-    "number": 10,
-    "patch_url": "https://github.com/TokTok/tokhub/pull/10.patch",
+    "node_id": "PR_kwDONMGdTc6JAi94",
+    "number": 14,
+    "patch_url": "https://github.com/TokTok/tokhub/pull/14.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/tokhub/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/tokhub/pulls/10/comments",
+    "review_comments_url": "https://api.github.com/repos/TokTok/tokhub/pulls/14/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/tokhub/statuses/184e9e92c67668d7ebbdd4c39a5f338b254baf62",
-    "title": "chore: Add GitHub pages deploy workflow.",
-    "updated_at": "2025-01-26T11:49:03Z",
-    "url": "https://api.github.com/repos/TokTok/tokhub/pulls/10",
+    "statuses_url": "https://api.github.com/repos/TokTok/tokhub/statuses/eaea6371fe3ea46f0fdea6b56f84b9f5c0a7d6b4",
+    "title": "fix(Settings): Correctly load settings from DB.",
+    "updated_at": "2025-01-26T13:33:35Z",
+    "url": "https://api.github.com/repos/TokTok/tokhub/pulls/14",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
