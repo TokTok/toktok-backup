@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/issues/15/comments"
+            "href": "https://api.github.com/repos/TokTok/tokhub/issues/16/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/15/commits"
+            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/16/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/tokhub/pull/15"
+            "href": "https://github.com/TokTok/tokhub/pull/16"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/issues/15"
+            "href": "https://api.github.com/repos/TokTok/tokhub/issues/16"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/tokhub/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/15/comments"
+            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/16/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/15"
+            "href": "https://api.github.com/repos/TokTok/tokhub/pulls/16"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/tokhub/statuses/bc3261bac5ba4de50396039fa49f423e5513e5a1"
+            "href": "https://api.github.com/repos/TokTok/tokhub/statuses/e102698526355c3e20ec7cefd8b7d0030f9ca2f4"
         }
     },
     "active_lock_reason": null,
-    "additions": 30,
+    "additions": 13,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -183,7 +183,7 @@
             "watchers_count": 1,
             "web_commit_signoff_required": false
         },
-        "sha": "0ef999dc5b0fe50dc5ec62277f979d8528522024",
+        "sha": "bc3261bac5ba4de50396039fa49f423e5513e5a1",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -206,13 +206,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/tokhub/15)\n<!-- Reviewable:end -->\n",
-    "changed_files": 1,
-    "closed_at": "2025-01-26T14:20:54Z",
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/tokhub/16)\n<!-- Reviewable:end -->\n",
+    "changed_files": 2,
+    "closed_at": "2025-01-26T14:36:42Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/tokhub/issues/15/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/tokhub/issues/16/comments",
     "commit_data": [
         {
             "author": {
@@ -236,31 +236,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/tokhub/commits/bc3261bac5ba4de50396039fa49f423e5513e5a1/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/tokhub/commits/e102698526355c3e20ec7cefd8b7d0030f9ca2f4/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-26T14:04:53Z",
+                    "date": "2025-01-26T14:21:29Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-26T14:08:44Z",
+                    "date": "2025-01-26T14:28:25Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "fix(Debug): Properly show file/line source on web logging.",
+                "message": "fix(Web): Use colourful emojis on the web.",
                 "tree": {
-                    "sha": "d18662c163ec14727e9adf82b9f477584e9c23b1",
-                    "url": "https://api.github.com/repos/TokTok/tokhub/git/trees/d18662c163ec14727e9adf82b9f477584e9c23b1"
+                    "sha": "48afb3afef62dc987bccff89ed7cbcc70842569f",
+                    "url": "https://api.github.com/repos/TokTok/tokhub/git/trees/48afb3afef62dc987bccff89ed7cbcc70842569f"
                 },
-                "url": "https://api.github.com/repos/TokTok/tokhub/git/commits/bc3261bac5ba4de50396039fa49f423e5513e5a1",
+                "url": "https://api.github.com/repos/TokTok/tokhub/git/commits/e102698526355c3e20ec7cefd8b7d0030f9ca2f4",
                 "verification": {
-                    "payload": "tree d18662c163ec14727e9adf82b9f477584e9c23b1\nparent 0ef999dc5b0fe50dc5ec62277f979d8528522024\nauthor iphydf <iphydf@users.noreply.github.com> 1737900293 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737900524 +0000\n\nfix(Debug): Properly show file/line source on web logging.\n",
+                    "payload": "tree 48afb3afef62dc987bccff89ed7cbcc70842569f\nparent bc3261bac5ba4de50396039fa49f423e5513e5a1\nauthor iphydf <iphydf@users.noreply.github.com> 1737901289 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737901705 +0000\n\nfix(Web): Use colourful emojis on the web.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeWQewACgkQOFXbotdE\nA8mZPgf+J1IT8VhUwvX0hwG8Me4wDY+k8b5oK7ypbLDki4z83OH5rN3GovTRVk6Z\nlzNeSlotmr5XxmyHRw0tkIIEsxesTi1xD4XRr523g4eqphDSMgi4AMd5RLXMIQcT\n6R3SzrSXShUp2uL5d1RCrM7jIGyJCvNJyNCpaT1/kr40iqDW7+uLsaQyKWvUv7Ai\nm8Oph8c+CDaoYLILagBljuNJpPN0fSwMWzQmu9UbP9HFXZ8UD0nRtohKlBIDq8wz\nmfld21A0JozGaIBPXXEwApqtK3saW+hKGI9lECsJAgHnoqgIiL9vx6ICjeBcePDV\neczt7fGu9UeJmJ/WepaOJyxo4BOzTA==\n=zAXv\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeWRokACgkQOFXbotdE\nA8lo3wf+KKl5IICoggzsWWJisiBv4nnnIKTPGq9g44kEXDL4lN/WV3dVkrMfdz/5\ngl85ZZW7P6K6//10TuC1wF3AU/+faHsR9smTzbCscNczHUPuDXOZUbcD0tFsSM35\n80lzp/DbuOoT9swEdq3fkAkNnuPodw806hZviTfc4xAdaJAyEu2ahAZNtqiTdgaq\nQtaByoYVdKLzqu/7e1fCuoOmUZtLmNv3gStR8yYUYkaHCSmnjPeweS4gNzvyP9Gn\nWA+orgEAhKHQ+RtaeBUdgJs+8W143wO3sstVFhaqzc2ntKp2d017sFCba2CKVgtZ\nejQ63+BXF9sbWCKO9AcKIyYoPc8BDw==\n=CkxE\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-26T14:08:48Z"
+                    "verified_at": "2025-01-26T14:28:28Z"
                 }
             },
             "committer": {
@@ -284,28 +284,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/tokhub/commit/bc3261bac5ba4de50396039fa49f423e5513e5a1",
-            "node_id": "C_kwDONMGek9oAKGJjMzI2MWJhYzViYTRkZTUwMzk2MDM5ZmE0OWY0MjNlNTUxM2U1YTE",
+            "html_url": "https://github.com/TokTok/tokhub/commit/e102698526355c3e20ec7cefd8b7d0030f9ca2f4",
+            "node_id": "C_kwDONMGek9oAKGUxMDI2OTg1MjYzNTVjM2UyMGVjN2NlZmQ4YjdkMDAzMGY5Y2EyZjQ",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/tokhub/commit/0ef999dc5b0fe50dc5ec62277f979d8528522024",
-                    "sha": "0ef999dc5b0fe50dc5ec62277f979d8528522024",
-                    "url": "https://api.github.com/repos/TokTok/tokhub/commits/0ef999dc5b0fe50dc5ec62277f979d8528522024"
+                    "html_url": "https://github.com/TokTok/tokhub/commit/bc3261bac5ba4de50396039fa49f423e5513e5a1",
+                    "sha": "bc3261bac5ba4de50396039fa49f423e5513e5a1",
+                    "url": "https://api.github.com/repos/TokTok/tokhub/commits/bc3261bac5ba4de50396039fa49f423e5513e5a1"
                 }
             ],
-            "sha": "bc3261bac5ba4de50396039fa49f423e5513e5a1",
-            "url": "https://api.github.com/repos/TokTok/tokhub/commits/bc3261bac5ba4de50396039fa49f423e5513e5a1"
+            "sha": "e102698526355c3e20ec7cefd8b7d0030f9ca2f4",
+            "url": "https://api.github.com/repos/TokTok/tokhub/commits/e102698526355c3e20ec7cefd8b7d0030f9ca2f4"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/tokhub/pulls/15/commits",
-    "created_at": "2025-01-26T14:05:20Z",
-    "deletions": 4,
-    "diff_url": "https://github.com/TokTok/tokhub/pull/15.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/tokhub/pulls/16/commits",
+    "created_at": "2025-01-26T14:21:48Z",
+    "deletions": 0,
+    "diff_url": "https://github.com/TokTok/tokhub/pull/16.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:stacktrace",
-        "ref": "stacktrace",
+        "label": "iphydf:emoji",
+        "ref": "emoji",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/tokhub/{archive_format}{/ref}",
@@ -413,7 +413,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "bc3261bac5ba4de50396039fa49f423e5513e5a1",
+        "sha": "e102698526355c3e20ec7cefd8b7d0030f9ca2f4",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -436,9 +436,9 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/tokhub/pull/15",
-    "id": 2298639573,
-    "issue_url": "https://api.github.com/repos/TokTok/tokhub/issues/15",
+    "html_url": "https://github.com/TokTok/tokhub/pull/16",
+    "id": 2298646737,
+    "issue_url": "https://api.github.com/repos/TokTok/tokhub/issues/16",
     "labels": [
         {
             "color": "ee0701",
@@ -452,11 +452,11 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "bc3261bac5ba4de50396039fa49f423e5513e5a1",
+    "merge_commit_sha": "e102698526355c3e20ec7cefd8b7d0030f9ca2f4",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-01-26T14:20:54Z",
+    "merged_at": "2025-01-26T14:36:42Z",
     "merged_by": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -516,20 +516,20 @@
         "updated_at": "2025-01-26T18:19:10Z",
         "url": "https://api.github.com/repos/TokTok/tokhub/milestones/1"
     },
-    "node_id": "PR_kwDONMGdTc6JAnTV",
-    "number": 15,
-    "patch_url": "https://github.com/TokTok/tokhub/pull/15.patch",
+    "node_id": "PR_kwDONMGdTc6JApDR",
+    "number": 16,
+    "patch_url": "https://github.com/TokTok/tokhub/pull/16.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/tokhub/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/tokhub/pulls/15/comments",
+    "review_comments_url": "https://api.github.com/repos/TokTok/tokhub/pulls/16/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/tokhub/statuses/bc3261bac5ba4de50396039fa49f423e5513e5a1",
-    "title": "fix(Debug): Properly show file/line source on web logging.",
-    "updated_at": "2025-01-26T14:20:58Z",
-    "url": "https://api.github.com/repos/TokTok/tokhub/pulls/15",
+    "statuses_url": "https://api.github.com/repos/TokTok/tokhub/statuses/e102698526355c3e20ec7cefd8b7d0030f9ca2f4",
+    "title": "fix(Web): Use colourful emojis on the web.",
+    "updated_at": "2025-01-26T14:36:44Z",
+    "url": "https://api.github.com/repos/TokTok/tokhub/pulls/16",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
