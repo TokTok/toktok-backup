@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/205/comments"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/213/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/205/commits"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/213/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/js-toxcore-c/pull/205"
+            "href": "https://github.com/TokTok/js-toxcore-c/pull/213"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/205"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/213"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/205/comments"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/213/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/205"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/213"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/8aa265861a1175233a2d9faf57a259b60427cef8"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6"
         }
     },
     "active_lock_reason": null,
-    "additions": 3,
+    "additions": 3089,
     "assignee": null,
     "assignees": [],
     "author_association": "NONE",
@@ -144,7 +144,7 @@
             "watchers_count": 19,
             "web_commit_signoff_required": false
         },
-        "sha": "39e72c7637ffffeb8d11e547cc00792b7353b7cd",
+        "sha": "1a43e4cd78471dbe5eb5ce0a700461f58bdd7090",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -167,13 +167,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "Bumps [async](https://github.com/caolan/async) from 3.2.5 to 3.2.6.\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/caolan/async/commit/85fb18f3d319d14d893ec24648929ff0eb908768\"><code>85fb18f</code></a> Version 3.2.6</li>\n<li><a href=\"https://github.com/caolan/async/commit/8c0c94152ff20e9b4aeff5d00244ec41dd78b66b\"><code>8c0c941</code></a> Update built files</li>\n<li><a href=\"https://github.com/caolan/async/commit/5f756b4470d91778702cace5f5fce8060aeb7ad6\"><code>5f756b4</code></a> Fix ReDoS (<a href=\"https://redirect.github.com/caolan/async/issues/1980\">#1980</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/39cdc9bd72046045b3f02f77da0dbca5028ba8fd\"><code>39cdc9b</code></a> build(deps-dev): bump karma from 6.4.3 to 6.4.4 (<a href=\"https://redirect.github.com/caolan/async/issues/1985\">#1985</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/7b8ddeb976124ba110de5923ce40512d4f3369b1\"><code>7b8ddeb</code></a> build(deps-dev): bump <code>@​babel/core</code> from 7.24.7 to 7.25.2 (<a href=\"https://redirect.github.com/caolan/async/issues/1981\">#1981</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/4634a9d26a8112500fb8ecbb67a1c78d735011c2\"><code>4634a9d</code></a> build(deps-dev): bump rollup from 4.18.0 to 4.19.2 (<a href=\"https://redirect.github.com/caolan/async/issues/1982\">#1982</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/afb176c15be82a217ad198c5e7dee303a551705c\"><code>afb176c</code></a> build(deps-dev): bump chai from 4.4.1 to 4.5.0 (<a href=\"https://redirect.github.com/caolan/async/issues/1983\">#1983</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/3568a74de7ab5bcbe20756cc9c5d631cf26e2e65\"><code>3568a74</code></a> build(deps-dev): bump <code>@​babel/eslint-parser</code> from 7.24.7 to 7.25.1 (<a href=\"https://redirect.github.com/caolan/async/issues/1984\">#1984</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/9e885fda800b93b67f2e046db6ce154dfc4f613a\"><code>9e885fd</code></a> build(deps-dev): bump babel-plugin-istanbul from 6.1.1 to 7.0.0 (<a href=\"https://redirect.github.com/caolan/async/issues/1986\">#1986</a>)</li>\n<li><a href=\"https://github.com/caolan/async/commit/f9c7f2a06e515690186ce4108715085d6a7d1b69\"><code>f9c7f2a</code></a> build(deps-dev): bump semver from 7.6.2 to 7.6.3 (<a href=\"https://redirect.github.com/caolan/async/issues/1987\">#1987</a>)</li>\n<li>Additional commits viewable in <a href=\"https://github.com/caolan/async/compare/v3.2.5...v3.2.6\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=async&package-manager=npm_and_yarn&previous-version=3.2.5&new-version=3.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nYou can trigger a rebase of this PR by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/js-toxcore-c/205)\n<!-- Reviewable:end -->\n\n> **Note**\n> Automatic rebases have been disabled on this pull request as it has been open for over 30 days.\n",
-    "changed_files": 1,
-    "closed_at": null,
+    "body": "Bumps [mocha](https://github.com/mochajs/mocha) from 10.4.0 to 11.1.0.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/mochajs/mocha/releases\">mocha's releases</a>.</em></p>\n<blockquote>\n<h2>v11.1.0</h2>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v11.0.2...v11.1.0\">11.1.0</a> (2025-01-02)</h2>\n<h3>🌟 Features</h3>\n<ul>\n<li>bump yargs to 17 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5165\">#5165</a>) (<a href=\"https://github.com/mochajs/mocha/commit/8f1c8d888b0104afcd95ca55a517320399755749\">8f1c8d8</a>)</li>\n</ul>\n<h2>v11.0.2</h2>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v11.0.1...v11.0.2\">11.0.2</a> (2024-12-09)</h2>\n<h3>🩹 Fixes</h3>\n<ul>\n<li>catch exceptions setting Error.stackTraceLimit (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5254\">#5254</a>) (<a href=\"https://github.com/mochajs/mocha/commit/259f8f8ba5709b5d84fa66e17cd10560a11f45c9\">259f8f8</a>)</li>\n<li>error handling for unexpected numeric arguments passed to cli (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5263\">#5263</a>) (<a href=\"https://github.com/mochajs/mocha/commit/210d658678a2ec3b6f85c59d4b300b4722671099\">210d658</a>)</li>\n</ul>\n<h3>📚 Documentation</h3>\n<ul>\n<li>correct outdated <code>status: accepting prs</code> link (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5268\">#5268</a>) (<a href=\"https://github.com/mochajs/mocha/commit/f729cd09b61bb598409f19b3c76b9e9536812237\">f729cd0</a>)</li>\n<li>replace &quot;New in&quot; with &quot;Since&quot; in version annotations (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5262\">#5262</a>) (<a href=\"https://github.com/mochajs/mocha/commit/6f10d12c6c6dfa4df7d5221a3ce688f687aaf320\">6f10d12</a>)</li>\n</ul>\n<h2>v11.0.1</h2>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v11.0.0...v11.0.1\">11.0.1</a> (2024-12-02)</h2>\n<h3>🌟 Features</h3>\n<ul>\n<li>bumped glob dependency from 8 to 10 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5250\">#5250</a>) (<a href=\"https://github.com/mochajs/mocha/commit/43c3157c6ef4f2d4bfecf3ad3a42479fd64187b8\">43c3157</a>)</li>\n</ul>\n<h3>📚 Documentation</h3>\n<ul>\n<li>fix examples for <code>linkPartialObjects</code> methods (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5255\">#5255</a>) (<a href=\"https://github.com/mochajs/mocha/commit/34e0e52e047a9119aeae9cb5b660a8438656a1e0\">34e0e52</a>)</li>\n</ul>\n<h2>v11.0.0 Prerelease</h2>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v10.8.2...v11.0.0\">11.0.0</a> (2024-11-11)</h2>\n<h3>⚠ BREAKING CHANGES</h3>\n<ul>\n<li>adapt new engine range for Mocha 11 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5216\">#5216</a>)</li>\n</ul>\n<h3>🌟 Features</h3>\n<ul>\n<li>allow calling hook methods (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5231\">#5231</a>) (<a href=\"https://github.com/mochajs/mocha/commit/e3da641b08bed20f12df524fc64cb9579f980c1e\">e3da641</a>)</li>\n</ul>\n<h3>🩹 Fixes</h3>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/mochajs/mocha/blob/main/CHANGELOG.md\">mocha's changelog</a>.</em></p>\n<blockquote>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v11.0.2...v11.1.0\">11.1.0</a> (2025-01-02)</h2>\n<h3>🌟 Features</h3>\n<ul>\n<li>bump yargs to 17 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5165\">#5165</a>) (<a href=\"https://github.com/mochajs/mocha/commit/8f1c8d888b0104afcd95ca55a517320399755749\">8f1c8d8</a>)</li>\n<li>replace <code>strip-ansi</code> with <code>util.stripVTControlCharacters</code> (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5267\">#5267</a>) (<a href=\"https://github.com/mochajs/mocha/commit/3c191c05d9db1e99aec9b600edac2ce10a6b6d71\">3c191c0</a>), closes <a href=\"https://redirect.github.com/mochajs/mocha/issues/5265\">#5265</a></li>\n</ul>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v11.0.1...v11.0.2\">11.0.2</a> (2024-12-09)</h2>\n<h3>🩹 Fixes</h3>\n<ul>\n<li>catch exceptions setting Error.stackTraceLimit (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5254\">#5254</a>) (<a href=\"https://github.com/mochajs/mocha/commit/259f8f8ba5709b5d84fa66e17cd10560a11f45c9\">259f8f8</a>)</li>\n<li>error handling for unexpected numeric arguments passed to cli (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5263\">#5263</a>) (<a href=\"https://github.com/mochajs/mocha/commit/210d658678a2ec3b6f85c59d4b300b4722671099\">210d658</a>)</li>\n</ul>\n<h3>📚 Documentation</h3>\n<ul>\n<li>correct outdated <code>status: accepting prs</code> link (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5268\">#5268</a>) (<a href=\"https://github.com/mochajs/mocha/commit/f729cd09b61bb598409f19b3c76b9e9536812237\">f729cd0</a>)</li>\n<li>replace &quot;New in&quot; with &quot;Since&quot; in version annotations (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5262\">#5262</a>) (<a href=\"https://github.com/mochajs/mocha/commit/6f10d12c6c6dfa4df7d5221a3ce688f687aaf320\">6f10d12</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v11.0.0...v11.0.1\">11.0.1</a> (2024-12-02)</h2>\n<h3>🌟 Features</h3>\n<ul>\n<li>bumped glob dependency from 8 to 10 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5250\">#5250</a>) (<a href=\"https://github.com/mochajs/mocha/commit/43c3157c6ef4f2d4bfecf3ad3a42479fd64187b8\">43c3157</a>)</li>\n</ul>\n<h3>📚 Documentation</h3>\n<ul>\n<li>fix examples for <code>linkPartialObjects</code> methods (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5255\">#5255</a>) (<a href=\"https://github.com/mochajs/mocha/commit/34e0e52e047a9119aeae9cb5b660a8438656a1e0\">34e0e52</a>)</li>\n</ul>\n<h2><a href=\"https://github.com/mochajs/mocha/compare/v10.8.2...v11.0.0\">11.0.0</a> (2024-11-11)</h2>\n<h3>⚠ BREAKING CHANGES</h3>\n<ul>\n<li>adapt new engine range for Mocha 11 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5216\">#5216</a>)</li>\n</ul>\n<h3>🌟 Features</h3>\n<ul>\n<li>allow calling hook methods (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5231\">#5231</a>) (<a href=\"https://github.com/mochajs/mocha/commit/e3da641b08bed20f12df524fc64cb9579f980c1e\">e3da641</a>)</li>\n</ul>\n<h3>🩹 Fixes</h3>\n<ul>\n<li>adapt new engine range for Mocha 11 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5216\">#5216</a>) (<a href=\"https://github.com/mochajs/mocha/commit/80da25a4132ca50d3ad35087cb62c9b0f8fc946a\">80da25a</a>)</li>\n</ul>\n<h3>📚 Documentation</h3>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/mochajs/mocha/commit/a87fb1130a877649e564e144a73b1716b6296cbd\"><code>a87fb11</code></a> chore(main): release 11.1.0 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5277\">#5277</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/3c191c05d9db1e99aec9b600edac2ce10a6b6d71\"><code>3c191c0</code></a> feat: replace <code>strip-ansi</code> with <code>util.stripVTControlCharacters</code> (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5267\">#5267</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/8f1c8d888b0104afcd95ca55a517320399755749\"><code>8f1c8d8</code></a> feat: bump yargs to 17 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5165\">#5165</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/6caa9026eb120b136dc8210614b31310f8bff83b\"><code>6caa902</code></a> chore(main): release 11.0.2 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5269\">#5269</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/259f8f8ba5709b5d84fa66e17cd10560a11f45c9\"><code>259f8f8</code></a> fix: catch exceptions setting Error.stackTraceLimit (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5254\">#5254</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/210d658678a2ec3b6f85c59d4b300b4722671099\"><code>210d658</code></a> fix: error handling for unexpected numeric arguments passed to cli (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5263\">#5263</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/6f10d12c6c6dfa4df7d5221a3ce688f687aaf320\"><code>6f10d12</code></a> docs: replace &quot;New in&quot; with &quot;Since&quot; in version annotations (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5262\">#5262</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/f729cd09b61bb598409f19b3c76b9e9536812237\"><code>f729cd0</code></a> docs: correct outdated <code>status: accepting prs</code> link (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5268\">#5268</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/4c558fb83ca5d7e260961b1ebfddcd377017a608\"><code>4c558fb</code></a> chore(main): release 11.0.1 (<a href=\"https://redirect.github.com/mochajs/mocha/issues/5257\">#5257</a>)</li>\n<li><a href=\"https://github.com/mochajs/mocha/commit/a5bd707301006a318f8fea205545d8779a1c94c5\"><code>a5bd707</code></a> Release v11.0.1</li>\n<li>Additional commits viewable in <a href=\"https://github.com/mochajs/mocha/compare/v10.4.0...v11.1.0\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mocha&package-manager=npm_and_yarn&previous-version=10.4.0&new-version=11.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/js-toxcore-c/213)\n<!-- Reviewable:end -->\n",
+    "changed_files": 2,
+    "closed_at": "2025-01-28T11:41:17Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/205/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/213/comments",
     "commit_data": [
         {
             "author": {
@@ -197,31 +197,31 @@
                 "url": "https://api.github.com/users/dependabot%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/8aa265861a1175233a2d9faf57a259b60427cef8/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6/comments",
             "commit": {
                 "author": {
-                    "date": "2024-11-11T16:13:14Z",
+                    "date": "2025-01-28T11:36:30Z",
                     "email": "49699333+dependabot[bot]@users.noreply.github.com",
                     "name": "dependabot[bot]"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2024-11-11T16:13:14Z",
+                    "date": "2025-01-28T11:36:30Z",
                     "email": "noreply@github.com",
                     "name": "GitHub"
                 },
-                "message": "Bump async from 3.2.5 to 3.2.6\n\nBumps [async](https://github.com/caolan/async) from 3.2.5 to 3.2.6.\n- [Release notes](https://github.com/caolan/async/releases)\n- [Changelog](https://github.com/caolan/async/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/caolan/async/compare/v3.2.5...v3.2.6)\n\n---\nupdated-dependencies:\n- dependency-name: async\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                "message": "Bump mocha from 10.4.0 to 11.1.0\n\nBumps [mocha](https://github.com/mochajs/mocha) from 10.4.0 to 11.1.0.\n- [Release notes](https://github.com/mochajs/mocha/releases)\n- [Changelog](https://github.com/mochajs/mocha/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/mochajs/mocha/compare/v10.4.0...v11.1.0)\n\n---\nupdated-dependencies:\n- dependency-name: mocha\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
                 "tree": {
-                    "sha": "56a4046b5dd9d97ead42e6950e73d47b769eb5b8",
-                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/trees/56a4046b5dd9d97ead42e6950e73d47b769eb5b8"
+                    "sha": "7e8c3b67b4b4ef366d2270a1923b69520636c0fe",
+                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/trees/7e8c3b67b4b4ef366d2270a1923b69520636c0fe"
                 },
-                "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/commits/8aa265861a1175233a2d9faf57a259b60427cef8",
+                "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/commits/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
                 "verification": {
-                    "payload": "tree 56a4046b5dd9d97ead42e6950e73d47b769eb5b8\nparent 39e72c7637ffffeb8d11e547cc00792b7353b7cd\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1731341594 +0000\ncommitter GitHub <noreply@github.com> 1731341594 +0000\n\nBump async from 3.2.5 to 3.2.6\n\nBumps [async](https://github.com/caolan/async) from 3.2.5 to 3.2.6.\n- [Release notes](https://github.com/caolan/async/releases)\n- [Changelog](https://github.com/caolan/async/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/caolan/async/compare/v3.2.5...v3.2.6)\n\n---\nupdated-dependencies:\n- dependency-name: async\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "payload": "tree 7e8c3b67b4b4ef366d2270a1923b69520636c0fe\nparent 1a43e4cd78471dbe5eb5ce0a700461f58bdd7090\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1738064190 +0000\ncommitter GitHub <noreply@github.com> 1738064190 +0000\n\nBump mocha from 10.4.0 to 11.1.0\n\nBumps [mocha](https://github.com/mochajs/mocha) from 10.4.0 to 11.1.0.\n- [Release notes](https://github.com/mochajs/mocha/releases)\n- [Changelog](https://github.com/mochajs/mocha/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/mochajs/mocha/compare/v10.4.0...v11.1.0)\n\n---\nupdated-dependencies:\n- dependency-name: mocha\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnMi0aCRC1aQ7uu5UhlAAA2mAQADtdW0Ysm0YdH9jGcWpp+731\ndyBrJmHe2ZD/ehbsRE5fJG4mUEBIx+5O7kLbb6w5x/5HBSyxOEuMTl0NhrkJBBVH\nosf6JO9Gha92ym6PelgJGIRVszoXI+1mQsNr1R1jQVs1ZdQOcAAJP+QB4P/5qrK4\nW3fwYJf9+hxWH9QW+bdWdU1PnyRXwuYqAAHA/GKPTjoV4RTqT7eOJiBiWWLuZbY5\nxntUOzMTHPjp6w22xOzLn4BZ+j9ZTieANkLQ6rZqamPWYivIqgvsFMGNvAxAEWB3\ne5zeSXB81HI713ABRnsTNk844m35r9M9G9dOXHqWjWaOQYQcXFfDxZS9P798mn4k\n2x+wDLPi2BSBPv4ENmXrdgaP1mUEeCNMx8sBVXYIZK/V7fUKXTtIoDbKMIMKk8NX\nEuk/+/TCBOuG4vI8GGdxvVqMQ0WxIOMSP45xiYGC6VW2IirB8PRcnZgcFofUuKXT\nSPb7fvFLEVUgoBxPzw+bknijY/s+JHAlFMdaXyXpw+JevMVC1g1SNeT/d9dOD+IR\nhLRayYuxo1tgjTbaluLpZgw/Y6wehk17kXH2BjuBbr3F5D5LJtuV4AeN7RIxxb1W\nXpJE+fUUQo//wEPgPRVS5ZYcSWPwPnwYi5rhj9iUK12thsZX63fcem8ayHmSr1zm\noJtDzEj8YOtwosS3vCeJ\n=YVuO\n-----END PGP SIGNATURE-----\n",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnmME+CRC1aQ7uu5UhlAAAgFoQAEn2o4rskiUGElqH4+207Cxc\nd0R3r7WFETaITTU8naADFMhop5PDZIDuj248m/Tmxg4pnEZOFp/zJg4LiBBWmKFg\nHLmh7wbtr4nfeSAbnkvu2mSlzzxw6VUcSfCF1HU7qASqd0MocDAaIth6IGgjI1lT\n2yzxcmNNxV+PhSo6t2FlnDxYZ/uENwmdfCS7HKTSCijmbNbaQNizQvOfumg8ZcBx\ncsOLHplFRTgG/Naepo2HiZWhVxslP/V4Tcjo0DMPJann7dUavlPsn5fyQbwEzezV\nqWTOtJLKBvdvNHSEyUCtuCytihkMO21Vc/W0l6H1I9C6epDok9yugMFuJT+v318i\n3LD1ZXH7ocf70pgH25NwsQyOmw2NYmlT8gnzZrjYF5DQFbipT60yWh3eP+RN2DZC\nX1uhELppQ3l1vMnHf/kxXImujoExs4NShHVI0yr+hts5Q1njSIgiPZunDRLBWGek\nTXu3XT6wyQtQVnpQdjGyme4E0/uR9BykizqhLN6np+5TTs3769FGPSS+2OXES09p\nLQOkFqWn8SDn5QWKI9qTABB240Dgzr+uIitR9Wlr9YaUu8l94KiozcQ3ld3roddJ\nhYrVQ+xh6+55UI6E2+HfAOly9x4PWt7onJZpmZcHywcot/XmhEDpgji9a4q3BQZ1\nzjGK4v+IqoCdjKjAi6SF\n=mtJc\n-----END PGP SIGNATURE-----\n",
                     "verified": true,
-                    "verified_at": "2024-11-11T16:13:14Z"
+                    "verified_at": "2025-01-28T11:36:30Z"
                 }
             },
             "committer": {
@@ -245,28 +245,28 @@
                 "url": "https://api.github.com/users/web-flow",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/js-toxcore-c/commit/8aa265861a1175233a2d9faf57a259b60427cef8",
-            "node_id": "C_kwDOBChtbNoAKDhhYTI2NTg2MWExMTc1MjMzYTJkOWZhZjU3YTI1OWI2MDQyN2NlZjg",
+            "html_url": "https://github.com/TokTok/js-toxcore-c/commit/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
+            "node_id": "C_kwDOBChtbNoAKGU1NmUyNDhjYTUwMmRjOTM5NDNlMWU5ZWFhMjQyZmM0MGNiMGNiYzY",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/js-toxcore-c/commit/39e72c7637ffffeb8d11e547cc00792b7353b7cd",
-                    "sha": "39e72c7637ffffeb8d11e547cc00792b7353b7cd",
-                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/39e72c7637ffffeb8d11e547cc00792b7353b7cd"
+                    "html_url": "https://github.com/TokTok/js-toxcore-c/commit/1a43e4cd78471dbe5eb5ce0a700461f58bdd7090",
+                    "sha": "1a43e4cd78471dbe5eb5ce0a700461f58bdd7090",
+                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/1a43e4cd78471dbe5eb5ce0a700461f58bdd7090"
                 }
             ],
-            "sha": "8aa265861a1175233a2d9faf57a259b60427cef8",
-            "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/8aa265861a1175233a2d9faf57a259b60427cef8"
+            "sha": "e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
+            "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/205/commits",
-    "created_at": "2024-11-11T11:26:22Z",
-    "deletions": 3,
-    "diff_url": "https://github.com/TokTok/js-toxcore-c/pull/205.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/213/commits",
+    "created_at": "2025-01-28T11:36:31Z",
+    "deletions": 1720,
+    "diff_url": "https://github.com/TokTok/js-toxcore-c/pull/213.diff",
     "draft": false,
     "head": {
-        "label": "TokTok:dependabot/npm_and_yarn/async-3.2.6",
-        "ref": "dependabot/npm_and_yarn/async-3.2.6",
+        "label": "TokTok:dependabot/npm_and_yarn/mocha-11.1.0",
+        "ref": "dependabot/npm_and_yarn/mocha-11.1.0",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/TokTok/js-toxcore-c/{archive_format}{/ref}",
@@ -377,7 +377,7 @@
             "watchers_count": 19,
             "web_commit_signoff_required": false
         },
-        "sha": "8aa265861a1175233a2d9faf57a259b60427cef8",
+        "sha": "e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -400,9 +400,9 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/js-toxcore-c/pull/205",
-    "id": 2172607484,
-    "issue_url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/205",
+    "html_url": "https://github.com/TokTok/js-toxcore-c/pull/213",
+    "id": 2302014868,
+    "issue_url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/213",
     "labels": [
         {
             "color": "0366d6",
@@ -416,12 +416,32 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": null,
-    "mergeable": false,
-    "mergeable_state": "dirty",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "merge_commit_sha": "e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-01-28T11:41:17Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
         "closed_issues": 68,
@@ -460,20 +480,20 @@
         "updated_at": "2025-01-28T11:41:17Z",
         "url": "https://api.github.com/repos/TokTok/js-toxcore-c/milestones/1"
     },
-    "node_id": "PR_kwDOBChtbM6Bf1v8",
-    "number": 205,
-    "patch_url": "https://github.com/TokTok/js-toxcore-c/pull/205.patch",
-    "rebaseable": false,
+    "node_id": "PR_kwDOBChtbM6JNfWU",
+    "number": 213,
+    "patch_url": "https://github.com/TokTok/js-toxcore-c/pull/213.patch",
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/205/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/8aa265861a1175233a2d9faf57a259b60427cef8",
-    "title": "Bump async from 3.2.5 to 3.2.6",
-    "updated_at": "2025-01-28T11:41:21Z",
-    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/205",
+    "review_comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/213/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
+    "title": "Bump mocha from 10.4.0 to 11.1.0",
+    "updated_at": "2025-01-28T11:41:26Z",
+    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/213",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
         "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",

@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/3060956254d3622dac246efd7a62b9c51a46698b"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/cbf09c58c75d857e732fff6f65e4271e56ff6600"
         }
     },
     "active_lock_reason": null,
-    "additions": 2686,
+    "additions": 2726,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
         "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
@@ -137,8 +137,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 209,
-            "open_issues_count": 209,
+            "open_issues": 210,
+            "open_issues_count": 210,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-27T10:18:48Z",
+            "pushed_at": "2025-01-29T07:54:54Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25230,
+            "size": 25164,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2328,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,11 +183,11 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-26T12:49:03Z",
+            "updated_at": "2025-01-28T22:14:04Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
+            "watchers": 2328,
+            "watchers_count": 2328,
             "web_commit_signoff_required": false
         },
         "sha": "c8344726378e3be2277e82734ffd39c40c15d2e4",
@@ -214,7 +214,7 @@
         }
     },
     "body": "## **This PR adds a NoiseIK implementation for a new KCI-resistant crypto handshake. The implemented Noise protocol is: ~~`Noise_IK_25519_ChaChaPoly_SHA512`~~ `Noise_IK_25519_ChaChaPoly_BLAKE2b` ([update 11.12.2024](https://github.com/TokTok/c-toxcore/pull/2450/#issuecomment-2535984591) ).** This resolves https://github.com/TokTok/c-toxcore/issues/426. \r\n**NoiseIK is working, tested and passes all auto/CI tests. There is also an auto test added which verifies the cryptographic correctness of `Noise_IK_25519_ChaChaPoly_BLAKE2b` (and also of former `Noise_IK_25519_ChaChaPoly_SHA512`) with test vectors provided by Noise-C.**\r\n\r\nBackwards compatibility for NoiseIK handshake to non-Noise handshake is implemented (though possibly still subject to change). This enables clients using NoiseIK-toxcore to communicate with non-NoiseIK-toxcore clients. Backwards compatibility can be disabled by setting `noise_compatibility_enabled` to `false` (default: `true`) via `tox_options_set_noise_compatibility_enabled`.\r\nEnabled and disabled backwards compatibility was tested successfully with [toxic](https://github.com/TokTok/toxic) and [minitox](https://github.com/goldroom/minitox) clients.\r\n\r\n~~Status 14.06.2024: Currently most failing CI tests/checks fail due to missing functions released with [libsodium 1.0.19](https://github.com/jedisct1/libsodium/releases/tag/1.0.19-RELEASE) (i.e. `crypto_kdf_hkdf_*()` which are necessary for NoiseIK; besides the linting stuff).~~\r\nSide effect of using libsodium >=1.0.19: Slightly faster 25519 operations.\r\nUpdate 11.12.2024: Implemented HKDF-BLAKE2b-512 in crypto_core based on libsodium BLAKE2b primitive functions (since it's not exposed on the high-level API9. Therefore only the linting CI checks are failing (and do not require a newer libsodium version).  See [update 11.12.2024](https://github.com/TokTok/c-toxcore/pull/2450/#issuecomment-2535984591) for more info.\r\n\r\n### **Further testing, reviews, feedback etc. highly appreciated.**\r\n\r\nThis PR also changes symmetric encryption during the Noise handshake to ChaCha20-Poly1305 and data transport phase (based on `net_crypto`/`struct Crypto_Connection`) to XChaCha20-Poly1305, both instead of XSalsa20-Poly1305.\r\nThis change is necessary because XSalsa20-Poly1305 from libsodium doesn't provide *Authenticated Encryption with Associated Data* (AEAD), but only *Authenticated Encryption* (AE). AEAD is a requirement for NoiseIK. Further, the Noise specification/framework only considers ChaCha20-Poly1305 and AES256-GCM as symmetric ciphers. This means, that existing security proofs and cryptographic test vectors only exist and verify with these two ciphers. By adopting ChaCha20-Poly1305 in Tox' NoiseIK handshakes, correctness can and is verified using existing test vectors. \r\nBy utilizing XChaCha20 during data transport phase (instead of ChaCha20) it is still possible to use random 24 byte (base) nonces as this is already the case with XSalsa20 (in `net_crypto`/toxcore in general) and further using the existing handling of out-of-order message functionality (same as with old/non-Noise XSalsa20-Poly1305 encryption).\r\n\r\n### **Some necessary functions for NoiseIK were added to `crypto_core`:**\r\n- ChaCha20-Poly1305 is implemented via `encrypt_data_symmetric_aead()` and `decrypt_data_symmetric_aead()`.\r\n    - cf. IETF ChaCha20-Poly1305 (RFC7539): https://doc.libsodium.org/secret-key_cryptography/aead/chacha20-poly1305/ietf_chacha20-poly1305_construction\r\n- XChaCha20-Poly1305 is implemented via `encrypt_data_symmetric_xaead()` and `decrypt_data_symmetric_xaead()`.\r\n\t- See:\r\n\t\t- XChaCha20-Poly1305: https://doc.libsodium.org/secret-key_cryptography/aead/chacha20-poly1305/xchacha20-poly1305_construction\r\n\t\t- XSalsa20-Poly1305: https://doc.libsodium.org/public-key_cryptography/authenticated_encryption\r\n- ~~HKDF-SHA512 (`crypto_hkdf()` in `crypto_core`) is implemented based on `crypto_kdf_hkdf_*()` functions from [libsodium 1.0.19 release](https://github.com/jedisct1/libsodium/releases/tag/1.0.19-RELEASE) (~~HMAC-SHA512 (`crypto_hmac512()`~~).~~\r\n    - See: https://doc.libsodium.org/key_derivation/hkdf\r\n    - ~~See: https://doc.libsodium.org/advanced/hmac-sha2#hmac-sha-512~~\r\n- HKDF-BLAKE2b-512 (`crypto_hkdf()` in `crypto_core`)\r\n- cf. Noise section *5.2. The SymmetricState object*, https://noiseprotocol.org/noise.html#the-symmetricstate-object:\r\n\t- `noise_mix_key()`\r\n\t- `noise_mix_hash()`\r\n\t- `noise_decrypt_and_hash()`\r\n- cf. Noise section *5.3. The HandshakeState object*, https://noiseprotocol.org/noise.html#the-handshakestate-object\r\n    - `noise_handshake_init()`\r\n\r\n### **Added functions to `net_crypto`:**\r\n- Added struct `Noise_Handshake` to and adapted struct `New_Connection` in `net_crypto.h`\r\n- Adapted struct `Crypto_Connection` in `net_crypto.c`\r\n- ~~`noise_handshake_init()` to initialize a Noise handshake state~~ was moved to `crypto_core` for testing/crypto verification purposes\r\n- Besides that, only existing functions were adapted to implement NoiseIK and backwards compatibility to non-Noise handshakes.\r\n\r\n### **Added option to enable/disable backwards compatibility to non-Noise handshakes/toxcore versions/clients:**\r\n- `bool noise_compatibility_enabled` in `tox.h`: default is `true` (i.e. backwards compatibility is **enabled**) and can be disabled by setting to `false` via `tox_options_set_noise_compatibility_enabled()`\r\n\r\n#### For backwards compatibility additionally these functions were adapted (all net_crypto):\r\n- `create_crypto_handshake()`\r\n- `handle_crypto_handshake()`\r\n- `send_data_packet()`: to support both XSalsa20-Poly1305 (i.e. `encrypt_data_symmetric()`) and XChaCha20-Poly1305 (i.e. `encrypt_data_symmetric_xaead()`)\r\n- `handle_data_packet()`: to support both XSalsa20-Poly1305 (i.e. `decrypt_data_symmetric()`) and XChaCha20-Poly1305 (i.e. `decrypt_data_symmetric_xaead()`)\r\n- `create_send_handshake()`\r\n- `handle_packet_cookie_response()`\r\n- `handle_packet_crypto_hs()`\r\n- `handle_new_connection_handshake()`\r\n- `accept_crypto_connection()`\r\n- `new_crypto_connection()`\r\n\r\n### **Verification of  `Noise_IK_25519_ChaChaPoly_BLAKE2b` and `Noise_IK_25519_ChaChaPoly_SHA512` cryptographic correctness:**\r\n- Added `Noise_IK_25519_ChaChaPoly_SHA512` test vectors from Noise-C to `crypto_test.c` auto test\r\n    - Test vectors: https://github.com/rweather/noise-c/blob/cfe25410979a87391bb9ac8d4d4bef64e9f268c6/tests/vector/noise-c-basic.txt\r\n    - Explanation: https://github.com/noiseprotocol/noise_wiki/wiki/Test-vectors\r\n    - Noise-C: https://rweather.github.io/noise-c/ and https://github.com/rweather/noise-c\r\n- Verification is performed in `test_noiseik()` function\r\n\r\n### **The most notable changes to the non-Noise handshake are:**\r\n- Different handshake packets for both initiator (345 bytes) and responder (185 bytes), adapted for NoiseIK (non-Noise handshake packets are 385 bytes)\r\n\t- Cookies are encrypted and authenticated (via ChaCha20-Poly1305) in handshake packets (instead of being sent in the clear and authenticated via a SHA512 hash included in the encrypted part of the non-Noise handshake packet)\r\n- Different symmetric key derivation based on NoiseIK and therefore HKDF-SHA512 (during the handshake and after successful handshake for the symmetric keys used in the actual data transport/encryption phase)\r\n\t- Usage of raw ECDH/X25519 results as symmetric keys was **incorrectly** criticized by Jason Donenfeld `encrypt_precompute()` calls crypto_box_beforenm() which hashes the X25519 result with HSalsa20 (cf. https://github.com/TokTok/c-toxcore/issues/426#issue-200655290 and https://github.com/jedisct1/libsodium/blob/master/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c#L45). \r\n- ChaCha20-Poly1305 for handshake packet encryption and XChaCha20-Poly1305 data encryption after a successful handshake. \r\n\t- After a successful handshake: two symmetric keys, one for encrypting outgoing data packets and one for decrypting incoming data packets by still providing deniability.\r\n- **No** API changes (currently) and **no** changes to cookie phase (currently)\r\n- Code documentation\r\n- Side effect of using libsodium >=1.0.19: Slightly faster 25519 operations.\r\n\r\n### **Security Audit / Cryptographic Analysis Report**\r\n- Funding from NLnet foundation included a security audit (cf. https://nlnet.nl/NGI0/services/)\r\n- Pentester: *Younes Talibi Alaoui* (cryptographer with a PhD in cryptography from KU Leuven; https://github.com/YounesTal1) from *Radically Open Security* (ROS; https://www.radicallyopensecurity.com/; a Non-Profit Computer Security Consultancy)\r\n    - *The scope of the analysis was limited to checking the new Noise-based handshake for the Tox protocol, and informally\r\nto discuss the security guarantees provided with this new handshake. The analysis also included an inspection of the\r\nimplementation's code.*\r\n    - *Note that the analysis was constrained by a time limit of 10 person-days (including reporting).* \r\n- **Full Cryptographic Analysis Report: \r\n[3report_ngir-tox.pdf](https://github.com/user-attachments/files/15838044/3report_ngir-tox.pdf)**\r\n\r\n#### Changes/recommendations from the security analysis where incorporated:\r\n- Section 3.6.1: Exchange of an unnecessary cookie\r\n\t- Change: Removed unused/unnecessary \"Other cookie\" from Noise-responder handshake packet; reduced total packet size from 321 to 209 bytes\r\n\t- Commit: https://github.com/goldroom/c-toxcore/commit/190c0384a57a7369904a6a9e5621a88b6e37c095\r\n- Section 3.6.2: Variable being used instead of another one\r\n\t- Cleanup/fix: wrong usages of `CRYPTO_PUBLIC_KEY_SIZE` to `CRYPTO_SECRET_KEY_SIZE`\r\n\t- Commit: https://github.com/goldroom/c-toxcore/commit/2201b8c0384ff5dfa69b9577bf9e870f20b181ee\r\n- Section 3.6.3: Missing step from the Noise handshake\r\n\t- Fix: need to call `MixHash(prologue)` in `noise_handshake_init()` even if the prologue is zero-length in Tox\r\n\t- Commit: Commit: https://github.com/TokTok/c-toxcore/pull/2450/commits/55b3ef561da119c29e88f65c3fc57e409ba316b8\r\n- Feat/change: Implemented `Noise_IK_25519_ChaChaPoly_SHA512` instead of `Noise_IK_25519_XChaChaPoly_SHA512` to be compliant with Noise specification/framework after discussion with ROS reviewer. This further reduced handshake packet size for initiator and responder (i.e. removed unnecessary random nonces from handshake packets).\r\n\t- Commit: https://github.com/goldroom/c-toxcore/commit/d87f9c10942353bf108af483207c8b9cba60f90b\r\n- => Lead to decreased handshake packet sizes; i.e. initiator 345 bytes, responder 185 bytes (non-Noise handshake packets are 385 bytes)\r\n- Remarks/suggestions from sections 3.2 to 3.4 are open/future work, i.e. to adapt the cookie phase for NoiseIK-based handshakes to remove unnecessary (cryptographic) information (as also suggested by ROS auditor). This was already clear to me beforehand, but wasn't included in the scope of this project. Anyway, this will be done soon.\r\n\r\n### **NoiseIK provides formally-verified security properties (similar to WireGuard®; cf. https://noiseexplorer.com/):**\r\n- Strong key agreement & authenticity\r\n- Key-compromise impersonation resistance\r\n- Unknown key-share attack resistance\r\n- Key secrecy\r\n- Forward secrecy\r\n- Session uniqueness\r\n- Identity hiding\r\n- Replay-attack prevention, while allowing for network packet reordering\r\n\r\n### **11.06.2024: Update on the work performed in this pull request:**\r\n- The implemented Noise protocol changed from `Noise_IK_25519_XChaChaPoly_SHA512` to `Noise_IK_25519_ChaChaPoly_SHA512`; i.e. ChaCha20-Poly1305 is used during the handshake instead of XChaCha20. This means that a compliant Noise protocol with existing test vectors is used. The implementation was verified with test vectors from Noise-C [1] by adding a `test_noiseik()` function to `auto_tests/crypto_test.c`. \r\n    - This verification lead to using libsodium-HKDF functions for correct values\r\n    - During the transport phase the actual message/payload encryption happens with XChaCha20-Poly1305 to be able to still use the existing (base)nonce and handling of out-of-order message functionality\r\n- Changes from the security analysis from Radically Open Security (ROS) where incorporated:\r\n    - Auditor: Younes Talibi Alaoui\r\n    - A missing call to `noise_mix_hash()` with an empty/zero-length prologue was discovered\r\n    - Noise protocol change after discussing cryptographic details with the auditor\r\n    - Removed unused/unnecessary \"Other cookie\" from Noise-responder handshake packet\r\n         - Removed unnecessary random nonces from handshake packets\r\n         - => both leaded to decreased handshake packet sizes; i.e. initiator 345 bytes, responder 185 bytes (non-Noise handshake packets are 385 bytes)\r\n- Currently most failing CI tests/checks fail due to missing libsodium functions (i.e. `crypto_kdf_hkdf_*()` from 1.0.19 release which are necessary for NoiseIK) besides the linting stuff. (@iphydf )\r\n\r\n### [Update 11.12.2024 (comment)](https://github.com/TokTok/c-toxcore/pull/2450/#issuecomment-2535984591) \r\n\r\n### **Open:**\r\n- Adapt cookie phase for NoiseIK-based handshakes to remove unnecessary (cryptographic) information (as also suggested by ROS auditor)\r\n___\r\n\r\n### Contact Information\r\n\r\nTobi/goldroom is available in Tox/TokTok development channel (`360497DA684BCE2A500C1AF9B3A5CE949BBB9F6FB1F91589806FB04CA039E313`) and in Matrix (@tobi_fh:matrix.org) and ready for any input, questions, remarks, discussions or complaints.\r\n\r\n### Resources:\r\n- [1] https://github.com/rweather/noise-c/blob/cfe25410979a87391bb9ac8d4d4bef64e9f268c6/tests/vector/noise-c-basic.txt\r\n\r\n### See fore more information:\r\n- https://blog.tox.chat/2023/03/redesign-of-toxs-cryptographic-handshake/\r\n- https://github.com/TokTok/c-toxcore/issues/426\r\n- The Noise Protocol Framework (Revision 34): https://noiseprotocol.org/noise.html\r\n- Noise-C Documentation: https://rweather.github.io/noise-c/\r\n- More information on Tobi/goldroom's master's thesis: https://github.com/TokTok/c-toxcore/issues/426#issuecomment-759511593\r\n- \"Adopting the Noise Key Exchange in Tox\" project description/information: https://nlnet.nl/project/Noise-Tox/\r\n- How ephemeral keys validate possession of a static key (more information on KCI): https://romailler.ch/2021/08/18/crypto-why-ephemeral-keys/\r\n___\r\n- Comparison of Symmetric Encryption Methods: https://soatok.blog/2020/07/12/comparison-of-symmetric-encryption-methods/\r\n\r\n*This [project](https://nlnet.nl/project/Noise-Tox/) was funded through the [NGI Assure](https://nlnet.nl/assure) Fund, a fund established by [NLnet](https://nlnet.nl/) with financial support from the European Commission's [Next Generation Internet](https://ngi.eu/) programme, under the aegis of [DG Communications Networks, Content and Technology](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en) under grant agreement No 957073.*\r\n\r\n<!-- Reviewable:start -->\r\n- - -\r\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2450)\r\n<!-- Reviewable:end -->\r\n",
-    "changed_files": 17,
+    "changed_files": 18,
     "closed_at": null,
     "comment_data": [
         {
@@ -231,19 +231,19 @@
             },
             "author_association": "MEMBER",
             "body": "you forgot the todo :)",
-            "commit_id": "3060956254d3622dac246efd7a62b9c51a46698b",
+            "commit_id": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
             "created_at": "2024-06-11T18:36:32Z",
             "diff_hunk": "@@ -651,7 +651,6 @@ void crypto_hkdf(uint8_t *output1, size_t first_len, uint8_t *output2,\n  * Calls MixHash() once for each public key listed in the pre-messages.\n  *\n  * //TODO: remove Logger Param",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#discussion_r1635326298",
             "id": 1635326298,
-            "line": 670,
+            "line": null,
             "node_id": "PRRC_kwDOA7zIGs5heRla",
             "original_commit_id": "f7b7097c86a6f88b50330a35f9a6edc8bd03aa79",
             "original_line": 653,
             "original_position": 3,
             "original_start_line": null,
             "path": "toxcore/crypto_core.h",
-            "position": 186,
+            "position": null,
             "pull_request_review_id": 2111192459,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450",
             "reactions": {
@@ -300,20 +300,20 @@
             },
             "author_association": "NONE",
             "body": "Intentionally, as a some other TODOs ;)",
-            "commit_id": "3060956254d3622dac246efd7a62b9c51a46698b",
+            "commit_id": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
             "created_at": "2024-06-14T10:01:09Z",
             "diff_hunk": "@@ -651,7 +651,6 @@ void crypto_hkdf(uint8_t *output1, size_t first_len, uint8_t *output2,\n  * Calls MixHash() once for each public key listed in the pre-messages.\n  *\n  * //TODO: remove Logger Param",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#discussion_r1639590547",
             "id": 1639590547,
             "in_reply_to_id": 1635326298,
-            "line": 670,
+            "line": null,
             "node_id": "PRRC_kwDOA7zIGs5huiqT",
             "original_commit_id": "f7b7097c86a6f88b50330a35f9a6edc8bd03aa79",
             "original_line": 653,
             "original_position": 3,
             "original_start_line": null,
             "path": "toxcore/crypto_core.h",
-            "position": 186,
+            "position": null,
             "pull_request_review_id": 2118003311,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450",
             "reactions": {
@@ -12145,12 +12145,422 @@
             ],
             "sha": "3060956254d3622dac246efd7a62b9c51a46698b",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3060956254d3622dac246efd7a62b9c51a46698b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/76acc47fcb22dd12ccef97fb00e0d0a71af080e3/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-27T12:14:44Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-27T12:14:44Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "chore: cleanup and documentation of crypto_core.",
+                "tree": {
+                    "sha": "4bd21ba8196c26fcf6bbc1863b26e9d4043b5699",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/4bd21ba8196c26fcf6bbc1863b26e9d4043b5699"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/76acc47fcb22dd12ccef97fb00e0d0a71af080e3",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/76acc47fcb22dd12ccef97fb00e0d0a71af080e3",
+            "node_id": "C_kwDODIQB0doAKDc2YWNjNDdmY2IyMmRkMTJjY2VmOTdmYjAwZTBkMGE3MWFmMDgwZTM",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/3060956254d3622dac246efd7a62b9c51a46698b",
+                    "sha": "3060956254d3622dac246efd7a62b9c51a46698b",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/3060956254d3622dac246efd7a62b9c51a46698b"
+                }
+            ],
+            "sha": "76acc47fcb22dd12ccef97fb00e0d0a71af080e3",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/76acc47fcb22dd12ccef97fb00e0d0a71af080e3"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ee4e7c23cd4c1d648a44aff16b71384bb6293987/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-27T15:21:31Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-27T15:21:31Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "refactor: removed base nonces from NoiseIK handshake packets to use (only) a counter instead. Due to separate encryption/decryption keys they were unnecessary overhead.",
+                "tree": {
+                    "sha": "cd67bae8a98b11f5f40838b4672f24ba5ff6a7c5",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/cd67bae8a98b11f5f40838b4672f24ba5ff6a7c5"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/ee4e7c23cd4c1d648a44aff16b71384bb6293987",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/ee4e7c23cd4c1d648a44aff16b71384bb6293987",
+            "node_id": "C_kwDODIQB0doAKGVlNGU3YzIzY2Q0YzFkNjQ4YTQ0YWZmMTZiNzEzODRiYjYyOTM5ODc",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/76acc47fcb22dd12ccef97fb00e0d0a71af080e3",
+                    "sha": "76acc47fcb22dd12ccef97fb00e0d0a71af080e3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/76acc47fcb22dd12ccef97fb00e0d0a71af080e3"
+                }
+            ],
+            "sha": "ee4e7c23cd4c1d648a44aff16b71384bb6293987",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ee4e7c23cd4c1d648a44aff16b71384bb6293987"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/0ecbd3ba2277c1a356d2824354079cb6c1c1a204/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-27T15:26:48Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-27T15:26:48Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "fix: fixed friend_connection after New_Connection refactoring.",
+                "tree": {
+                    "sha": "60933cbf3c129b120b0961727a977c88c9d6d820",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/60933cbf3c129b120b0961727a977c88c9d6d820"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/0ecbd3ba2277c1a356d2824354079cb6c1c1a204",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/0ecbd3ba2277c1a356d2824354079cb6c1c1a204",
+            "node_id": "C_kwDODIQB0doAKDBlY2JkM2JhMjI3N2MxYTM1NmQyODI0MzU0MDc5Y2I2YzFjMWEyMDQ",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/ee4e7c23cd4c1d648a44aff16b71384bb6293987",
+                    "sha": "ee4e7c23cd4c1d648a44aff16b71384bb6293987",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ee4e7c23cd4c1d648a44aff16b71384bb6293987"
+                }
+            ],
+            "sha": "0ecbd3ba2277c1a356d2824354079cb6c1c1a204",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/0ecbd3ba2277c1a356d2824354079cb6c1c1a204"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/34b931ca56e61d121888ed05539a4c0d254d8055/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-27T19:55:32Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-27T19:55:32Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "chore: cleanup and documentation.",
+                "tree": {
+                    "sha": "9d4136a5de39c68f3284733925866bedc30751b6",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/9d4136a5de39c68f3284733925866bedc30751b6"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/34b931ca56e61d121888ed05539a4c0d254d8055",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/34b931ca56e61d121888ed05539a4c0d254d8055",
+            "node_id": "C_kwDODIQB0doAKDM0YjkzMWNhNTZlNjFkMTIxODg4ZWQwNTUzOWE0YzBkMjU0ZDgwNTU",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/0ecbd3ba2277c1a356d2824354079cb6c1c1a204",
+                    "sha": "0ecbd3ba2277c1a356d2824354079cb6c1c1a204",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/0ecbd3ba2277c1a356d2824354079cb6c1c1a204"
+                }
+            ],
+            "sha": "34b931ca56e61d121888ed05539a4c0d254d8055",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/34b931ca56e61d121888ed05539a4c0d254d8055"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/cbf09c58c75d857e732fff6f65e4271e56ff6600/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-27T20:08:02Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-27T20:08:02Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "fix: fix for CI",
+                "tree": {
+                    "sha": "925f07372eacea04c0292ccad973e2a2c49feedf",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/925f07372eacea04c0292ccad973e2a2c49feedf"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/cbf09c58c75d857e732fff6f65e4271e56ff6600",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/cbf09c58c75d857e732fff6f65e4271e56ff6600",
+            "node_id": "C_kwDODIQB0doAKGNiZjA5YzU4Yzc1ZDg1N2U3MzJmZmY2ZjY1ZTQyNzFlNTZmZjY2MDA",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/34b931ca56e61d121888ed05539a4c0d254d8055",
+                    "sha": "34b931ca56e61d121888ed05539a4c0d254d8055",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/34b931ca56e61d121888ed05539a4c0d254d8055"
+                }
+            ],
+            "sha": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/cbf09c58c75d857e732fff6f65e4271e56ff6600"
         }
     ],
-    "commits": 137,
+    "commits": 142,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450/commits",
     "created_at": "2023-12-04T19:53:11Z",
-    "deletions": 112,
+    "deletions": 161,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2450.diff",
     "draft": true,
     "head": {
@@ -12242,9 +12652,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/goldroom/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-26T20:12:59Z",
+            "pushed_at": "2025-01-27T20:08:17Z",
             "releases_url": "https://api.github.com/repos/goldroom/c-toxcore/releases{/id}",
-            "size": 19887,
+            "size": 19966,
             "ssh_url": "git@github.com:goldroom/c-toxcore.git",
             "stargazers_count": 1,
             "stargazers_url": "https://api.github.com/repos/goldroom/c-toxcore/stargazers",
@@ -12263,7 +12673,7 @@
             "watchers_count": 1,
             "web_commit_signoff_required": false
         },
-        "sha": "3060956254d3622dac246efd7a62b9c51a46698b",
+        "sha": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
             "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
@@ -12302,9 +12712,9 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "88a77eb935405b24f6aede6234cc29e3973fce83",
+    "merge_commit_sha": "8dfc9b5e2eb7910e8d8edf14931d921129164647",
     "mergeable": true,
-    "mergeable_state": "blocked",
+    "mergeable_state": "behind",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
@@ -12356,9 +12766,9 @@
     "review_comments": 2,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/3060956254d3622dac246efd7a62b9c51a46698b",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/cbf09c58c75d857e732fff6f65e4271e56ff6600",
     "title": "feat: WIP NoiseIK handshake based on libsodium",
-    "updated_at": "2025-01-26T20:13:15Z",
+    "updated_at": "2025-01-27T20:08:30Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",

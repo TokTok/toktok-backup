@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/238/comments"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/241/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/commits"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/241/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/dockerfiles/pull/238"
+            "href": "https://github.com/TokTok/dockerfiles/pull/241"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/238"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/241"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/comments"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/241/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/241"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/statuses/a696aab71458b58dce87017da065912fbeaec3a7"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/statuses/63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5"
         }
     },
     "active_lock_reason": null,
-    "additions": 37,
+    "additions": 419,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -191,7 +191,7 @@
             "watchers_count": 7,
             "web_commit_signoff_required": false
         },
-        "sha": "3b16a13e22ee2f6d7e43540375a171d15e31060f",
+        "sha": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -214,13 +214,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "Also add support for iOS and arm64 Linux.\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/dockerfiles/238)\n<!-- Reviewable:end -->\n",
-    "changed_files": 4,
-    "closed_at": "2025-01-27T11:38:58Z",
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/dockerfiles/241)\n<!-- Reviewable:end -->\n",
+    "changed_files": 31,
+    "closed_at": "2025-01-28T23:14:37Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/238/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/241/comments",
     "commit_data": [
         {
             "author": {
@@ -244,31 +244,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/commits/a696aab71458b58dce87017da065912fbeaec3a7/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/commits/63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-27T00:46:30Z",
+                    "date": "2025-01-28T15:29:51Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-27T02:25:30Z",
+                    "date": "2025-01-28T19:56:15Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Build libsodium with -fPIC for relocatable symbols.",
+                "message": "feat: Add qTox wasm builder docker image.",
                 "tree": {
-                    "sha": "e737f3fff555e087fa5818bcdff17c60f030ccbb",
-                    "url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees/e737f3fff555e087fa5818bcdff17c60f030ccbb"
+                    "sha": "8c897bffb9fcfd1da146ec0d843bf203ab3dfe63",
+                    "url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees/8c897bffb9fcfd1da146ec0d843bf203ab3dfe63"
                 },
-                "url": "https://api.github.com/repos/TokTok/dockerfiles/git/commits/a696aab71458b58dce87017da065912fbeaec3a7",
+                "url": "https://api.github.com/repos/TokTok/dockerfiles/git/commits/63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5",
                 "verification": {
-                    "payload": "tree e737f3fff555e087fa5818bcdff17c60f030ccbb\nparent 3b16a13e22ee2f6d7e43540375a171d15e31060f\nauthor iphydf <iphydf@users.noreply.github.com> 1737938790 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737944730 +0000\n\nchore: Build libsodium with -fPIC for relocatable symbols.\n",
+                    "payload": "tree 8c897bffb9fcfd1da146ec0d843bf203ab3dfe63\nparent 13de1716051a5284a6ef07ce36fd0b1ef8e4be47\nauthor iphydf <iphydf@users.noreply.github.com> 1738078191 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738094175 +0000\n\nfeat: Add qTox wasm builder docker image.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeW7poACgkQOFXbotdE\nA8nbYAf+NxNfhQlIseTaQ8/QGCfkJAy+tHX9ULDxpVXW6hlHe6mMAT8qNlPn/ZoE\nE60X5o4UjEK9DIgrjdfoy/+fXM5yA5wzoiUSEjrG9YN9SvPm+PeQ956u6LKOSZ8C\nNHKILikAmQUdJ3OqpPEDIXM56MwHAd6K9lyRFWMBnGwnkOOTbckwDREDHk0/nBQK\nDspyPUyWlW4xodctW0cJr8fBwXVDDUx0cpCvR1IIa7YK6ABR9f1cMxfBv5jU9xBB\nYwoRecih+pY5S4dKiHWqqjHwwAglozk+VlESaUBd14VUiVSUgkqcRbUhBceoWXBV\ntbi60uv/ztTsybBZ797WG4U18V+8kw==\n=LcAD\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeZNl8ACgkQOFXbotdE\nA8kVyAf/QRd5L0m7oFQ1x/GQt26DivhMc0aI+2hcodgNMgqq85IZSNz3fmSs/hkh\n0mjk+QbVRHNkkAhDXZEiqBvAiaHLN3bD8zThv+JEdR8ioCm26MUxmHpUT8P3xvbw\nMCntF/tnNmutBp2k77+pGqoIbjhVvynI9IjJD16rk02lSnj3DNKovdXbUDpLrZ0J\nILyypkY2S2K0cLo/G1mP1X4QW3jUhCJwOwWou1CzfjN+b7wDPMPNzHO8iuKMYlyC\noPF6WO89NMgwhC4YNOB9RvoyElYBTrCfIYz4fP6E2Z/5jsQ4T7XwDCoGhQbuNVX3\nnJ5EBZAvAg3iYrJQf65ENPaTG6BKbQ==\n=Sc67\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-27T02:25:33Z"
+                    "verified_at": "2025-01-28T19:56:19Z"
                 }
             },
             "committer": {
@@ -292,28 +292,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/dockerfiles/commit/a696aab71458b58dce87017da065912fbeaec3a7",
-            "node_id": "C_kwDOBBks79oAKGE2OTZhYWI3MTQ1OGI1OGRjZTg3MDE3ZGEwNjU5MTJmYmVhZWMzYTc",
+            "html_url": "https://github.com/TokTok/dockerfiles/commit/63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5",
+            "node_id": "C_kwDOBBks79oAKDYzYjllYzM5ZmMzYjc3ZTRmYWEwNmM0ZjI4MDJlZjAwYTNhNGY2ZDU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/dockerfiles/commit/3b16a13e22ee2f6d7e43540375a171d15e31060f",
-                    "sha": "3b16a13e22ee2f6d7e43540375a171d15e31060f",
-                    "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/3b16a13e22ee2f6d7e43540375a171d15e31060f"
+                    "html_url": "https://github.com/TokTok/dockerfiles/commit/13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+                    "sha": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+                    "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/13de1716051a5284a6ef07ce36fd0b1ef8e4be47"
                 }
             ],
-            "sha": "a696aab71458b58dce87017da065912fbeaec3a7",
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/a696aab71458b58dce87017da065912fbeaec3a7"
+            "sha": "63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/commits",
-    "created_at": "2025-01-27T00:46:49Z",
-    "deletions": 13,
-    "diff_url": "https://github.com/TokTok/dockerfiles/pull/238.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/241/commits",
+    "created_at": "2025-01-28T15:30:21Z",
+    "deletions": 76,
+    "diff_url": "https://github.com/TokTok/dockerfiles/pull/241.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:pic",
-        "ref": "pic",
+        "label": "iphydf:wasm",
+        "ref": "wasm",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/dockerfiles/{archive_format}{/ref}",
@@ -429,7 +429,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "a696aab71458b58dce87017da065912fbeaec3a7",
+        "sha": "63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -452,46 +452,46 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/dockerfiles/pull/238",
-    "id": 2298891255,
-    "issue_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/238",
+    "html_url": "https://github.com/TokTok/dockerfiles/pull/241",
+    "id": 2302601708,
+    "issue_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/241",
     "labels": [
         {
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Updating grunt tasks etc; no production code change",
-            "id": 3598778565,
-            "name": "chore",
-            "node_id": "LA_kwDOBBORvM7WgQDF",
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/labels/chore"
+            "color": "84b6eb",
+            "default": true,
+            "description": "New feature for the user, not a new feature for build script",
+            "id": 443810640,
+            "name": "enhancement",
+            "node_id": "MDU6TGFiZWw0NDM4MTA2NDA=",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/labels/enhancement"
         }
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "a696aab71458b58dce87017da065912fbeaec3a7",
+    "merge_commit_sha": "63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-01-27T11:38:58Z",
+    "merged_at": "2025-01-28T23:14:37Z",
     "merged_by": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
-        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
-        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
-        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
-        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
         "gravatar_id": "",
-        "html_url": "https://github.com/toktok-releaser",
-        "id": 41485111,
-        "login": "toktok-releaser",
-        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
-        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
-        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
-        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
         "site_admin": false,
-        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/toktok-releaser",
+        "url": "https://api.github.com/users/iphydf",
         "user_view_type": "public"
     },
     "milestone": {
@@ -532,20 +532,20 @@
         "updated_at": "2025-01-28T23:14:37Z",
         "url": "https://api.github.com/repos/TokTok/dockerfiles/milestones/1"
     },
-    "node_id": "PR_kwDOBBORvM6JBkv3",
-    "number": 238,
-    "patch_url": "https://github.com/TokTok/dockerfiles/pull/238.patch",
+    "node_id": "PR_kwDOBBORvM6JPuns",
+    "number": 241,
+    "patch_url": "https://github.com/TokTok/dockerfiles/pull/241.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/comments",
+    "review_comments_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/241/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/dockerfiles/statuses/a696aab71458b58dce87017da065912fbeaec3a7",
-    "title": "chore: Build libsodium with -fPIC for relocatable symbols.",
-    "updated_at": "2025-01-27T11:49:34Z",
-    "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238",
+    "statuses_url": "https://api.github.com/repos/TokTok/dockerfiles/statuses/63b9ec39fc3b77e4faa06c4f2802ef00a3a4f6d5",
+    "title": "feat: Add qTox wasm builder docker image.",
+    "updated_at": "2025-01-28T23:14:40Z",
+    "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/241",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",

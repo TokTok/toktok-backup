@@ -1,54 +1,75 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/238/comments"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/240/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/commits"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/dockerfiles/pull/238"
+            "href": "https://github.com/TokTok/dockerfiles/pull/240"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/238"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/issues/240"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/comments"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/statuses/a696aab71458b58dce87017da065912fbeaec3a7"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/statuses/13de1716051a5284a6ef07ce36fd0b1ef8e4be47"
         }
     },
     "active_lock_reason": null,
-    "additions": 37,
+    "additions": 48,
     "assignee": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
-        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
-        "followers_url": "https://api.github.com/users/iphydf/followers",
-        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
-        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+        "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+        "followers_url": "https://api.github.com/users/robinlinden/followers",
+        "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+        "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
         "gravatar_id": "",
-        "html_url": "https://github.com/iphydf",
-        "id": 10647936,
-        "login": "iphydf",
-        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
-        "organizations_url": "https://api.github.com/users/iphydf/orgs",
-        "received_events_url": "https://api.github.com/users/iphydf/received_events",
-        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "html_url": "https://github.com/robinlinden",
+        "id": 8304462,
+        "login": "robinlinden",
+        "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+        "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+        "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+        "repos_url": "https://api.github.com/users/robinlinden/repos",
         "site_admin": false,
-        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/iphydf",
+        "url": "https://api.github.com/users/robinlinden",
         "user_view_type": "public"
     },
     "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+            "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+            "followers_url": "https://api.github.com/users/robinlinden/followers",
+            "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+            "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/robinlinden",
+            "id": 8304462,
+            "login": "robinlinden",
+            "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+            "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+            "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+            "repos_url": "https://api.github.com/users/robinlinden/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/robinlinden",
+            "user_view_type": "public"
+        },
         {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -191,7 +212,7 @@
             "watchers_count": 7,
             "web_commit_signoff_required": false
         },
-        "sha": "3b16a13e22ee2f6d7e43540375a171d15e31060f",
+        "sha": "83eb3818ec859b4c07f877327f45b9b0a2fb085c",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -214,13 +235,223 @@
             "user_view_type": "public"
         }
     },
-    "body": "Also add support for iOS and arm64 Linux.\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/dockerfiles/238)\n<!-- Reviewable:end -->\n",
-    "changed_files": 4,
-    "closed_at": "2025-01-27T11:38:58Z",
-    "comment_data": [],
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/dockerfiles/240)\n<!-- Reviewable:end -->\n",
+    "changed_files": 6,
+    "closed_at": "2025-01-28T15:26:57Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/dockerfiles/pull/240#discussion_r1932122765"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932122765"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "You don't want both x86 and arm64 in this list? Just arm64?",
+            "commit_id": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+            "created_at": "2025-01-28T12:59:04Z",
+            "diff_hunk": "@@ -0,0 +1,24 @@\n+diff --color -u -r external/vpx/build/make/configure.sh vpx/build/make/configure.sh\n+--- external/vpx/build/make/configure.sh\t2024-10-23 19:24:57\n++++ vpx/build/make/configure.sh\t2025-01-28 01:05:32\n+@@ -996,8 +996,6 @@\n+       add_ldflags \"-arch ${toolchain%%-*}\"\n+       ;;\n+     *-iphonesimulator-*)\n+-      add_cflags  \"-miphoneos-version-min=${IOS_VERSION_MIN}\"\n+-      add_ldflags \"-miphoneos-version-min=${IOS_VERSION_MIN}\"\n+       iossim_sdk_dir=\"$(show_darwin_sdk_path iphonesimulator)\"\n+       if [ -d \"${iossim_sdk_dir}\" ]; then\n+         add_cflags  \"-isysroot ${iossim_sdk_dir}\"\n+diff --color -u -r external/vpx/configure vpx/configure\n+--- external/vpx/configure\t2024-10-23 19:24:57\n++++ vpx/configure\t2025-01-28 01:03:20\n+@@ -141,7 +141,7 @@\n+ all_platforms=\"${all_platforms} x86-darwin15-gcc\"\n+ all_platforms=\"${all_platforms} x86-darwin16-gcc\"\n+ all_platforms=\"${all_platforms} x86-darwin17-gcc\"\n+-all_platforms=\"${all_platforms} x86-iphonesimulator-gcc\"",
+            "html_url": "https://github.com/TokTok/dockerfiles/pull/240#discussion_r1932122765",
+            "id": 1932122765,
+            "line": null,
+            "node_id": "PRRC_kwDOBBORvM5zKdqN",
+            "original_commit_id": "b35332013a5d070d8b74eb76a696b772b6634ef8",
+            "original_line": 20,
+            "original_position": 20,
+            "original_start_line": null,
+            "path": "qtox/patches/vpx.patch",
+            "position": null,
+            "pull_request_review_id": 2578165870,
+            "pull_request_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932122765/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-28T12:59:22Z",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932122765",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+                "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+                "followers_url": "https://api.github.com/users/robinlinden/followers",
+                "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+                "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/robinlinden",
+                "id": 8304462,
+                "login": "robinlinden",
+                "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+                "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+                "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+                "repos_url": "https://api.github.com/users/robinlinden/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/robinlinden",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/dockerfiles/pull/240#discussion_r1932203455"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932203455"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I don't really care about x86, but sure I can add it back.",
+            "commit_id": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+            "created_at": "2025-01-28T13:51:05Z",
+            "diff_hunk": "@@ -0,0 +1,24 @@\n+diff --color -u -r external/vpx/build/make/configure.sh vpx/build/make/configure.sh\n+--- external/vpx/build/make/configure.sh\t2024-10-23 19:24:57\n++++ vpx/build/make/configure.sh\t2025-01-28 01:05:32\n+@@ -996,8 +996,6 @@\n+       add_ldflags \"-arch ${toolchain%%-*}\"\n+       ;;\n+     *-iphonesimulator-*)\n+-      add_cflags  \"-miphoneos-version-min=${IOS_VERSION_MIN}\"\n+-      add_ldflags \"-miphoneos-version-min=${IOS_VERSION_MIN}\"\n+       iossim_sdk_dir=\"$(show_darwin_sdk_path iphonesimulator)\"\n+       if [ -d \"${iossim_sdk_dir}\" ]; then\n+         add_cflags  \"-isysroot ${iossim_sdk_dir}\"\n+diff --color -u -r external/vpx/configure vpx/configure\n+--- external/vpx/configure\t2024-10-23 19:24:57\n++++ vpx/configure\t2025-01-28 01:03:20\n+@@ -141,7 +141,7 @@\n+ all_platforms=\"${all_platforms} x86-darwin15-gcc\"\n+ all_platforms=\"${all_platforms} x86-darwin16-gcc\"\n+ all_platforms=\"${all_platforms} x86-darwin17-gcc\"\n+-all_platforms=\"${all_platforms} x86-iphonesimulator-gcc\"",
+            "html_url": "https://github.com/TokTok/dockerfiles/pull/240#discussion_r1932203455",
+            "id": 1932203455,
+            "in_reply_to_id": 1932122765,
+            "line": null,
+            "node_id": "PRRC_kwDOBBORvM5zKxW_",
+            "original_commit_id": "b35332013a5d070d8b74eb76a696b772b6634ef8",
+            "original_line": 20,
+            "original_position": 20,
+            "original_start_line": null,
+            "path": "qtox/patches/vpx.patch",
+            "position": null,
+            "pull_request_review_id": 2578308584,
+            "pull_request_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932203455/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-28T13:51:06Z",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932203455",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/dockerfiles/pull/240#discussion_r1932205303"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932205303"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Done.",
+            "commit_id": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+            "created_at": "2025-01-28T13:51:45Z",
+            "diff_hunk": "@@ -0,0 +1,24 @@\n+diff --color -u -r external/vpx/build/make/configure.sh vpx/build/make/configure.sh\n+--- external/vpx/build/make/configure.sh\t2024-10-23 19:24:57\n++++ vpx/build/make/configure.sh\t2025-01-28 01:05:32\n+@@ -996,8 +996,6 @@\n+       add_ldflags \"-arch ${toolchain%%-*}\"\n+       ;;\n+     *-iphonesimulator-*)\n+-      add_cflags  \"-miphoneos-version-min=${IOS_VERSION_MIN}\"\n+-      add_ldflags \"-miphoneos-version-min=${IOS_VERSION_MIN}\"\n+       iossim_sdk_dir=\"$(show_darwin_sdk_path iphonesimulator)\"\n+       if [ -d \"${iossim_sdk_dir}\" ]; then\n+         add_cflags  \"-isysroot ${iossim_sdk_dir}\"\n+diff --color -u -r external/vpx/configure vpx/configure\n+--- external/vpx/configure\t2024-10-23 19:24:57\n++++ vpx/configure\t2025-01-28 01:03:20\n+@@ -141,7 +141,7 @@\n+ all_platforms=\"${all_platforms} x86-darwin15-gcc\"\n+ all_platforms=\"${all_platforms} x86-darwin16-gcc\"\n+ all_platforms=\"${all_platforms} x86-darwin17-gcc\"\n+-all_platforms=\"${all_platforms} x86-iphonesimulator-gcc\"",
+            "html_url": "https://github.com/TokTok/dockerfiles/pull/240#discussion_r1932205303",
+            "id": 1932205303,
+            "in_reply_to_id": 1932122765,
+            "line": null,
+            "node_id": "PRRC_kwDOBBORvM5zKxz3",
+            "original_commit_id": "b35332013a5d070d8b74eb76a696b772b6634ef8",
+            "original_line": 20,
+            "original_position": 20,
+            "original_start_line": null,
+            "path": "qtox/patches/vpx.patch",
+            "position": null,
+            "pull_request_review_id": 2578311611,
+            "pull_request_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932205303/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-28T13:51:45Z",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments/1932205303",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/238/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/240/comments",
     "commit_data": [
         {
             "author": {
@@ -244,31 +475,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/commits/a696aab71458b58dce87017da065912fbeaec3a7/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/commits/13de1716051a5284a6ef07ce36fd0b1ef8e4be47/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-27T00:46:30Z",
+                    "date": "2025-01-28T01:56:21Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-27T02:25:30Z",
+                    "date": "2025-01-28T14:42:08Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Build libsodium with -fPIC for relocatable symbols.",
+                "message": "chore: Add support for iphone simulator on arm64.",
                 "tree": {
-                    "sha": "e737f3fff555e087fa5818bcdff17c60f030ccbb",
-                    "url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees/e737f3fff555e087fa5818bcdff17c60f030ccbb"
+                    "sha": "0eb0c6f5a3f5063c81c995b9646d40f3ec02be09",
+                    "url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees/0eb0c6f5a3f5063c81c995b9646d40f3ec02be09"
                 },
-                "url": "https://api.github.com/repos/TokTok/dockerfiles/git/commits/a696aab71458b58dce87017da065912fbeaec3a7",
+                "url": "https://api.github.com/repos/TokTok/dockerfiles/git/commits/13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
                 "verification": {
-                    "payload": "tree e737f3fff555e087fa5818bcdff17c60f030ccbb\nparent 3b16a13e22ee2f6d7e43540375a171d15e31060f\nauthor iphydf <iphydf@users.noreply.github.com> 1737938790 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737944730 +0000\n\nchore: Build libsodium with -fPIC for relocatable symbols.\n",
+                    "payload": "tree 0eb0c6f5a3f5063c81c995b9646d40f3ec02be09\nparent 83eb3818ec859b4c07f877327f45b9b0a2fb085c\nauthor iphydf <iphydf@users.noreply.github.com> 1738029381 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738075328 +0000\n\nchore: Add support for iphone simulator on arm64.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeW7poACgkQOFXbotdE\nA8nbYAf+NxNfhQlIseTaQ8/QGCfkJAy+tHX9ULDxpVXW6hlHe6mMAT8qNlPn/ZoE\nE60X5o4UjEK9DIgrjdfoy/+fXM5yA5wzoiUSEjrG9YN9SvPm+PeQ956u6LKOSZ8C\nNHKILikAmQUdJ3OqpPEDIXM56MwHAd6K9lyRFWMBnGwnkOOTbckwDREDHk0/nBQK\nDspyPUyWlW4xodctW0cJr8fBwXVDDUx0cpCvR1IIa7YK6ABR9f1cMxfBv5jU9xBB\nYwoRecih+pY5S4dKiHWqqjHwwAglozk+VlESaUBd14VUiVSUgkqcRbUhBceoWXBV\ntbi60uv/ztTsybBZ797WG4U18V+8kw==\n=LcAD\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeY7MAACgkQOFXbotdE\nA8mz3Qf+Ijq1jfjWLThBsIlh0vUvC2yGL0Md2KNAkuLAT+18T0aJ1FAeSOXqLgF/\nGpHhDHQNJ5/BrhRby8qHS6DMbhV53F5/099DNejy28n8IIoPUxqPqYC3sQvzQ4PV\nBHyf8YoYUWKNg2aUZuCudDAKpYYPkD/l+eu5pN4WMoDGlhdBkatxFOGfhJhm7mpa\n11mwPICFlTZ2z3wSuDuh44iMwgdhcfv4YbtdZgQpo3MpRysrd5YnyVtscjOokzS1\nwQ5LNn0B+JiFHMNAGxL+pZghoWA0KY4ZwGDLDKC94QjupLhMeUqhWckBDH9EfetT\nLIT5H5i+w1yOr1M5DsrJajQT8/Z65g==\n=76iZ\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-27T02:25:33Z"
+                    "verified_at": "2025-01-28T14:42:13Z"
                 }
             },
             "committer": {
@@ -292,28 +523,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/dockerfiles/commit/a696aab71458b58dce87017da065912fbeaec3a7",
-            "node_id": "C_kwDOBBks79oAKGE2OTZhYWI3MTQ1OGI1OGRjZTg3MDE3ZGEwNjU5MTJmYmVhZWMzYTc",
+            "html_url": "https://github.com/TokTok/dockerfiles/commit/13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+            "node_id": "C_kwDOBBks79oAKDEzZGUxNzE2MDUxYTUyODRhNmVmMDdjZTM2ZmQwYjFlZjhlNGJlNDc",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/dockerfiles/commit/3b16a13e22ee2f6d7e43540375a171d15e31060f",
-                    "sha": "3b16a13e22ee2f6d7e43540375a171d15e31060f",
-                    "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/3b16a13e22ee2f6d7e43540375a171d15e31060f"
+                    "html_url": "https://github.com/TokTok/dockerfiles/commit/83eb3818ec859b4c07f877327f45b9b0a2fb085c",
+                    "sha": "83eb3818ec859b4c07f877327f45b9b0a2fb085c",
+                    "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/83eb3818ec859b4c07f877327f45b9b0a2fb085c"
                 }
             ],
-            "sha": "a696aab71458b58dce87017da065912fbeaec3a7",
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/a696aab71458b58dce87017da065912fbeaec3a7"
+            "sha": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/13de1716051a5284a6ef07ce36fd0b1ef8e4be47"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/commits",
-    "created_at": "2025-01-27T00:46:49Z",
-    "deletions": 13,
-    "diff_url": "https://github.com/TokTok/dockerfiles/pull/238.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240/commits",
+    "created_at": "2025-01-28T01:56:54Z",
+    "deletions": 16,
+    "diff_url": "https://github.com/TokTok/dockerfiles/pull/240.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:pic",
-        "ref": "pic",
+        "label": "iphydf:simulator",
+        "ref": "simulator",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/dockerfiles/{archive_format}{/ref}",
@@ -429,7 +660,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "a696aab71458b58dce87017da065912fbeaec3a7",
+        "sha": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -452,9 +683,9 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/dockerfiles/pull/238",
-    "id": 2298891255,
-    "issue_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/238",
+    "html_url": "https://github.com/TokTok/dockerfiles/pull/240",
+    "id": 2301185029,
+    "issue_url": "https://api.github.com/repos/TokTok/dockerfiles/issues/240",
     "labels": [
         {
             "color": "f9d0c4",
@@ -468,30 +699,30 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "a696aab71458b58dce87017da065912fbeaec3a7",
+    "merge_commit_sha": "13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-01-27T11:38:58Z",
+    "merged_at": "2025-01-28T15:26:57Z",
     "merged_by": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
-        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
-        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
-        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
-        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
         "gravatar_id": "",
-        "html_url": "https://github.com/toktok-releaser",
-        "id": 41485111,
-        "login": "toktok-releaser",
-        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
-        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
-        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
-        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
         "site_admin": false,
-        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/toktok-releaser",
+        "url": "https://api.github.com/users/iphydf",
         "user_view_type": "public"
     },
     "milestone": {
@@ -532,20 +763,20 @@
         "updated_at": "2025-01-28T23:14:37Z",
         "url": "https://api.github.com/repos/TokTok/dockerfiles/milestones/1"
     },
-    "node_id": "PR_kwDOBBORvM6JBkv3",
-    "number": 238,
-    "patch_url": "https://github.com/TokTok/dockerfiles/pull/238.patch",
+    "node_id": "PR_kwDOBBORvM6JKUwF",
+    "number": 240,
+    "patch_url": "https://github.com/TokTok/dockerfiles/pull/240.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/comments{/number}",
-    "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238/comments",
+    "review_comments": 3,
+    "review_comments_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/dockerfiles/statuses/a696aab71458b58dce87017da065912fbeaec3a7",
-    "title": "chore: Build libsodium with -fPIC for relocatable symbols.",
-    "updated_at": "2025-01-27T11:49:34Z",
-    "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/238",
+    "statuses_url": "https://api.github.com/repos/TokTok/dockerfiles/statuses/13de1716051a5284a6ef07ce36fd0b1ef8e4be47",
+    "title": "chore: Add support for iphone simulator on arm64.",
+    "updated_at": "2025-01-28T15:27:01Z",
+    "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/240",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",

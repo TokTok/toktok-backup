@@ -1,34 +1,76 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/btox/issues/52/comments"
+            "href": "https://api.github.com/repos/TokTok/btox/issues/53/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/btox/pulls/52/commits"
+            "href": "https://api.github.com/repos/TokTok/btox/pulls/53/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/btox/pull/52"
+            "href": "https://github.com/TokTok/btox/pull/53"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/btox/issues/52"
+            "href": "https://api.github.com/repos/TokTok/btox/issues/53"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/btox/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/btox/pulls/52/comments"
+            "href": "https://api.github.com/repos/TokTok/btox/pulls/53/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/btox/pulls/52"
+            "href": "https://api.github.com/repos/TokTok/btox/pulls/53"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/btox/statuses/84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0"
+            "href": "https://api.github.com/repos/TokTok/btox/statuses/2b0345bdb6040f031787e29963e1642e71bb3543"
         }
     },
     "active_lock_reason": null,
-    "additions": 851,
-    "assignee": null,
-    "assignees": [],
+    "additions": 11,
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/iphydf",
+            "user_view_type": "public"
+        }
+    ],
     "author_association": "MEMBER",
     "auto_merge": null,
     "base": {
@@ -151,7 +193,7 @@
             "watchers_count": 14,
             "web_commit_signoff_required": false
         },
-        "sha": "2b0345bdb6040f031787e29963e1642e71bb3543",
+        "sha": "e2e0bad2e77a69a0f4289241f098206d9fbbfddb",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -174,19 +216,19 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/btox/52)\n<!-- Reviewable:end -->\n",
-    "changed_files": 45,
-    "closed_at": null,
+    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/btox/53)\n<!-- Reviewable:end -->\n",
+    "changed_files": 3,
+    "closed_at": "2025-01-28T15:32:13Z",
     "comment_data": [],
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "### <span aria-hidden=\"true\">👷</span> Deploy Preview for *btox* processing.\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0 |\n|<span aria-hidden=\"true\">🔍</span> Latest deploy log | https://app.netlify.com/sites/btox/deploys/679a0c1cbf76a30008e79ede |",
-            "created_at": "2025-01-27T00:04:30Z",
-            "html_url": "https://github.com/TokTok/btox/pull/52#issuecomment-2614644345",
-            "id": 2614644345,
-            "issue_url": "https://api.github.com/repos/TokTok/btox/issues/52",
-            "node_id": "IC_kwDOGwPtrc6b2E55",
+            "body": "### <span aria-hidden=\"true\">✅</span> Deploy Preview for *btox* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">🔨</span> Latest commit | 2b0345bdb6040f031787e29963e1642e71bb3543 |\n|<span aria-hidden=\"true\">🔍</span> Latest deploy log | https://app.netlify.com/sites/btox/deploys/67980ade34d2c8000835b2df |\n|<span aria-hidden=\"true\">😎</span> Deploy Preview | [https://deploy-preview-53--btox.netlify.app](https://deploy-preview-53--btox.netlify.app) |\n|<span aria-hidden=\"true\">📱</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTUzLS1idG94Lm5ldGxpZnkuYXBwIn0.cwDBDCOpCMLSQNfWr11MMWNlrMXS3kHKb85nSXYevAo)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n---\n<!-- [btox Preview](https://deploy-preview-53--btox.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify site configuration](https://app.netlify.com/sites/btox/configuration/notifications#deploy-webhooks)._",
+            "created_at": "2025-01-27T22:36:30Z",
+            "html_url": "https://github.com/TokTok/btox/pull/53#issuecomment-2617042851",
+            "id": 2617042851,
+            "issue_url": "https://api.github.com/repos/TokTok/btox/issues/53",
+            "node_id": "IC_kwDOGwPtrc6b_Oej",
             "performed_via_github_app": {
                 "client_id": "Iv1.0acdee22e0bba5eb",
                 "created_at": "2018-06-12T15:16:51Z",
@@ -248,10 +290,10 @@
                 "laugh": 0,
                 "rocket": 0,
                 "total_count": 0,
-                "url": "https://api.github.com/repos/TokTok/btox/issues/comments/2614644345/reactions"
+                "url": "https://api.github.com/repos/TokTok/btox/issues/comments/2617042851/reactions"
             },
-            "updated_at": "2025-01-29T11:08:25Z",
-            "url": "https://api.github.com/repos/TokTok/btox/issues/comments/2614644345",
+            "updated_at": "2025-01-27T22:44:09Z",
+            "url": "https://api.github.com/repos/TokTok/btox/issues/comments/2617042851",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/13473?v=4",
                 "events_url": "https://api.github.com/users/netlify%5Bbot%5D/events{/privacy}",
@@ -276,7 +318,7 @@
         }
     ],
     "comments": 1,
-    "comments_url": "https://api.github.com/repos/TokTok/btox/issues/52/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/btox/issues/53/comments",
     "commit_data": [
         {
             "author": {
@@ -300,31 +342,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/btox/commits/84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/btox/commits/2b0345bdb6040f031787e29963e1642e71bb3543/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-27T00:03:42Z",
+                    "date": "2025-01-27T22:34:00Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-29T11:08:09Z",
+                    "date": "2025-01-27T22:38:19Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "feat: Add toxcore FFI.",
+                "message": "chore: Cancel PR builds when new commits are pushed.",
                 "tree": {
-                    "sha": "44e9f665a087282843a8b2786281298fd77cfb01",
-                    "url": "https://api.github.com/repos/TokTok/btox/git/trees/44e9f665a087282843a8b2786281298fd77cfb01"
+                    "sha": "5f15f3281f912be2260af8cf8527255c3c3bed4e",
+                    "url": "https://api.github.com/repos/TokTok/btox/git/trees/5f15f3281f912be2260af8cf8527255c3c3bed4e"
                 },
-                "url": "https://api.github.com/repos/TokTok/btox/git/commits/84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0",
+                "url": "https://api.github.com/repos/TokTok/btox/git/commits/2b0345bdb6040f031787e29963e1642e71bb3543",
                 "verification": {
-                    "payload": "tree 44e9f665a087282843a8b2786281298fd77cfb01\nparent 2b0345bdb6040f031787e29963e1642e71bb3543\nauthor iphydf <iphydf@users.noreply.github.com> 1737936222 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738148889 +0000\n\nfeat: Add toxcore FFI.\n",
+                    "payload": "tree 5f15f3281f912be2260af8cf8527255c3c3bed4e\nparent e2e0bad2e77a69a0f4289241f098206d9fbbfddb\nauthor iphydf <iphydf@users.noreply.github.com> 1738017240 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738017499 +0000\n\nchore: Cancel PR builds when new commits are pushed.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeaDBkACgkQOFXbotdE\nA8n+TQf+J72EZJMrojl2UY4UZ3G923lS9a7X0OVs91KHZYTgbW0iD4Gwr+869JoH\nYfI2/oLqt7MTdmPGPzCRQezSIGROgcv+y8k3lYa/CEyCWov28pIcddQtw95nz7Il\npfwk/24G7jpgJoAiqNsKtDQX5PloJX1NaSKDA5GgS4nx0kavXmEsn4ze2ZIERmTO\nAoq29y5AZka9i4bLL0sJA7zmq84sJQWu+1WgTn7l/s6uEsJ7hnpB5/GTiCva2ZN5\nJFpHKO9oNBMZ2PfZMNhMJ8630MCDpXBUGbTi6ZbSpBhHiTqDCzZV5PV+JruRE14v\no4ORpK3WBmxQ5Ti+vBLn+LhdHHC5EQ==\n=wIPH\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeYCtsACgkQOFXbotdE\nA8lTjggAl9Trbt01QprJ/4R8lI1G2EcdXFP7eyZGY/iAKy08ZeDaIDhaYEkIyirr\nK6EWvDBHp2dBJ5TOOCajYgG6CCVYzM7/G5ichURzCYGwNCTd9l38QMsEXXU2OgH6\nJ+SfPBXZOF3fS9XEzhDL1Ss56jXxxCWJRhvbRnBQjpossE3wvQLbMEY7zONCqO9o\nKGiH89+0DCHhCtzRwxMGTxQEB+rzDA0sJCJUxU3IS7ws7XsdVzITcbbLToP4ROeH\nVQxb+FOE6QvOts+uYJRv5ypGmtyROIZEWaiSp/3M/7DU/5A/mkEn7xJCHsmYIbaz\n27rXPTlIxt8KM2y8isLvZZkbaXHxQw==\n=aQF4\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-29T11:08:12Z"
+                    "verified_at": "2025-01-27T22:38:22Z"
                 }
             },
             "committer": {
@@ -348,28 +390,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/btox/commit/84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0",
-            "node_id": "C_kwDOGw0TnNoAKDg0YjljZGM2ZTkxMjViM2VhYjM1NDM4NTBkY2QxZTE5MzRiZGI5YjA",
+            "html_url": "https://github.com/TokTok/btox/commit/2b0345bdb6040f031787e29963e1642e71bb3543",
+            "node_id": "C_kwDOGw0TnNoAKDJiMDM0NWJkYjYwNDBmMDMxNzg3ZTI5OTYzZTE2NDJlNzFiYjM1NDM",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/btox/commit/2b0345bdb6040f031787e29963e1642e71bb3543",
-                    "sha": "2b0345bdb6040f031787e29963e1642e71bb3543",
-                    "url": "https://api.github.com/repos/TokTok/btox/commits/2b0345bdb6040f031787e29963e1642e71bb3543"
+                    "html_url": "https://github.com/TokTok/btox/commit/e2e0bad2e77a69a0f4289241f098206d9fbbfddb",
+                    "sha": "e2e0bad2e77a69a0f4289241f098206d9fbbfddb",
+                    "url": "https://api.github.com/repos/TokTok/btox/commits/e2e0bad2e77a69a0f4289241f098206d9fbbfddb"
                 }
             ],
-            "sha": "84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0",
-            "url": "https://api.github.com/repos/TokTok/btox/commits/84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0"
+            "sha": "2b0345bdb6040f031787e29963e1642e71bb3543",
+            "url": "https://api.github.com/repos/TokTok/btox/commits/2b0345bdb6040f031787e29963e1642e71bb3543"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/btox/pulls/52/commits",
-    "created_at": "2025-01-27T00:04:06Z",
-    "deletions": 87,
-    "diff_url": "https://github.com/TokTok/btox/pull/52.diff",
-    "draft": true,
+    "commits_url": "https://api.github.com/repos/TokTok/btox/pulls/53/commits",
+    "created_at": "2025-01-27T22:34:19Z",
+    "deletions": 1,
+    "diff_url": "https://github.com/TokTok/btox/pull/53.diff",
+    "draft": false,
     "head": {
-        "label": "iphydf:ffi",
-        "ref": "ffi",
+        "label": "iphydf:concurrency",
+        "ref": "concurrency",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/btox/{archive_format}{/ref}",
@@ -487,7 +529,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0",
+        "sha": "2b0345bdb6040f031787e29963e1642e71bb3543",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -510,28 +552,48 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/btox/pull/52",
-    "id": 2298866124,
-    "issue_url": "https://api.github.com/repos/TokTok/btox/issues/52",
+    "html_url": "https://github.com/TokTok/btox/pull/53",
+    "id": 2300961920,
+    "issue_url": "https://api.github.com/repos/TokTok/btox/issues/53",
     "labels": [
         {
-            "color": "84b6eb",
-            "default": true,
-            "description": "New feature for the user, not a new feature for build script",
-            "id": 3777211343,
-            "name": "enhancement",
-            "node_id": "LA_kwDOGwPtrc7hI6vP",
-            "url": "https://api.github.com/repos/TokTok/btox/labels/enhancement"
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Updating grunt tasks etc; no production code change",
+            "id": 3782624929,
+            "name": "chore",
+            "node_id": "LA_kwDOGwPtrc7hdkah",
+            "url": "https://api.github.com/repos/TokTok/btox/labels/chore"
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "7e668940dce6d87554cc819d5cc670b5f68dfb6b",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "2b0345bdb6040f031787e29963e1642e71bb3543",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-01-28T15:32:13Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
         "closed_issues": 44,
@@ -570,20 +632,20 @@
         "updated_at": "2025-01-28T15:32:13Z",
         "url": "https://api.github.com/repos/TokTok/btox/milestones/1"
     },
-    "node_id": "PR_kwDOGwPtrc6JBenM",
-    "number": 52,
-    "patch_url": "https://github.com/TokTok/btox/pull/52.patch",
-    "rebaseable": true,
+    "node_id": "PR_kwDOGwPtrc6JJeSA",
+    "number": 53,
+    "patch_url": "https://github.com/TokTok/btox/pull/53.patch",
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/btox/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/btox/pulls/52/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/btox/statuses/84b9cdc6e9125b3eab3543850dcd1e1934bdb9b0",
-    "title": "feat: Add toxcore FFI.",
-    "updated_at": "2025-01-29T11:08:25Z",
-    "url": "https://api.github.com/repos/TokTok/btox/pulls/52",
+    "review_comments_url": "https://api.github.com/repos/TokTok/btox/pulls/53/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/btox/statuses/2b0345bdb6040f031787e29963e1642e71bb3543",
+    "title": "chore: Cancel PR builds when new commits are pushed.",
+    "updated_at": "2025-01-28T15:32:16Z",
+    "url": "https://api.github.com/repos/TokTok/btox/pulls/53",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
