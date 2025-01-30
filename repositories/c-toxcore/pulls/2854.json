@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2854/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/commits"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/c-toxcore/pull/2849"
+            "href": "https://github.com/TokTok/c-toxcore/pull/2854"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2854"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/93787a9322e994f4850cd22eb24702d8ec278b5f"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/712861f2e6dfa6426fbc97237bb751fe1d8177c5"
         }
     },
     "active_lock_reason": null,
-    "additions": 201,
+    "additions": 58,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -190,7 +190,7 @@
             "watchers_count": 2330,
             "web_commit_signoff_required": false
         },
-        "sha": "9f723f891d3761d317eaaafa82ece42f5a1b0e96",
+        "sha": "01932ea2f7360647224c0ed7c86d5749dbef4a06",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -213,13 +213,153 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2849)\n<!-- Reviewable:end -->\n",
-    "changed_files": 8,
-    "closed_at": "2025-01-29T12:22:39Z",
-    "comment_data": [],
+    "body": "At the moment this is just because qtox outputs logs in this format and now I'm used to it, so I want to unify our log outputs to this format. We don't really parse this output, but after this change, we could theoretically parse the websockify log output in the qtox/debugtox log viewer.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2854)\n<!-- Reviewable:end -->\n",
+    "changed_files": 2,
+    "closed_at": "2025-01-30T15:47:44Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2854#discussion_r1935828455"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1935828455"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "do we want to remove the old versions?",
+            "commit_id": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+            "created_at": "2025-01-30T15:36:26Z",
+            "diff_hunk": "@@ -1,5 +1,7 @@\n github.com/gorilla/websocket v1.5.1 h1:gmztn0JnHVt9JZquRuzLw3g4wouNVzKL15iLr/zn/QY=\n github.com/gorilla/websocket v1.5.1/go.mod h1:x3kM2JMyaluk02fnUJpQuwD2dCS5NDG2ZHL0uE0tcaY=",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2854#discussion_r1935828455",
+            "id": 1935828455,
+            "line": 2,
+            "node_id": "PRRC_kwDOA7zIGs5zYmXn",
+            "original_commit_id": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+            "original_line": 2,
+            "original_position": 2,
+            "original_start_line": null,
+            "path": "other/bootstrap_daemon/websocket/websockify/go.sum",
+            "position": 2,
+            "pull_request_review_id": 2584266756,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1935828455/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-30T15:36:26Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1935828455",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2854#discussion_r1935831917"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1935831917"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Ok, I can do that in a separate pr.",
+            "commit_id": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+            "created_at": "2025-01-30T15:38:26Z",
+            "diff_hunk": "@@ -1,5 +1,7 @@\n github.com/gorilla/websocket v1.5.1 h1:gmztn0JnHVt9JZquRuzLw3g4wouNVzKL15iLr/zn/QY=\n github.com/gorilla/websocket v1.5.1/go.mod h1:x3kM2JMyaluk02fnUJpQuwD2dCS5NDG2ZHL0uE0tcaY=",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2854#discussion_r1935831917",
+            "id": 1935831917,
+            "in_reply_to_id": 1935828455,
+            "line": 2,
+            "node_id": "PRRC_kwDOA7zIGs5zYnNt",
+            "original_commit_id": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+            "original_line": 2,
+            "original_position": 2,
+            "original_start_line": null,
+            "path": "other/bootstrap_daemon/websocket/websockify/go.sum",
+            "position": 2,
+            "pull_request_review_id": 2584272712,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1935831917/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-30T15:38:27Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1935831917",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2854/comments",
     "commit_data": [
         {
             "author": {
@@ -243,31 +383,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/93787a9322e994f4850cd22eb24702d8ec278b5f/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/712861f2e6dfa6426fbc97237bb751fe1d8177c5/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-28T23:55:59Z",
+                    "date": "2025-01-30T15:15:16Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-29T00:51:01Z",
+                    "date": "2025-01-30T15:16:07Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Add ios/macos framework build.",
+                "message": "cleanup: Make websockify output qtox-compatible logging.\n\nAt the moment this is just because qtox outputs logs in this format and\nnow I'm used to it, so I want to unify our log outputs to this format.\nWe don't really parse this output, but after this change, we could\ntheoretically parse the websockify log output in the qtox/debugtox log\nviewer.",
                 "tree": {
-                    "sha": "5611223cc7a50785a1d7b87b58d8d0bda45502d8",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5611223cc7a50785a1d7b87b58d8d0bda45502d8"
+                    "sha": "f932595d5b8586175d75572d6e59d96b348c4ec6",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/f932595d5b8586175d75572d6e59d96b348c4ec6"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/93787a9322e994f4850cd22eb24702d8ec278b5f",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/712861f2e6dfa6426fbc97237bb751fe1d8177c5",
                 "verification": {
-                    "payload": "tree 5611223cc7a50785a1d7b87b58d8d0bda45502d8\nparent 9f723f891d3761d317eaaafa82ece42f5a1b0e96\nauthor iphydf <iphydf@users.noreply.github.com> 1738108559 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738111861 +0000\n\nchore: Add ios/macos framework build.\n",
+                    "payload": "tree f932595d5b8586175d75572d6e59d96b348c4ec6\nparent 01932ea2f7360647224c0ed7c86d5749dbef4a06\nauthor iphydf <iphydf@users.noreply.github.com> 1738250116 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738250167 +0000\n\ncleanup: Make websockify output qtox-compatible logging.\n\nAt the moment this is just because qtox outputs logs in this format and\nnow I'm used to it, so I want to unify our log outputs to this format.\nWe don't really parse this output, but after this change, we could\ntheoretically parse the websockify log output in the qtox/debugtox log\nviewer.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeZe3UACgkQOFXbotdE\nA8lrZAf/d3wzYMDtZzH0WTbGhvS3ri9pIcxYAIRktwlxiNIRwpk6Ra8p/PHYQ34k\nXPBrsVKrVz1os/YMtVv1Fu2g3OrYQzN9wsnEbCdTp1/g1P92obkPxMO+NJD+Vlz4\n43PtWmMUiU1OeHKFMnBaFIbDkqwMSvqRX7v3nG6NQP9lVESaB1RFfPC1As/zN5mS\nHEE7b3vIG7m+GfNq50/YYoYXrUs7lmkDba2NzczcmzUDpBLoQeewnS7MbIxOUUdz\nC/3UodbgymK0z0xXxaOQuBFxE0MlXuaRQKj+6g3zLL20YDJvdypvYsiRsgWqs1Us\nDpOmrbr8i05nwoH4ihN9d2M2GaFi/g==\n=pzlz\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmebl9gACgkQOFXbotdE\nA8mW2Qf9EDPXYW+CegiH81f0NDJhiXA3p1O7T7Iiyl05LyeK5nzEvfCf2RDg3r8j\nBVao/aT2VYb5m0PntiXgKQqFzMoPBRmhzX41VZl40c4w1/Mk5ZzOEPhTyQdx0GSZ\nUy7iJlOj2t9BwvhFgkt6IjDRLLrREZa2zDOHQT7juvIZRFKTT++sdLryanIXuwwx\ndYPG0qZrZH/0mPyEuDQ2bTqjMjJhtp8fhQ/LF26psw0qJVD+i3vDUjFLmlBSfqS+\nWuxhreYlnPBxdkBrkeLdQbjywdcP59getI328nhPcL7SvbdeDAQt5qOqsKsq9X6d\nPTc/VBorE30jZoakd14u0IAC8n+SQw==\n=xr8u\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-29T00:51:04Z"
+                    "verified_at": "2025-01-30T15:16:49Z"
                 }
             },
             "committer": {
@@ -291,28 +431,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/93787a9322e994f4850cd22eb24702d8ec278b5f",
-            "node_id": "C_kwDOA7z7wtoAKDkzNzg3YTkzMjJlOTk0ZjQ4NTBjZDIyZWIyNDcwMmQ4ZWMyNzhiNWY",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+            "node_id": "C_kwDOA7z7wtoAKDcxMjg2MWYyZTZkZmE2NDI2ZmJjOTcyMzdiYjc1MWZlMWQ4MTc3YzU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/9f723f891d3761d317eaaafa82ece42f5a1b0e96",
-                    "sha": "9f723f891d3761d317eaaafa82ece42f5a1b0e96",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9f723f891d3761d317eaaafa82ece42f5a1b0e96"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/01932ea2f7360647224c0ed7c86d5749dbef4a06",
+                    "sha": "01932ea2f7360647224c0ed7c86d5749dbef4a06",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/01932ea2f7360647224c0ed7c86d5749dbef4a06"
                 }
             ],
-            "sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/93787a9322e994f4850cd22eb24702d8ec278b5f"
+            "sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/712861f2e6dfa6426fbc97237bb751fe1d8177c5"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/commits",
-    "created_at": "2025-01-29T00:03:47Z",
-    "deletions": 72,
-    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2849.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854/commits",
+    "created_at": "2025-01-30T15:16:47Z",
+    "deletions": 4,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2854.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:framework",
-        "ref": "framework",
+        "label": "iphydf:go-log",
+        "ref": "go-log",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/c-toxcore/{archive_format}{/ref}",
@@ -427,7 +567,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
+        "sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -450,27 +590,27 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/c-toxcore/pull/2849",
-    "id": 2303427388,
-    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849",
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/2854",
+    "id": 2307115535,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2854",
     "labels": [
         {
-            "color": "f9d0c4",
+            "color": "fef2c0",
             "default": false,
-            "description": "Updating grunt tasks etc; no production code change",
-            "id": 2034515478,
-            "name": "chore",
-            "node_id": "MDU6TGFiZWwyMDM0NTE1NDc4",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/chore"
+            "description": "Internal code cleanup, possibly affecting semantics, e.g. deleting a deprecated feature.",
+            "id": 2036528013,
+            "name": "cleanup",
+            "node_id": "MDU6TGFiZWwyMDM2NTI4MDEz",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/cleanup"
         }
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
+    "merge_commit_sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-01-29T12:22:39Z",
+    "merged_at": "2025-01-30T15:47:44Z",
     "merged_by": {
         "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
         "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
@@ -530,20 +670,20 @@
         "updated_at": "2025-01-30T22:19:36Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
-    "node_id": "PR_kwDOA7zIGs6JS4M8",
-    "number": 2849,
-    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2849.patch",
+    "node_id": "PR_kwDOA7zIGs6Jg8oP",
+    "number": 2854,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2854.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/comments",
+    "review_comments": 2,
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/93787a9322e994f4850cd22eb24702d8ec278b5f",
-    "title": "chore: Add ios/macos framework build.",
-    "updated_at": "2025-01-29T12:23:25Z",
-    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+    "title": "cleanup: Make websockify output qtox-compatible logging.",
+    "updated_at": "2025-01-30T16:19:20Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2854",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",

@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/cbf09c58c75d857e732fff6f65e4271e56ff6600"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/5a825837d8f5c3a0aec934906dc13ab50c913b3e"
         }
     },
     "active_lock_reason": null,
-    "additions": 2726,
+    "additions": 2723,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
         "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
@@ -137,8 +137,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 209,
+            "open_issues_count": 209,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-29T07:54:54Z",
+            "pushed_at": "2025-01-30T22:56:11Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25164,
+            "size": 24909,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2328,
+            "stargazers_count": 2330,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,11 +183,11 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-28T22:14:04Z",
+            "updated_at": "2025-01-30T22:08:10Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2328,
-            "watchers_count": 2328,
+            "watchers": 2330,
+            "watchers_count": 2330,
             "web_commit_signoff_required": false
         },
         "sha": "c8344726378e3be2277e82734ffd39c40c15d2e4",
@@ -231,7 +231,7 @@
             },
             "author_association": "MEMBER",
             "body": "you forgot the todo :)",
-            "commit_id": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
+            "commit_id": "5a825837d8f5c3a0aec934906dc13ab50c913b3e",
             "created_at": "2024-06-11T18:36:32Z",
             "diff_hunk": "@@ -651,7 +651,6 @@ void crypto_hkdf(uint8_t *output1, size_t first_len, uint8_t *output2,\n  * Calls MixHash() once for each public key listed in the pre-messages.\n  *\n  * //TODO: remove Logger Param",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#discussion_r1635326298",
@@ -300,7 +300,7 @@
             },
             "author_association": "NONE",
             "body": "Intentionally, as a some other TODOs ;)",
-            "commit_id": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
+            "commit_id": "5a825837d8f5c3a0aec934906dc13ab50c913b3e",
             "created_at": "2024-06-14T10:01:09Z",
             "diff_hunk": "@@ -651,7 +651,6 @@ void crypto_hkdf(uint8_t *output1, size_t first_len, uint8_t *output2,\n  * Calls MixHash() once for each public key listed in the pre-messages.\n  *\n  * //TODO: remove Logger Param",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#discussion_r1639590547",
@@ -12555,12 +12555,176 @@
             ],
             "sha": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/cbf09c58c75d857e732fff6f65e4271e56ff6600"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e2e65c249ee825dbe0dabb96c717441cb18456a6/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-28T19:26:12Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-28T19:26:12Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "cleanup: minor cleanup",
+                "tree": {
+                    "sha": "73a17f38acce8b20b2c3a4ccb572f625ae30a00f",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/73a17f38acce8b20b2c3a4ccb572f625ae30a00f"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e2e65c249ee825dbe0dabb96c717441cb18456a6",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/e2e65c249ee825dbe0dabb96c717441cb18456a6",
+            "node_id": "C_kwDODIQB0doAKGUyZTY1YzI0OWVlODI1ZGJlMGRhYmI5NmM3MTc0NDFjYjE4NDU2YTY",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/cbf09c58c75d857e732fff6f65e4271e56ff6600",
+                    "sha": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/cbf09c58c75d857e732fff6f65e4271e56ff6600"
+                }
+            ],
+            "sha": "e2e65c249ee825dbe0dabb96c717441cb18456a6",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e2e65c249ee825dbe0dabb96c717441cb18456a6"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5a825837d8f5c3a0aec934906dc13ab50c913b3e/comments",
+            "commit": {
+                "author": {
+                    "date": "2025-01-30T19:43:24Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2025-01-30T19:43:24Z",
+                    "email": "goldroom@users.noreply.github.com",
+                    "name": "goldroom"
+                },
+                "message": "cleanup: minor cleanup",
+                "tree": {
+                    "sha": "036bd4d627537d20c3bc7043c675583a9e117dcc",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/036bd4d627537d20c3bc7043c675583a9e117dcc"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/5a825837d8f5c3a0aec934906dc13ab50c913b3e",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
+                "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
+                "followers_url": "https://api.github.com/users/goldroom/followers",
+                "following_url": "https://api.github.com/users/goldroom/following{/other_user}",
+                "gists_url": "https://api.github.com/users/goldroom/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/goldroom",
+                "id": 10259855,
+                "login": "goldroom",
+                "node_id": "MDQ6VXNlcjEwMjU5ODU1",
+                "organizations_url": "https://api.github.com/users/goldroom/orgs",
+                "received_events_url": "https://api.github.com/users/goldroom/received_events",
+                "repos_url": "https://api.github.com/users/goldroom/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/goldroom/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/goldroom/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/goldroom",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/5a825837d8f5c3a0aec934906dc13ab50c913b3e",
+            "node_id": "C_kwDODIQB0doAKDVhODI1ODM3ZDhmNWMzYTBhZWM5MzQ5MDZkYzEzYWI1MGM5MTNiM2U",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/e2e65c249ee825dbe0dabb96c717441cb18456a6",
+                    "sha": "e2e65c249ee825dbe0dabb96c717441cb18456a6",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e2e65c249ee825dbe0dabb96c717441cb18456a6"
+                }
+            ],
+            "sha": "5a825837d8f5c3a0aec934906dc13ab50c913b3e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5a825837d8f5c3a0aec934906dc13ab50c913b3e"
         }
     ],
-    "commits": 142,
+    "commits": 144,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450/commits",
     "created_at": "2023-12-04T19:53:11Z",
-    "deletions": 161,
+    "deletions": 162,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2450.diff",
     "draft": true,
     "head": {
@@ -12652,9 +12816,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/goldroom/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-27T20:08:17Z",
+            "pushed_at": "2025-01-30T19:44:34Z",
             "releases_url": "https://api.github.com/repos/goldroom/c-toxcore/releases{/id}",
-            "size": 19966,
+            "size": 19994,
             "ssh_url": "git@github.com:goldroom/c-toxcore.git",
             "stargazers_count": 1,
             "stargazers_url": "https://api.github.com/repos/goldroom/c-toxcore/stargazers",
@@ -12673,7 +12837,7 @@
             "watchers_count": 1,
             "web_commit_signoff_required": false
         },
-        "sha": "cbf09c58c75d857e732fff6f65e4271e56ff6600",
+        "sha": "5a825837d8f5c3a0aec934906dc13ab50c913b3e",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",
             "events_url": "https://api.github.com/users/goldroom/events{/privacy}",
@@ -12712,7 +12876,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "8dfc9b5e2eb7910e8d8edf14931d921129164647",
+    "merge_commit_sha": "ef293d2186e5d20d1fe8efff831d5fa8aef137d5",
     "mergeable": true,
     "mergeable_state": "behind",
     "merged": false,
@@ -12766,9 +12930,9 @@
     "review_comments": 2,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/cbf09c58c75d857e732fff6f65e4271e56ff6600",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/5a825837d8f5c3a0aec934906dc13ab50c913b3e",
     "title": "feat: WIP NoiseIK handshake based on libsodium",
-    "updated_at": "2025-01-27T20:08:30Z",
+    "updated_at": "2025-01-30T19:44:48Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",

@@ -1,76 +1,34 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/commits"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/c-toxcore/pull/2849"
+            "href": "https://github.com/TokTok/c-toxcore/pull/2855"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/93787a9322e994f4850cd22eb24702d8ec278b5f"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/57772d6055d19fa530f450d68e0bab8fb0037728"
         }
     },
     "active_lock_reason": null,
-    "additions": 201,
-    "assignee": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
-        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
-        "followers_url": "https://api.github.com/users/iphydf/followers",
-        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
-        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
-        "gravatar_id": "",
-        "html_url": "https://github.com/iphydf",
-        "id": 10647936,
-        "login": "iphydf",
-        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
-        "organizations_url": "https://api.github.com/users/iphydf/orgs",
-        "received_events_url": "https://api.github.com/users/iphydf/received_events",
-        "repos_url": "https://api.github.com/users/iphydf/repos",
-        "site_admin": false,
-        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
-        "type": "User",
-        "url": "https://api.github.com/users/iphydf",
-        "user_view_type": "public"
-    },
-    "assignees": [
-        {
-            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
-            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
-            "followers_url": "https://api.github.com/users/iphydf/followers",
-            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
-            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
-            "gravatar_id": "",
-            "html_url": "https://github.com/iphydf",
-            "id": 10647936,
-            "login": "iphydf",
-            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
-            "organizations_url": "https://api.github.com/users/iphydf/orgs",
-            "received_events_url": "https://api.github.com/users/iphydf/received_events",
-            "repos_url": "https://api.github.com/users/iphydf/repos",
-            "site_admin": false,
-            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
-            "type": "User",
-            "url": "https://api.github.com/users/iphydf",
-            "user_view_type": "public"
-        }
-    ],
+    "additions": 214,
+    "assignee": null,
+    "assignees": [],
     "author_association": "MEMBER",
     "auto_merge": null,
     "base": {
@@ -190,7 +148,7 @@
             "watchers_count": 2330,
             "web_commit_signoff_required": false
         },
-        "sha": "9f723f891d3761d317eaaafa82ece42f5a1b0e96",
+        "sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -213,13 +171,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2849)\n<!-- Reviewable:end -->\n",
-    "changed_files": 8,
-    "closed_at": "2025-01-29T12:22:39Z",
+    "body": "Also, allow trace logging in bootstrapd (disabled by default, but enabled on the websockify docker image so we can debug things there).\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2855)\n<!-- Reviewable:end -->\n",
+    "changed_files": 14,
+    "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855/comments",
     "commit_data": [
         {
             "author": {
@@ -243,31 +201,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/93787a9322e994f4850cd22eb24702d8ec278b5f/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57772d6055d19fa530f450d68e0bab8fb0037728/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-28T23:55:59Z",
+                    "date": "2025-01-30T16:20:50Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-29T00:51:01Z",
+                    "date": "2025-01-30T16:51:57Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Add ios/macos framework build.",
+                "message": "refactor: Add file/line to tox-bootstrapd logging.\n\nAlso, allow trace logging in bootstrapd (disabled by default, but\nenabled on the websockify docker image so we can debug things there).",
                 "tree": {
-                    "sha": "5611223cc7a50785a1d7b87b58d8d0bda45502d8",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5611223cc7a50785a1d7b87b58d8d0bda45502d8"
+                    "sha": "df04b4b40ef4ed5423d18c096474bf68953d9dbb",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/df04b4b40ef4ed5423d18c096474bf68953d9dbb"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/93787a9322e994f4850cd22eb24702d8ec278b5f",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/57772d6055d19fa530f450d68e0bab8fb0037728",
                 "verification": {
-                    "payload": "tree 5611223cc7a50785a1d7b87b58d8d0bda45502d8\nparent 9f723f891d3761d317eaaafa82ece42f5a1b0e96\nauthor iphydf <iphydf@users.noreply.github.com> 1738108559 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738111861 +0000\n\nchore: Add ios/macos framework build.\n",
+                    "payload": "tree df04b4b40ef4ed5423d18c096474bf68953d9dbb\nparent 712861f2e6dfa6426fbc97237bb751fe1d8177c5\nauthor iphydf <iphydf@users.noreply.github.com> 1738254050 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738255917 +0000\n\nrefactor: Add file/line to tox-bootstrapd logging.\n\nAlso, allow trace logging in bootstrapd (disabled by default, but\nenabled on the websockify docker image so we can debug things there).\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeZe3UACgkQOFXbotdE\nA8lrZAf/d3wzYMDtZzH0WTbGhvS3ri9pIcxYAIRktwlxiNIRwpk6Ra8p/PHYQ34k\nXPBrsVKrVz1os/YMtVv1Fu2g3OrYQzN9wsnEbCdTp1/g1P92obkPxMO+NJD+Vlz4\n43PtWmMUiU1OeHKFMnBaFIbDkqwMSvqRX7v3nG6NQP9lVESaB1RFfPC1As/zN5mS\nHEE7b3vIG7m+GfNq50/YYoYXrUs7lmkDba2NzczcmzUDpBLoQeewnS7MbIxOUUdz\nC/3UodbgymK0z0xXxaOQuBFxE0MlXuaRQKj+6g3zLL20YDJvdypvYsiRsgWqs1Us\nDpOmrbr8i05nwoH4ihN9d2M2GaFi/g==\n=pzlz\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmebri0ACgkQOFXbotdE\nA8kdpgf+NadrP+qO5qc7kaafMUF5UXnSD/Qn9jndxvEA8zYCbY+XFvc4pZrVeGik\nsoNp97VEC1xf0pYIS6fTlnajLXb8ck4jrxqr6cfB5IX6X+gzfkErS+/LwOHUCH4m\nB64uAu8p5H3TucAuWlh7knSRlw14iFuIzCLy6kU1U+IVhMHb9zlY2JHD9Jfu+k7x\nYgTB5JJb1dxnB1j+LSMAezYocPbuwvyWxEf0NVoEMxiXN/5jNV7GE4xtqTCTcP4V\n2ibqWl5cJYhp2vY+rGzbhfPCxaffzNEjKI5eP2d9SX41Ss1lnDwHlNE/WVhayH5o\nk7GQweFg7K5OAhzoMs2zzSq2+9wOnA==\n=7DmV\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-29T00:51:04Z"
+                    "verified_at": "2025-01-30T16:52:00Z"
                 }
             },
             "committer": {
@@ -291,28 +249,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/93787a9322e994f4850cd22eb24702d8ec278b5f",
-            "node_id": "C_kwDOA7z7wtoAKDkzNzg3YTkzMjJlOTk0ZjQ4NTBjZDIyZWIyNDcwMmQ4ZWMyNzhiNWY",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/57772d6055d19fa530f450d68e0bab8fb0037728",
+            "node_id": "C_kwDOA7z7wtoAKDU3NzcyZDYwNTVkMTlmYTUzMGY0NTBkNjhlMGJhYjhmYjAwMzc3Mjg",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/9f723f891d3761d317eaaafa82ece42f5a1b0e96",
-                    "sha": "9f723f891d3761d317eaaafa82ece42f5a1b0e96",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9f723f891d3761d317eaaafa82ece42f5a1b0e96"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+                    "sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/712861f2e6dfa6426fbc97237bb751fe1d8177c5"
                 }
             ],
-            "sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/93787a9322e994f4850cd22eb24702d8ec278b5f"
+            "sha": "57772d6055d19fa530f450d68e0bab8fb0037728",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57772d6055d19fa530f450d68e0bab8fb0037728"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/commits",
-    "created_at": "2025-01-29T00:03:47Z",
-    "deletions": 72,
-    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2849.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855/commits",
+    "created_at": "2025-01-30T16:21:45Z",
+    "deletions": 119,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2855.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:framework",
-        "ref": "framework",
+        "label": "iphydf:bootstrapd-log",
+        "ref": "bootstrapd-log",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/c-toxcore/{archive_format}{/ref}",
@@ -427,7 +385,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
+        "sha": "57772d6055d19fa530f450d68e0bab8fb0037728",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -450,48 +408,28 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/c-toxcore/pull/2849",
-    "id": 2303427388,
-    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849",
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/2855",
+    "id": 2307256926,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855",
     "labels": [
         {
-            "color": "f9d0c4",
+            "color": "fef2c0",
             "default": false,
-            "description": "Updating grunt tasks etc; no production code change",
-            "id": 2034515478,
-            "name": "chore",
-            "node_id": "MDU6TGFiZWwyMDM0NTE1NDc4",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/chore"
+            "description": "Refactoring production code, eg. renaming a variable, not affecting semantics",
+            "id": 2034508700,
+            "name": "refactor",
+            "node_id": "MDU6TGFiZWwyMDM0NTA4NzAw",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/labels/refactor"
         }
     ],
     "locked": false,
-    "maintainer_can_modify": false,
-    "merge_commit_sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
-    "mergeable": null,
-    "mergeable_state": "unknown",
-    "merged": true,
-    "merged_at": "2025-01-29T12:22:39Z",
-    "merged_by": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
-        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
-        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
-        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
-        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
-        "gravatar_id": "",
-        "html_url": "https://github.com/toktok-releaser",
-        "id": 41485111,
-        "login": "toktok-releaser",
-        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
-        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
-        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
-        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
-        "site_admin": false,
-        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
-        "type": "User",
-        "url": "https://api.github.com/users/toktok-releaser",
-        "user_view_type": "public"
-    },
+    "maintainer_can_modify": true,
+    "merge_commit_sha": "45aeb5c941020f86cd0c7bae0837c4242bd42fd9",
+    "mergeable": true,
+    "mergeable_state": "behind",
+    "merged": false,
+    "merged_at": null,
+    "merged_by": null,
     "milestone": {
         "closed_at": null,
         "closed_issues": 83,
@@ -530,20 +468,20 @@
         "updated_at": "2025-01-30T22:19:36Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
-    "node_id": "PR_kwDOA7zIGs6JS4M8",
-    "number": 2849,
-    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2849.patch",
-    "rebaseable": null,
+    "node_id": "PR_kwDOA7zIGs6JhfJe",
+    "number": 2855,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2855.patch",
+    "rebaseable": true,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/comments",
-    "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/93787a9322e994f4850cd22eb24702d8ec278b5f",
-    "title": "chore: Add ios/macos framework build.",
-    "updated_at": "2025-01-29T12:23:25Z",
-    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849",
+    "review_comments": 1,
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855/comments",
+    "state": "open",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/57772d6055d19fa530f450d68e0bab8fb0037728",
+    "title": "refactor: Add file/line to tox-bootstrapd stdout/stderr logging.",
+    "updated_at": "2025-01-30T16:52:16Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",

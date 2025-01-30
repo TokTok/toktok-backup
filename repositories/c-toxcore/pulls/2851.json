@@ -1,32 +1,32 @@
 {
     "_links": {
         "comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2851/comments"
         },
         "commits": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/commits"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2851/commits"
         },
         "html": {
-            "href": "https://github.com/TokTok/c-toxcore/pull/2849"
+            "href": "https://github.com/TokTok/c-toxcore/pull/2851"
         },
         "issue": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/issues/2851"
         },
         "review_comment": {
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}"
         },
         "review_comments": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/comments"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2851/comments"
         },
         "self": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2851"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/93787a9322e994f4850cd22eb24702d8ec278b5f"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/21e2325934fec17231e28628699a9316c2a460a3"
         }
     },
     "active_lock_reason": null,
-    "additions": 201,
+    "additions": 13,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -190,7 +190,7 @@
             "watchers_count": 2330,
             "web_commit_signoff_required": false
         },
-        "sha": "9f723f891d3761d317eaaafa82ece42f5a1b0e96",
+        "sha": "b10c8b766bab251e22d24d8034d0aacd4dc25854",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -213,13 +213,13 @@
             "user_view_type": "public"
         }
     },
-    "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2849)\n<!-- Reviewable:end -->\n",
-    "changed_files": 8,
-    "closed_at": "2025-01-29T12:22:39Z",
+    "body": "Also, always run the \"create tarball\" action on pull requests as well, so we know whether it's going to work for master pushes.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2851)\n<!-- Reviewable:end -->\n",
+    "changed_files": 1,
+    "closed_at": "2025-01-29T14:54:42Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849/comments",
+    "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2851/comments",
     "commit_data": [
         {
             "author": {
@@ -243,31 +243,31 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/93787a9322e994f4850cd22eb24702d8ec278b5f/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/21e2325934fec17231e28628699a9316c2a460a3/comments",
             "commit": {
                 "author": {
-                    "date": "2025-01-28T23:55:59Z",
+                    "date": "2025-01-29T14:03:27Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-29T00:51:01Z",
+                    "date": "2025-01-29T14:04:27Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Add ios/macos framework build.",
+                "message": "chore: Fix xcframework tarball creation.\n\nAlso, always run the \"create tarball\" action on pull requests as well,\nso we know whether it's going to work for master pushes.",
                 "tree": {
-                    "sha": "5611223cc7a50785a1d7b87b58d8d0bda45502d8",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5611223cc7a50785a1d7b87b58d8d0bda45502d8"
+                    "sha": "ed470ebcebde966bb2a79de7d69f458c69da1cb4",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/ed470ebcebde966bb2a79de7d69f458c69da1cb4"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/93787a9322e994f4850cd22eb24702d8ec278b5f",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/21e2325934fec17231e28628699a9316c2a460a3",
                 "verification": {
-                    "payload": "tree 5611223cc7a50785a1d7b87b58d8d0bda45502d8\nparent 9f723f891d3761d317eaaafa82ece42f5a1b0e96\nauthor iphydf <iphydf@users.noreply.github.com> 1738108559 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738111861 +0000\n\nchore: Add ios/macos framework build.\n",
+                    "payload": "tree ed470ebcebde966bb2a79de7d69f458c69da1cb4\nparent b10c8b766bab251e22d24d8034d0aacd4dc25854\nauthor iphydf <iphydf@users.noreply.github.com> 1738159407 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738159467 +0000\n\nchore: Fix xcframework tarball creation.\n\nAlso, always run the \"create tarball\" action on pull requests as well,\nso we know whether it's going to work for master pushes.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeZe3UACgkQOFXbotdE\nA8lrZAf/d3wzYMDtZzH0WTbGhvS3ri9pIcxYAIRktwlxiNIRwpk6Ra8p/PHYQ34k\nXPBrsVKrVz1os/YMtVv1Fu2g3OrYQzN9wsnEbCdTp1/g1P92obkPxMO+NJD+Vlz4\n43PtWmMUiU1OeHKFMnBaFIbDkqwMSvqRX7v3nG6NQP9lVESaB1RFfPC1As/zN5mS\nHEE7b3vIG7m+GfNq50/YYoYXrUs7lmkDba2NzczcmzUDpBLoQeewnS7MbIxOUUdz\nC/3UodbgymK0z0xXxaOQuBFxE0MlXuaRQKj+6g3zLL20YDJvdypvYsiRsgWqs1Us\nDpOmrbr8i05nwoH4ihN9d2M2GaFi/g==\n=pzlz\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeaNYIACgkQOFXbotdE\nA8npfwf/aNV2HO4Tu1+HvJVtEK6d17dh6ASF0pmXp0ZjBAMCenFikMyv3GlXxrlp\nhAolz02PRqED02cwOMBzHYzGhMfukoNZ/4Xm59upSAj2tivxYdSes627Bji09+m9\nay+VnGwZcv18BUm0r1SMWPMIA1iCOQEL+rKKpSL1A3FiromxyreCApCh8I30RGf5\n2EP/dgjBquEQT9RMTaTkxsP1lZpP5JkDg8DrTa6Y0v/fSvnE90bKD3xtl9Hz5ccz\nj5HTPDlZb89VwO274zzkfwop91KlbekdcmHaTej/KHjpNDQ78hl6DeyBuf/NtimO\nKm0tUqqePkf8uuGcZg2Y6iFZlOUHMA==\n=yHRV\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-29T00:51:04Z"
+                    "verified_at": "2025-01-29T14:04:56Z"
                 }
             },
             "committer": {
@@ -291,28 +291,28 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/93787a9322e994f4850cd22eb24702d8ec278b5f",
-            "node_id": "C_kwDOA7z7wtoAKDkzNzg3YTkzMjJlOTk0ZjQ4NTBjZDIyZWIyNDcwMmQ4ZWMyNzhiNWY",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/21e2325934fec17231e28628699a9316c2a460a3",
+            "node_id": "C_kwDOA7z7wtoAKDIxZTIzMjU5MzRmZWMxNzIzMWUyODYyODY5OWE5MzE2YzJhNDYwYTM",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/9f723f891d3761d317eaaafa82ece42f5a1b0e96",
-                    "sha": "9f723f891d3761d317eaaafa82ece42f5a1b0e96",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9f723f891d3761d317eaaafa82ece42f5a1b0e96"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/b10c8b766bab251e22d24d8034d0aacd4dc25854",
+                    "sha": "b10c8b766bab251e22d24d8034d0aacd4dc25854",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b10c8b766bab251e22d24d8034d0aacd4dc25854"
                 }
             ],
-            "sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/93787a9322e994f4850cd22eb24702d8ec278b5f"
+            "sha": "21e2325934fec17231e28628699a9316c2a460a3",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/21e2325934fec17231e28628699a9316c2a460a3"
         }
     ],
     "commits": 1,
-    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/commits",
-    "created_at": "2025-01-29T00:03:47Z",
-    "deletions": 72,
-    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2849.diff",
+    "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2851/commits",
+    "created_at": "2025-01-29T14:04:58Z",
+    "deletions": 17,
+    "diff_url": "https://github.com/TokTok/c-toxcore/pull/2851.diff",
     "draft": false,
     "head": {
-        "label": "iphydf:framework",
-        "ref": "framework",
+        "label": "iphydf:xcf",
+        "ref": "xcf",
         "repo": {
             "allow_forking": true,
             "archive_url": "https://api.github.com/repos/iphydf/c-toxcore/{archive_format}{/ref}",
@@ -427,7 +427,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
+        "sha": "21e2325934fec17231e28628699a9316c2a460a3",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -450,9 +450,9 @@
             "user_view_type": "public"
         }
     },
-    "html_url": "https://github.com/TokTok/c-toxcore/pull/2849",
-    "id": 2303427388,
-    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2849",
+    "html_url": "https://github.com/TokTok/c-toxcore/pull/2851",
+    "id": 2304643728,
+    "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2851",
     "labels": [
         {
             "color": "f9d0c4",
@@ -466,30 +466,30 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "93787a9322e994f4850cd22eb24702d8ec278b5f",
+    "merge_commit_sha": "21e2325934fec17231e28628699a9316c2a460a3",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-01-29T12:22:39Z",
+    "merged_at": "2025-01-29T14:54:42Z",
     "merged_by": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
-        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
-        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
-        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
-        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
         "gravatar_id": "",
-        "html_url": "https://github.com/toktok-releaser",
-        "id": 41485111,
-        "login": "toktok-releaser",
-        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
-        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
-        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
-        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
         "site_admin": false,
-        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/toktok-releaser",
+        "url": "https://api.github.com/users/iphydf",
         "user_view_type": "public"
     },
     "milestone": {
@@ -530,20 +530,20 @@
         "updated_at": "2025-01-30T22:19:36Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
-    "node_id": "PR_kwDOA7zIGs6JS4M8",
-    "number": 2849,
-    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2849.patch",
+    "node_id": "PR_kwDOA7zIGs6JXhKQ",
+    "number": 2851,
+    "patch_url": "https://github.com/TokTok/c-toxcore/pull/2851.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849/comments",
+    "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2851/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/93787a9322e994f4850cd22eb24702d8ec278b5f",
-    "title": "chore: Add ios/macos framework build.",
-    "updated_at": "2025-01-29T12:23:25Z",
-    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2849",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/21e2325934fec17231e28628699a9316c2a460a3",
+    "title": "chore: Fix xcframework tarball creation.",
+    "updated_at": "2025-01-29T14:54:47Z",
+    "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2851",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",

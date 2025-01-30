@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/478"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/1a048702fa82cdbd62af803d036b38c1068152ce"
         }
     },
     "active_lock_reason": null,
@@ -137,8 +137,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 45,
-            "open_issues_count": 45,
+            "open_issues": 46,
+            "open_issues_count": 46,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -162,9 +162,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2025-01-29T01:34:13Z",
+            "pushed_at": "2025-01-30T06:55:18Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 61026,
+            "size": 61030,
             "ssh_url": "git@github.com:TokTok/qTox.git",
             "stargazers_count": 57,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
@@ -227,7 +227,7 @@
             },
             "author_association": "MEMBER",
             "body": "Is this really a critical error? Should it be reduced to info or debug if this is a normal thing that users can do willingly?",
-            "commit_id": "f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+            "commit_id": "1a048702fa82cdbd62af803d036b38c1068152ce",
             "created_at": "2025-01-27T03:17:20Z",
             "diff_hunk": "@@ -912,7 +912,6 @@ void History::markAsDelivered(RowId messageId)\n bool History::historyAccessBlocked()\n {\n     if (!settings.getEnableLogging()) {\n-        assert(false);\n         qCritical() << \"Blocked history access while history is disabled\";",
             "html_url": "https://github.com/TokTok/qTox/pull/478#discussion_r1929952457",
@@ -296,7 +296,7 @@
             },
             "author_association": "NONE",
             "body": "To be honest, I am not sure, we even need to have this warning. If the logging is off, we can say that the history access is technically blocked. May be we can remove it?",
-            "commit_id": "f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+            "commit_id": "1a048702fa82cdbd62af803d036b38c1068152ce",
             "created_at": "2025-01-27T03:26:09Z",
             "diff_hunk": "@@ -912,7 +912,6 @@ void History::markAsDelivered(RowId messageId)\n bool History::historyAccessBlocked()\n {\n     if (!settings.getEnableLogging()) {\n-        assert(false);\n         qCritical() << \"Blocked history access while history is disabled\";",
             "html_url": "https://github.com/TokTok/qTox/pull/478#discussion_r1929955169",
@@ -366,7 +366,7 @@
             },
             "author_association": "MEMBER",
             "body": "Let's make it qDebug.",
-            "commit_id": "f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+            "commit_id": "1a048702fa82cdbd62af803d036b38c1068152ce",
             "created_at": "2025-01-29T00:38:17Z",
             "diff_hunk": "@@ -912,7 +912,6 @@ void History::markAsDelivered(RowId messageId)\n bool History::historyAccessBlocked()\n {\n     if (!settings.getEnableLogging()) {\n-        assert(false);\n         qCritical() << \"Blocked history access while history is disabled\";",
             "html_url": "https://github.com/TokTok/qTox/pull/478#discussion_r1933047715",
@@ -436,7 +436,7 @@
             },
             "author_association": "NONE",
             "body": "Fixed",
-            "commit_id": "f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+            "commit_id": "1a048702fa82cdbd62af803d036b38c1068152ce",
             "created_at": "2025-01-29T03:57:06Z",
             "diff_hunk": "@@ -912,7 +912,6 @@ void History::markAsDelivered(RowId messageId)\n bool History::historyAccessBlocked()\n {\n     if (!settings.getEnableLogging()) {\n-        assert(false);\n         qCritical() << \"Blocked history access while history is disabled\";",
             "html_url": "https://github.com/TokTok/qTox/pull/478#discussion_r1933232269",
@@ -538,9 +538,99 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "> Thanks, can you rebase on master? Then we can merge it.\r\n\r\nDone! Thank you!",
+            "created_at": "2025-01-30T06:56:02Z",
+            "html_url": "https://github.com/TokTok/qTox/pull/478#issuecomment-2623660466",
+            "id": 2623660466,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/478",
+            "node_id": "IC_kwDOA9gydM6cYeGy",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2623660466/reactions"
+            },
+            "updated_at": "2025-01-30T06:56:02Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2623660466",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
+                "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nickolay168/followers",
+                "following_url": "https://api.github.com/users/nickolay168/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nickolay168/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nickolay168",
+                "id": 144757885,
+                "login": "nickolay168",
+                "node_id": "U_kgDOCKDUfQ",
+                "organizations_url": "https://api.github.com/users/nickolay168/orgs",
+                "received_events_url": "https://api.github.com/users/nickolay168/received_events",
+                "repos_url": "https://api.github.com/users/nickolay168/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nickolay168/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nickolay168/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nickolay168",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "Can you sign your commit? We can't merge otherwise. I can't sign it for you because your fork is of qTox/qTox, not TokTok/qTox.",
+            "created_at": "2025-01-30T12:07:28Z",
+            "html_url": "https://github.com/TokTok/qTox/pull/478#issuecomment-2624328660",
+            "id": 2624328660,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/478",
+            "node_id": "IC_kwDOA9gydM6cbBPU",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2624328660/reactions"
+            },
+            "updated_at": "2025-01-30T12:07:28Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2624328660",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 3,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/478/comments",
     "commit_data": [
         {
@@ -565,7 +655,7 @@
                 "url": "https://api.github.com/users/nickolay168",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/1a048702fa82cdbd62af803d036b38c1068152ce/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-27T03:00:20Z",
@@ -574,22 +664,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-29T03:52:46Z",
-                    "email": "nikolayrovinskiy168@gmail.com",
+                    "date": "2025-01-30T06:55:10Z",
+                    "email": "144757885+nickolay168@users.noreply.github.com",
                     "name": "nickolay168"
                 },
                 "message": "fix(chatform): Remove assertion that history is on when the friend details is being called.",
                 "tree": {
-                    "sha": "72491aeb98bd1ecec3b05f857be9e6267ba6f603",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/72491aeb98bd1ecec3b05f857be9e6267ba6f603"
+                    "sha": "972229abd0aae907a91b6eb2500e8cf500f68842",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/972229abd0aae907a91b6eb2500e8cf500f68842"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/1a048702fa82cdbd62af803d036b38c1068152ce",
                 "verification": {
-                    "payload": "tree 72491aeb98bd1ecec3b05f857be9e6267ba6f603\nparent 464939aff9163d7e10e77af9c49659490f2821e2\nauthor nickolay168 <nikolayrovinskiy168@gmail.com> 1737946820 -0800\ncommitter nickolay168 <nikolayrovinskiy168@gmail.com> 1738122766 -0800\n\nfix(chatform): Remove assertion that history is on when the friend details is being called.\n",
-                    "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEz6XLdy994Bl3MFgrt45Ve6ke1VAFAmeZphwACgkQt45Ve6ke\n1VC8dw//XnhNgetZipWPyy7FsA1We6VUnmliDj5Sz8jkYD5xNhgcwWYjFW/Ry2Eu\nRE8FTlGO2RYEsHp1TyR+yG8fbGULiQHtdR0EfoG6vC+a5WknKSsntaD3/ebQDMPT\ntsL2v2jm1yPiJfZS5aabjprqzw4ybsfoxC2uD9aeKQH6OVujc78VI9ZQaYPFu97m\ncuJgw0qJORoHLUmPp1WOeR0NsrataHrs/shCcrkCbnkqyWjO4zHmEcuQ/5iPdOFK\ne+QLF7+2IkPtHZNBYWcwrnZRq3mJzOmSupWBVYIJfiZmrVSFqCtcHXpABSABxBYH\ny//dhWA5ztfK61Mqj7JurKxMSPiGzI6GkNkeFNKC+5Rba5kMTaUaIHArQjVdcCJo\n6voLzmIxAWsaWKu9ttzkIki10kBUcL9vPDUtE/gIBozji/H68fwniR4CX+HBPvNt\ncsCN/B+W1Fus9z+dY0lpIC/1qc7+K3A6VLp3ZmuZLKIWVUJwRrWwgp1+cbdaDrqS\nxRmv2zNCV+yHUFwk3oYmIjbnPFNWHynAb0yoVljnsMlW1tA09qAVtS+MtyVGuYhw\n53PGbcZqCTft1wRkdqPYCQIJqeXnvbSYTE3MBlYgDV1C670ggKv/sTtwLCUNHEyi\nBSiXXoHzxlT/K2gHNGDwaNU//todQgcdO2WPmCV2RJCBTRcUGJE=\n=emJo\n-----END PGP SIGNATURE-----",
-                    "verified": true,
-                    "verified_at": "2025-01-29T03:55:31Z"
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false,
+                    "verified_at": null
                 }
             },
             "committer": {
@@ -613,17 +703,17 @@
                 "url": "https://api.github.com/users/nickolay168",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
-            "node_id": "C_kwDOK8dUM9oAKGYxNTQwZmE2NzU2OGFlYjdlNTlhMGQ1YmJjYTJmZTEzY2NmZTA1MTc",
+            "html_url": "https://github.com/TokTok/qTox/commit/1a048702fa82cdbd62af803d036b38c1068152ce",
+            "node_id": "C_kwDOK8dUM9oAKDFhMDQ4NzAyZmE4MmNkYmQ2MmFmODAzZDAzNmIzOGMxMDY4MTUyY2U",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/464939aff9163d7e10e77af9c49659490f2821e2",
-                    "sha": "464939aff9163d7e10e77af9c49659490f2821e2",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/464939aff9163d7e10e77af9c49659490f2821e2"
+                    "html_url": "https://github.com/TokTok/qTox/commit/db4a2903def05fb221d6060a63ade5774426f4b8",
+                    "sha": "db4a2903def05fb221d6060a63ade5774426f4b8",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/db4a2903def05fb221d6060a63ade5774426f4b8"
                 }
             ],
-            "sha": "f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517"
+            "sha": "1a048702fa82cdbd62af803d036b38c1068152ce",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/1a048702fa82cdbd62af803d036b38c1068152ce"
         }
     ],
     "commits": 1,
@@ -721,9 +811,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/nickolay168/qTox_legacy/pulls{/number}",
-            "pushed_at": "2025-01-29T03:55:28Z",
+            "pushed_at": "2025-01-30T06:55:10Z",
             "releases_url": "https://api.github.com/repos/nickolay168/qTox_legacy/releases{/id}",
-            "size": 55534,
+            "size": 55544,
             "ssh_url": "git@github.com:nickolay168/qTox_legacy.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/nickolay168/qTox_legacy/stargazers",
@@ -742,7 +832,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+        "sha": "1a048702fa82cdbd62af803d036b38c1068152ce",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
             "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
@@ -781,9 +871,9 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "bef6889ec31f5399a0d87086ef08d4f1f7a3c628",
+    "merge_commit_sha": "b0996ca768d651aa095b59904d40319e9a9834d5",
     "mergeable": true,
-    "mergeable_state": "behind",
+    "mergeable_state": "blocked",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
@@ -835,9 +925,9 @@
     "review_comments": 4,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/478/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/f1540fa67568aeb7e59a0d5bbca2fe13ccfe0517",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/1a048702fa82cdbd62af803d036b38c1068152ce",
     "title": "fix(chatform): Remove assertion that breaks friend information call.",
-    "updated_at": "2025-01-29T10:47:28Z",
+    "updated_at": "2025-01-30T12:07:30Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/478",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
