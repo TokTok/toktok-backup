@@ -22,13 +22,55 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/57772d6055d19fa530f450d68e0bab8fb0037728"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25"
         }
     },
     "active_lock_reason": null,
-    "additions": 214,
-    "assignee": null,
-    "assignees": [],
+    "additions": 294,
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+        "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+        "followers_url": "https://api.github.com/users/nurupo/followers",
+        "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/nurupo",
+        "id": 1855294,
+        "login": "nurupo",
+        "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+        "organizations_url": "https://api.github.com/users/nurupo/orgs",
+        "received_events_url": "https://api.github.com/users/nurupo/received_events",
+        "repos_url": "https://api.github.com/users/nurupo/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/nurupo",
+        "user_view_type": "public"
+    },
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+            "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+            "followers_url": "https://api.github.com/users/nurupo/followers",
+            "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/nurupo",
+            "id": 1855294,
+            "login": "nurupo",
+            "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+            "organizations_url": "https://api.github.com/users/nurupo/orgs",
+            "received_events_url": "https://api.github.com/users/nurupo/received_events",
+            "repos_url": "https://api.github.com/users/nurupo/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/nurupo",
+            "user_view_type": "public"
+        }
+    ],
     "author_association": "MEMBER",
     "auto_merge": null,
     "base": {
@@ -120,7 +162,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-30T22:56:11Z",
+            "pushed_at": "2025-01-31T12:13:32Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
             "size": 24909,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
@@ -148,7 +190,7 @@
             "watchers_count": 2330,
             "web_commit_signoff_required": false
         },
-        "sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
+        "sha": "f1991aaa02978a3cb866826d2a5f24ac1e2fdd16",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -172,11 +214,302 @@
         }
     },
     "body": "Also, allow trace logging in bootstrapd (disabled by default, but enabled on the websockify docker image so we can debug things there).\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2855)\n<!-- Reviewable:end -->\n",
-    "changed_files": 14,
+    "changed_files": 31,
     "closed_at": null,
-    "comment_data": [],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2855#discussion_r1936870375"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936870375"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Perhaps mention that it works only with stdout log backend?",
+            "commit_id": "c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
+            "created_at": "2025-01-31T08:38:16Z",
+            "diff_hunk": "@@ -64,6 +65,7 @@ Cli_Status handle_command_line_arguments(\n         {\"help\",        no_argument,       nullptr, 'h'},\n         {\"log-backend\", required_argument, nullptr, 'l'}, // optional, defaults to syslog\n         {\"version\",     no_argument,       nullptr, 'v'},\n+        {\"trace\",       no_argument,       nullptr, 't'},",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2855#discussion_r1936870375",
+            "id": 1936870375,
+            "line": 68,
+            "node_id": "PRRC_kwDOA7zIGs5zckvn",
+            "original_commit_id": "2021fcc2b0a0bb899925fee574b0622d377d6401",
+            "original_line": 68,
+            "original_position": 39,
+            "original_start_line": null,
+            "path": "other/bootstrap_daemon/src/command_line_arguments.c",
+            "position": 39,
+            "pull_request_review_id": 2585993619,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936870375/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-31T08:38:16Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936870375",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2855#discussion_r1937134108"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1937134108"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I've changed it so syslog can also output trace. Since it's a DEBUG level log item, people can configure their syslog to ignore it if they want.\n<!-- Reviewable comment -OHwFm8f7O49y--Zy-7e:b4bg7yq -->\n<!-- Sent from Reviewable.io -->\n",
+            "commit_id": "c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
+            "created_at": "2025-01-31T12:12:41Z",
+            "diff_hunk": "@@ -64,6 +65,7 @@ Cli_Status handle_command_line_arguments(\n         {\"help\",        no_argument,       nullptr, 'h'},\n         {\"log-backend\", required_argument, nullptr, 'l'}, // optional, defaults to syslog\n         {\"version\",     no_argument,       nullptr, 'v'},\n+        {\"trace\",       no_argument,       nullptr, 't'},",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2855#discussion_r1937134108",
+            "id": 1937134108,
+            "in_reply_to_id": 1936870375,
+            "line": 68,
+            "node_id": "PRRC_kwDOA7zIGs5zdlIc",
+            "original_commit_id": "2021fcc2b0a0bb899925fee574b0622d377d6401",
+            "original_line": 68,
+            "original_position": 39,
+            "original_start_line": null,
+            "path": "other/bootstrap_daemon/src/command_line_arguments.c",
+            "position": 39,
+            "pull_request_review_id": 2586433036,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1937134108/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-31T12:12:41Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1937134108",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2855?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAll modified and coverable lines are covered by tests :white_check_mark:\n> Project coverage is 72.22%. Comparing base [(`7c9fa37`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/7c9fa3721e7d0473b8b9c5c824f6b60bf3808519?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`8a4f72b`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/8a4f72b884e795dfcffc58023e4530c25bdcb241?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n> Report is 16 commits behind head on master.\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #2855      +/-   ##\n==========================================\n+ Coverage   72.14%   72.22%   +0.08%     \n==========================================\n  Files         152      153       +1     \n  Lines       31182    31182              \n==========================================\n+ Hits        22496    22522      +26     \n+ Misses       8686     8660      -26     \n```\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2855?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
+            "created_at": "2025-01-30T23:48:27Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2855#issuecomment-2625956267",
+            "id": 2625956267,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855",
+            "node_id": "IC_kwDOA7zIGs6chOmr",
+            "performed_via_github_app": {
+                "client_id": "Iv1.9d88ef6ecc903626",
+                "created_at": "2016-09-25T14:18:27Z",
+                "description": "Codecov provides highly integrated tools to group, merge, archive and compare coverage reports. Whether your team is comparing changes in a pull request or reviewing a single commit, Codecov will improve the code review workflow and quality.\r\n\r\n## Code coverage done right.®\r\n\r\n1. Upload coverage reports from your CI builds.\r\n2. Codecov merges all builds and languages into one beautiful coherent report.\r\n3. Get commit statuses, pull request comments and coverage overlay via our browser extension.\r\n\r\nWhen Codecov merges your uploads it keeps track of the CI provider (inc. build details) and user specified context, e.g. `#unittest` ~ `#smoketest` or `#oldcode` ~ `#newcode`. You can track the `#unittest` coverage independently of other groups. [Learn more here](\r\nhttp://docs.codecov.io/docs/flags)\r\n\r\nThrough **Codecov's Browser Extension** reports overlay directly in GitHub UI to assist in code review in [Chrome](https://chrome.google.com/webstore/detail/codecov/gedikamndpbemklijjkncpnolildpbgo) or Firefox (https://addons.mozilla.org/en-US/firefox/addon/codecov/)\r\n\r\n*Highly detailed* **pull request comments** and *customizable* **commit statuses** will improve your team's workflow and code coverage incrementally.\r\n\r\n**File backed configuration** all through the `codecov.yml`. \r\n\r\n## FAQ\r\n- Do you **merge multiple uploads** to the same commit? **Yes**\r\n- Do you **support multiple languages** in the same project? **Yes**\r\n- Can you **group coverage reports** by project and/or test type? **Yes**\r\n- How does **pricing** work? Only paid users can view reports and post statuses/comments. ",
+                "events": [
+                    "check_run",
+                    "check_suite",
+                    "create",
+                    "delete",
+                    "fork",
+                    "member",
+                    "membership",
+                    "organization",
+                    "public",
+                    "pull_request",
+                    "push",
+                    "release",
+                    "repository",
+                    "status",
+                    "team_add"
+                ],
+                "external_url": "https://codecov.io",
+                "html_url": "https://github.com/apps/codecov",
+                "id": 254,
+                "name": "Codecov",
+                "node_id": "MDM6QXBwMjU0",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8226205?v=4",
+                    "events_url": "https://api.github.com/users/codecov/events{/privacy}",
+                    "followers_url": "https://api.github.com/users/codecov/followers",
+                    "following_url": "https://api.github.com/users/codecov/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codecov/gists{/gist_id}",
+                    "gravatar_id": "",
+                    "html_url": "https://github.com/codecov",
+                    "id": 8226205,
+                    "login": "codecov",
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjgyMjYyMDU=",
+                    "organizations_url": "https://api.github.com/users/codecov/orgs",
+                    "received_events_url": "https://api.github.com/users/codecov/received_events",
+                    "repos_url": "https://api.github.com/users/codecov/repos",
+                    "site_admin": false,
+                    "starred_url": "https://api.github.com/users/codecov/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codecov/subscriptions",
+                    "type": "Organization",
+                    "url": "https://api.github.com/users/codecov",
+                    "user_view_type": "public"
+                },
+                "permissions": {
+                    "administration": "read",
+                    "checks": "write",
+                    "contents": "read",
+                    "emails": "read",
+                    "issues": "read",
+                    "members": "read",
+                    "metadata": "read",
+                    "pull_requests": "write",
+                    "statuses": "write"
+                },
+                "slug": "codecov",
+                "updated_at": "2023-09-08T15:29:16Z"
+            },
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2625956267/reactions"
+            },
+            "updated_at": "2025-01-30T23:48:27Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2625956267",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
+                "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/codecov",
+                "id": 22429695,
+                "login": "codecov[bot]",
+                "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+                "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/codecov%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "Actually, let me make these separate reviews instead of a single giant one, would be probably easier to track progress/replies.",
+            "created_at": "2025-01-31T08:44:53Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2855#issuecomment-2626664223",
+            "id": 2626664223,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855",
+            "node_id": "IC_kwDOA7zIGs6cj7cf",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2626664223/reactions"
+            },
+            "updated_at": "2025-01-31T08:44:53Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2626664223",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
+                "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nurupo/followers",
+                "following_url": "https://api.github.com/users/nurupo/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nurupo/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nurupo",
+                "id": 1855294,
+                "login": "nurupo",
+                "node_id": "MDQ6VXNlcjE4NTUyOTQ=",
+                "organizations_url": "https://api.github.com/users/nurupo/orgs",
+                "received_events_url": "https://api.github.com/users/nurupo/received_events",
+                "repos_url": "https://api.github.com/users/nurupo/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nurupo/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nurupo/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nurupo",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2855/comments",
     "commit_data": [
         {
@@ -201,7 +534,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57772d6055d19fa530f450d68e0bab8fb0037728/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-30T16:20:50Z",
@@ -210,22 +543,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-30T16:51:57Z",
+                    "date": "2025-01-31T12:12:33Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Add file/line to tox-bootstrapd logging.\n\nAlso, allow trace logging in bootstrapd (disabled by default, but\nenabled on the websockify docker image so we can debug things there).",
                 "tree": {
-                    "sha": "df04b4b40ef4ed5423d18c096474bf68953d9dbb",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/df04b4b40ef4ed5423d18c096474bf68953d9dbb"
+                    "sha": "d3864a2ebe779645ab57a1cc425164e5ec0f2b6e",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/d3864a2ebe779645ab57a1cc425164e5ec0f2b6e"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/57772d6055d19fa530f450d68e0bab8fb0037728",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
                 "verification": {
-                    "payload": "tree df04b4b40ef4ed5423d18c096474bf68953d9dbb\nparent 712861f2e6dfa6426fbc97237bb751fe1d8177c5\nauthor iphydf <iphydf@users.noreply.github.com> 1738254050 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738255917 +0000\n\nrefactor: Add file/line to tox-bootstrapd logging.\n\nAlso, allow trace logging in bootstrapd (disabled by default, but\nenabled on the websockify docker image so we can debug things there).\n",
+                    "payload": "tree d3864a2ebe779645ab57a1cc425164e5ec0f2b6e\nparent f1991aaa02978a3cb866826d2a5f24ac1e2fdd16\nauthor iphydf <iphydf@users.noreply.github.com> 1738254050 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738325553 +0000\n\nrefactor: Add file/line to tox-bootstrapd logging.\n\nAlso, allow trace logging in bootstrapd (disabled by default, but\nenabled on the websockify docker image so we can debug things there).\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmebri0ACgkQOFXbotdE\nA8kdpgf+NadrP+qO5qc7kaafMUF5UXnSD/Qn9jndxvEA8zYCbY+XFvc4pZrVeGik\nsoNp97VEC1xf0pYIS6fTlnajLXb8ck4jrxqr6cfB5IX6X+gzfkErS+/LwOHUCH4m\nB64uAu8p5H3TucAuWlh7knSRlw14iFuIzCLy6kU1U+IVhMHb9zlY2JHD9Jfu+k7x\nYgTB5JJb1dxnB1j+LSMAezYocPbuwvyWxEf0NVoEMxiXN/5jNV7GE4xtqTCTcP4V\n2ibqWl5cJYhp2vY+rGzbhfPCxaffzNEjKI5eP2d9SX41Ss1lnDwHlNE/WVhayH5o\nk7GQweFg7K5OAhzoMs2zzSq2+9wOnA==\n=7DmV\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmecvjEACgkQOFXbotdE\nA8k5PQf+M9WdPYvtizr17D5I/gSOnMHu7XB4FuY2fPUAJZ3UbzMXWtFtkdreqEAr\nX/oRzBHxG41EayoHa4o6GXc+2j9ILVeK2nigjicEVc/kLNp8nXWmwHtNdjJI/x5B\nITpPcCSf4/tb5NRvTycKTYnWr7+FWec32HzHARGcUKdfAxsEKaRW9aUJwCTEtUFc\niJbiuajb25I4jiU90sfkrWvso/aOlO8VP5NZ6g5/w0DKlwXGwScT4L8TN39/tXwG\np4wgECFg/2qT9sI3L7wXHCrJ9cFWwXomPfkg/QsvF9aSw2bUV+jKHEpfmXsKgeyr\nOj4ofrF5GAP8RDUhgKQBMLxv+2ny4A==\n=6lsV\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-30T16:52:00Z"
+                    "verified_at": "2025-01-31T12:12:42Z"
                 }
             },
             "committer": {
@@ -249,23 +582,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/57772d6055d19fa530f450d68e0bab8fb0037728",
-            "node_id": "C_kwDOA7z7wtoAKDU3NzcyZDYwNTVkMTlmYTUzMGY0NTBkNjhlMGJhYjhmYjAwMzc3Mjg",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
+            "node_id": "C_kwDOA7z7wtoAKGMwZjYxMzYwYmNmYjk5Y2VhYWU4ZTQ4YjM3ZDhjMmRjOThjY2JmMjU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/712861f2e6dfa6426fbc97237bb751fe1d8177c5",
-                    "sha": "712861f2e6dfa6426fbc97237bb751fe1d8177c5",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/712861f2e6dfa6426fbc97237bb751fe1d8177c5"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/f1991aaa02978a3cb866826d2a5f24ac1e2fdd16",
+                    "sha": "f1991aaa02978a3cb866826d2a5f24ac1e2fdd16",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f1991aaa02978a3cb866826d2a5f24ac1e2fdd16"
                 }
             ],
-            "sha": "57772d6055d19fa530f450d68e0bab8fb0037728",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/57772d6055d19fa530f450d68e0bab8fb0037728"
+            "sha": "c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855/commits",
     "created_at": "2025-01-30T16:21:45Z",
-    "deletions": 119,
+    "deletions": 154,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2855.diff",
     "draft": false,
     "head": {
@@ -357,9 +690,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-30T22:56:05Z",
+            "pushed_at": "2025-01-31T12:12:39Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19589,
+            "size": 19215,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -385,7 +718,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "57772d6055d19fa530f450d68e0bab8fb0037728",
+        "sha": "c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -424,9 +757,9 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "45aeb5c941020f86cd0c7bae0837c4242bd42fd9",
+    "merge_commit_sha": "98a9273c058bd2421ac3f465da013bc2e333de29",
     "mergeable": true,
-    "mergeable_state": "behind",
+    "mergeable_state": "blocked",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
@@ -475,12 +808,12 @@
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 1,
+    "review_comments": 3,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/57772d6055d19fa530f450d68e0bab8fb0037728",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/c0f61360bcfb99ceaae8e48b37d8c2dc98ccbf25",
     "title": "refactor: Add file/line to tox-bootstrapd stdout/stderr logging.",
-    "updated_at": "2025-01-30T16:52:16Z",
+    "updated_at": "2025-01-31T12:12:53Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2855",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

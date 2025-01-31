@@ -22,13 +22,55 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/ab27a0c84f5bc67978077b5621bfd51b15c63417"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/c20862b01df6a1e3e4e8d78bd68b6f806bd3686d"
         }
     },
     "active_lock_reason": null,
     "additions": 375,
-    "assignee": null,
-    "assignees": [],
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+        "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Green-Sky/followers",
+        "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Green-Sky",
+        "id": 2938071,
+        "login": "Green-Sky",
+        "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+        "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+        "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+        "repos_url": "https://api.github.com/users/Green-Sky/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Green-Sky",
+        "user_view_type": "public"
+    },
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+            "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+            "followers_url": "https://api.github.com/users/Green-Sky/followers",
+            "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/Green-Sky",
+            "id": 2938071,
+            "login": "Green-Sky",
+            "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+            "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+            "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+            "repos_url": "https://api.github.com/users/Green-Sky/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/Green-Sky",
+            "user_view_type": "public"
+        }
+    ],
     "author_association": "MEMBER",
     "auto_merge": null,
     "base": {
@@ -120,7 +162,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-30T22:56:11Z",
+            "pushed_at": "2025-01-31T12:13:32Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
             "size": 24909,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
@@ -174,7 +216,147 @@
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2858)\n<!-- Reviewable:end -->\n",
     "changed_files": 7,
     "closed_at": null,
-    "comment_data": [],
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2858#discussion_r1936491750"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936491750"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "this was =>O previously.",
+            "commit_id": "c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
+            "created_at": "2025-01-31T00:20:20Z",
+            "diff_hunk": "@@ -741,170 +741,373 @@ static int net_getsockopt(const Network *ns, Socket sock, int level, int optname\n }\n \n non_null()\n-static uint32_t data_0(uint16_t buflen, const uint8_t *buffer)\n-{\n-    uint32_t data = 0;\n-\n-    if (buflen > 4) {\n-        net_unpack_u32(buffer + 1, &data);\n-    }\n-\n-    return data;\n-}\n-non_null()\n-static uint32_t data_1(uint16_t buflen, const uint8_t *buffer)\n-{\n-    uint32_t data = 0;\n-\n-    if (buflen > 8) {\n-        net_unpack_u32(buffer + 5, &data);\n+static bool net_packet_type_from_int(uint8_t value, Net_Packet_Type *out_enum)\n+{\n+    // Clang compiles these to jump tables. Not amazing, but not too terrible.\n+    // It's necessary because the enum values are not contiguous and casting\n+    // the int directly to the enum is UB.\n+    switch (value) {\n+        case NET_PACKET_PING_REQUEST: {\n+            *out_enum = NET_PACKET_PING_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_PING_RESPONSE: {\n+            *out_enum = NET_PACKET_PING_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_GET_NODES: {\n+            *out_enum = NET_PACKET_GET_NODES;\n+            return true;\n+        }\n+        case NET_PACKET_SEND_NODES_IPV6: {\n+            *out_enum = NET_PACKET_SEND_NODES_IPV6;\n+            return true;\n+        }\n+        case NET_PACKET_COOKIE_REQUEST: {\n+            *out_enum = NET_PACKET_COOKIE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_COOKIE_RESPONSE: {\n+            *out_enum = NET_PACKET_COOKIE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_CRYPTO_HS: {\n+            *out_enum = NET_PACKET_CRYPTO_HS;\n+            return true;\n+        }\n+        case NET_PACKET_CRYPTO_DATA: {\n+            *out_enum = NET_PACKET_CRYPTO_DATA;\n+            return true;\n+        }\n+        case NET_PACKET_CRYPTO: {\n+            *out_enum = NET_PACKET_CRYPTO;\n+            return true;\n+        }\n+        case NET_PACKET_LAN_DISCOVERY: {\n+            *out_enum = NET_PACKET_LAN_DISCOVERY;\n+            return true;\n+        }\n+        case NET_PACKET_GC_HANDSHAKE: {\n+            *out_enum = NET_PACKET_GC_HANDSHAKE;\n+            return true;\n+        }\n+        case NET_PACKET_GC_LOSSLESS: {\n+            *out_enum = NET_PACKET_GC_LOSSLESS;\n+            return true;\n+        }\n+        case NET_PACKET_GC_LOSSY: {\n+            *out_enum = NET_PACKET_GC_LOSSY;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_SEND_INITIAL: {\n+            *out_enum = NET_PACKET_ONION_SEND_INITIAL;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_SEND_1: {\n+            *out_enum = NET_PACKET_ONION_SEND_1;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_SEND_2: {\n+            *out_enum = NET_PACKET_ONION_SEND_2;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_REQUEST_OLD: {\n+            *out_enum = NET_PACKET_ANNOUNCE_REQUEST_OLD;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_RESPONSE_OLD: {\n+            *out_enum = NET_PACKET_ANNOUNCE_RESPONSE_OLD;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_DATA_REQUEST: {\n+            *out_enum = NET_PACKET_ONION_DATA_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_DATA_RESPONSE: {\n+            *out_enum = NET_PACKET_ONION_DATA_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_REQUEST: {\n+            *out_enum = NET_PACKET_ANNOUNCE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_RESPONSE: {\n+            *out_enum = NET_PACKET_ANNOUNCE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_RECV_3: {\n+            *out_enum = NET_PACKET_ONION_RECV_3;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_RECV_2: {\n+            *out_enum = NET_PACKET_ONION_RECV_2;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_RECV_1: {\n+            *out_enum = NET_PACKET_ONION_RECV_1;\n+            return true;\n+        }\n+        case NET_PACKET_FORWARD_REQUEST: {\n+            *out_enum = NET_PACKET_FORWARD_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_FORWARDING: {\n+            *out_enum = NET_PACKET_FORWARDING;\n+            return true;\n+        }\n+        case NET_PACKET_FORWARD_REPLY: {\n+            *out_enum = NET_PACKET_FORWARD_REPLY;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_SEARCH_REQUEST: {\n+            *out_enum = NET_PACKET_DATA_SEARCH_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_SEARCH_RESPONSE: {\n+            *out_enum = NET_PACKET_DATA_SEARCH_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_RETRIEVE_REQUEST: {\n+            *out_enum = NET_PACKET_DATA_RETRIEVE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_RETRIEVE_RESPONSE: {\n+            *out_enum = NET_PACKET_DATA_RETRIEVE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_STORE_ANNOUNCE_REQUEST: {\n+            *out_enum = NET_PACKET_STORE_ANNOUNCE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_STORE_ANNOUNCE_RESPONSE: {\n+            *out_enum = NET_PACKET_STORE_ANNOUNCE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_BOOTSTRAP_INFO: {\n+            *out_enum = NET_PACKET_BOOTSTRAP_INFO;\n+            return true;\n+        }\n+        case NET_PACKET_MAX: {\n+            *out_enum = NET_PACKET_MAX;\n+            return true;\n+        }\n+        default: {\n+            *out_enum = NET_PACKET_PING_REQUEST;\n+            return false;\n+        }\n     }\n-\n-    return data;\n }\n \n-static const char *net_packet_type_name(Net_Packet_Type type)\n+static const char *net_packet_type_to_string(Net_Packet_Type type)\n {\n     switch (type) {\n         case NET_PACKET_PING_REQUEST:\n-            return \"PING_REQUEST\";\n+            return \"NET_PACKET_PING_REQUEST\";\n \n         case NET_PACKET_PING_RESPONSE:\n-            return \"PING_RESPONSE\";\n+            return \"NET_PACKET_PING_RESPONSE\";\n \n         case NET_PACKET_GET_NODES:\n-            return \"GET_NODES\";\n+            return \"NET_PACKET_GET_NODES\";\n \n         case NET_PACKET_SEND_NODES_IPV6:\n-            return \"SEND_NODES_IPV6\";\n+            return \"NET_PACKET_SEND_NODES_IPV6\";\n \n         case NET_PACKET_COOKIE_REQUEST:\n-            return \"COOKIE_REQUEST\";\n+            return \"NET_PACKET_COOKIE_REQUEST\";\n \n         case NET_PACKET_COOKIE_RESPONSE:\n-            return \"COOKIE_RESPONSE\";\n+            return \"NET_PACKET_COOKIE_RESPONSE\";\n \n         case NET_PACKET_CRYPTO_HS:\n-            return \"CRYPTO_HS\";\n+            return \"NET_PACKET_CRYPTO_HS\";\n \n         case NET_PACKET_CRYPTO_DATA:\n-            return \"CRYPTO_DATA\";\n+            return \"NET_PACKET_CRYPTO_DATA\";\n \n         case NET_PACKET_CRYPTO:\n-            return \"CRYPTO\";\n+            return \"NET_PACKET_CRYPTO\";\n+\n+        case NET_PACKET_LAN_DISCOVERY:\n+            return \"NET_PACKET_LAN_DISCOVERY\";\n \n         case NET_PACKET_GC_HANDSHAKE:\n-            return \"GC_HANDSHAKE\";\n+            return \"NET_PACKET_GC_HANDSHAKE\";\n \n         case NET_PACKET_GC_LOSSLESS:\n-            return \"GC_LOSSLESS\";\n+            return \"NET_PACKET_GC_LOSSLESS\";\n \n         case NET_PACKET_GC_LOSSY:\n-            return \"GC_LOSSY\";\n-\n-        case NET_PACKET_LAN_DISCOVERY:\n-            return \"LAN_DISCOVERY\";\n+            return \"NET_PACKET_GC_LOSSY\";\n \n         case NET_PACKET_ONION_SEND_INITIAL:\n-            return \"ONION_SEND_INITIAL\";\n+            return \"NET_PACKET_ONION_SEND_INITIAL\";\n \n         case NET_PACKET_ONION_SEND_1:\n-            return \"ONION_SEND_1\";\n+            return \"NET_PACKET_ONION_SEND_1\";\n \n         case NET_PACKET_ONION_SEND_2:\n-            return \"ONION_SEND_2\";\n+            return \"NET_PACKET_ONION_SEND_2\";\n \n         case NET_PACKET_ANNOUNCE_REQUEST_OLD:\n-            return \"ANNOUNCE_REQUEST_OLD\";\n+            return \"NET_PACKET_ANNOUNCE_REQUEST_OLD\";\n \n         case NET_PACKET_ANNOUNCE_RESPONSE_OLD:\n-            return \"ANNOUNCE_RESPONSE_OLD\";\n+            return \"NET_PACKET_ANNOUNCE_RESPONSE_OLD\";\n \n         case NET_PACKET_ONION_DATA_REQUEST:\n-            return \"ONION_DATA_REQUEST\";\n+            return \"NET_PACKET_ONION_DATA_REQUEST\";\n \n         case NET_PACKET_ONION_DATA_RESPONSE:\n-            return \"ONION_DATA_RESPONSE\";\n+            return \"NET_PACKET_ONION_DATA_RESPONSE\";\n \n         case NET_PACKET_ANNOUNCE_REQUEST:\n-            return \"ANNOUNCE_REQUEST\";\n+            return \"NET_PACKET_ANNOUNCE_REQUEST\";\n \n         case NET_PACKET_ANNOUNCE_RESPONSE:\n-            return \"ANNOUNCE_RESPONSE\";\n+            return \"NET_PACKET_ANNOUNCE_RESPONSE\";\n \n         case NET_PACKET_ONION_RECV_3:\n-            return \"ONION_RECV_3\";\n+            return \"NET_PACKET_ONION_RECV_3\";\n \n         case NET_PACKET_ONION_RECV_2:\n-            return \"ONION_RECV_2\";\n+            return \"NET_PACKET_ONION_RECV_2\";\n \n         case NET_PACKET_ONION_RECV_1:\n-            return \"ONION_RECV_1\";\n+            return \"NET_PACKET_ONION_RECV_1\";\n \n         case NET_PACKET_FORWARD_REQUEST:\n-            return \"FORWARD_REQUEST\";\n+            return \"NET_PACKET_FORWARD_REQUEST\";\n \n         case NET_PACKET_FORWARDING:\n-            return \"FORWARDING\";\n+            return \"NET_PACKET_FORWARDING\";\n \n         case NET_PACKET_FORWARD_REPLY:\n-            return \"FORWARD_REPLY\";\n+            return \"NET_PACKET_FORWARD_REPLY\";\n \n         case NET_PACKET_DATA_SEARCH_REQUEST:\n-            return \"DATA_SEARCH_REQUEST\";\n+            return \"NET_PACKET_DATA_SEARCH_REQUEST\";\n \n         case NET_PACKET_DATA_SEARCH_RESPONSE:\n-            return \"DATA_SEARCH_RESPONSE\";\n+            return \"NET_PACKET_DATA_SEARCH_RESPONSE\";\n \n         case NET_PACKET_DATA_RETRIEVE_REQUEST:\n-            return \"DATA_RETRIEVE_REQUEST\";\n+            return \"NET_PACKET_DATA_RETRIEVE_REQUEST\";\n \n         case NET_PACKET_DATA_RETRIEVE_RESPONSE:\n-            return \"DATA_RETRIEVE_RESPONSE\";\n+            return \"NET_PACKET_DATA_RETRIEVE_RESPONSE\";\n \n         case NET_PACKET_STORE_ANNOUNCE_REQUEST:\n-            return \"STORE_ANNOUNCE_REQUEST\";\n+            return \"NET_PACKET_STORE_ANNOUNCE_REQUEST\";\n \n         case NET_PACKET_STORE_ANNOUNCE_RESPONSE:\n-            return \"STORE_ANNOUNCE_RESPONSE\";\n+            return \"NET_PACKET_STORE_ANNOUNCE_RESPONSE\";\n \n-        case BOOTSTRAP_INFO_PACKET_ID:\n-            return \"BOOTSTRAP_INFO\";\n+        case NET_PACKET_BOOTSTRAP_INFO:\n+            return \"NET_PACKET_BOOTSTRAP_INFO\";\n \n         case NET_PACKET_MAX:\n-            return \"MAX\";\n+            return \"NET_PACKET_MAX\";\n     }\n \n-    return \"<unknown>\";\n+    return \"<invalid Net_Packet_Type>\";\n+}\n+\n+typedef enum Net_Direction {\n+    NET_DIRECTION_TCP_INCOMING,\n+    NET_DIRECTION_TCP_OUTGOING,\n+    NET_DIRECTION_UDP_INCOMING,\n+    NET_DIRECTION_UDP_OUTGOING,\n+} Net_Direction;\n+\n+static const char *net_direction_str(Net_Direction direction)\n+{\n+    switch (direction) {\n+        case NET_DIRECTION_TCP_INCOMING:\n+            return \"=>T\";\n+        case NET_DIRECTION_TCP_OUTGOING:\n+            return \"T=>\";\n+        case NET_DIRECTION_UDP_INCOMING:\n+            return \"=>U\";",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2858#discussion_r1936491750",
+            "id": 1936491750,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs5zbITm",
+            "original_commit_id": "ab27a0c84f5bc67978077b5621bfd51b15c63417",
+            "original_line": 1031,
+            "original_position": 351,
+            "original_start_line": null,
+            "path": "toxcore/network.c",
+            "position": null,
+            "pull_request_review_id": 2585388895,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936491750/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-31T00:23:07Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936491750",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2858#discussion_r1936501918"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936501918"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Oops :) fixed.",
+            "commit_id": "c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
+            "created_at": "2025-01-31T00:35:36Z",
+            "diff_hunk": "@@ -741,170 +741,373 @@ static int net_getsockopt(const Network *ns, Socket sock, int level, int optname\n }\n \n non_null()\n-static uint32_t data_0(uint16_t buflen, const uint8_t *buffer)\n-{\n-    uint32_t data = 0;\n-\n-    if (buflen > 4) {\n-        net_unpack_u32(buffer + 1, &data);\n-    }\n-\n-    return data;\n-}\n-non_null()\n-static uint32_t data_1(uint16_t buflen, const uint8_t *buffer)\n-{\n-    uint32_t data = 0;\n-\n-    if (buflen > 8) {\n-        net_unpack_u32(buffer + 5, &data);\n+static bool net_packet_type_from_int(uint8_t value, Net_Packet_Type *out_enum)\n+{\n+    // Clang compiles these to jump tables. Not amazing, but not too terrible.\n+    // It's necessary because the enum values are not contiguous and casting\n+    // the int directly to the enum is UB.\n+    switch (value) {\n+        case NET_PACKET_PING_REQUEST: {\n+            *out_enum = NET_PACKET_PING_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_PING_RESPONSE: {\n+            *out_enum = NET_PACKET_PING_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_GET_NODES: {\n+            *out_enum = NET_PACKET_GET_NODES;\n+            return true;\n+        }\n+        case NET_PACKET_SEND_NODES_IPV6: {\n+            *out_enum = NET_PACKET_SEND_NODES_IPV6;\n+            return true;\n+        }\n+        case NET_PACKET_COOKIE_REQUEST: {\n+            *out_enum = NET_PACKET_COOKIE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_COOKIE_RESPONSE: {\n+            *out_enum = NET_PACKET_COOKIE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_CRYPTO_HS: {\n+            *out_enum = NET_PACKET_CRYPTO_HS;\n+            return true;\n+        }\n+        case NET_PACKET_CRYPTO_DATA: {\n+            *out_enum = NET_PACKET_CRYPTO_DATA;\n+            return true;\n+        }\n+        case NET_PACKET_CRYPTO: {\n+            *out_enum = NET_PACKET_CRYPTO;\n+            return true;\n+        }\n+        case NET_PACKET_LAN_DISCOVERY: {\n+            *out_enum = NET_PACKET_LAN_DISCOVERY;\n+            return true;\n+        }\n+        case NET_PACKET_GC_HANDSHAKE: {\n+            *out_enum = NET_PACKET_GC_HANDSHAKE;\n+            return true;\n+        }\n+        case NET_PACKET_GC_LOSSLESS: {\n+            *out_enum = NET_PACKET_GC_LOSSLESS;\n+            return true;\n+        }\n+        case NET_PACKET_GC_LOSSY: {\n+            *out_enum = NET_PACKET_GC_LOSSY;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_SEND_INITIAL: {\n+            *out_enum = NET_PACKET_ONION_SEND_INITIAL;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_SEND_1: {\n+            *out_enum = NET_PACKET_ONION_SEND_1;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_SEND_2: {\n+            *out_enum = NET_PACKET_ONION_SEND_2;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_REQUEST_OLD: {\n+            *out_enum = NET_PACKET_ANNOUNCE_REQUEST_OLD;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_RESPONSE_OLD: {\n+            *out_enum = NET_PACKET_ANNOUNCE_RESPONSE_OLD;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_DATA_REQUEST: {\n+            *out_enum = NET_PACKET_ONION_DATA_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_DATA_RESPONSE: {\n+            *out_enum = NET_PACKET_ONION_DATA_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_REQUEST: {\n+            *out_enum = NET_PACKET_ANNOUNCE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_ANNOUNCE_RESPONSE: {\n+            *out_enum = NET_PACKET_ANNOUNCE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_RECV_3: {\n+            *out_enum = NET_PACKET_ONION_RECV_3;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_RECV_2: {\n+            *out_enum = NET_PACKET_ONION_RECV_2;\n+            return true;\n+        }\n+        case NET_PACKET_ONION_RECV_1: {\n+            *out_enum = NET_PACKET_ONION_RECV_1;\n+            return true;\n+        }\n+        case NET_PACKET_FORWARD_REQUEST: {\n+            *out_enum = NET_PACKET_FORWARD_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_FORWARDING: {\n+            *out_enum = NET_PACKET_FORWARDING;\n+            return true;\n+        }\n+        case NET_PACKET_FORWARD_REPLY: {\n+            *out_enum = NET_PACKET_FORWARD_REPLY;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_SEARCH_REQUEST: {\n+            *out_enum = NET_PACKET_DATA_SEARCH_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_SEARCH_RESPONSE: {\n+            *out_enum = NET_PACKET_DATA_SEARCH_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_RETRIEVE_REQUEST: {\n+            *out_enum = NET_PACKET_DATA_RETRIEVE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_DATA_RETRIEVE_RESPONSE: {\n+            *out_enum = NET_PACKET_DATA_RETRIEVE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_STORE_ANNOUNCE_REQUEST: {\n+            *out_enum = NET_PACKET_STORE_ANNOUNCE_REQUEST;\n+            return true;\n+        }\n+        case NET_PACKET_STORE_ANNOUNCE_RESPONSE: {\n+            *out_enum = NET_PACKET_STORE_ANNOUNCE_RESPONSE;\n+            return true;\n+        }\n+        case NET_PACKET_BOOTSTRAP_INFO: {\n+            *out_enum = NET_PACKET_BOOTSTRAP_INFO;\n+            return true;\n+        }\n+        case NET_PACKET_MAX: {\n+            *out_enum = NET_PACKET_MAX;\n+            return true;\n+        }\n+        default: {\n+            *out_enum = NET_PACKET_PING_REQUEST;\n+            return false;\n+        }\n     }\n-\n-    return data;\n }\n \n-static const char *net_packet_type_name(Net_Packet_Type type)\n+static const char *net_packet_type_to_string(Net_Packet_Type type)\n {\n     switch (type) {\n         case NET_PACKET_PING_REQUEST:\n-            return \"PING_REQUEST\";\n+            return \"NET_PACKET_PING_REQUEST\";\n \n         case NET_PACKET_PING_RESPONSE:\n-            return \"PING_RESPONSE\";\n+            return \"NET_PACKET_PING_RESPONSE\";\n \n         case NET_PACKET_GET_NODES:\n-            return \"GET_NODES\";\n+            return \"NET_PACKET_GET_NODES\";\n \n         case NET_PACKET_SEND_NODES_IPV6:\n-            return \"SEND_NODES_IPV6\";\n+            return \"NET_PACKET_SEND_NODES_IPV6\";\n \n         case NET_PACKET_COOKIE_REQUEST:\n-            return \"COOKIE_REQUEST\";\n+            return \"NET_PACKET_COOKIE_REQUEST\";\n \n         case NET_PACKET_COOKIE_RESPONSE:\n-            return \"COOKIE_RESPONSE\";\n+            return \"NET_PACKET_COOKIE_RESPONSE\";\n \n         case NET_PACKET_CRYPTO_HS:\n-            return \"CRYPTO_HS\";\n+            return \"NET_PACKET_CRYPTO_HS\";\n \n         case NET_PACKET_CRYPTO_DATA:\n-            return \"CRYPTO_DATA\";\n+            return \"NET_PACKET_CRYPTO_DATA\";\n \n         case NET_PACKET_CRYPTO:\n-            return \"CRYPTO\";\n+            return \"NET_PACKET_CRYPTO\";\n+\n+        case NET_PACKET_LAN_DISCOVERY:\n+            return \"NET_PACKET_LAN_DISCOVERY\";\n \n         case NET_PACKET_GC_HANDSHAKE:\n-            return \"GC_HANDSHAKE\";\n+            return \"NET_PACKET_GC_HANDSHAKE\";\n \n         case NET_PACKET_GC_LOSSLESS:\n-            return \"GC_LOSSLESS\";\n+            return \"NET_PACKET_GC_LOSSLESS\";\n \n         case NET_PACKET_GC_LOSSY:\n-            return \"GC_LOSSY\";\n-\n-        case NET_PACKET_LAN_DISCOVERY:\n-            return \"LAN_DISCOVERY\";\n+            return \"NET_PACKET_GC_LOSSY\";\n \n         case NET_PACKET_ONION_SEND_INITIAL:\n-            return \"ONION_SEND_INITIAL\";\n+            return \"NET_PACKET_ONION_SEND_INITIAL\";\n \n         case NET_PACKET_ONION_SEND_1:\n-            return \"ONION_SEND_1\";\n+            return \"NET_PACKET_ONION_SEND_1\";\n \n         case NET_PACKET_ONION_SEND_2:\n-            return \"ONION_SEND_2\";\n+            return \"NET_PACKET_ONION_SEND_2\";\n \n         case NET_PACKET_ANNOUNCE_REQUEST_OLD:\n-            return \"ANNOUNCE_REQUEST_OLD\";\n+            return \"NET_PACKET_ANNOUNCE_REQUEST_OLD\";\n \n         case NET_PACKET_ANNOUNCE_RESPONSE_OLD:\n-            return \"ANNOUNCE_RESPONSE_OLD\";\n+            return \"NET_PACKET_ANNOUNCE_RESPONSE_OLD\";\n \n         case NET_PACKET_ONION_DATA_REQUEST:\n-            return \"ONION_DATA_REQUEST\";\n+            return \"NET_PACKET_ONION_DATA_REQUEST\";\n \n         case NET_PACKET_ONION_DATA_RESPONSE:\n-            return \"ONION_DATA_RESPONSE\";\n+            return \"NET_PACKET_ONION_DATA_RESPONSE\";\n \n         case NET_PACKET_ANNOUNCE_REQUEST:\n-            return \"ANNOUNCE_REQUEST\";\n+            return \"NET_PACKET_ANNOUNCE_REQUEST\";\n \n         case NET_PACKET_ANNOUNCE_RESPONSE:\n-            return \"ANNOUNCE_RESPONSE\";\n+            return \"NET_PACKET_ANNOUNCE_RESPONSE\";\n \n         case NET_PACKET_ONION_RECV_3:\n-            return \"ONION_RECV_3\";\n+            return \"NET_PACKET_ONION_RECV_3\";\n \n         case NET_PACKET_ONION_RECV_2:\n-            return \"ONION_RECV_2\";\n+            return \"NET_PACKET_ONION_RECV_2\";\n \n         case NET_PACKET_ONION_RECV_1:\n-            return \"ONION_RECV_1\";\n+            return \"NET_PACKET_ONION_RECV_1\";\n \n         case NET_PACKET_FORWARD_REQUEST:\n-            return \"FORWARD_REQUEST\";\n+            return \"NET_PACKET_FORWARD_REQUEST\";\n \n         case NET_PACKET_FORWARDING:\n-            return \"FORWARDING\";\n+            return \"NET_PACKET_FORWARDING\";\n \n         case NET_PACKET_FORWARD_REPLY:\n-            return \"FORWARD_REPLY\";\n+            return \"NET_PACKET_FORWARD_REPLY\";\n \n         case NET_PACKET_DATA_SEARCH_REQUEST:\n-            return \"DATA_SEARCH_REQUEST\";\n+            return \"NET_PACKET_DATA_SEARCH_REQUEST\";\n \n         case NET_PACKET_DATA_SEARCH_RESPONSE:\n-            return \"DATA_SEARCH_RESPONSE\";\n+            return \"NET_PACKET_DATA_SEARCH_RESPONSE\";\n \n         case NET_PACKET_DATA_RETRIEVE_REQUEST:\n-            return \"DATA_RETRIEVE_REQUEST\";\n+            return \"NET_PACKET_DATA_RETRIEVE_REQUEST\";\n \n         case NET_PACKET_DATA_RETRIEVE_RESPONSE:\n-            return \"DATA_RETRIEVE_RESPONSE\";\n+            return \"NET_PACKET_DATA_RETRIEVE_RESPONSE\";\n \n         case NET_PACKET_STORE_ANNOUNCE_REQUEST:\n-            return \"STORE_ANNOUNCE_REQUEST\";\n+            return \"NET_PACKET_STORE_ANNOUNCE_REQUEST\";\n \n         case NET_PACKET_STORE_ANNOUNCE_RESPONSE:\n-            return \"STORE_ANNOUNCE_RESPONSE\";\n+            return \"NET_PACKET_STORE_ANNOUNCE_RESPONSE\";\n \n-        case BOOTSTRAP_INFO_PACKET_ID:\n-            return \"BOOTSTRAP_INFO\";\n+        case NET_PACKET_BOOTSTRAP_INFO:\n+            return \"NET_PACKET_BOOTSTRAP_INFO\";\n \n         case NET_PACKET_MAX:\n-            return \"MAX\";\n+            return \"NET_PACKET_MAX\";\n     }\n \n-    return \"<unknown>\";\n+    return \"<invalid Net_Packet_Type>\";\n+}\n+\n+typedef enum Net_Direction {\n+    NET_DIRECTION_TCP_INCOMING,\n+    NET_DIRECTION_TCP_OUTGOING,\n+    NET_DIRECTION_UDP_INCOMING,\n+    NET_DIRECTION_UDP_OUTGOING,\n+} Net_Direction;\n+\n+static const char *net_direction_str(Net_Direction direction)\n+{\n+    switch (direction) {\n+        case NET_DIRECTION_TCP_INCOMING:\n+            return \"=>T\";\n+        case NET_DIRECTION_TCP_OUTGOING:\n+            return \"T=>\";\n+        case NET_DIRECTION_UDP_INCOMING:\n+            return \"=>U\";",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2858#discussion_r1936501918",
+            "id": 1936501918,
+            "in_reply_to_id": 1936491750,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs5zbKye",
+            "original_commit_id": "ab27a0c84f5bc67978077b5621bfd51b15c63417",
+            "original_line": 1031,
+            "original_position": 351,
+            "original_start_line": null,
+            "path": "toxcore/network.c",
+            "position": null,
+            "pull_request_review_id": 2585408076,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936501918/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-01-31T00:35:36Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1936501918",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
     "comment_regular_data": [],
     "comments": 0,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2858/comments",
@@ -201,7 +383,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ab27a0c84f5bc67978077b5621bfd51b15c63417/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c20862b01df6a1e3e4e8d78bd68b6f806bd3686d/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-30T22:18:49Z",
@@ -210,22 +392,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-30T22:56:03Z",
+                    "date": "2025-01-31T00:35:26Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "cleanup: Make loglogdata a little clearer and safer.",
                 "tree": {
-                    "sha": "27c2e83b7d998438f52c56aaabac930bde4ef672",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/27c2e83b7d998438f52c56aaabac930bde4ef672"
+                    "sha": "c6bb0b873bdc5656e4ffad7862a59744d623deac",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c6bb0b873bdc5656e4ffad7862a59744d623deac"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/ab27a0c84f5bc67978077b5621bfd51b15c63417",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
                 "verification": {
-                    "payload": "tree 27c2e83b7d998438f52c56aaabac930bde4ef672\nparent f1991aaa02978a3cb866826d2a5f24ac1e2fdd16\nauthor iphydf <iphydf@users.noreply.github.com> 1738275529 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738277763 +0000\n\ncleanup: Make loglogdata a little clearer and safer.\n",
+                    "payload": "tree c6bb0b873bdc5656e4ffad7862a59744d623deac\nparent f1991aaa02978a3cb866826d2a5f24ac1e2fdd16\nauthor iphydf <iphydf@users.noreply.github.com> 1738275529 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738283726 +0000\n\ncleanup: Make loglogdata a little clearer and safer.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmecA4QACgkQOFXbotdE\nA8lzdAf/dO+DvCc9NAMOW+dw71VCtXbJrXYTCv4SgGTG4dDbS9rrfTWewEiw+BJT\n780Ga/WYdd/Hzh/1o4NBRc/L3ZprfNjcyme4A2TNjF0DwZ+2le6W38IN28+VtGP3\nOo2Bga4nfe7tUn1+2v4Qe2eVLXDISX1rVPDZ6BWfRGeq6HrIc+kKeGPRvj8aZxsJ\nG9oe/muwcfkIFxr1kmf+nasXVu3hJKbMaxfmvyDBoBHNcrWMGcf7ObZ1hc2cr106\nHvoeVp7j+dy21Syc7scyIVTk9dWl6pekeEcYYhzk1Aoal9kbC8JPNqWLconBD1Ux\nHkPnplycq5xScJg9TNouPwIV6YOYyQ==\n=MI5n\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmecGs4ACgkQOFXbotdE\nA8kCWggAg7aCWMAWBjK1vdZryzH5fY5/A7CVnXCQUbZdI5u36h3KsBTi6+EJJyib\nrkB0LOkNC+uP+lJH9xTJFPVCqo0vHRs9JahprJXZJnPEJACo7ugOD7rfGm1jGR8A\nCP1OEHMfNhJeX/ZPmYyPhJXzQEACgigL4CaEvyY6k3PtB8svaz+fI0iOdHiYXS3P\n7jcg59+zScJR8q1Vjx776+Kp4gy/Uv+dMdOE4ObIAxWgaPsE5k2HEGAZdOvmK9wH\nDNEZkZCSKU2HkafN5s6ttWAWmDMnbbzERQwtpAUZ0U2B5GiyW+SuUzLhlbBBc8bu\nB/ooxLatKZLeRuBu/lMYnqczqY9tHw==\n=dsR+\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-30T22:56:07Z"
+                    "verified_at": "2025-01-31T00:35:32Z"
                 }
             },
             "committer": {
@@ -249,8 +431,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/ab27a0c84f5bc67978077b5621bfd51b15c63417",
-            "node_id": "C_kwDOA7z7wtoAKGFiMjdhMGM4NGY1YmM2Nzk3ODA3N2I1NjIxYmZkNTFiMTVjNjM0MTc",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
+            "node_id": "C_kwDOA7z7wtoAKGMyMDg2MmIwMWRmNmExZTNlNGU4ZDc4YmQ2OGI2ZjgwNmJkMzY4NmQ",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/c-toxcore/commit/f1991aaa02978a3cb866826d2a5f24ac1e2fdd16",
@@ -258,8 +440,8 @@
                     "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f1991aaa02978a3cb866826d2a5f24ac1e2fdd16"
                 }
             ],
-            "sha": "ab27a0c84f5bc67978077b5621bfd51b15c63417",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/ab27a0c84f5bc67978077b5621bfd51b15c63417"
+            "sha": "c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c20862b01df6a1e3e4e8d78bd68b6f806bd3686d"
         }
     ],
     "commits": 1,
@@ -357,9 +539,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-30T22:56:05Z",
+            "pushed_at": "2025-01-31T12:12:39Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19589,
+            "size": 19215,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -385,7 +567,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "ab27a0c84f5bc67978077b5621bfd51b15c63417",
+        "sha": "c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -424,7 +606,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "7c42e2f57fa4a13e43eb26d3140fcc36c45de368",
+    "merge_commit_sha": "495cd75437d1eb097b2c531c456f71eddad93160",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -475,12 +657,12 @@
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 0,
+    "review_comments": 2,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/ab27a0c84f5bc67978077b5621bfd51b15c63417",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/c20862b01df6a1e3e4e8d78bd68b6f806bd3686d",
     "title": "cleanup: Make loglogdata a little clearer and safer.",
-    "updated_at": "2025-01-30T22:57:03Z",
+    "updated_at": "2025-01-31T00:35:43Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2858",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
