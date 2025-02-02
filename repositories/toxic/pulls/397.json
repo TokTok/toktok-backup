@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/toxic/pulls/397"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/toxic/statuses/14deb318e21856c6dda257a5a6eaaa10e88bc4e0"
+            "href": "https://api.github.com/repos/TokTok/toxic/statuses/de99ed2c4c52be69171c22c314e51a7b85facd50"
         }
     },
     "active_lock_reason": null,
@@ -120,9 +120,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/toxic/pulls{/number}",
-            "pushed_at": "2025-01-24T17:24:09Z",
+            "pushed_at": "2025-02-02T05:00:21Z",
             "releases_url": "https://api.github.com/repos/TokTok/toxic/releases{/id}",
-            "size": 17999,
+            "size": 18011,
             "ssh_url": "git@github.com:TokTok/toxic.git",
             "stargazers_count": 32,
             "stargazers_url": "https://api.github.com/repos/TokTok/toxic/stargazers",
@@ -152,14 +152,14 @@
                 "videochat"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/toxic/git/trees{/sha}",
-            "updated_at": "2025-01-23T10:38:48Z",
+            "updated_at": "2025-01-31T00:05:25Z",
             "url": "https://api.github.com/repos/TokTok/toxic",
             "visibility": "public",
             "watchers": 32,
             "watchers_count": 32,
             "web_commit_signoff_required": false
         },
-        "sha": "cb4e3a7c6679f7e5af84f8d8bc1499e086f696c1",
+        "sha": "ee3d75a11f6ced53cb74fff614349ad34fb78305",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -212,7 +212,7 @@
                 "url": "https://api.github.com/users/JFreegman",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/14deb318e21856c6dda257a5a6eaaa10e88bc4e0/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/de99ed2c4c52be69171c22c314e51a7b85facd50/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-15T20:18:39Z",
@@ -221,22 +221,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-24T05:18:29Z",
+                    "date": "2025-01-31T16:32:46Z",
                     "email": "jfreegman@gmail.com",
                     "name": "jfreegman"
                 },
                 "message": "feat: add tox network profile functionality\n\nProfiling can be enabled with the -s run option",
                 "tree": {
-                    "sha": "a29ada2005940cde76c88af587660a5d384d4c14",
-                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/a29ada2005940cde76c88af587660a5d384d4c14"
+                    "sha": "36a839f0c475cef260c63743a5df03bab50b1ca9",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/36a839f0c475cef260c63743a5df03bab50b1ca9"
                 },
-                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/14deb318e21856c6dda257a5a6eaaa10e88bc4e0",
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/de99ed2c4c52be69171c22c314e51a7b85facd50",
                 "verification": {
-                    "payload": "tree a29ada2005940cde76c88af587660a5d384d4c14\nparent cb4e3a7c6679f7e5af84f8d8bc1499e086f696c1\nauthor jfreegman <jfreegman@gmail.com> 1736972319 -0500\ncommitter jfreegman <jfreegman@gmail.com> 1737695909 -0500\n\nfeat: add tox network profile functionality\n\nProfiling can be enabled with the -s run option\n",
+                    "payload": "tree 36a839f0c475cef260c63743a5df03bab50b1ca9\nparent ee3d75a11f6ced53cb74fff614349ad34fb78305\nauthor jfreegman <jfreegman@gmail.com> 1736972319 -0500\ncommitter jfreegman <jfreegman@gmail.com> 1738341166 -0500\n\nfeat: add tox network profile functionality\n\nProfiling can be enabled with the -s run option\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQFIBAABCgAyFiEEur0AVzoGW/qQ1T1WNifzFEB2rmMFAmeTIqUUHGpmcmVlZ21h\nbkBnbWFpbC5jb20ACgkQNifzFEB2rmORvAf/TZ0C9SdUbCZjbxmbfNL3L3eciRGx\n37MXlCH5ff+9iEHYQDWxibX49wLUIipfm4SVlUVVOlbBZTYn8UX6nqon3xNfhggf\nRSGjR2m2NeCm2pPSU3fO4683EhxpTxTvMz+nJvmleRozGQDNP0qE7r8kEEs7n8y+\nyilN7Z65ep2OIib9y7aIHIpVDRltjEZhYxno2lXK+1swiUSGNh/d/eXNXOxYvEyH\nRKnzsZWB86ifliZ9MoU11YUz+nvR4h3fO6s+LR0DiEUknzKAhuc8LPZ6A0OVmTly\nkFrCxCUcASCssd/vOxaARF6fdzCi32K3af9nXIt/qBxsBCFe0ov7ca/Glg==\n=GQJG\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQFIBAABCgAyFiEEur0AVzoGW/qQ1T1WNifzFEB2rmMFAmec+y4UHGpmcmVlZ21h\nbkBnbWFpbC5jb20ACgkQNifzFEB2rmPF9gf9E+mkuyht2OxgvpfJPmlFtjDPHTvg\n4RX/0sWuRtPEKNXSWViBORmHRBmj897Se48PmgoLlUmPJg500Uh4WhZL4j7Yn37S\nflNI+3175j2eiMk25sPq0r1ofdJww1jWF8SRCAp6T4rLd6+YZIRYFXTyiNBGwvpG\nD9KOArdRCz4scsGHmM53MzJIoqNzuzwz6S2cqrOqfBult1buV+oua5PQMRie06SE\nL3xLV2xbcaWb/GwAuZf59dMRjPhq/d53Je6CqtN4cPGjLrJzXhU2QS50aE/gSRNA\nqFLRNAC54c1Z9MCdl3vimwW4HCSkLXqDJP6PLDXeBwEQX9EeB1huqeXg1g==\n=exn5\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-24T05:18:38Z"
+                    "verified_at": "2025-01-31T16:32:57Z"
                 }
             },
             "committer": {
@@ -260,17 +260,17 @@
                 "url": "https://api.github.com/users/JFreegman",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/toxic/commit/14deb318e21856c6dda257a5a6eaaa10e88bc4e0",
-            "node_id": "C_kwDOALvJcNoAKDE0ZGViMzE4ZTIxODU2YzZkZGEyNTdhNWE2ZWFhYTEwZTg4YmM0ZTA",
+            "html_url": "https://github.com/TokTok/toxic/commit/de99ed2c4c52be69171c22c314e51a7b85facd50",
+            "node_id": "C_kwDOALvJcNoAKGRlOTllZDJjNGM1MmJlNjkxNzFjMjJjMzE0ZTUxYTdiODVmYWNkNTA",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/toxic/commit/cb4e3a7c6679f7e5af84f8d8bc1499e086f696c1",
-                    "sha": "cb4e3a7c6679f7e5af84f8d8bc1499e086f696c1",
-                    "url": "https://api.github.com/repos/TokTok/toxic/commits/cb4e3a7c6679f7e5af84f8d8bc1499e086f696c1"
+                    "html_url": "https://github.com/TokTok/toxic/commit/ee3d75a11f6ced53cb74fff614349ad34fb78305",
+                    "sha": "ee3d75a11f6ced53cb74fff614349ad34fb78305",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/ee3d75a11f6ced53cb74fff614349ad34fb78305"
                 }
             ],
-            "sha": "14deb318e21856c6dda257a5a6eaaa10e88bc4e0",
-            "url": "https://api.github.com/repos/TokTok/toxic/commits/14deb318e21856c6dda257a5a6eaaa10e88bc4e0"
+            "sha": "de99ed2c4c52be69171c22c314e51a7b85facd50",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/de99ed2c4c52be69171c22c314e51a7b85facd50"
         }
     ],
     "commits": 1,
@@ -343,8 +343,8 @@
             "name": "toxic",
             "node_id": "MDEwOlJlcG9zaXRvcnkxMjMwNjgwMA==",
             "notifications_url": "https://api.github.com/repos/JFreegman/toxic/notifications{?since,all,participating}",
-            "open_issues": 20,
-            "open_issues_count": 20,
+            "open_issues": 21,
+            "open_issues_count": 21,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
                 "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
@@ -368,11 +368,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/JFreegman/toxic/pulls{/number}",
-            "pushed_at": "2025-01-24T05:18:36Z",
+            "pushed_at": "2025-01-31T16:32:54Z",
             "releases_url": "https://api.github.com/repos/JFreegman/toxic/releases{/id}",
-            "size": 18149,
+            "size": 18163,
             "ssh_url": "git@github.com:JFreegman/toxic.git",
-            "stargazers_count": 1228,
+            "stargazers_count": 1233,
             "stargazers_url": "https://api.github.com/repos/JFreegman/toxic/stargazers",
             "statuses_url": "https://api.github.com/repos/JFreegman/toxic/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/JFreegman/toxic/subscribers",
@@ -401,14 +401,14 @@
                 "videochat"
             ],
             "trees_url": "https://api.github.com/repos/JFreegman/toxic/git/trees{/sha}",
-            "updated_at": "2025-01-24T05:18:28Z",
+            "updated_at": "2025-02-02T14:55:54Z",
             "url": "https://api.github.com/repos/JFreegman/toxic",
             "visibility": "public",
-            "watchers": 1228,
-            "watchers_count": 1228,
+            "watchers": 1233,
+            "watchers_count": 1233,
             "web_commit_signoff_required": false
         },
-        "sha": "14deb318e21856c6dda257a5a6eaaa10e88bc4e0",
+        "sha": "de99ed2c4c52be69171c22c314e51a7b85facd50",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
             "events_url": "https://api.github.com/users/JFreegman/events{/privacy}",
@@ -447,7 +447,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "a38e838e0a857f31ad3f14e37a3b1b92e6262812",
+    "merge_commit_sha": "cdb3e47b4b1af0bd8648f17eb67fa46d9dc603a1",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -501,9 +501,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/toxic/pulls/397/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/14deb318e21856c6dda257a5a6eaaa10e88bc4e0",
+    "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/de99ed2c4c52be69171c22c314e51a7b85facd50",
     "title": "feat: add tox network profile functionality",
-    "updated_at": "2025-01-24T05:18:51Z",
+    "updated_at": "2025-01-31T16:33:12Z",
     "url": "https://api.github.com/repos/TokTok/toxic/pulls/397",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
