@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/476"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/b9a46f9df086b35b89e00b913ae4befc023e9976"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/a5dfd62e0d9322ff8b9aa178830327ba5f58526e"
         }
     },
     "active_lock_reason": null,
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 13,
-            "forks_count": 13,
+            "forks": 14,
+            "forks_count": 14,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -95,8 +95,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 47,
-            "open_issues_count": 47,
+            "open_issues": 53,
+            "open_issues_count": 53,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2025-02-02T11:27:56Z",
+            "pushed_at": "2025-02-06T17:14:25Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 61176,
+            "size": 62258,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 59,
+            "stargazers_count": 60,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -137,14 +137,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2025-02-02T14:58:33Z",
+            "updated_at": "2025-02-06T16:44:06Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 59,
-            "watchers_count": 59,
+            "watchers": 60,
+            "watchers_count": 60,
             "web_commit_signoff_required": true
         },
-        "sha": "a59c2979cd55883ff8dae7564cfed92f838bb25b",
+        "sha": "14cc6628e973c06fbfc71c8123c4b0e59497692a",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -197,7 +197,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/b9a46f9df086b35b89e00b913ae4befc023e9976/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/a5dfd62e0d9322ff8b9aa178830327ba5f58526e/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-26T00:36:50Z",
@@ -206,22 +206,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-31T22:16:01Z",
+                    "date": "2025-02-06T14:19:47Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat(Debug): Allow user to limit the copied log size.\n\nWe usually don't need a very long history to debug issues. This protects\nus from having to look at unnecessarily old logs and protects users from\nsharing too much of their activity history.\n\nThe default of 1000 is chosen generously because it'll likely be limited\nby log line age first. The 1000 protects us from enormous logs.",
                 "tree": {
-                    "sha": "7fb8746e9cf2af2900c9599842e25ea21734e9df",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/7fb8746e9cf2af2900c9599842e25ea21734e9df"
+                    "sha": "c54742736f765fca8a969bd94564ff613ba4d3a6",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/c54742736f765fca8a969bd94564ff613ba4d3a6"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/b9a46f9df086b35b89e00b913ae4befc023e9976",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/a5dfd62e0d9322ff8b9aa178830327ba5f58526e",
                 "verification": {
-                    "payload": "tree 7fb8746e9cf2af2900c9599842e25ea21734e9df\nparent a59c2979cd55883ff8dae7564cfed92f838bb25b\nauthor iphydf <iphydf@users.noreply.github.com> 1737851810 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738361761 +0000\n\nfeat(Debug): Allow user to limit the copied log size.\n\nWe usually don't need a very long history to debug issues. This protects\nus from having to look at unnecessarily old logs and protects users from\nsharing too much of their activity history.\n\nThe default of 1000 is chosen generously because it'll likely be limited\nby log line age first. The 1000 protects us from enormous logs.\n",
+                    "payload": "tree c54742736f765fca8a969bd94564ff613ba4d3a6\nparent 14cc6628e973c06fbfc71c8123c4b0e59497692a\nauthor iphydf <iphydf@users.noreply.github.com> 1737851810 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738851587 +0000\n\nfeat(Debug): Allow user to limit the copied log size.\n\nWe usually don't need a very long history to debug issues. This protects\nus from having to look at unnecessarily old logs and protects users from\nsharing too much of their activity history.\n\nThe default of 1000 is chosen generously because it'll likely be limited\nby log line age first. The 1000 protects us from enormous logs.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmedS6EACgkQOFXbotdE\nA8n3lAgAhRVtUvjhqYmBbzokoL5CuRW0bkihapJjMMM5d+Afo+RrU/puCgx3J7Yq\nIlE5MEvof5VtojwY7xAWVQtIVA234qvkY//Z8f/zdqBOT63lAzHtaykpkudSW7fm\nLRCKJHCv3QAWU05piJmoE/RY8s8P3XCX8Zo+SaiBNnPlIfTkQa6vtu7ATgPyD3zY\n0KWQtQS4Bn+6Vu/W/71VwL0zCasdxjLe3I0WMjsnfa6+Bt9xzfWFpgU0GjHm+8b4\nkzIIk5kxeg+Yy+ENWH6tBcx7iDGqao949daKtDDShc7W6VWmuACUwiiBjlJ1jIr4\nYXb16JRdUTmuGS4tsTq1f3MfJiXnoA==\n=VqPi\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmekxQMACgkQOFXbotdE\nA8nwgAgAgRqXoDY7MZRgcHABrI3C02NMbjlikF5fwGADYA2bI+YQpcgBXEn9MrWg\ntRnmWB9IBpdQUcjWGS7RYmSv8oyi//f/mEOpXyDSpbA08kGaAHKnnQ41PPIBUbrX\nP/3W6wrdgnW8tTGdmESXmo5vGRzv3Eq3pmv/NNid7s53ztjo+SApGx6gc/mm1Ju2\nRaeWUCVGV9za6Fucm0mtfDU1yKV2cG+yareyBZyobyhf9KJRVifYjMXHlhvWzcrT\n8MDHhwQCtwMCwfkcGa7dqvsRvabaHYeaN5zyYSpGmRXcGPSy3AdyP5ndMfUGYJYe\nRPOJhr7xLHhaDwq4eqmackImYK3/IA==\n=eiV1\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-31T22:16:05Z"
+                    "verified_at": "2025-02-06T14:19:52Z"
                 }
             },
             "committer": {
@@ -245,17 +245,17 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/b9a46f9df086b35b89e00b913ae4befc023e9976",
-            "node_id": "C_kwDOBF7DatoAKGI5YTQ2ZjlkZjA4NmIzNWI4OWUwMGI5MTNhZTRiZWZjMDIzZTk5NzY",
+            "html_url": "https://github.com/TokTok/qTox/commit/a5dfd62e0d9322ff8b9aa178830327ba5f58526e",
+            "node_id": "C_kwDOBF7DatoAKGE1ZGZkNjJlMGQ5MzIyZmY4YjlhYTE3ODgzMDMyN2JhNWY1ODUyNmU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/a59c2979cd55883ff8dae7564cfed92f838bb25b",
-                    "sha": "a59c2979cd55883ff8dae7564cfed92f838bb25b",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/a59c2979cd55883ff8dae7564cfed92f838bb25b"
+                    "html_url": "https://github.com/TokTok/qTox/commit/14cc6628e973c06fbfc71c8123c4b0e59497692a",
+                    "sha": "14cc6628e973c06fbfc71c8123c4b0e59497692a",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/14cc6628e973c06fbfc71c8123c4b0e59497692a"
                 }
             ],
-            "sha": "b9a46f9df086b35b89e00b913ae4befc023e9976",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/b9a46f9df086b35b89e00b913ae4befc023e9976"
+            "sha": "a5dfd62e0d9322ff8b9aa178830327ba5f58526e",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/a5dfd62e0d9322ff8b9aa178830327ba5f58526e"
         }
     ],
     "commits": 1,
@@ -353,9 +353,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
-            "pushed_at": "2025-02-02T08:13:50Z",
+            "pushed_at": "2025-02-06T17:14:16Z",
             "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
-            "size": 55545,
+            "size": 55958,
             "ssh_url": "git@github.com:iphydf/qTox.git",
             "stargazers_count": 2,
             "stargazers_url": "https://api.github.com/repos/iphydf/qTox/stargazers",
@@ -370,14 +370,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/qTox/git/trees{/sha}",
-            "updated_at": "2025-02-02T08:13:54Z",
+            "updated_at": "2025-02-06T14:16:29Z",
             "url": "https://api.github.com/repos/iphydf/qTox",
             "visibility": "public",
             "watchers": 2,
             "watchers_count": 2,
             "web_commit_signoff_required": false
         },
-        "sha": "b9a46f9df086b35b89e00b913ae4befc023e9976",
+        "sha": "a5dfd62e0d9322ff8b9aa178830327ba5f58526e",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -416,15 +416,15 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "15be80ac286f15bc06c1907eca40c58bd16a24d1",
+    "merge_commit_sha": "c7382cad8def2765ea32e7e7ce85895b5af6c414",
     "mergeable": true,
-    "mergeable_state": "behind",
+    "mergeable_state": "blocked",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 45,
+        "closed_issues": 49,
         "created_at": "2025-01-07T23:23:00Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -454,10 +454,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/5/labels",
         "node_id": "MI_kwDOA9gydM4AuSfj",
         "number": 5,
-        "open_issues": 10,
+        "open_issues": 8,
         "state": "open",
         "title": "v1.18.3",
-        "updated_at": "2025-02-02T18:37:06Z",
+        "updated_at": "2025-02-06T14:27:16Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/5"
     },
     "node_id": "PR_kwDOA9gydM6I_ik7",
@@ -470,9 +470,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/476/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/b9a46f9df086b35b89e00b913ae4befc023e9976",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/a5dfd62e0d9322ff8b9aa178830327ba5f58526e",
     "title": "feat(Debug): Allow user to limit the copied log size.",
-    "updated_at": "2025-01-31T22:16:45Z",
+    "updated_at": "2025-02-06T14:39:07Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/476",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

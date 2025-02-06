@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/206"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/16839be08d195f176129a4e083123b1515d7687e"
+            "href": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/446d964dc532fdc191c993675d58ae75348a0529"
         }
     },
     "active_lock_reason": null,
-    "additions": 84,
+    "additions": 100,
     "assignee": null,
     "assignees": [],
     "author_association": "NONE",
@@ -95,8 +95,8 @@
             "name": "js-toxcore-c",
             "node_id": "MDEwOlJlcG9zaXRvcnk2OTc1ODMxNg==",
             "notifications_url": "https://api.github.com/repos/TokTok/js-toxcore-c/notifications{?since,all,participating}",
-            "open_issues": 9,
-            "open_issues_count": 9,
+            "open_issues": 8,
+            "open_issues_count": 8,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,9 +120,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls{/number}",
-            "pushed_at": "2025-01-28T11:41:25Z",
+            "pushed_at": "2025-02-05T18:22:45Z",
             "releases_url": "https://api.github.com/repos/TokTok/js-toxcore-c/releases{/id}",
-            "size": 1054,
+            "size": 1105,
             "ssh_url": "git@github.com:TokTok/js-toxcore-c.git",
             "stargazers_count": 19,
             "stargazers_url": "https://api.github.com/repos/TokTok/js-toxcore-c/stargazers",
@@ -137,14 +137,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/trees{/sha}",
-            "updated_at": "2025-01-28T11:41:19Z",
+            "updated_at": "2025-02-05T18:22:39Z",
             "url": "https://api.github.com/repos/TokTok/js-toxcore-c",
             "visibility": "public",
             "watchers": 19,
             "watchers_count": 19,
             "web_commit_signoff_required": false
         },
-        "sha": "39e72c7637ffffeb8d11e547cc00792b7353b7cd",
+        "sha": "e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -167,12 +167,58 @@
             "user_view_type": "public"
         }
     },
-    "body": "Bumps [jsdoc](https://github.com/jsdoc/jsdoc) from 4.0.2 to 4.0.4.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/jsdoc/jsdoc/releases\">jsdoc's releases</a>.</em></p>\n<blockquote>\n<h2>JSDoc 4.0.4</h2>\n<p>Fixes a compatibility issue with Node.js 23.</p>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/jsdoc/jsdoc/blob/4.0.4/CHANGES.md\">jsdoc's changelog</a>.</em></p>\n<blockquote>\n<h2>4.0.4 (October 2024)</h2>\n<p>Fixes a compatibility issue with Node.js 23.</p>\n<h2>4.0.3 (May 2024)</h2>\n<p>Updates dependencies.</p>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/11a99cfb5dc3c24a0ca7e7cf099f0296e0366c01\"><code>11a99cf</code></a> chore: 4.0.4</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/59a565812dc6eeb0373bb467cf3748052236252c\"><code>59a5658</code></a> fix: don't use built-in <code>util</code> module for type-checking</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/a5232aa91257c693489507f89368cda45cd1ae88\"><code>a5232aa</code></a> chore(deps): update lockfile</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/49b6fc221156ff2d0d9232e07b84ab8303895941\"><code>49b6fc2</code></a> 4.0.3</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/39061bb0babe354754173d4ce96e7e36981760af\"><code>39061bb</code></a> fix(deps): update <code>@types/markdown-it</code> and related packages</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/1a31e6401a34e393d4dfc256a60bacea0ba5fe17\"><code>1a31e64</code></a> chore(deps): update deps</li>\n<li>See full diff in <a href=\"https://github.com/jsdoc/jsdoc/compare/4.0.2...4.0.4\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jsdoc&package-manager=npm_and_yarn&previous-version=4.0.2&new-version=4.0.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nYou can trigger a rebase of this PR by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/js-toxcore-c/206)\n<!-- Reviewable:end -->\n\n> **Note**\n> Automatic rebases have been disabled on this pull request as it has been open for over 30 days.\n",
+    "body": "Bumps [jsdoc](https://github.com/jsdoc/jsdoc) from 4.0.2 to 4.0.4.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/jsdoc/jsdoc/releases\">jsdoc's releases</a>.</em></p>\n<blockquote>\n<h2>JSDoc 4.0.4</h2>\n<p>Fixes a compatibility issue with Node.js 23.</p>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/jsdoc/jsdoc/blob/4.0.4/CHANGES.md\">jsdoc's changelog</a>.</em></p>\n<blockquote>\n<h2>4.0.4 (October 2024)</h2>\n<p>Fixes a compatibility issue with Node.js 23.</p>\n<h2>4.0.3 (May 2024)</h2>\n<p>Updates dependencies.</p>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/11a99cfb5dc3c24a0ca7e7cf099f0296e0366c01\"><code>11a99cf</code></a> chore: 4.0.4</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/59a565812dc6eeb0373bb467cf3748052236252c\"><code>59a5658</code></a> fix: don't use built-in <code>util</code> module for type-checking</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/a5232aa91257c693489507f89368cda45cd1ae88\"><code>a5232aa</code></a> chore(deps): update lockfile</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/49b6fc221156ff2d0d9232e07b84ab8303895941\"><code>49b6fc2</code></a> 4.0.3</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/39061bb0babe354754173d4ce96e7e36981760af\"><code>39061bb</code></a> fix(deps): update <code>@types/markdown-it</code> and related packages</li>\n<li><a href=\"https://github.com/jsdoc/jsdoc/commit/1a31e6401a34e393d4dfc256a60bacea0ba5fe17\"><code>1a31e64</code></a> chore(deps): update deps</li>\n<li>See full diff in <a href=\"https://github.com/jsdoc/jsdoc/compare/4.0.2...4.0.4\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jsdoc&package-manager=npm_and_yarn&previous-version=4.0.2&new-version=4.0.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nYou can trigger a rebase of this PR by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/js-toxcore-c/206)\n<!-- Reviewable:end -->\n\n> **Note**\n> Automatic rebases have been disabled on this pull request as it has been open for over 30 days.",
     "changed_files": 1,
-    "closed_at": null,
+    "closed_at": "2025-02-05T18:22:37Z",
     "comment_data": [],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_regular_data": [
+        {
+            "author_association": "MEMBER",
+            "body": "@dependabot rebase",
+            "created_at": "2025-02-05T18:19:47Z",
+            "html_url": "https://github.com/TokTok/js-toxcore-c/pull/206#issuecomment-2637690546",
+            "id": 2637690546,
+            "issue_url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/206",
+            "node_id": "IC_kwDOBChtbM6dN_ay",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/comments/2637690546/reactions"
+            },
+            "updated_at": "2025-02-05T18:19:47Z",
+            "url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/comments/2637690546",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/issues/206/comments",
     "commit_data": [
         {
@@ -197,31 +243,31 @@
                 "url": "https://api.github.com/users/dependabot%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/16839be08d195f176129a4e083123b1515d7687e/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/446d964dc532fdc191c993675d58ae75348a0529/comments",
             "commit": {
                 "author": {
-                    "date": "2024-11-11T16:13:18Z",
+                    "date": "2025-02-05T18:20:43Z",
                     "email": "49699333+dependabot[bot]@users.noreply.github.com",
                     "name": "dependabot[bot]"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2024-11-11T16:13:18Z",
+                    "date": "2025-02-05T18:20:43Z",
                     "email": "noreply@github.com",
                     "name": "GitHub"
                 },
                 "message": "Bump jsdoc from 4.0.2 to 4.0.4\n\nBumps [jsdoc](https://github.com/jsdoc/jsdoc) from 4.0.2 to 4.0.4.\n- [Release notes](https://github.com/jsdoc/jsdoc/releases)\n- [Changelog](https://github.com/jsdoc/jsdoc/blob/4.0.4/CHANGES.md)\n- [Commits](https://github.com/jsdoc/jsdoc/compare/4.0.2...4.0.4)\n\n---\nupdated-dependencies:\n- dependency-name: jsdoc\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
                 "tree": {
-                    "sha": "b3021fb2645dbe7acc510b9b9a6ae19eb5e969d1",
-                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/trees/b3021fb2645dbe7acc510b9b9a6ae19eb5e969d1"
+                    "sha": "87b769d56e6d672eb21395e2d5015dd078a59bd1",
+                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/trees/87b769d56e6d672eb21395e2d5015dd078a59bd1"
                 },
-                "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/commits/16839be08d195f176129a4e083123b1515d7687e",
+                "url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/commits/446d964dc532fdc191c993675d58ae75348a0529",
                 "verification": {
-                    "payload": "tree b3021fb2645dbe7acc510b9b9a6ae19eb5e969d1\nparent 39e72c7637ffffeb8d11e547cc00792b7353b7cd\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1731341598 +0000\ncommitter GitHub <noreply@github.com> 1731341598 +0000\n\nBump jsdoc from 4.0.2 to 4.0.4\n\nBumps [jsdoc](https://github.com/jsdoc/jsdoc) from 4.0.2 to 4.0.4.\n- [Release notes](https://github.com/jsdoc/jsdoc/releases)\n- [Changelog](https://github.com/jsdoc/jsdoc/blob/4.0.4/CHANGES.md)\n- [Commits](https://github.com/jsdoc/jsdoc/compare/4.0.2...4.0.4)\n\n---\nupdated-dependencies:\n- dependency-name: jsdoc\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "payload": "tree 87b769d56e6d672eb21395e2d5015dd078a59bd1\nparent e56e248ca502dc93943e1e9eaa242fc40cb0cbc6\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1738779643 +0000\ncommitter GitHub <noreply@github.com> 1738779643 +0000\n\nBump jsdoc from 4.0.2 to 4.0.4\n\nBumps [jsdoc](https://github.com/jsdoc/jsdoc) from 4.0.2 to 4.0.4.\n- [Release notes](https://github.com/jsdoc/jsdoc/releases)\n- [Changelog](https://github.com/jsdoc/jsdoc/blob/4.0.4/CHANGES.md)\n- [Commits](https://github.com/jsdoc/jsdoc/compare/4.0.2...4.0.4)\n\n---\nupdated-dependencies:\n- dependency-name: jsdoc\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnMi0eCRC1aQ7uu5UhlAAAkK0QAFoQXukQdr7DM1xvIIrIBSYa\nvGZkHreOA0sLPi4lcCWHZWr1O/DZigQl8zmLAH+TuevIQECULjor6pQUW1TRt4Cy\nNVnnn7AkFO1Cb8kCalKQCnw43XPGPMrzS8zF74F90yExJmSpfSjF91584ueyjZiP\nzVaH7jZTPtsPtZLdjeXa7TTeepnpJVC7SCEnqFOqrp1twkhlEz5YWR74KCxG+z93\nuvVkG3NwXufLLCInCWz4Y6f0yAtpu+sBNga5cKVBJELvcdbhsLm+Ds3/MTSLW3xQ\n5Hgw7icw0HJV4vpF9EdxO7LDkX8FfdSwGWDmzzewUInT1zWo7dRTfG5VWcWwwDjs\nJdYqBnThw1ClDaYtnFKi7xowgFUZnsltQ4+P23SMKc8ssU6V7VBM5V2WvbjMBAyX\nOHWK7UpQuiZNdRu+Kb1GsZ3PbmRJKjJXIVFV98RkeKc/5b3r4rYH2HbKwXLd2XXq\nWmWognvIWlALM3F/J9tf/Ig48l81Gk7izN2EvSinYvh//j9DAXJ4QLB3JiXJz8QL\nYtdYoWYiucBHLpTUm9L0nsc/pQGoAdVviGbxQdz3m7d40Dx8B8w3xzApuJyv5lE8\n5C8kvhd/dGeWRU3i1tk8J7snvvPnbPbFuL0W8lHphm9cYtWpW/RUwLvnhlQgeh4W\ns3kPIAlQ1Z8zSvN7414b\n=nPv1\n-----END PGP SIGNATURE-----\n",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJno6v7CRC1aQ7uu5UhlAAACqYQAFgpJio41r9P1A+TX0TSA9w1\nbYotVs8/5qN2cVbMxpao+wCCvanp8irbUo4sVQLlQBvOU4DF3nnpvYHArpb7GXnp\nfkWX9cumZFgjwu2F4mZmsnAPoGLmVP6s9oJzCajBtPxZ5z7Wk/vP9qR9a1FBgiZz\ndKe5MTgI647oH0TwAB9ZS3I+8TUU1rRPMTYEiSuc3gt1O8L5iS4Tz0C2e2zPxPyr\nq285PKQ88F4oRSr7luxLvRFCso1lIPHzk/v6zS/xhi7P57U6uNE6ApOhibKHm0M0\nbRUssTH1Dk4SAaEhQugzQ+oKyrY1FPIb29DCezqNdU0BL2hd4tEFiK1hm2vxXVNv\n7c5EXJYFaA8HTTorDVdoVg0nrPLWqpb9ncfLIYCb2ecSiro0iiTzIbXgZ73CDs7l\n1v7P0UbujnBJiYU0fxp1elidA4WDVR6zRYPLkwQqdsRLv4ulPXLql++x+UYLoUu8\nLpUG8vS9KeI306REhxJaEWE5JNDrxCdpv9OSv2p41tIj4G8NTASpOGJLDYJVE2B6\nPZ0CiOSNx6N21EL7NIXNbqsZ9KMJppCYXKlTvjwDe8c3uFMcv2f+ofo6a9lyiDSo\nbvDzGeWerzlbvyBg6Z0e8aj6sgLa/em2rqd5Lokp9QlUcFJDXH4S80tQ9OhXImEV\n0FfvclI2e8UdFeVZh3Eq\n=9UOa\n-----END PGP SIGNATURE-----\n",
                     "verified": true,
-                    "verified_at": "2024-11-11T16:13:18Z"
+                    "verified_at": "2025-02-05T18:20:43Z"
                 }
             },
             "committer": {
@@ -245,23 +291,23 @@
                 "url": "https://api.github.com/users/web-flow",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/js-toxcore-c/commit/16839be08d195f176129a4e083123b1515d7687e",
-            "node_id": "C_kwDOBChtbNoAKDE2ODM5YmUwOGQxOTVmMTc2MTI5YTRlMDgzMTIzYjE1MTVkNzY4N2U",
+            "html_url": "https://github.com/TokTok/js-toxcore-c/commit/446d964dc532fdc191c993675d58ae75348a0529",
+            "node_id": "C_kwDOBChtbNoAKDQ0NmQ5NjRkYzUzMmZkYzE5MWM5OTM2NzVkNThhZTc1MzQ4YTA1Mjk",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/js-toxcore-c/commit/39e72c7637ffffeb8d11e547cc00792b7353b7cd",
-                    "sha": "39e72c7637ffffeb8d11e547cc00792b7353b7cd",
-                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/39e72c7637ffffeb8d11e547cc00792b7353b7cd"
+                    "html_url": "https://github.com/TokTok/js-toxcore-c/commit/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
+                    "sha": "e56e248ca502dc93943e1e9eaa242fc40cb0cbc6",
+                    "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/e56e248ca502dc93943e1e9eaa242fc40cb0cbc6"
                 }
             ],
-            "sha": "16839be08d195f176129a4e083123b1515d7687e",
-            "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/16839be08d195f176129a4e083123b1515d7687e"
+            "sha": "446d964dc532fdc191c993675d58ae75348a0529",
+            "url": "https://api.github.com/repos/TokTok/js-toxcore-c/commits/446d964dc532fdc191c993675d58ae75348a0529"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/206/commits",
     "created_at": "2024-11-11T11:26:31Z",
-    "deletions": 9,
+    "deletions": 14,
     "diff_url": "https://github.com/TokTok/js-toxcore-c/pull/206.diff",
     "draft": false,
     "head": {
@@ -328,8 +374,8 @@
             "name": "js-toxcore-c",
             "node_id": "MDEwOlJlcG9zaXRvcnk2OTc1ODMxNg==",
             "notifications_url": "https://api.github.com/repos/TokTok/js-toxcore-c/notifications{?since,all,participating}",
-            "open_issues": 9,
-            "open_issues_count": 9,
+            "open_issues": 8,
+            "open_issues_count": 8,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -353,9 +399,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls{/number}",
-            "pushed_at": "2025-01-28T11:41:25Z",
+            "pushed_at": "2025-02-05T18:22:45Z",
             "releases_url": "https://api.github.com/repos/TokTok/js-toxcore-c/releases{/id}",
-            "size": 1054,
+            "size": 1105,
             "ssh_url": "git@github.com:TokTok/js-toxcore-c.git",
             "stargazers_count": 19,
             "stargazers_url": "https://api.github.com/repos/TokTok/js-toxcore-c/stargazers",
@@ -370,14 +416,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/js-toxcore-c/git/trees{/sha}",
-            "updated_at": "2025-01-28T11:41:19Z",
+            "updated_at": "2025-02-05T18:22:39Z",
             "url": "https://api.github.com/repos/TokTok/js-toxcore-c",
             "visibility": "public",
             "watchers": 19,
             "watchers_count": 19,
             "web_commit_signoff_required": false
         },
-        "sha": "16839be08d195f176129a4e083123b1515d7687e",
+        "sha": "446d964dc532fdc191c993675d58ae75348a0529",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -416,15 +462,35 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": null,
-    "mergeable": false,
-    "mergeable_state": "dirty",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "merge_commit_sha": "446d964dc532fdc191c993675d58ae75348a0529",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-02-05T18:22:37Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 68,
+        "closed_issues": 69,
         "created_at": "2020-04-25T11:15:12Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -454,25 +520,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/js-toxcore-c/milestones/1/labels",
         "node_id": "MDk6TWlsZXN0b25lNTM0ODI3Ng==",
         "number": 1,
-        "open_issues": 9,
+        "open_issues": 8,
         "state": "open",
         "title": "master",
-        "updated_at": "2025-01-28T11:41:17Z",
+        "updated_at": "2025-02-05T18:22:37Z",
         "url": "https://api.github.com/repos/TokTok/js-toxcore-c/milestones/1"
     },
     "node_id": "PR_kwDOBChtbM6Bf10a",
     "number": 206,
     "patch_url": "https://github.com/TokTok/js-toxcore-c/pull/206.patch",
-    "rebaseable": false,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/206/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/16839be08d195f176129a4e083123b1515d7687e",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/js-toxcore-c/statuses/446d964dc532fdc191c993675d58ae75348a0529",
     "title": "Bump jsdoc from 4.0.2 to 4.0.4",
-    "updated_at": "2025-01-28T11:41:23Z",
+    "updated_at": "2025-02-05T18:22:46Z",
     "url": "https://api.github.com/repos/TokTok/js-toxcore-c/pulls/206",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",

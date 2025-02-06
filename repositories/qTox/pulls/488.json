@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/488"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/284875f9a8b47ffac62096477e790f3bdf4bf6ee"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/6d6d83eed68c2c5b740c60938141582894939582"
         }
     },
     "active_lock_reason": null,
-    "additions": 6,
+    "additions": 13,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
         "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 13,
-            "forks_count": 13,
+            "forks": 14,
+            "forks_count": 14,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -137,8 +137,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 47,
-            "open_issues_count": 47,
+            "open_issues": 53,
+            "open_issues_count": 53,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2025-02-02T11:27:56Z",
+            "pushed_at": "2025-02-06T17:14:25Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 61176,
+            "size": 62258,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 59,
+            "stargazers_count": 60,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -179,14 +179,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2025-02-02T14:58:33Z",
+            "updated_at": "2025-02-06T16:44:06Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 59,
-            "watchers_count": 59,
+            "watchers": 60,
+            "watchers_count": 60,
             "web_commit_signoff_required": true
         },
-        "sha": "476aae113fbf598a3952b8f877c83a6f636a8965",
+        "sha": "5c52d4d40187874c840b2fe2ad430e6391b6dbef",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -210,8 +210,8 @@
         }
     },
     "body": "* Use new way of getting device list;\r\n* Remove warning about inability ti select the device when no devices are selected.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/qTox/488)\n<!-- Reviewable:end -->\n",
-    "changed_files": 2,
-    "closed_at": null,
+    "changed_files": 3,
+    "closed_at": "2025-02-04T10:40:17Z",
     "comment_data": [
         {
             "_links": {
@@ -227,19 +227,19 @@
             },
             "author_association": "MEMBER",
             "body": "Does this work in translations?",
-            "commit_id": "284875f9a8b47ffac62096477e790f3bdf4bf6ee",
+            "commit_id": "6d6d83eed68c2c5b740c60938141582894939582",
             "created_at": "2025-02-02T08:19:52Z",
             "diff_hunk": "@@ -357,7 +357,7 @@ void CameraSource::openDevice()\n     }\n \n     const QWriteLocker locker{&streamMutex};\n-    if (subscriptions == 0) {\n+    if (subscriptions == 0 || QString::compare(deviceName, \"none\", Qt::CaseInsensitive) == 0) {",
             "html_url": "https://github.com/TokTok/qTox/pull/488#discussion_r1938431563",
             "id": 1938431563,
-            "line": 360,
+            "line": null,
             "node_id": "PRRC_kwDOA9gydM5zih5L",
             "original_commit_id": "284875f9a8b47ffac62096477e790f3bdf4bf6ee",
             "original_line": 360,
             "original_position": 5,
             "original_start_line": null,
             "path": "src/video/camerasource.cpp",
-            "position": 5,
+            "position": null,
             "pull_request_review_id": 2588492937,
             "pull_request_url": "https://api.github.com/repos/TokTok/qTox/pulls/488",
             "reactions": {
@@ -281,10 +281,196 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/qTox/pull/488#discussion_r1938646934"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/qTox/pulls/488"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/qTox/pulls/comments/1938646934"
+                }
+            },
+            "author_association": "NONE",
+            "body": "We use \"none\" as a device name i.e. instead of  `/dev/video0` we define it [here](https://github.com/TokTok/qTox/blob/7c46b01c3e2f44276d73cc27f0391a1374caf1ac/src/video/cameradevice.cpp#L375) so it is not being translated. ",
+            "commit_id": "6d6d83eed68c2c5b740c60938141582894939582",
+            "created_at": "2025-02-03T01:11:08Z",
+            "diff_hunk": "@@ -357,7 +357,7 @@ void CameraSource::openDevice()\n     }\n \n     const QWriteLocker locker{&streamMutex};\n-    if (subscriptions == 0) {\n+    if (subscriptions == 0 || QString::compare(deviceName, \"none\", Qt::CaseInsensitive) == 0) {",
+            "html_url": "https://github.com/TokTok/qTox/pull/488#discussion_r1938646934",
+            "id": 1938646934,
+            "in_reply_to_id": 1938431563,
+            "line": null,
+            "node_id": "PRRC_kwDOA9gydM5zjWeW",
+            "original_commit_id": "284875f9a8b47ffac62096477e790f3bdf4bf6ee",
+            "original_line": 360,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "src/video/camerasource.cpp",
+            "position": null,
+            "pull_request_review_id": 2588720946,
+            "pull_request_url": "https://api.github.com/repos/TokTok/qTox/pulls/488",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/pulls/comments/1938646934/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-02-03T01:11:33Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/pulls/comments/1938646934",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
+                "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nickolay168/followers",
+                "following_url": "https://api.github.com/users/nickolay168/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nickolay168/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nickolay168",
+                "id": 144757885,
+                "login": "nickolay168",
+                "node_id": "U_kgDOCKDUfQ",
+                "organizations_url": "https://api.github.com/users/nickolay168/orgs",
+                "received_events_url": "https://api.github.com/users/nickolay168/received_events",
+                "repos_url": "https://api.github.com/users/nickolay168/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nickolay168/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nickolay168/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nickolay168",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/qTox/pull/488#discussion_r1938669067"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/qTox/pulls/488"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/qTox/pulls/comments/1938669067"
+                }
+            },
+            "author_association": "NONE",
+            "body": "I have replaced the literal \"none\" by the constant to mark where it is coming from.",
+            "commit_id": "6d6d83eed68c2c5b740c60938141582894939582",
+            "created_at": "2025-02-03T02:03:58Z",
+            "diff_hunk": "@@ -357,7 +357,7 @@ void CameraSource::openDevice()\n     }\n \n     const QWriteLocker locker{&streamMutex};\n-    if (subscriptions == 0) {\n+    if (subscriptions == 0 || QString::compare(deviceName, \"none\", Qt::CaseInsensitive) == 0) {",
+            "html_url": "https://github.com/TokTok/qTox/pull/488#discussion_r1938669067",
+            "id": 1938669067,
+            "in_reply_to_id": 1938431563,
+            "line": null,
+            "node_id": "PRRC_kwDOA9gydM5zjb4L",
+            "original_commit_id": "284875f9a8b47ffac62096477e790f3bdf4bf6ee",
+            "original_line": 360,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "src/video/camerasource.cpp",
+            "position": null,
+            "pull_request_review_id": 2588753469,
+            "pull_request_url": "https://api.github.com/repos/TokTok/qTox/pulls/488",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/pulls/comments/1938669067/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-02-03T02:04:32Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/pulls/comments/1938669067",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
+                "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nickolay168/followers",
+                "following_url": "https://api.github.com/users/nickolay168/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nickolay168/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nickolay168",
+                "id": 144757885,
+                "login": "nickolay168",
+                "node_id": "U_kgDOCKDUfQ",
+                "organizations_url": "https://api.github.com/users/nickolay168/orgs",
+                "received_events_url": "https://api.github.com/users/nickolay168/received_events",
+                "repos_url": "https://api.github.com/users/nickolay168/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nickolay168/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nickolay168/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nickolay168",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_regular_data": [
+        {
+            "author_association": "NONE",
+            "body": "> Looks good. Do you want to unify on either case insensitive compare or equality compare? I'd lean towards the latter because there shouldn't be any spellings other than exactly \"none\".\r\n\r\nDone!",
+            "created_at": "2025-02-04T05:20:03Z",
+            "html_url": "https://github.com/TokTok/qTox/pull/488#issuecomment-2632904682",
+            "id": 2632904682,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/488",
+            "node_id": "IC_kwDOA9gydM6c7u_q",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2632904682/reactions"
+            },
+            "updated_at": "2025-02-04T05:20:03Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2632904682",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
+                "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nickolay168/followers",
+                "following_url": "https://api.github.com/users/nickolay168/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nickolay168/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nickolay168",
+                "id": 144757885,
+                "login": "nickolay168",
+                "node_id": "U_kgDOCKDUfQ",
+                "organizations_url": "https://api.github.com/users/nickolay168/orgs",
+                "received_events_url": "https://api.github.com/users/nickolay168/received_events",
+                "repos_url": "https://api.github.com/users/nickolay168/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nickolay168/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nickolay168/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nickolay168",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/488/comments",
     "commit_data": [
         {
@@ -309,7 +495,7 @@
                 "url": "https://api.github.com/users/nickolay168",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/284875f9a8b47ffac62096477e790f3bdf4bf6ee/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/6d6d83eed68c2c5b740c60938141582894939582/comments",
             "commit": {
                 "author": {
                     "date": "2025-02-02T04:51:51Z",
@@ -318,22 +504,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-02T05:27:45Z",
+                    "date": "2025-02-04T05:18:38Z",
                     "email": "nikolayrovinskiy168@gmail.com",
                     "name": "nickolay168"
                 },
                 "message": "fix(video): fix the way camera devices are taken, remove warning, when no device is selected",
                 "tree": {
-                    "sha": "e34b51af38d3e74ae70b139eaf314f651e2f3765",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/e34b51af38d3e74ae70b139eaf314f651e2f3765"
+                    "sha": "c4e2af37fa1a572c504bbde8eb7593dd79a705c4",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/c4e2af37fa1a572c504bbde8eb7593dd79a705c4"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/284875f9a8b47ffac62096477e790f3bdf4bf6ee",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/6d6d83eed68c2c5b740c60938141582894939582",
                 "verification": {
-                    "payload": "tree e34b51af38d3e74ae70b139eaf314f651e2f3765\nparent 476aae113fbf598a3952b8f877c83a6f636a8965\nauthor nickolay168 <nikolayrovinskiy168@gmail.com> 1738471911 -0800\ncommitter nickolay168 <nikolayrovinskiy168@gmail.com> 1738474065 -0800\n\nfix(video): fix the way camera devices are taken, remove warning, when no device is selected\n",
+                    "payload": "tree c4e2af37fa1a572c504bbde8eb7593dd79a705c4\nparent 5c52d4d40187874c840b2fe2ad430e6391b6dbef\nauthor nickolay168 <nikolayrovinskiy168@gmail.com> 1738471911 -0800\ncommitter nickolay168 <nikolayrovinskiy168@gmail.com> 1738646318 -0800\n\nfix(video): fix the way camera devices are taken, remove warning, when no device is selected\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEz6XLdy994Bl3MFgrt45Ve6ke1VAFAmefAl0ACgkQt45Ve6ke\n1VAyYw//WKW6vaYyWDlPMEFjVM3fNDA1ivYOuc5PRQnDgqaDqx26tGVSAY87y+Lc\nch53/DjwJPYAl950XuvmY9by6BMBHI8Fe3pQ39WHgNp5/Q3wozwQC+F8IGrXu7dD\nt94m8DkGwBphr7fGpO6K7NYxI2WFGhays9NexOoCr994IqfPXBMkn7mZuA1s/W9K\n4zcFhprown9bUGunNgW0tCC+Mr3zAU9B1fj9512UWniJAYx9F1Ao/RjF7OKCxNlP\nUCCteVHGGBmENmapqAMKjh7zqk5O9lkk7ZlTtvGyzBXOSqFziXDSCmcTOekLK3xM\nybHgfZtCO5KERhUmSOeCStVoeAEpUwC9ZbnGwh94mJcSKZ+9VBHAEKllfX4InII3\nU3aqgxdipSZIwrWXzueU6uNw8JuUZ1+qboYdu+Jf8yEt98s1QiHPGJxRvhpTQQav\n4vhf2DbzpAexlrxQR5vziE7p+n4zpHSjDEbcvOX9aS/zz84LAeBL+k++OBNjDBh1\nuje3D3x0CBShUawaR1qPPzG343VbraYswj72uwxq26Chi8bzbTwnIDe0hEtJzO6a\noXflNeHh5Z/ujhtp24YLzc3PfI9iGHuuatcEX/v/6k4JMmAc8d447Nnhs/xZt9Id\nOkeih1TodgOIvhc8pZMOC2heAKYNGN0uuDeVts7y6bEF3QtlmFE=\n=IcMz\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEz6XLdy994Bl3MFgrt45Ve6ke1VAFAmehoy4ACgkQt45Ve6ke\n1VDDQxAAgy7E/ReHob3coAjcwuSlmmf5Bkb0YxtNuSR4o/iP5GIutlEeGowHovsj\nDZUkhwvtGQkntWnL0lUkpo/HhrFyS6s719MmayLRIsTwv0E1w5mbEgn626U00Wdw\n6rWR7CC3RFBWdedUNeWkmIRtMzYnuhpVRXMINMwqMPZ2LwjK8lCfv3QLen9iVjPH\nskEQ81+8H9BEZDDKCNUh6iiWyRHdWV7toS5cLVP/nko/ejgNHHvMv9IeSH3thbI2\n8+f922ekl6cw9n0NJJD7b2cLLWMSsrH/6j4JeBe+RsI6b90imAqdTr5xLPE9p/r6\nRqnwN/ZgFRgjFlF1D3UM8mkrkbvsJLcPwTtjlKccqfQTxvJlzkRqxpdjE9y0MkWS\nS/CY+zgZ/+Vi4vel4c2UgwIaWo9LcWZHclPn0Qiv3kQPbX7bXDAJzkgHkpBXzQc2\n3/RPfs3Ex1ZfkEsiA3cxbrBVx7GglzloF8B0Awf7E3o5VCGnC0vaCG1vE9VLEkT3\nom5zI394mRP42XkRn5SwMn7q/bYMMbdlveYFDSLDvPVpZ9EH3HI/jyAT+eiDDoDi\nYSgZ6XnHxO8WGL6NE+S7dMRAb/Eh7PNAzUvpaUZFNt6MKSdMtDThjX56ui9h4lg2\nMegccAIX8yi+WcslI1W5M145kitcn1LodBiCk6jaKAPYHNv5Bj8=\n=DO02\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-02T05:28:35Z"
+                    "verified_at": "2025-02-04T05:19:33Z"
                 }
             },
             "committer": {
@@ -357,23 +543,23 @@
                 "url": "https://api.github.com/users/nickolay168",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/284875f9a8b47ffac62096477e790f3bdf4bf6ee",
-            "node_id": "C_kwDOK8dUM9oAKDI4NDg3NWY5YThiNDdmZmFjNjIwOTY0NzdlNzkwZjNiZGY0YmY2ZWU",
+            "html_url": "https://github.com/TokTok/qTox/commit/6d6d83eed68c2c5b740c60938141582894939582",
+            "node_id": "C_kwDOK8dUM9oAKDZkNmQ4M2VlZDY4YzJjNWI3NDBjNjA5MzgxNDE1ODI4OTQ5Mzk1ODI",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/476aae113fbf598a3952b8f877c83a6f636a8965",
-                    "sha": "476aae113fbf598a3952b8f877c83a6f636a8965",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/476aae113fbf598a3952b8f877c83a6f636a8965"
+                    "html_url": "https://github.com/TokTok/qTox/commit/5c52d4d40187874c840b2fe2ad430e6391b6dbef",
+                    "sha": "5c52d4d40187874c840b2fe2ad430e6391b6dbef",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/5c52d4d40187874c840b2fe2ad430e6391b6dbef"
                 }
             ],
-            "sha": "284875f9a8b47ffac62096477e790f3bdf4bf6ee",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/284875f9a8b47ffac62096477e790f3bdf4bf6ee"
+            "sha": "6d6d83eed68c2c5b740c60938141582894939582",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/6d6d83eed68c2c5b740c60938141582894939582"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/qTox/pulls/488/commits",
     "created_at": "2025-02-02T04:54:27Z",
-    "deletions": 40,
+    "deletions": 44,
     "diff_url": "https://github.com/TokTok/qTox/pull/488.diff",
     "draft": false,
     "head": {
@@ -440,8 +626,8 @@
             "name": "qTox_legacy",
             "node_id": "R_kgDOK8dUMw",
             "notifications_url": "https://api.github.com/repos/nickolay168/qTox_legacy/notifications{?since,all,participating}",
-            "open_issues": 1,
-            "open_issues_count": 1,
+            "open_issues": 0,
+            "open_issues_count": 0,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
                 "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
@@ -465,9 +651,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/nickolay168/qTox_legacy/pulls{/number}",
-            "pushed_at": "2025-02-02T05:28:33Z",
+            "pushed_at": "2025-02-04T07:26:59Z",
             "releases_url": "https://api.github.com/repos/nickolay168/qTox_legacy/releases{/id}",
-            "size": 55587,
+            "size": 55763,
             "ssh_url": "git@github.com:nickolay168/qTox_legacy.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/nickolay168/qTox_legacy/stargazers",
@@ -479,14 +665,14 @@
             "teams_url": "https://api.github.com/repos/nickolay168/qTox_legacy/teams",
             "topics": [],
             "trees_url": "https://api.github.com/repos/nickolay168/qTox_legacy/git/trees{/sha}",
-            "updated_at": "2025-01-27T01:18:20Z",
+            "updated_at": "2025-02-04T07:27:00Z",
             "url": "https://api.github.com/repos/nickolay168/qTox_legacy",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "284875f9a8b47ffac62096477e790f3bdf4bf6ee",
+        "sha": "6d6d83eed68c2c5b740c60938141582894939582",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
             "events_url": "https://api.github.com/users/nickolay168/events{/privacy}",
@@ -524,16 +710,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "7e3e1e19e2be094a07564aa7e53207bad7b4fb90",
-    "mergeable": true,
-    "mergeable_state": "behind",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "6d6d83eed68c2c5b740c60938141582894939582",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-02-04T10:40:17Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 45,
+        "closed_issues": 49,
         "created_at": "2025-01-07T23:23:00Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -563,25 +769,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/5/labels",
         "node_id": "MI_kwDOA9gydM4AuSfj",
         "number": 5,
-        "open_issues": 10,
+        "open_issues": 8,
         "state": "open",
         "title": "v1.18.3",
-        "updated_at": "2025-02-02T18:37:06Z",
+        "updated_at": "2025-02-06T14:27:16Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/5"
     },
     "node_id": "PR_kwDOA9gydM6JwFKO",
     "number": 488,
     "patch_url": "https://github.com/TokTok/qTox/pull/488.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}",
-    "review_comments": 1,
+    "review_comments": 3,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/488/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/284875f9a8b47ffac62096477e790f3bdf4bf6ee",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/6d6d83eed68c2c5b740c60938141582894939582",
     "title": "fix(video): fix the way camera devices are taken, remove warning, when no device is selected",
-    "updated_at": "2025-02-02T18:37:06Z",
+    "updated_at": "2025-02-04T10:40:17Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/488",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/144757885?v=4",
