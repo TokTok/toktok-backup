@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/495"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/c0635b8b638e53224355348818ede06920f79f9a"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/63eb1f02166ed00fff290138addd3e3c6a8e5407"
         }
     },
     "active_lock_reason": null,
-    "additions": 702,
+    "additions": 704,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
         "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 14,
-            "forks_count": 14,
+            "forks": 13,
+            "forks_count": 13,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -137,8 +137,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 53,
-            "open_issues_count": 53,
+            "open_issues": 51,
+            "open_issues_count": 51,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2025-02-06T17:14:25Z",
+            "pushed_at": "2025-02-08T22:56:30Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 62258,
+            "size": 63232,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 60,
+            "stargazers_count": 61,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -179,14 +179,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2025-02-06T16:44:06Z",
+            "updated_at": "2025-02-08T18:58:11Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 60,
-            "watchers_count": 60,
+            "watchers": 61,
+            "watchers_count": 61,
             "web_commit_signoff_required": true
         },
-        "sha": "14cc6628e973c06fbfc71c8123c4b0e59497692a",
+        "sha": "57c3520100fbe83ff5f9cced40870ceda783913c",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -210,8 +210,8 @@
         }
     },
     "body": "If the user enters a DNS name that works today but not tomorrow, then tomorrow they might still get locked out of their profile in the same way as before.\r\n\r\nhttps://github.com/TokTok/qTox/issues/493\r\n\r\n<!-- Reviewable:start -->\r\n- - -\r\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/qTox/495)\r\n<!-- Reviewable:end -->\r\n",
-    "changed_files": 63,
-    "closed_at": null,
+    "changed_files": 64,
+    "closed_at": "2025-02-07T11:29:42Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
@@ -239,7 +239,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/c0635b8b638e53224355348818ede06920f79f9a/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/63eb1f02166ed00fff290138addd3e3c6a8e5407/comments",
             "commit": {
                 "author": {
                     "date": "2025-02-04T21:50:04Z",
@@ -248,22 +248,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-06T14:19:56Z",
+                    "date": "2025-02-07T10:54:39Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "fix(Settings): Don't allow invalid proxy hosts in settings.\n\nIf the user enters a DNS name that works today but not tomorrow, then\ntomorrow they might still get locked out of their profile in the same\nway as before.",
                 "tree": {
-                    "sha": "71eef47430d876f42565a3cae6a97498ce16eb73",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/71eef47430d876f42565a3cae6a97498ce16eb73"
+                    "sha": "7567817fa3957e7f4554ef053dcff46dbe6b8158",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/7567817fa3957e7f4554ef053dcff46dbe6b8158"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/c0635b8b638e53224355348818ede06920f79f9a",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/63eb1f02166ed00fff290138addd3e3c6a8e5407",
                 "verification": {
-                    "payload": "tree 71eef47430d876f42565a3cae6a97498ce16eb73\nparent 14cc6628e973c06fbfc71c8123c4b0e59497692a\nauthor iphydf <iphydf@users.noreply.github.com> 1738705804 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738851596 +0000\n\nfix(Settings): Don't allow invalid proxy hosts in settings.\n\nIf the user enters a DNS name that works today but not tomorrow, then\ntomorrow they might still get locked out of their profile in the same\nway as before.\n",
+                    "payload": "tree 7567817fa3957e7f4554ef053dcff46dbe6b8158\nparent 57c3520100fbe83ff5f9cced40870ceda783913c\nauthor iphydf <iphydf@users.noreply.github.com> 1738705804 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738925679 +0000\n\nfix(Settings): Don't allow invalid proxy hosts in settings.\n\nIf the user enters a DNS name that works today but not tomorrow, then\ntomorrow they might still get locked out of their profile in the same\nway as before.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmekxQwACgkQOFXbotdE\nA8n+/gf/fpWMDyNSIGiM4xuvh0agEtf2LNCBSi00k/2R679nZF/D3DtCdcVffGV9\nxAzft8N0RiYvDx/sgS/j0d/1so6emX9t4/zKe0NW7Nuh2b5/HRvRwRKtBgsWGr0N\nrNbg4QppyyEUKXqReL4MMsvxFopcYxxKSD+Ql/vU3CcOY8pv4/XDz0qCeMiKLvtb\nL+NCjASO/IjASRt83ol3J0nf513l7v8cjJnGtP9DeLoYM5+OKfDcxIlcs/h5swP8\ns2wrHJ+LS6vKmY9YnxBZ894n0L1SRHXTKCXOnRVzCmaTi5k/WzAgFU538jMFyxO/\nqpmueGAMPO1opYGaNh1yIpja5aNVIQ==\n=E2n4\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmel5nAACgkQOFXbotdE\nA8laQwf+My1VAdb2OpQ8EVnsr12W+LlJC/3VADJyx/zYp/qnyTFeVUxUX55XRmVR\ne3OF+VKhDglTxwPquTRVSZaHpTQrfvRdMHnkjpi95QKFm3nuMxn2FTyx+vXGARrZ\nq7ck6EAbP7LNgGri2KTUz5HouTtCwcytJJyF9T7CdPTEpnc8bjIiQY+H3z+TMF5t\nIsgz13KplkKDi7cnUGcD5Jz8LOL9ddVIxgkpmf1N6m2v5iUUt+6FsVlNcHcdCV7H\nVSiq2ILxxr4rJFrBzMGh9JwauouoEZ+q2BYQ5GRn6R0J0/ZaL5wy0iixzHmTyUNV\neITfwYdqqpQdlxGlw8o9sB1hu/6ZbA==\n=5XHx\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-06T14:20:00Z"
+                    "verified_at": "2025-02-07T10:54:49Z"
                 }
             },
             "committer": {
@@ -287,23 +287,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/c0635b8b638e53224355348818ede06920f79f9a",
-            "node_id": "C_kwDOBF7DatoAKGMwNjM1YjhiNjM4ZTUzMjI0MzU1MzQ4ODE4ZWRlMDY5MjBmNzlmOWE",
+            "html_url": "https://github.com/TokTok/qTox/commit/63eb1f02166ed00fff290138addd3e3c6a8e5407",
+            "node_id": "C_kwDOBF7DatoAKDYzZWIxZjAyMTY2ZWQwMGZmZjI5MDEzOGFkZGQzZTNjNmE4ZTU0MDc",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/14cc6628e973c06fbfc71c8123c4b0e59497692a",
-                    "sha": "14cc6628e973c06fbfc71c8123c4b0e59497692a",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/14cc6628e973c06fbfc71c8123c4b0e59497692a"
+                    "html_url": "https://github.com/TokTok/qTox/commit/57c3520100fbe83ff5f9cced40870ceda783913c",
+                    "sha": "57c3520100fbe83ff5f9cced40870ceda783913c",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/57c3520100fbe83ff5f9cced40870ceda783913c"
                 }
             ],
-            "sha": "c0635b8b638e53224355348818ede06920f79f9a",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/c0635b8b638e53224355348818ede06920f79f9a"
+            "sha": "63eb1f02166ed00fff290138addd3e3c6a8e5407",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/63eb1f02166ed00fff290138addd3e3c6a8e5407"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/qTox/pulls/495/commits",
     "created_at": "2025-02-04T21:51:01Z",
-    "deletions": 64,
+    "deletions": 63,
     "diff_url": "https://github.com/TokTok/qTox/pull/495.diff",
     "draft": false,
     "head": {
@@ -395,9 +395,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
-            "pushed_at": "2025-02-06T17:14:16Z",
+            "pushed_at": "2025-02-08T22:56:18Z",
             "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
-            "size": 55958,
+            "size": 57062,
             "ssh_url": "git@github.com:iphydf/qTox.git",
             "stargazers_count": 2,
             "stargazers_url": "https://api.github.com/repos/iphydf/qTox/stargazers",
@@ -412,14 +412,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/qTox/git/trees{/sha}",
-            "updated_at": "2025-02-06T14:16:29Z",
+            "updated_at": "2025-02-08T18:58:12Z",
             "url": "https://api.github.com/repos/iphydf/qTox",
             "visibility": "public",
             "watchers": 2,
             "watchers_count": 2,
             "web_commit_signoff_required": false
         },
-        "sha": "c0635b8b638e53224355348818ede06920f79f9a",
+        "sha": "63eb1f02166ed00fff290138addd3e3c6a8e5407",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -457,16 +457,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "4bffb1ee7bea0e8db8a1a2d4aa06f77337421829",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "63eb1f02166ed00fff290138addd3e3c6a8e5407",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-02-07T11:29:42Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 49,
+        "closed_issues": 61,
         "created_at": "2025-01-07T23:23:00Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -496,25 +516,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/5/labels",
         "node_id": "MI_kwDOA9gydM4AuSfj",
         "number": 5,
-        "open_issues": 8,
+        "open_issues": 6,
         "state": "open",
         "title": "v1.18.3",
-        "updated_at": "2025-02-06T14:27:16Z",
+        "updated_at": "2025-02-08T22:56:26Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/5"
     },
     "node_id": "PR_kwDOA9gydM6KDp9s",
     "number": 495,
     "patch_url": "https://github.com/TokTok/qTox/pull/495.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/495/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/c0635b8b638e53224355348818ede06920f79f9a",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/63eb1f02166ed00fff290138addd3e3c6a8e5407",
     "title": "fix(Settings): Don't allow invalid proxy hosts in settings.",
-    "updated_at": "2025-02-06T14:47:22Z",
+    "updated_at": "2025-02-07T11:29:42Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/495",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

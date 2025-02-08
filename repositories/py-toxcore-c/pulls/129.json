@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/129"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/2edfd448c8bb6f37d652f5f9512df3c9be34f976"
+            "href": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/1e19d21881d2d67cf503961ded85994e96a585cb"
         }
     },
     "active_lock_reason": null,
-    "additions": 100,
+    "additions": 116,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -95,8 +95,8 @@
             "name": "py-toxcore-c",
             "node_id": "MDEwOlJlcG9zaXRvcnk2OTY0OTAzNA==",
             "notifications_url": "https://api.github.com/repos/TokTok/py-toxcore-c/notifications{?since,all,participating}",
-            "open_issues": 5,
-            "open_issues_count": 5,
+            "open_issues": 6,
+            "open_issues_count": 6,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,9 +120,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls{/number}",
-            "pushed_at": "2025-01-26T11:19:00Z",
+            "pushed_at": "2025-02-08T10:35:38Z",
             "releases_url": "https://api.github.com/repos/TokTok/py-toxcore-c/releases{/id}",
-            "size": 1035,
+            "size": 1037,
             "ssh_url": "git@github.com:TokTok/py-toxcore-c.git",
             "stargazers_count": 61,
             "stargazers_url": "https://api.github.com/repos/TokTok/py-toxcore-c/stargazers",
@@ -138,12 +138,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees{/sha}",
-            "updated_at": "2025-01-25T00:49:13Z",
+            "updated_at": "2025-02-08T06:54:12Z",
             "url": "https://api.github.com/repos/TokTok/py-toxcore-c",
             "visibility": "public",
             "watchers": 61,
             "watchers_count": 61,
-            "web_commit_signoff_required": false
+            "web_commit_signoff_required": true
         },
         "sha": "4dd924f8cee6f795f7e722d09373dc329957d045",
         "user": {
@@ -198,7 +198,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/2edfd448c8bb6f37d652f5f9512df3c9be34f976/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/1e19d21881d2d67cf503961ded85994e96a585cb/comments",
             "commit": {
                 "author": {
                     "date": "2025-01-26T11:17:50Z",
@@ -207,22 +207,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-26T11:17:50Z",
+                    "date": "2025-02-08T09:46:40Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat(Groupbot): Add `!gh update` command to pull issue updates.\n\nThis pulls from the backup, so it'll only be as up-to-date as the\nbackup repo.",
                 "tree": {
-                    "sha": "3e301cecef3913bc1ebc04b6a3ce793b991ebdf6",
-                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/3e301cecef3913bc1ebc04b6a3ce793b991ebdf6"
+                    "sha": "ffbfbd32744397846adec111a69606f3c9a3e5b9",
+                    "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/trees/ffbfbd32744397846adec111a69606f3c9a3e5b9"
                 },
-                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/2edfd448c8bb6f37d652f5f9512df3c9be34f976",
+                "url": "https://api.github.com/repos/TokTok/py-toxcore-c/git/commits/1e19d21881d2d67cf503961ded85994e96a585cb",
                 "verification": {
-                    "payload": "tree 3e301cecef3913bc1ebc04b6a3ce793b991ebdf6\nparent 4dd924f8cee6f795f7e722d09373dc329957d045\nauthor iphydf <iphydf@users.noreply.github.com> 1737890270 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737890270 +0000\n\nfeat(Groupbot): Add `!gh update` command to pull issue updates.\n\nThis pulls from the backup, so it'll only be as up-to-date as the\nbackup repo.\n",
+                    "payload": "tree ffbfbd32744397846adec111a69606f3c9a3e5b9\nparent 4dd924f8cee6f795f7e722d09373dc329957d045\nauthor iphydf <iphydf@users.noreply.github.com> 1737890270 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1739008000 +0000\n\nfeat(Groupbot): Add `!gh update` command to pull issue updates.\n\nThis pulls from the backup, so it'll only be as up-to-date as the\nbackup repo.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeWGhEACgkQOFXbotdE\nA8nb3gf/TDR+NPGiDMvC3gg2NA0caCbAtO8TIxfRlQ2XTD0W6sBILdbZxP7ON/f8\niPfzTQ01Rf7OfJ2epXBxu7FozbD8WJtoKv6fPj2cll7bJrbyOaK0yWVVV4E+V53g\nEpcOn/xl4E5eLOGst4dP56QBxnGE5K1QSf7EY2aJFj3aCGvnu7VHWIIbhV/eTIkV\n75rRSmf90AK4M6La2IVjSYRQZQb0WhBvG3PH7b6lYIKH2ZE5nVCokMuYQz6I2I9i\nHbHrsDnlWYcX4b0ZzXYwfKmt1gDpxki7/rXJ4ajVxn+zu2aaOMKpg0M3AkxWJYLQ\nbUZcXTemE8x1SehQhnsMx6kK86lW6A==\n=Yiqy\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmenKAAACgkQOFXbotdE\nA8mepQf/c7EAQq5VeNupJszFAmpK3PYfU6mZcai+ia1DExOFjl909azaLStNsz+x\nI796/HeAXjYv8vpJQTqiGojvvU8b48WbW8ZY3uaRP2/+uziPL9lGvpdAUztYarrr\nSco4eyArLhy4hqeRy21XM1Xq9myP0AUu/Q3beFndY+RalnJw92oCO3JMMdnraOzn\naOe7+nB5h+axmuVu5Cm3ZQ0PbOXYFTUY+3Jkbd48Gf9IL8ykmGmdB6IReWAA6XDU\nQwhAUnCvEqO1U1JvX0GHNH6M+M/TZyRcpwHhh94STtms52L991kecNXjkrMllold\n15OUAc+/MIn9zFS4hc9olQW9KZXvyA==\n=aN6x\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-26T11:18:48Z"
+                    "verified_at": "2025-02-08T09:46:48Z"
                 }
             },
             "committer": {
@@ -246,8 +246,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/2edfd448c8bb6f37d652f5f9512df3c9be34f976",
-            "node_id": "C_kwDOBCbEEtoAKDJlZGZkNDQ4YzhiYjZmMzdkNjUyZjVmOTUxMmRmM2M5YmUzNGY5NzY",
+            "html_url": "https://github.com/TokTok/py-toxcore-c/commit/1e19d21881d2d67cf503961ded85994e96a585cb",
+            "node_id": "C_kwDOBCbEEtoAKDFlMTlkMjE4ODFkMmQ2N2NmNTAzOTYxZGVkODU5OTRlOTZhNTg1Y2I",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/py-toxcore-c/commit/4dd924f8cee6f795f7e722d09373dc329957d045",
@@ -255,14 +255,14 @@
                     "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/4dd924f8cee6f795f7e722d09373dc329957d045"
                 }
             ],
-            "sha": "2edfd448c8bb6f37d652f5f9512df3c9be34f976",
-            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/2edfd448c8bb6f37d652f5f9512df3c9be34f976"
+            "sha": "1e19d21881d2d67cf503961ded85994e96a585cb",
+            "url": "https://api.github.com/repos/TokTok/py-toxcore-c/commits/1e19d21881d2d67cf503961ded85994e96a585cb"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/129/commits",
     "created_at": "2025-01-26T11:18:51Z",
-    "deletions": 15,
+    "deletions": 29,
     "diff_url": "https://github.com/TokTok/py-toxcore-c/pull/129.diff",
     "draft": true,
     "head": {
@@ -354,9 +354,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/py-toxcore-c/pulls{/number}",
-            "pushed_at": "2025-01-26T11:18:45Z",
+            "pushed_at": "2025-02-08T10:34:25Z",
             "releases_url": "https://api.github.com/repos/iphydf/py-toxcore-c/releases{/id}",
-            "size": 960,
+            "size": 966,
             "ssh_url": "git@github.com:iphydf/py-toxcore-c.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/py-toxcore-c/stargazers",
@@ -379,7 +379,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "2edfd448c8bb6f37d652f5f9512df3c9be34f976",
+        "sha": "1e19d21881d2d67cf503961ded85994e96a585cb",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -418,7 +418,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "11bc247aacca036acd6cfb25c75e639a80f5a6c2",
+    "merge_commit_sha": "645365fec61c64b836ef7416f2ee8470caa80b5c",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -456,10 +456,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/py-toxcore-c/milestones/2/labels",
         "node_id": "MI_kwDOBCbCis4Aoa7V",
         "number": 2,
-        "open_issues": 5,
+        "open_issues": 6,
         "state": "open",
         "title": "0.2.20",
-        "updated_at": "2025-01-26T11:18:51Z",
+        "updated_at": "2025-02-08T10:34:31Z",
         "url": "https://api.github.com/repos/TokTok/py-toxcore-c/milestones/2"
     },
     "node_id": "PR_kwDOBCbCis6JAP1T",
@@ -472,9 +472,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/129/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/2edfd448c8bb6f37d652f5f9512df3c9be34f976",
+    "statuses_url": "https://api.github.com/repos/TokTok/py-toxcore-c/statuses/1e19d21881d2d67cf503961ded85994e96a585cb",
     "title": "feat(Groupbot): Add `!gh update` command to pull issue updates.",
-    "updated_at": "2025-01-26T11:19:06Z",
+    "updated_at": "2025-02-08T09:46:58Z",
     "url": "https://api.github.com/repos/TokTok/py-toxcore-c/pulls/129",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

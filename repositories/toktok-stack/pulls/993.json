@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/993"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/toktok-stack/statuses/85f8c16db7097d45a61462d2448177de46487005"
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/statuses/e8807b95880a5d27f2f238eb458d75fd0b591556"
         }
     },
     "active_lock_reason": null,
@@ -120,9 +120,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls{/number}",
-            "pushed_at": "2025-02-06T13:55:01Z",
+            "pushed_at": "2025-02-08T14:49:54Z",
             "releases_url": "https://api.github.com/repos/TokTok/toktok-stack/releases{/id}",
-            "size": 5625,
+            "size": 5626,
             "ssh_url": "git@github.com:TokTok/toktok-stack.git",
             "stargazers_count": 17,
             "stargazers_url": "https://api.github.com/repos/TokTok/toktok-stack/stargazers",
@@ -137,14 +137,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees{/sha}",
-            "updated_at": "2025-02-05T19:10:37Z",
+            "updated_at": "2025-02-08T09:43:38Z",
             "url": "https://api.github.com/repos/TokTok/toktok-stack",
             "visibility": "public",
             "watchers": 17,
             "watchers_count": 17,
-            "web_commit_signoff_required": false
+            "web_commit_signoff_required": true
         },
-        "sha": "9223392e7c73fa0c3be1c54ac686c2993ae17e10",
+        "sha": "6cd48f0c23ba764fa9aa29527c360ccb45cc4de6",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -167,7 +167,7 @@
             "user_view_type": "public"
         }
     },
-    "body": "Bumps [py_toxcore_c](https://github.com/TokTok/py-toxcore-c) from `d9b2c11` to `4dd924f`.\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/TokTok/py-toxcore-c/commit/4dd924f8cee6f795f7e722d09373dc329957d045\"><code>4dd924f</code></a> refactor: Better plugin management in groupbot.</li>\n<li><a href=\"https://github.com/TokTok/py-toxcore-c/commit/908c64a8d6f5dd2e81b497aa23fc54ae20fac76f\"><code>908c64a</code></a> feat: Add a simple groupbot.</li>\n<li>See full diff in <a href=\"https://github.com/TokTok/py-toxcore-c/compare/d9b2c117ef1160f5ea04ded4ce5ec80fbd62d495...4dd924f8cee6f795f7e722d09373dc329957d045\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toktok-stack/993)\n<!-- Reviewable:end -->\n",
+    "body": "Bumps [py_toxcore_c](https://github.com/TokTok/py-toxcore-c) from `d9b2c11` to `4dd924f`.\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/TokTok/py-toxcore-c/commit/4dd924f8cee6f795f7e722d09373dc329957d045\"><code>4dd924f</code></a> refactor: Better plugin management in groupbot.</li>\n<li><a href=\"https://github.com/TokTok/py-toxcore-c/commit/908c64a8d6f5dd2e81b497aa23fc54ae20fac76f\"><code>908c64a</code></a> feat: Add a simple groupbot.</li>\n<li>See full diff in <a href=\"https://github.com/TokTok/py-toxcore-c/compare/d9b2c117ef1160f5ea04ded4ce5ec80fbd62d495...4dd924f8cee6f795f7e722d09373dc329957d045\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toktok-stack/993)\n<!-- Reviewable:end -->",
     "changed_files": 1,
     "closed_at": null,
     "comment_data": [],
@@ -197,31 +197,31 @@
                 "url": "https://api.github.com/users/dependabot%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/85f8c16db7097d45a61462d2448177de46487005/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/e8807b95880a5d27f2f238eb458d75fd0b591556/comments",
             "commit": {
                 "author": {
-                    "date": "2025-02-06T11:43:10Z",
+                    "date": "2025-02-08T09:44:48Z",
                     "email": "49699333+dependabot[bot]@users.noreply.github.com",
                     "name": "dependabot[bot]"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-06T11:43:10Z",
+                    "date": "2025-02-08T09:44:48Z",
                     "email": "noreply@github.com",
                     "name": "GitHub"
                 },
                 "message": "chore(deps): Bump py_toxcore_c from `d9b2c11` to `4dd924f`\n\nBumps [py_toxcore_c](https://github.com/TokTok/py-toxcore-c) from `d9b2c11` to `4dd924f`.\n- [Commits](https://github.com/TokTok/py-toxcore-c/compare/d9b2c117ef1160f5ea04ded4ce5ec80fbd62d495...4dd924f8cee6f795f7e722d09373dc329957d045)\n\n---\nupdated-dependencies:\n- dependency-name: py_toxcore_c\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
                 "tree": {
-                    "sha": "c7893326b9b753a6f72b9184cfe52be82b37eeb6",
-                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/c7893326b9b753a6f72b9184cfe52be82b37eeb6"
+                    "sha": "a767b8a70ed28bd08608109eb536f4207345de4b",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/a767b8a70ed28bd08608109eb536f4207345de4b"
                 },
-                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/85f8c16db7097d45a61462d2448177de46487005",
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/e8807b95880a5d27f2f238eb458d75fd0b591556",
                 "verification": {
-                    "payload": "tree c7893326b9b753a6f72b9184cfe52be82b37eeb6\nparent 9223392e7c73fa0c3be1c54ac686c2993ae17e10\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1738842190 +0000\ncommitter GitHub <noreply@github.com> 1738842190 +0000\n\nchore(deps): Bump py_toxcore_c from `d9b2c11` to `4dd924f`\n\nBumps [py_toxcore_c](https://github.com/TokTok/py-toxcore-c) from `d9b2c11` to `4dd924f`.\n- [Commits](https://github.com/TokTok/py-toxcore-c/compare/d9b2c117ef1160f5ea04ded4ce5ec80fbd62d495...4dd924f8cee6f795f7e722d09373dc329957d045)\n\n---\nupdated-dependencies:\n- dependency-name: py_toxcore_c\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+                    "payload": "tree a767b8a70ed28bd08608109eb536f4207345de4b\nparent 6cd48f0c23ba764fa9aa29527c360ccb45cc4de6\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1739007888 +0000\ncommitter GitHub <noreply@github.com> 1739007888 +0000\n\nchore(deps): Bump py_toxcore_c from `d9b2c11` to `4dd924f`\n\nBumps [py_toxcore_c](https://github.com/TokTok/py-toxcore-c) from `d9b2c11` to `4dd924f`.\n- [Commits](https://github.com/TokTok/py-toxcore-c/compare/d9b2c117ef1160f5ea04ded4ce5ec80fbd62d495...4dd924f8cee6f795f7e722d09373dc329957d045)\n\n---\nupdated-dependencies:\n- dependency-name: py_toxcore_c\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnpKBOCRC1aQ7uu5UhlAAAPGIQAKFf1BMr9CMAzYQdSciprnvC\nC4btuHib7YYFfXinmCcW9LFKtVX/U55Hn1LBymSxBv2WT85xJoFdv5aQxeoj2ppW\n1oC5iXWPSoLRmMpUR6PrSVrtUbZhEyAxxoXbiBn+neF8tV7LO2ZEDVG3fS2S43Ty\n9xkEW7UDNsxCBncvQx63rDSBZffIF1Bwh7Df0ZzQcR5TU/MnsLFkRBX07+ohZf0r\nHvYghEa9wMaf9gtYXhAYmzcRIcwS6rYqKLxRYJDyUb3xDamNiQmXt6XSe/PXjniu\nVDPy1Y2qd46WZ+sD0e1V/P5zNu7wKM1kJTov1FS50AD3FmDiFdD0ZEdUEB0XtB9O\nBbN+JHIPF94OI/nJ25JyTql0tJ7hTK8NWhx3wVQIqG9QwGeDpVmWZjn73ltfzA9e\nomQiP+1kThQJsrP8zwqWVALmYMTwiP3Q5WfbQIqeToSxYugsbojhWZ8PWAyAwymz\nhyjPksGeOF24y83iMSLwjUhEZeE6i5+Qd+5MHsoWrzdaBs7Yi1cqVxqCfN5i+l4f\nSsTJzWuJGdpv1BFNEAUYC0DRaOLdK8axxxAdAw9kjz0EbhcqX2uvwR+HUgmhRbrI\nYUS0HlXhxWN/dXLTZOjZBZqnRE+4ubaZdOMRXxbLIa+vc+wdFSntmBuA1UmzPkW1\nHqOZD7hb63p2h0aJr9Sw\n=PXvP\n-----END PGP SIGNATURE-----\n",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnpyeQCRC1aQ7uu5UhlAAAxcAQABNRH6ifu+bY77ZYu/NIq2fZ\nJCO/MJKgv7J1j1EXPhZfGKSNmnZ4nDui9P+ha1VCk0SAYAYWSMacif8a+y4t415J\nhqmCyUtC058tNztihJ4OElIToCJiuKglhsr+vKOzk+XM5uFaeToM4MXsqQ//PBTn\nKyGJsLuR6nuAhWjCoRZJUYORerXDEC/Bkcsx4dksQX503JMxjnGOpCHcjTT84z75\nso8NjiUoR5krK2YZr6ujMX7Q2UMEI1IsRVkBRc0XU4PXtHvDb8nsQgS7enFvSSuy\nh66uf9VRwPReWOLOEaaNfaTFitn8iTqVGzhTSUjmtLWXcJDTvim55IRgKqAdlNfW\nDdiMiN9dtYH8xQuPYQItNMupkROggDxNQ+bomBmCUpwgtesHNfEej30J2TJ3auWo\n5HlXrm8anb42H6/M10GFing9XvhxZGDgdX7pOhvqVyawqoTOZh8QG46EjJRkSi/z\nLE6DbppY8oDmPmnW9Ewn3km0kbhlf7ZwmLXNKdPQCaMeshUxDCmrCyWJvBnzmY9l\nbl5UnjVczpPP9+CMbcraX76MkaHTn3OVEXahLXbKUa1/isxRPqSMoEYOfCxKM0XT\nW/R8iU7FvSq++r56ydt0Gy8DDCeeDMh+0YFBjR9rvaMawJxzYoWL+BT4d786aTCJ\nDIWJ3khW95VJ5gXUyFmI\n=R+tF\n-----END PGP SIGNATURE-----\n",
                     "verified": true,
-                    "verified_at": "2025-02-06T11:43:10Z"
+                    "verified_at": "2025-02-08T09:44:48Z"
                 }
             },
             "committer": {
@@ -245,17 +245,17 @@
                 "url": "https://api.github.com/users/web-flow",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/toktok-stack/commit/85f8c16db7097d45a61462d2448177de46487005",
-            "node_id": "C_kwDOBAGDkNoAKDg1ZjhjMTZkYjcwOTdkNDVhNjE0NjJkMjQ0ODE3N2RlNDY0ODcwMDU",
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/e8807b95880a5d27f2f238eb458d75fd0b591556",
+            "node_id": "C_kwDOBAGDkNoAKGU4ODA3Yjk1ODgwYTVkMjdmMmYyMzhlYjQ1OGQ3NWZkMGI1OTE1NTY",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/toktok-stack/commit/9223392e7c73fa0c3be1c54ac686c2993ae17e10",
-                    "sha": "9223392e7c73fa0c3be1c54ac686c2993ae17e10",
-                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/9223392e7c73fa0c3be1c54ac686c2993ae17e10"
+                    "html_url": "https://github.com/TokTok/toktok-stack/commit/6cd48f0c23ba764fa9aa29527c360ccb45cc4de6",
+                    "sha": "6cd48f0c23ba764fa9aa29527c360ccb45cc4de6",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/6cd48f0c23ba764fa9aa29527c360ccb45cc4de6"
                 }
             ],
-            "sha": "85f8c16db7097d45a61462d2448177de46487005",
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/85f8c16db7097d45a61462d2448177de46487005"
+            "sha": "e8807b95880a5d27f2f238eb458d75fd0b591556",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/e8807b95880a5d27f2f238eb458d75fd0b591556"
         }
     ],
     "commits": 1,
@@ -353,9 +353,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls{/number}",
-            "pushed_at": "2025-02-06T13:55:01Z",
+            "pushed_at": "2025-02-08T14:49:54Z",
             "releases_url": "https://api.github.com/repos/TokTok/toktok-stack/releases{/id}",
-            "size": 5625,
+            "size": 5626,
             "ssh_url": "git@github.com:TokTok/toktok-stack.git",
             "stargazers_count": 17,
             "stargazers_url": "https://api.github.com/repos/TokTok/toktok-stack/stargazers",
@@ -370,14 +370,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees{/sha}",
-            "updated_at": "2025-02-05T19:10:37Z",
+            "updated_at": "2025-02-08T09:43:38Z",
             "url": "https://api.github.com/repos/TokTok/toktok-stack",
             "visibility": "public",
             "watchers": 17,
             "watchers_count": 17,
-            "web_commit_signoff_required": false
+            "web_commit_signoff_required": true
         },
-        "sha": "85f8c16db7097d45a61462d2448177de46487005",
+        "sha": "e8807b95880a5d27f2f238eb458d75fd0b591556",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -416,7 +416,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "a954268fe03e05b8c762b9ce49e667ecbc025c42",
+    "merge_commit_sha": "c78922d6e4228a1070f291ca4e9d943666b48209",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -424,7 +424,7 @@
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 520,
+        "closed_issues": 521,
         "created_at": "2020-04-26T16:15:59Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -457,7 +457,7 @@
         "open_issues": 1,
         "state": "open",
         "title": "master",
-        "updated_at": "2025-02-06T11:49:13Z",
+        "updated_at": "2025-02-08T09:43:35Z",
         "url": "https://api.github.com/repos/TokTok/toktok-stack/milestones/1"
     },
     "node_id": "PR_kwDOBAGDkM6KQ_S3",
@@ -470,9 +470,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/993/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/85f8c16db7097d45a61462d2448177de46487005",
+    "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/e8807b95880a5d27f2f238eb458d75fd0b591556",
     "title": "chore(deps): Bump py_toxcore_c from `d9b2c11` to `4dd924f`",
-    "updated_at": "2025-02-06T11:49:18Z",
+    "updated_at": "2025-02-08T09:47:17Z",
     "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/993",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",

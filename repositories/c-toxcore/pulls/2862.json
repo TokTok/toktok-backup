@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/45d8e7d552f971e37f8945b5d7886fb8656485de"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf"
         }
     },
     "active_lock_reason": null,
-    "additions": 110,
+    "additions": 113,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 291,
-            "forks_count": 291,
+            "forks": 292,
+            "forks_count": 292,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-06T14:11:28Z",
+            "pushed_at": "2025-02-08T19:38:37Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 24748,
+            "size": 24739,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2338,
+            "stargazers_count": 2341,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +141,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-02-06T17:25:43Z",
+            "updated_at": "2025-02-08T08:00:20Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2338,
-            "watchers_count": 2338,
-            "web_commit_signoff_required": false
+            "watchers": 2341,
+            "watchers_count": 2341,
+            "web_commit_signoff_required": true
         },
         "sha": "c53c30e09d996ceb6835287b4050841310a64e7c",
         "user": {
@@ -172,7 +172,7 @@
         }
     },
     "body": "Instead of transitively loading them from dependencies, we should be explicit about what each object needs. The downside of this is that it's not clear whether the object and its dependency use the same common dependency. The upside is that we don't expose those getters of internal dependencies.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2862)\n<!-- Reviewable:end -->\n",
-    "changed_files": 24,
+    "changed_files": 25,
     "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [],
@@ -201,7 +201,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/45d8e7d552f971e37f8945b5d7886fb8656485de/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf/comments",
             "commit": {
                 "author": {
                     "date": "2025-02-05T11:11:31Z",
@@ -210,22 +210,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-06T11:47:40Z",
+                    "date": "2025-02-08T11:48:18Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Explicitly pass dependencies to constructors.\n\nInstead of transitively loading them from dependencies, we should be\nexplicit about what each object needs. The downside of this is that it's\nnot clear whether the object and its dependency use the same common\ndependency. The upside is that we don't expose those getters of internal\ndependencies.",
                 "tree": {
-                    "sha": "69677de450a30e49216bdcb3973774b35ae22678",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/69677de450a30e49216bdcb3973774b35ae22678"
+                    "sha": "5f9bc87353ffaadff45e7343a16bbb9cd4d5a009",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5f9bc87353ffaadff45e7343a16bbb9cd4d5a009"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/45d8e7d552f971e37f8945b5d7886fb8656485de",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
                 "verification": {
-                    "payload": "tree 69677de450a30e49216bdcb3973774b35ae22678\nparent c53c30e09d996ceb6835287b4050841310a64e7c\nauthor iphydf <iphydf@users.noreply.github.com> 1738753891 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738842460 +0000\n\nrefactor: Explicitly pass dependencies to constructors.\n\nInstead of transitively loading them from dependencies, we should be\nexplicit about what each object needs. The downside of this is that it's\nnot clear whether the object and its dependency use the same common\ndependency. The upside is that we don't expose those getters of internal\ndependencies.\n",
+                    "payload": "tree 5f9bc87353ffaadff45e7343a16bbb9cd4d5a009\nparent c53c30e09d996ceb6835287b4050841310a64e7c\nauthor iphydf <iphydf@users.noreply.github.com> 1738753891 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1739015298 +0000\n\nrefactor: Explicitly pass dependencies to constructors.\n\nInstead of transitively loading them from dependencies, we should be\nexplicit about what each object needs. The downside of this is that it's\nnot clear whether the object and its dependency use the same common\ndependency. The upside is that we don't expose those getters of internal\ndependencies.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmekoVwACgkQOFXbotdE\nA8mFGwf9FR7q8aXD2Rn7gMlEuKFLxMgyaJABvVnI9MKi4QwY/hLiPKOTPKfFZ15J\n3U4gmdky9ehy6UqJImX3vQMh8hlNZ7SNZYv6rJ7CUHRN5XwiKhRbG36YBk2HR1xn\n3TwlSpTkgKbDOrGSfLx+/m9mT37dsvjhllN0GradL42oO6utRIYmlSi8Zf6QHk/h\nciISqNeA+ulPuRFsI/20px42xcuTNMr9TzoMJUy33sq25T7xjrGmpQgRDY+I6/cw\nXi6nMMjcP9cBZhhFjOI8IcjQmI/c8wHNh1DZ/stuwlt4rUm5lHYWMJILP/PSVgea\nyXgT4URqs9JGREJDAV1JPPu11HgOVg==\n=ZemM\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmenRIIACgkQOFXbotdE\nA8k3NQf/XasBtFY5ikr/Re/DQjohEZxtSqXqTt6ZBrdnZkXLrWAOfewQ/+BGcc0d\nTUdkpbiFnpSXLFBiapwkaPnJWF00kI9dUVjlxl32TB2jVCej2Naq1j1s1kE1N67Q\n3k7SObFXW8CHzx/Rp62lIQT3oYfGiwf3MEjg+ML4ACOIUOrZxW8Lh83+X4iYG3yp\nUJiWbx2RkWaWINdjRQ4KwS6UGncjJZP/ysW67AxHuGhc4BfZwwNVoZq2F1y04E4U\ntcYtPbhZLDLtXCd6Qc4+UbjKsOsvAy8SXtc9zc2aVM+lXvRp1uIQ8AuFR1o7DRam\n7ARoe1IwkiiiU0w2kGOKFKmF6OrJ+Q==\n=4Lxf\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-06T11:47:44Z"
+                    "verified_at": "2025-02-08T11:48:24Z"
                 }
             },
             "committer": {
@@ -249,8 +249,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/45d8e7d552f971e37f8945b5d7886fb8656485de",
-            "node_id": "C_kwDOA7z7wtoAKDQ1ZDhlN2Q1NTJmOTcxZTM3Zjg5NDViNWQ3ODg2ZmI4NjU2NDg1ZGU",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
+            "node_id": "C_kwDOA7z7wtoAKGUwZjUxNjhkNmQyYjgzNzNjNzNkYzc1MGQ5N2UyZThhMDcyNzFjY2Y",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/c-toxcore/commit/c53c30e09d996ceb6835287b4050841310a64e7c",
@@ -258,16 +258,16 @@
                     "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c53c30e09d996ceb6835287b4050841310a64e7c"
                 }
             ],
-            "sha": "45d8e7d552f971e37f8945b5d7886fb8656485de",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/45d8e7d552f971e37f8945b5d7886fb8656485de"
+            "sha": "e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862/commits",
     "created_at": "2025-02-05T11:13:31Z",
-    "deletions": 129,
+    "deletions": 131,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2862.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:getters",
         "ref": "getters",
@@ -357,7 +357,7 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-06T14:25:11Z",
+            "pushed_at": "2025-02-08T11:48:22Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
             "size": 19136,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
@@ -385,7 +385,7 @@
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "45d8e7d552f971e37f8945b5d7886fb8656485de",
+        "sha": "e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -424,7 +424,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "c2a85d4f9e1c61c0eb6346f83d49bf1522c3bc89",
+    "merge_commit_sha": "f8e97e04a8e881a0154c7af758d925c5426f3af3",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -478,9 +478,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/45d8e7d552f971e37f8945b5d7886fb8656485de",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
     "title": "refactor: Explicitly pass dependencies to constructors.",
-    "updated_at": "2025-02-06T11:54:48Z",
+    "updated_at": "2025-02-08T11:58:31Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

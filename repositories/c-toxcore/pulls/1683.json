@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1683"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e4203a399abbe597cda7f330980901178e2cf4cf"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/5a0f0df55e1671c2da3c9294e11deb1682c8252f"
         }
     },
     "active_lock_reason": null,
-    "additions": 371,
+    "additions": 373,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
         "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
@@ -119,8 +119,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 291,
-            "forks_count": 291,
+            "forks": 292,
+            "forks_count": 292,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -183,11 +183,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-06T14:11:28Z",
+            "pushed_at": "2025-02-08T19:38:37Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 24748,
+            "size": 24739,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2338,
+            "stargazers_count": 2341,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -204,14 +204,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-02-06T17:25:43Z",
+            "updated_at": "2025-02-08T08:00:20Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2338,
-            "watchers_count": 2338,
-            "web_commit_signoff_required": false
+            "watchers": 2341,
+            "watchers_count": 2341,
+            "web_commit_signoff_required": true
         },
-        "sha": "f1991aaa02978a3cb866826d2a5f24ac1e2fdd16",
+        "sha": "c53c30e09d996ceb6835287b4050841310a64e7c",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -252,7 +252,7 @@
             },
             "author_association": "MEMBER",
             "body": "I know these used to be generated, but should we really add new deprecated-at-the-time-of-creation macros?",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-12T21:22:03Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1486788807",
@@ -321,7 +321,7 @@
             },
             "author_association": "MEMBER",
             "body": "I wonder.\r\n\r\nWe have also recently changed the API from using `*buffer` to `buffer[SIZE_CONSTANT]` in https://github.com/TokTok/c-toxcore/pull/2518, e.g.\r\n\r\n```C\r\nbool tox_bootstrap(Tox *tox, const char *host, uint16_t port, const uint8_t public_key[TOX_PUBLIC_KEY_SIZE], Tox_Err_Bootstrap *error);\r\n```\r\n\r\nWhy are we making the API functions use deprecated macros?\r\n\r\nAre we actually keeping the macros now, not deprecating them?\r\n\r\n@iphydf ?\r\n\r\nAnyway, I made the API changes such that they would match what the rest of the API does, that is: define constants and use them for array length in function declarations. You can see those used in the function declarations:\r\n\r\n```C\r\nvoid tox_options_set_proxy_socks5_username(Tox_Options *options, const uint8_t username[TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH], size_t length);\r\n\r\nvoid tox_options_set_proxy_socks5_password(Tox_Options *options, const uint8_t password[TOX_MAX_PROXY_SOCKS5_PASSWORD_LENGTH], size_t length);\r\n```\r\n\r\nI think it makes sense to add the macros, even if they are deprecated at the creation, in order to keep the API coherent. Currently everything has macros. Once we decide to remove the macros, we can remove them all at once and nothing will have macros. That way there is no in-between state where some things have macros but some don't. (Please point out if we are already in the in-between state where some of the added APIs don't define macros, in which case I will remove the macros too. I checked that the ngc defines macros, so figured we are still in the all-macro state, but I might have missed something.)",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T03:01:26Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487095638",
@@ -391,7 +391,7 @@
             },
             "author_association": "MEMBER",
             "body": "The arrays are not always of max size, or might not be arrays at all.",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T11:29:28Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487677334",
@@ -461,7 +461,7 @@
             },
             "author_association": "MEMBER",
             "body": "@Green-Sky I don't understand what you are saying, can you re-phrase that or provide an example of what do you mean?",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T12:11:53Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487742065",
@@ -531,7 +531,7 @@
             },
             "author_association": "MEMBER",
             "body": "If I am not mistaken, then the size is supposed to be exact, so you would have to provide a max sized buffer (if your code is also checked by cimple).\r\n\r\nso something like\r\n```\r\nconst char* socks_host = \"localhost\";\r\n```\r\nwould be strongly discoraged.",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T12:16:56Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487748311",
@@ -601,7 +601,7 @@
             },
             "author_association": "MEMBER",
             "body": "@Green-Sky If you are saying that an API user can pass `uint8_t *` for the array and that `uint8_t array[SIZE]` doesn't mean that the array the user passes is of exactly `SIZE` length (in fact, if you do `sizeof(array)` on a function with `uint8_t array[SIZE]` argument, you will notice that it's equal to `sizeof(uint8_t *)`) -- then yes, that's how it indeed works. The `SIZE` in `uint8_t array[SIZE]` is merely for the documentation purposes.\r\n\r\nStill, I don't understand what you meant by stating the obvious. Is there some issue in here? Do you want something in the PR to be changed? Please be more explicit!",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T12:23:45Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487756685",
@@ -671,7 +671,7 @@
             },
             "author_association": "MEMBER",
             "body": "@Green-Sky Oh, your 2nd comment didn't show up for me until I refreshed the page just now.\r\n\r\nIt seems like you are thinking of `uint8_t array[static SIZE]` instead of `uint8_t array[SIZE]`. It's the `static` variant that promises for the array to be at least `SIZE` in length. The non-static variant doesn't make any promises, it's equivalent to `uint8_t array[]`. Please correct if I'm wrong though, it might be me who is confusing them.",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T12:31:26Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487768589",
@@ -741,7 +741,7 @@
             },
             "author_association": "MEMBER",
             "body": "Ok, I think I understand what you mean. I just checked the API and we have the size specified only for arrays that should always be of that exact size. So it's a cimple thing, not a C standard thing?\r\n\r\nAlright, I will be removing those size specifiers then, thanks for letting me know and bearing with my confusion, @Green-Sky.",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T12:38:04Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487777433",
@@ -811,7 +811,7 @@
             },
             "author_association": "MEMBER",
             "body": "@Green-Sky is this better? You can see the diff as r2 vs r3 in Reviewable (assuming it shows the same revisions to everyone).",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-13T13:18:30Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1487835118",
@@ -881,7 +881,7 @@
             },
             "author_association": "MEMBER",
             "body": "@nurupo sorry, this noti got burried in my github inbox.\r\n\r\n>  I just checked the API and we have the size specified only for arrays that should always be of that exact size. So it's a cimple thing, not a C standard thing?\r\n\r\nYea, that is what I meant. We should probably specify when we talk about the toxcore c-dialect cimple. :)",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2024-02-16T10:39:49Z",
             "diff_hunk": "@@ -340,6 +340,24 @@ uint32_t tox_max_filename_length(void);\n \n uint32_t tox_max_hostname_length(void);\n \n+/**\n+ * Maximum length of a SOCKS5 proxy username in bytes.\n+ *\n+ * @deprecated The macro will be removed in 0.3.0. Use the function instead.\n+ */\n+#define TOX_MAX_PROXY_SOCKS5_USERNAME_LENGTH 255",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1492274619",
@@ -951,7 +951,7 @@
             },
             "author_association": "MEMBER",
             "body": "We're introducing new data members here. Do we need them to not be owned by default as well?",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2025-02-04T22:09:56Z",
             "diff_hunk": "@@ -310,6 +350,18 @@ struct Tox_Options {\n      * @private\n      */\n     char *owned_proxy_host;\n+\n+    /**\n+     * @brief Owned pointer to the SOCKS5 proxy username.\n+     * @private\n+     */\n+    uint8_t *owned_proxy_socks5_username;",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1941967302",
@@ -1020,7 +1020,7 @@
             },
             "author_association": "MEMBER",
             "body": "That would make the API inconsistent - some things are not owned and require a flag to be set, but others are owned.",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2025-02-05T23:42:31Z",
             "diff_hunk": "@@ -310,6 +350,18 @@ struct Tox_Options {\n      * @private\n      */\n     char *owned_proxy_host;\n+\n+    /**\n+     * @brief Owned pointer to the SOCKS5 proxy username.\n+     * @private\n+     */\n+    uint8_t *owned_proxy_socks5_username;",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1943833335",
@@ -1090,7 +1090,7 @@
             },
             "author_association": "MEMBER",
             "body": "Does it functionally matter? If clients think it's not owned, they will save their pointers. If they enable the flag *or* happen to know that it is owned, they don't. It's making things more complicated, and 0.3.0 will get rid of this un-owned mode entirely.",
-            "commit_id": "e4203a399abbe597cda7f330980901178e2cf4cf",
+            "commit_id": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
             "created_at": "2025-02-05T23:58:13Z",
             "diff_hunk": "@@ -310,6 +350,18 @@ struct Tox_Options {\n      * @private\n      */\n     char *owned_proxy_host;\n+\n+    /**\n+     * @brief Owned pointer to the SOCKS5 proxy username.\n+     * @private\n+     */\n+    uint8_t *owned_proxy_socks5_username;",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1683#discussion_r1943843760",
@@ -2269,7 +2269,7 @@
                 "url": "https://api.github.com/users/nurupo",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9b86155b0b8f56a55f9e8851afa6993ed6d262a3/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/a115a34fc8552ac7dfc4fd25502a1a574c795805/comments",
             "commit": {
                 "author": {
                     "date": "2024-02-05T06:45:18Z",
@@ -2278,22 +2278,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-04T21:21:39Z",
+                    "date": "2025-02-07T18:36:15Z",
                     "email": "nurupo.contributions@gmail.com",
                     "name": "Maxim Biro"
                 },
                 "message": "feat: Add username/password SOCKS5 auth",
                 "tree": {
-                    "sha": "31f40e190ca58e172dbcc81db30ca6acb2cb4528",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/31f40e190ca58e172dbcc81db30ca6acb2cb4528"
+                    "sha": "ba5898ce39ea83f8b4175b664415a5a26d14ce35",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/ba5898ce39ea83f8b4175b664415a5a26d14ce35"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/9b86155b0b8f56a55f9e8851afa6993ed6d262a3",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/a115a34fc8552ac7dfc4fd25502a1a574c795805",
                 "verification": {
-                    "payload": "tree 31f40e190ca58e172dbcc81db30ca6acb2cb4528\nparent f1991aaa02978a3cb866826d2a5f24ac1e2fdd16\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1707115518 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1738704099 -0500\n\nfeat: Add username/password SOCKS5 auth\n",
+                    "payload": "tree ba5898ce39ea83f8b4175b664415a5a26d14ce35\nparent f1991aaa02978a3cb866826d2a5f24ac1e2fdd16\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1707115518 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1738953375 -0500\n\nfeat: Add username/password SOCKS5 auth\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmeihOMACgkQqzrZiWRy\nv6S3qxAA0x1Kc0dM+dU8T8Ps4ZJcpMsnS3u6REpdh0R85nsTodklTEUzcRN5ouis\nfCczuprXZG9TucEgM2WIZs5eGFT7wV+q+I1qFeL1tlRAYGGHFCDSL1ZotCyKlYwN\ngV80mqR9LcMEB+hM0O0YKKeiK/OGnQInRKhPjXUZjRGLcMlwU4m+kPS531sv9BXM\n73GPXx/1a9aSohtoUBLQ1xPZY9PtDhUvXehodGBIZukaWm8jFRVSWujAie2Zlch1\nbYiE1z+kJWYaihOj+FM2iJ3/R/+hpVEgV9OWb/tN9vIWzqWbvlq62HR4Ooa1p4yi\nWrzPdjiJ/+1hA8bduDHayn1sryBW7BpYUSJWO5MXijEJW7UgUHA1Y0NS9AnmLtWq\nZwDimY/V6rw6tCQ6RjvMKzsUjBVEszMd3sywY+hfKyJFVl33HM+pcgY745O+hN3j\n/3Fss3xZpjT73/EaDS1LBoAUNPgvPaAPDGJiy0YuU6K/N4AEUvX0dNSG7VwtmDV0\nVWYoeyhXRY+3clbQ8oR98JTKjX1uH2YmhpRDVrpA/VGL2NxDFJYlO65hXE6jCdva\ntjP7f1Mx8CAJlXI9d7c0dBE/PLl28nuvHog1kWDdK4RhWRe+H1WXqauvykvu5rsM\nSU65tVcGO+oLuw1y5AFis6zI/gWIRcmhdcnHaEd/Jk53ERazYEg=\n=4nZD\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIyBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmemUp8ACgkQqzrZiWRy\nv6QVag/3YvEAgb/2Oy0AdfDEPIqG/dlqmmFZ/8rwDxUef7epRZAJcSOlXxzaAmi5\nhXMKaQGSA5zyOTsceBip9DyK8q/imEbWjTB86ooG09oz1VFjHHQTzlum9NS3pmgg\nqpoR4F24rwAKjdLoR52xHkRer2w6IQ/ufS2Xe2CF5HcB8CmomkFOs6wJKrT2Z1No\nt5L80odmMkyWj+9OOUp9WoKo+ZTrk9CxNLgyYcIHCwVzormM6n/z0WLuiiM9s6oI\nvUTpJHIbl/TkM5SXBYYDH47KOTjqeHYujoJWe48dbK+8NBOCrA2UT53QTZyLovAE\nFaiJuwzySVVWJADCcUeWlkYyijsAtrSzbO6sOcYdxpJli3WCyVlHQL/d4s34mPfg\n0Ia7hCzsPJRJ5lvy0Cg9HwtlBR/69TfpjA5xe0oxCjJhT7EqP4ZKWTSH1vzfl99W\ny36WU0TXa2i+TqoEPgm3XNMNBaZ7LUR3qeB+mlJEo1ifwJfrRV7+iFHfDxHSwRDh\nILR//4T2ea+GjMF0Q1KiGOkodka6gYptF4dPmIenB6sVn0RSM4yub7xhTUHFtNDc\nPe2cfnKNFOECbnQQasBTK1+RdWarzkkp+ZEAkrUJJLwO4r91c1Iapy0XDmazbXs9\ntasdKqXEbrl78DncxSekCTcvf3HiUQ+BjLbB5V270JG20yQpbA==\n=euwR\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-04T21:29:36Z"
+                    "verified_at": "2025-02-07T18:36:44Z"
                 }
             },
             "committer": {
@@ -2317,8 +2317,8 @@
                 "url": "https://api.github.com/users/nurupo",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/9b86155b0b8f56a55f9e8851afa6993ed6d262a3",
-            "node_id": "C_kwDOAKalfdoAKDliODYxNTViMGI4ZjU2YTU1ZjllODg1MWFmYTY5OTNlZDZkMjYyYTM",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/a115a34fc8552ac7dfc4fd25502a1a574c795805",
+            "node_id": "C_kwDOAKalfdoAKGExMTVhMzRmYzg1NTJhYzdkZmM0ZmQyNTUwMmExYTU3NGM3OTU4MDU",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/c-toxcore/commit/f1991aaa02978a3cb866826d2a5f24ac1e2fdd16",
@@ -2326,8 +2326,8 @@
                     "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f1991aaa02978a3cb866826d2a5f24ac1e2fdd16"
                 }
             ],
-            "sha": "9b86155b0b8f56a55f9e8851afa6993ed6d262a3",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9b86155b0b8f56a55f9e8851afa6993ed6d262a3"
+            "sha": "a115a34fc8552ac7dfc4fd25502a1a574c795805",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/a115a34fc8552ac7dfc4fd25502a1a574c795805"
         },
         {
             "author": {
@@ -2351,7 +2351,7 @@
                 "url": "https://api.github.com/users/nurupo",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e4203a399abbe597cda7f330980901178e2cf4cf/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5a0f0df55e1671c2da3c9294e11deb1682c8252f/comments",
             "commit": {
                 "author": {
                     "date": "2024-02-05T12:52:21Z",
@@ -2360,22 +2360,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-04T21:35:32Z",
+                    "date": "2025-02-07T18:36:17Z",
                     "email": "nurupo.contributions@gmail.com",
                     "name": "Maxim Biro"
                 },
                 "message": "test: Add user/password authenticated SOCKS5 proxy test",
                 "tree": {
-                    "sha": "cb1dc63527ae1e22210e81fe81cb48ccfd32acf9",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/cb1dc63527ae1e22210e81fe81cb48ccfd32acf9"
+                    "sha": "73b5c833fcc7cd01a35eb15fd699fa2df2eefa16",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/73b5c833fcc7cd01a35eb15fd699fa2df2eefa16"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e4203a399abbe597cda7f330980901178e2cf4cf",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/5a0f0df55e1671c2da3c9294e11deb1682c8252f",
                 "verification": {
-                    "payload": "tree cb1dc63527ae1e22210e81fe81cb48ccfd32acf9\nparent 9b86155b0b8f56a55f9e8851afa6993ed6d262a3\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1707137541 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1738704932 -0500\n\ntest: Add user/password authenticated SOCKS5 proxy test\n",
+                    "payload": "tree 73b5c833fcc7cd01a35eb15fd699fa2df2eefa16\nparent a115a34fc8552ac7dfc4fd25502a1a574c795805\nauthor Maxim Biro <nurupo.contributions@gmail.com> 1707137541 -0500\ncommitter Maxim Biro <nurupo.contributions@gmail.com> 1738953377 -0500\n\ntest: Add user/password authenticated SOCKS5 proxy test\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmeiiCQACgkQqzrZiWRy\nv6QUlRAAwoqBKkoo2lO/UQHd6OJc1RqD40Mfq7E7HIcqS16leCMYse7o5z9CkxIe\nPGWu9mF/opGMD8vrzDpMnasYL11gckn0pIWI9sCAgo1x/Ah5TFUdNV+kPeT6XrDW\nkatrMWnV8inzGiuioEOHMRhzdc7nY3FNxqEOKo8/BgzbS4ntWKphraC1ii1o1z7L\nppM7Su8OgDuHJM5uSU2bvCiSUME+iZyIHtGvJ3MJpabfMlsXKWypIH8TDHZdwVqs\noTIvDKQOdHWnwhWrswJ3GPvISBOIUnx/2/pWtVnamy8RLzGxIUfR6gtel349HgDm\n8dcGCowE8FNrtL3h2Q1IYag5mhhdRouCHzKz7iMy6aWWJCNYwEwWZ7H9NuJ6dTfV\nUtqLcsyTbUxGywdeN7SQXldD1nVck3+PJwsU7LS22adOC2mD3xMLu+t8WjozJ2CA\nEusa+9Zc9Cha4fSwSWc/KgU++CMgQgN7jDY3RV/ihco1xm7MXQ+gxPpUpNxsf4E5\nryrQWWOiTxTMzoGKcFHAptS3/c5BsR7tU4SavvFZC4+CbJo2CDn8XXqW1xrCy+s9\nXjQw+xu+aEHr2SqIp2bBXAxgKwqpUaiGW5zpsoQ0+EJMsyGARTZz9T8jgyrZ+uec\nsSRVxoCkYIn0aswYbHTRCzEyhhE83CdpA76qlIu1sBH2B5DtiTk=\n=tOVN\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAmemUqEACgkQqzrZiWRy\nv6RYbhAAxerX6oRtzDvbblxq8uDQPDesxO6WodQ8L0DhyDg916r9nM890goR1Brd\n25plYaKNRpoG4NIreM8XrisNxBZwJ1JX+J1iacbh98CeGLATDmFw4sbcSoO0ECtm\nqxs0ZolfngYCXNJr1ZeSug/M2pBRNPajHheh6mg/Vb5sU36KbRDx+kKx0wu4cD/F\np76DhnO0fFLSrxqzfaWlTtwjpcIPZeEBVgprdTtXTLok5ZrP4oiTIKfM8P3irvah\nVR9t+lcZmy+HEKWN7d/+QXIKAsDWie9Kzu7iAh+NhsNXN7PragCAWJgCXclT0lV3\nrk/4ZJhxD6Kqw0X3tJwClzbx/+61n0fe+l3xlIHMoSIRxuP76OTvoLnvXOXJsD7O\nWTNshCr8P1DKxX+2Dl6UXbpqs2tiwMZGQr09bokm/14yJ9nr5L6cE+GFlQpBh/T6\nE+Wgyl083RAp68INMNXGjlYZtgubEborWa9pOL996Yt/5LFMN5aZatibpa3+rPON\nFVHBATJtGlJwX8ROkrWb/pgdvF9xKwpvkuChM98v73p4VImiL5kkI0lzD/tI2o/X\nAt0UgxQ8cSZ1iLPnzlM0NTHu5L/y8gUTCNsxOpLH3QdjSA2sCkrkgzOSmtwNgkpt\nC2uVsIs4UYU+w0jkZYU4nEAmJM9Ng0uvTUnAgiouPGnl0IobxV0=\n=Afw3\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-04T21:35:47Z"
+                    "verified_at": "2025-02-07T18:36:44Z"
                 }
             },
             "committer": {
@@ -2399,17 +2399,17 @@
                 "url": "https://api.github.com/users/nurupo",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/e4203a399abbe597cda7f330980901178e2cf4cf",
-            "node_id": "C_kwDOAKalfdoAKGU0MjAzYTM5OWFiYmU1OTdjZGE3ZjMzMDk4MDkwMTE3OGUyY2Y0Y2Y",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/5a0f0df55e1671c2da3c9294e11deb1682c8252f",
+            "node_id": "C_kwDOAKalfdoAKDVhMGYwZGY1NWUxNjcxYzJkYTNjOTI5NGUxMWRlYjE2ODJjODI1MmY",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/9b86155b0b8f56a55f9e8851afa6993ed6d262a3",
-                    "sha": "9b86155b0b8f56a55f9e8851afa6993ed6d262a3",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9b86155b0b8f56a55f9e8851afa6993ed6d262a3"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/a115a34fc8552ac7dfc4fd25502a1a574c795805",
+                    "sha": "a115a34fc8552ac7dfc4fd25502a1a574c795805",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/a115a34fc8552ac7dfc4fd25502a1a574c795805"
                 }
             ],
-            "sha": "e4203a399abbe597cda7f330980901178e2cf4cf",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e4203a399abbe597cda7f330980901178e2cf4cf"
+            "sha": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5a0f0df55e1671c2da3c9294e11deb1682c8252f"
         }
     ],
     "commits": 2,
@@ -2507,9 +2507,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/pulls{/number}",
-            "pushed_at": "2025-02-04T21:35:45Z",
+            "pushed_at": "2025-02-07T18:36:40Z",
             "releases_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/releases{/id}",
-            "size": 19171,
+            "size": 19094,
             "ssh_url": "git@github.com:nurupo/InsertProjectNameHere.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/stargazers",
@@ -2528,7 +2528,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "e4203a399abbe597cda7f330980901178e2cf4cf",
+        "sha": "5a0f0df55e1671c2da3c9294e11deb1682c8252f",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
             "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
@@ -2585,7 +2585,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "044edeeb95c2c6d4a5dddda2b10314a964456e4c",
+    "merge_commit_sha": "6451f2c23fc134dc67ae99fd1dc64fae80446165",
     "mergeable": true,
     "mergeable_state": "behind",
     "merged": false,
@@ -2639,9 +2639,9 @@
     "review_comments": 13,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1683/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e4203a399abbe597cda7f330980901178e2cf4cf",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/5a0f0df55e1671c2da3c9294e11deb1682c8252f",
     "title": "feat: Add username/password SOCKS5 auth",
-    "updated_at": "2025-02-05T23:58:13Z",
+    "updated_at": "2025-02-07T18:36:54Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1683",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
